@@ -1,0 +1,1742 @@
+AlleganyCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+AlleganyCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+AlleganyCounty,Gender,,,,,,
+AlleganyCounty,,Male,,,,,
+AlleganyCounty,,,Not working,103515,109200,110058,112057
+AlleganyCounty,,,part-time,22150,17617,19386,19263
+AlleganyCounty,,,full-time,152648,152506,155008,154351
+AlleganyCounty,,Female,,,,,
+AlleganyCounty,,,Not working,130771,134321,130600,133239
+AlleganyCounty,,,part-time,32618,32829,34367,29765
+AlleganyCounty,,,full-time,123050,122046,123834,127798
+AlleganyCounty,Race,,,,,,
+AlleganyCounty,,White,,,,,
+AlleganyCounty,,,Not working,172181,174341,167737,173615
+AlleganyCounty,,,part-time,42510,39128,41970,36942
+AlleganyCounty,,,full-time,209998,201794,201016,203657
+AlleganyCounty,,Black,,,,,
+AlleganyCounty,,,Not working,41692,39719,44073,39028
+AlleganyCounty,,,part-time,6926,6698,5567,6528
+AlleganyCounty,,,full-time,44192,45302,46852,50214
+AlleganyCounty,,American Indian or Alaska Native,,,,,
+AlleganyCounty,,,Not working,487,213,356,366
+AlleganyCounty,,,part-time,,,,88
+AlleganyCounty,,,full-time,204,265,432,484
+AlleganyCounty,,Chinese,,,,,
+AlleganyCounty,,,Not working,645,679,991,1373
+AlleganyCounty,,,part-time,785,266,469,116
+AlleganyCounty,,,full-time,1491,962,3005,2027
+AlleganyCounty,,Japanese,,,,,
+AlleganyCounty,,,Not working,107,239,402,743
+AlleganyCounty,,,part-time,,,,163
+AlleganyCounty,,,full-time,586,313,59,353
+AlleganyCounty,,Other Asian,,,,,
+AlleganyCounty,,,Not working,7062,7303,4944,7336
+AlleganyCounty,,,part-time,2494,1668,941,1887
+AlleganyCounty,,,full-time,10156,8061,10511,9394
+AlleganyCounty,,Other Race,,,,,
+AlleganyCounty,,,Not working,2390,6203,10054,6690
+AlleganyCounty,,,part-time,349,592,2703,1669
+AlleganyCounty,,,full-time,4352,7249,9576,7650
+AlleganyCounty,,Two Major,,,,,
+AlleganyCounty,,,Not working,8145,12193,10095,11466
+AlleganyCounty,,,part-time,1617,2018,1883,1053
+AlleganyCounty,,,full-time,4561,9003,6603,7170
+AlleganyCounty,,Three or More,,,,,
+AlleganyCounty,,,Not working,1577,2631,2006,4679
+AlleganyCounty,,,part-time,87,76,220,582
+AlleganyCounty,,,full-time,158,1603,788,1200
+AlleganyCounty,Education,,,,,,
+AlleganyCounty,,N/A,,,,,
+AlleganyCounty,,,Not working,20324,19710,18647,19943
+AlleganyCounty,,,part time,0,0,,
+AlleganyCounty,,,full time,0,0,,
+AlleganyCounty,,No School,,,,,
+AlleganyCounty,,,Not working,16209,15561,14284,13801
+AlleganyCounty,,,part-time,,490,253,502
+AlleganyCounty,,,full-time,538,1311,1560,1181
+AlleganyCounty,,Nursery,,,,,
+AlleganyCounty,,,Not working,9814,9816,10433,9422
+AlleganyCounty,,,part time,,,,
+AlleganyCounty,,,full time,,,,
+AlleganyCounty,,Kindergarten,,,,,
+AlleganyCounty,,,Not working,4938,8564,7635,7654
+AlleganyCounty,,,part time,,,,
+AlleganyCounty,,,full time,,,,
+AlleganyCounty,,Less than Highschool,,,,,
+AlleganyCounty,,,Not working,59289,57172,60466,62089
+AlleganyCounty,,,part time,755,142,552,126
+AlleganyCounty,,,full time,2523,664,2904,2168
+AlleganyCounty,,Some Highschool,,,,,
+AlleganyCounty,,,Not working,25349,28124,27847,27349
+AlleganyCounty,,,part time,9777,7134,10313,6672
+AlleganyCounty,,,full time,10548,10511,9136,9820
+AlleganyCounty,,Regular Highschool Diploma,,,,,
+AlleganyCounty,,,Not working,32050,33413,32201,35041
+AlleganyCounty,,,part-time,10744,7562,9061,11132
+AlleganyCounty,,,full-time,54149,51870,49900,50868
+AlleganyCounty,,GED,,,,,
+AlleganyCounty,,,Not working,5806,7151,5520,5371
+AlleganyCounty,,,part-time,677,1464,1747,1862
+AlleganyCounty,,,full-time,7330,7274,6857,9495
+AlleganyCounty,,Some College,,,,,
+AlleganyCounty,,,Not working,7217,7237,8873,7546
+AlleganyCounty,,,part-time,3373,2230,4273,4093
+AlleganyCounty,,,full-time,21449,20972,21111,18517
+AlleganyCounty,,1 or more,,,,,
+AlleganyCounty,,,Not working,15650,17012,16257,16212
+AlleganyCounty,,,part-time,11445,7201,7812,7396
+AlleganyCounty,,,full-time,42689,41364,38354,42099
+AlleganyCounty,,Associate,,,,,
+AlleganyCounty,,,Not working,7605,7244,6795,9096
+AlleganyCounty,,,part-time,4709,4541,3487,3735
+AlleganyCounty,,,full-time,21886,20466,23617,24003
+AlleganyCounty,,Bachelor's,,,,,
+AlleganyCounty,,,Not working,16832,20397,18595,20427
+AlleganyCounty,,,part-time,7804,11696,10822,8557
+AlleganyCounty,,,full-time,64985,72283,75661,74526
+AlleganyCounty,,Master's,,,,,
+AlleganyCounty,,,Not working,9704,9488,9395,8650
+AlleganyCounty,,,part-time,3777,5930,3689,3898
+AlleganyCounty,,,full-time,38034,36768,35232,41035
+AlleganyCounty,,Professional,,,,,
+AlleganyCounty,,,Not working,2536,1106,2650,1363
+AlleganyCounty,,,part-time,899,1600,688,890
+AlleganyCounty,,,full-time,6904,6718,8061,4763
+AlleganyCounty,,Doctoral,,,,,
+AlleganyCounty,,,Not working,963,1526,1060,1332
+AlleganyCounty,,,part-time,808,456,1056,165
+AlleganyCounty,,,full-time,4663,4351,6449,3674
+AlleganyCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+AlleganyCounty,,0-25,,,,,
+AlleganyCounty,,,Not working,20625,23537,17167,22607
+AlleganyCounty,,,part-time,2340,1082,895,1676
+AlleganyCounty,,,full-time,5931,5538,4142,9301
+AlleganyCounty,,26-50,,,,,
+AlleganyCounty,,,Not working,4350,4359,3810,2870
+AlleganyCounty,,,part-time,1041,913,469,1390
+AlleganyCounty,,,full-time,894,2213,619,791
+AlleganyCounty,,51-75,,,,,
+AlleganyCounty,,,Not working,3212,6772,6809,2936
+AlleganyCounty,,,part-time,919,1934,1012,935
+AlleganyCounty,,,full-time,1522,2288,2560,1194
+AlleganyCounty,,76-100,,,,,
+AlleganyCounty,,,Not working,5599,5905,6361,7627
+AlleganyCounty,,,part-time,1961,629,1560,1279
+AlleganyCounty,,,full-time,3205,1945,2481,3729
+AlleganyCounty,,100-500,,,,,
+AlleganyCounty,,,Not working,119347,112072,115188,115282
+AlleganyCounty,,,part-time,23203,20650,24273,23634
+AlleganyCounty,,,full-time,111123,103465,101081,109911
+AlleganyCounty,,501,,,,,
+AlleganyCounty,,,Not working,81153,90876,91323,93974
+AlleganyCounty,,,part-time,25304,25238,25544,20114
+AlleganyCounty,,,full-time,153023,159103,167959,157223
+AnneArundelCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+AnneArundelCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+AnneArundelCounty,Gender,,,,,,
+AnneArundelCounty,,Male,,,,,
+AnneArundelCounty,,,Not working,"208,394","215,646","218,605",
+AnneArundelCounty,,,part time,"41,604","36,645","38,482",
+AnneArundelCounty,,,full time,"303,423","303,729","306,486",
+AnneArundelCounty,,Female,,,,,
+AnneArundelCounty,,,Not working,"258,509","263,416","260,301",
+AnneArundelCounty,,,part time,"63,835","64,501","66,729",
+AnneArundelCounty,,,full time,"245,155","244,027","246,452",
+AnneArundelCounty,Race,,,,,,
+AnneArundelCounty,,White,,,,,
+AnneArundelCounty,,,Not working,"342,011","344,754","339,477",
+AnneArundelCounty,,,part time,"82,293","79,300","82,524",
+AnneArundelCounty,,,full time,"417,293","407,598","405,150",
+AnneArundelCounty,,Black,,,,,
+AnneArundelCounty,,,Not working,"81,334","79,680","84,741",
+AnneArundelCounty,,,part time,"13,243","13,059","11,688",
+AnneArundelCounty,,,full time,"87,047","88,188","91,098",
+AnneArundelCounty,,American Indian or Alaska Native,,,,,
+AnneArundelCounty,,,Not working,888,596,802,
+AnneArundelCounty,,,part time,66,38,24,
+AnneArundelCounty,,,full time,535,599,707,
+AnneArundelCounty,,Chinese,,,,,
+AnneArundelCounty,,,Not working,"1,624","1,529","1,851",
+AnneArundelCounty,,,part time,"1,204",671,927,
+AnneArundelCounty,,,full time,"3,126","2,466","4,955",
+AnneArundelCounty,,Japanese,,,,,
+AnneArundelCounty,,,Not working,451,598,808,
+AnneArundelCounty,,,part time,56,12, -   ,
+AnneArundelCounty,,,full time,831,593,326,
+AnneArundelCounty,,Other Asian,,,,,
+AnneArundelCounty,,,Not working,"13,381","14,122","11,215",
+AnneArundelCounty,,,part time,"3,954","3,165","2,341",
+AnneArundelCounty,,,full time,"19,197","16,991","19,923",
+AnneArundelCounty,,Other Race,,,,,
+AnneArundelCounty,,,Not working,"6,940","11,635","16,118",
+AnneArundelCounty,,,part time,"1,107","1,306","3,878",
+AnneArundelCounty,,,full time,"9,698","13,580","16,089",
+AnneArundelCounty,,Two Major,,,,,
+AnneArundelCounty,,,Not working,"17,637","22,038","20,103",
+AnneArundelCounty,,,part time,"2,795","3,413","3,464",
+AnneArundelCounty,,,full time,"10,221","15,402","13,024",
+AnneArundelCounty,,Three or More,,,,,
+AnneArundelCounty,,,Not working,"2,637","4,110","3,791",
+AnneArundelCounty,,,part time,181,185,365,
+AnneArundelCounty,,,full time,630,"2,339","1,666",
+AnneArundelCounty,Education,,,,,,
+AnneArundelCounty,,N/A,,,,,
+AnneArundelCounty,,,Not working,"39,859","39,267","37,979",
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
+AnneArundelCounty,,No School,,,,,
+AnneArundelCounty,,,Not working,"32,266","31,803","29,942",
+AnneArundelCounty,,,part time,207,724,472,
+AnneArundelCounty,,,full time,"1,187","2,211","2,601",
+AnneArundelCounty,,Nursery,,,,,
+AnneArundelCounty,,,Not working,"19,506","19,493","20,489",
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
+AnneArundelCounty,,Kindergarten,,,,,
+AnneArundelCounty,,,Not working,"11,593","15,809","14,635",
+AnneArundelCounty,,,part time, -   , -   , -   ,
+AnneArundelCounty,,,full time, -   , -   , -   ,
+AnneArundelCounty,,Less than Highschool,,,,,
+AnneArundelCounty,,,Not working,"118,115","115,392","119,217",
+AnneArundelCounty,,,part time,"1,427","1,415","1,655",
+AnneArundelCounty,,,full time,"5,124","5,124","5,401",
+AnneArundelCounty,,Some Highschool,,,,,
+AnneArundelCounty,,,Not working,"54,438","54,438","54,438",
+AnneArundelCounty,,,part time,"17,945","17,945","17,945",
+AnneArundelCounty,,,full time,"20,188","20,188","20,188",
+AnneArundelCounty,,Regular Highschool Diploma,,,,,
+AnneArundelCounty,,,Not working,"64,079","64,079","64,079",
+AnneArundelCounty,,,part time,"21,622","21,622","21,622",
+AnneArundelCounty,,,full time,"108,091","108,091","108,091",
+AnneArundelCounty,,GED,,,,,
+AnneArundelCounty,,,Not working,"10,677","10,677","10,677",
+AnneArundelCounty,,,part time,"1,934","1,934","1,934",
+AnneArundelCounty,,,full time,"14,295","14,295","14,295",
+AnneArundelCounty,,Some College,,,,,
+AnneArundelCounty,,,Not working,"15,206","15,206","15,206",
+AnneArundelCounty,,,part time,"6,602","6,602","6,602",
+AnneArundelCounty,,,full time,"42,263","42,263","42,263",
+AnneArundelCounty,,1 or more,,,,,
+AnneArundelCounty,,,Not working,"31,819","31,819","31,819",
+AnneArundelCounty,,,part time,"20,764","20,764","20,764",
+AnneArundelCounty,,,full time,"87,926","87,926","87,926",
+AnneArundelCounty,,Associate,,,,,
+AnneArundelCounty,,,Not working,"13,676","13,676","13,676",
+AnneArundelCounty,,,part time,"8,185","8,185","8,185",
+AnneArundelCounty,,,full time,"43,162","43,162","43,162",
+AnneArundelCounty,,Bachelor's,,,,,
+AnneArundelCounty,,,Not working,"32,708","32,708","32,708",
+AnneArundelCounty,,,part time,"15,513","15,513","15,513",
+AnneArundelCounty,,,full time,"132,159","132,159","132,159",
+AnneArundelCounty,,Master's,,,,,
+AnneArundelCounty,,,Not working,"16,982","16,982","16,982",
+AnneArundelCounty,,,part time,"7,453","7,453","7,453",
+AnneArundelCounty,,,full time,"71,552","71,552","71,552",
+AnneArundelCounty,,Professional,,,,,
+AnneArundelCounty,,,Not working,"4,039","4,039","4,039",
+AnneArundelCounty,,,part time,"1,944","1,944","1,944",
+AnneArundelCounty,,,full time,"13,187","13,187","13,187",
+AnneArundelCounty,,Doctoral,,,,,
+AnneArundelCounty,,,Not working,"1,940","1,940","1,940",
+AnneArundelCounty,,,part time,"1,303","1,303","1,303",
+AnneArundelCounty,,,full time,"9,444","9,444","9,444",
+AnneArundelCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+AnneArundelCounty,,0-25,,,,,
+AnneArundelCounty,,,Not working,"37,703","42,460","35,608",
+AnneArundelCounty,,,part time,"4,643","3,154","2,548",
+AnneArundelCounty,,,full time,"13,135","12,234","9,806",
+AnneArundelCounty,,26-50,,,,,
+AnneArundelCounty,,,Not working,"7,612","7,858","7,719",
+AnneArundelCounty,,,part time,"2,311","2,062","1,580",
+AnneArundelCounty,,,full time,"1,912","3,492","1,828",
+AnneArundelCounty,,51-75,,,,,
+AnneArundelCounty,,,Not working,"8,776","12,653","13,169",
+AnneArundelCounty,,,part time,"1,949","3,194","2,334",
+AnneArundelCounty,,,full time,"3,084","4,040","4,634",
+AnneArundelCounty,,76-100,,,,,
+AnneArundelCounty,,,Not working,"10,331","11,138","12,119",
+AnneArundelCounty,,,part time,"3,626","2,254","3,193",
+AnneArundelCounty,,,full time,"5,443","4,011","4,634",
+AnneArundelCounty,,100-500,,,,,
+AnneArundelCounty,,,Not working,"240,672","231,173","234,343",
+AnneArundelCounty,,,part time,"45,464","42,637","46,500",
+AnneArundelCounty,,,full time,"220,284","210,842","207,062",
+AnneArundelCounty,,501,,,,,
+AnneArundelCounty,,,Not working,"161,809","173,780","175,948",
+AnneArundelCounty,,,part time,"46,906","47,848","49,056",
+AnneArundelCounty,,,full time,"304,720","313,137","324,974",
+BaltimoreCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+BaltimoreCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+BaltimoreCounty,Gender,,,,,,
+BaltimoreCounty,,Male,,,,,
+BaltimoreCounty,,,Not working,162618,156972,166689,171927
+BaltimoreCounty,,,part-time,29267,28830,29128,29169
+BaltimoreCounty,,,full-time,199022,204793,200538,195272
+BaltimoreCounty,,Female,,,,,
+BaltimoreCounty,,,Not working,209636,209490,206695,199116
+BaltimoreCounty,,,part-time,43850,42208,43051,41857
+BaltimoreCounty,,,full-time,186237,187405,186871,191973
+BaltimoreCounty,Race,,,,,,
+BaltimoreCounty,,White,,,,,
+BaltimoreCounty,,,Not working,229132,223623,221645,216266
+BaltimoreCounty,,,part-time,47618,48310,45755,46349
+BaltimoreCounty,,,full-time,242001,238868,233194,229090
+BaltimoreCounty,,Black,,,,,
+BaltimoreCounty,,,Not working,99066,105454,106263,107865
+BaltimoreCounty,,,part-time,18656,15025,18427,17757
+BaltimoreCounty,,,full-time,109147,118345,115435,115293
+BaltimoreCounty,,American Indian or Alaska Native,,,,,
+BaltimoreCounty,,,Not working,1930,883,1148,538
+BaltimoreCounty,,,part-time,369,186,110,70
+BaltimoreCounty,,,full-time,331,1601,857,710
+BaltimoreCounty,,Chinese,,,,,
+BaltimoreCounty,,,Not working,3945,3805,4096,3491
+BaltimoreCounty,,,part-time,864,866,799,200
+BaltimoreCounty,,,full-time,3997,5751,3619,3178
+BaltimoreCounty,,Japanese,,,,,
+BaltimoreCounty,,,Not working,249,160,425,
+BaltimoreCounty,,,part-time,70,233,47,
+BaltimoreCounty,,,full-time,296,272,319,372
+BaltimoreCounty,,Other Asian,,,,,
+BaltimoreCounty,,,Not working,19210,15994,19621,21435
+BaltimoreCounty,,,part-time,2697,4183,3483,3364
+BaltimoreCounty,,,full-time,19168,19450,18958,22847
+BaltimoreCounty,,Other Race,,,,,
+BaltimoreCounty,,,Not working,4110,3594,5970,6261
+BaltimoreCounty,,,part-time,752,464,1068,1113
+BaltimoreCounty,,,full-time,2831,2277,5744,6001
+BaltimoreCounty,,Two Major,,,,,
+BaltimoreCounty,,,Not working,13523,10700,12885,13491
+BaltimoreCounty,,,part-time,1797,1501,1978,1753
+BaltimoreCounty,,,full-time,7027,5130,8011,8292
+BaltimoreCounty,,Three or More,,,,,
+BaltimoreCounty,,,Not working,1089,2249,1331,1696
+BaltimoreCounty,,,part-time,294,270,512,420
+BaltimoreCounty,,,full-time,461,504,1272,1462
+BaltimoreCounty,Education,,,,,,
+BaltimoreCounty,,N/A,,,,,
+BaltimoreCounty,,,Not working,28127,28981,27293,27247
+BaltimoreCounty,,,part time,,,,
+BaltimoreCounty,,,full time,,,,
+BaltimoreCounty,,No School,,,,,
+BaltimoreCounty,,,Not working,24250,23909,21942,22340
+BaltimoreCounty,,,part-time,466,280,368,999
+BaltimoreCounty,,,full-time,1306,2410,2890,3244
+BaltimoreCounty,,Nursery,,,,,
+BaltimoreCounty,,,Not working,12350,12632,10984,11540
+BaltimoreCounty,,,part-time,,,,103
+BaltimoreCounty,,,full-time,,229,,
+BaltimoreCounty,,Kindergarten,,,,,
+BaltimoreCounty,,,Not working,13708,13829,10099,11648
+BaltimoreCounty,,,part-time,,,,103
+BaltimoreCounty,,,full-time,99,439,205,
+BaltimoreCounty,,Less than Highschool,,,,,
+BaltimoreCounty,,,Not working,84505,82654,93119,86821
+BaltimoreCounty,,,part time,784,576,705,371
+BaltimoreCounty,,,full time,4564,3441,3251,3609
+BaltimoreCounty,,Some Highschool,,,,,
+BaltimoreCounty,,,Not working,41028,39790,39927,40561
+BaltimoreCounty,,,part time,9671,7937,8211,9283
+BaltimoreCounty,,,full time,13500,12873,15350,13115
+BaltimoreCounty,,Regular Highschool Diploma,,,,,
+BaltimoreCounty,,,Not working,53823,56000,56392,52774
+BaltimoreCounty,,,part-time,15848,13884,16709,16009
+BaltimoreCounty,,,full-time,85087,88653,84705,74968
+BaltimoreCounty,,GED,,,,,
+BaltimoreCounty,,,Not working,9399,9030,6689,8554
+BaltimoreCounty,,,part-time,2038,1982,2057,3370
+BaltimoreCounty,,,full-time,11911,8932,10352,10500
+BaltimoreCounty,,Some College,,,,,
+BaltimoreCounty,,,Not working,15753,15959,14032,17689
+BaltimoreCounty,,,part-time,3773,5227,5377,3671
+BaltimoreCounty,,,full-time,20382,22268,23822,23099
+BaltimoreCounty,,1 or more,,,,,
+BaltimoreCounty,,,Not working,27544,24682,31276,31637
+BaltimoreCounty,,,part-time,15709,16754,14874,12301
+BaltimoreCounty,,,full-time,57220,61842,54636,50480
+BaltimoreCounty,,Associate,,,,,
+BaltimoreCounty,,,Not working,12283,11987,8658,12554
+BaltimoreCounty,,,part-time,4995,4651,4778,5346
+BaltimoreCounty,,,full-time,28972,28282,28193,28728
+BaltimoreCounty,,Bachelor's,,,,,
+BaltimoreCounty,,,Not working,29551,28650,32887,29170
+BaltimoreCounty,,,part-time,11815,12307,10724,11237
+BaltimoreCounty,,,full-time,98317,97542,94278,101458
+BaltimoreCounty,,Master's,,,,,
+BaltimoreCounty,,,Not working,13672,13022,14517,13089
+BaltimoreCounty,,,part-time,5561,5321,6012,5181
+BaltimoreCounty,,,full-time,41761,45896,48992,55110
+BaltimoreCounty,,Professional,,,,,
+BaltimoreCounty,,,Not working,3856,3919,3040,4417
+BaltimoreCounty,,,part-time,1438,1447,1506,2393
+BaltimoreCounty,,,full-time,12205,11087,14118,14016
+BaltimoreCounty,,Doctoral,,,,,
+BaltimoreCounty,,,Not working,2405,1418,2529,1002
+BaltimoreCounty,,,part-time,1019,672,858,659
+BaltimoreCounty,,,full-time,9935,8304,6617,8918
+BaltimoreCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+BaltimoreCounty,,0-25,,,,,
+BaltimoreCounty,,,Not working,27473,30066,31363,30415
+BaltimoreCounty,,,part-time,8669,9199,8000,8736
+BaltimoreCounty,,,full-time,3866,4937,4769,4653
+BaltimoreCounty,,26-50,,,,,
+BaltimoreCounty,,,Not working,8617,8608,5588,6765
+BaltimoreCounty,,,part-time,1766,2266,2872,2324
+BaltimoreCounty,,,full-time,2185,3258,1616,1916
+BaltimoreCounty,,51-75,,,,,
+BaltimoreCounty,,,Not working,12224,8209,11216,17123
+BaltimoreCounty,,,part-time,3089,1171,4053,3076
+BaltimoreCounty,,,full-time,3107,2469,2966,5025
+BaltimoreCounty,,76-100,,,,,
+BaltimoreCounty,,,Not working,13602,13569,9663,14760
+BaltimoreCounty,,,part-time,2520,3377,1676,2242
+BaltimoreCounty,,,full-time,5251,6090,4819,6147
+BaltimoreCounty,,100-500,,,,,
+BaltimoreCounty,,,Not working,224273,209323,220435,196092
+BaltimoreCounty,,,part-time,35749,32749,32681,31600
+BaltimoreCounty,,,full-time,198808,186315,190716,177375
+BaltimoreCounty,,501,,,,,
+BaltimoreCounty,,,Not working,86065,96687,95119,105888
+BaltimoreCounty,,,part-time,21324,22276,22897,23048
+BaltimoreCounty,,,full-time,172042,189129,182523,192129
+BaltimoreCity,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+BaltimoreCity,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+BaltimoreCity,Gender,,,,,,
+BaltimoreCity,,Male,,,,,
+BaltimoreCity,,,Not working,148886,144152,137430,129233
+BaltimoreCity,,,part-time,18247,17322,20313,20902
+BaltimoreCity,,,full-time,126372,127667,129225,131041
+BaltimoreCity,,Female,,,,,
+BaltimoreCity,,,Not working,171087,153460,164391,157275
+BaltimoreCity,,,part-time,23706,29445,27427,27839
+BaltimoreCity,,,full-time,133813,142737,132779,136856
+BaltimoreCity,Race,,,,,,
+BaltimoreCity,,White,,,,,
+BaltimoreCity,,,Not working,77999,71493,71458,64447
+BaltimoreCity,,,part-time,15042,16452,15415,18843
+BaltimoreCity,,,full-time,100537,101382,97637,101048
+BaltimoreCity,,Black,,,,,
+BaltimoreCity,,,Not working,220551,207878,211718,201501
+BaltimoreCity,,,part-time,23699,28052,28477,25361
+BaltimoreCity,,,full-time,138559,150393,144644,146146
+BaltimoreCity,,American Indian or Alaska Native,,,,,
+BaltimoreCity,,,Not working,553,317,1625,346
+BaltimoreCity,,,part-time,160,103,80,553
+BaltimoreCity,,,full-time,501,518,1090,580
+BaltimoreCity,,Chinese,,,,,
+BaltimoreCity,,,Not working,2548,1535,2072,1396
+BaltimoreCity,,,part-time,360,106,63,1403
+BaltimoreCity,,,full-time,2128,1333,1427,2294
+BaltimoreCity,,Japanese,,,,,
+BaltimoreCity,,,Not working,73,,172,141
+BaltimoreCity,,,part-time,,36,70,
+BaltimoreCity,,,full-time,120,200,52,120
+BaltimoreCity,,Other Asian,,,,,
+BaltimoreCity,,,Not working,4372,5297,4387,4307
+BaltimoreCity,,,part-time,1054,758,1308,709
+BaltimoreCity,,,full-time,6829,6521,6799,5767
+BaltimoreCity,,Other Race,,,,,
+BaltimoreCity,,,Not working,3974,3311,3687,6416
+BaltimoreCity,,,part-time,497,496,943,519
+BaltimoreCity,,,full-time,5321,4282,5272,5603
+BaltimoreCity,,Two Major,,,,,
+BaltimoreCity,,,Not working,7376,6302,5328,7032
+BaltimoreCity,,,part-time,753,719,1129,1200
+BaltimoreCity,,,full-time,4470,5107,4199,5848
+BaltimoreCity,,Three or More,,,,,
+BaltimoreCity,,,Not working,2527,1479,1374,922
+BaltimoreCity,,,part-time,388,45,255,153
+BaltimoreCity,,,full-time,1720,668,884,491
+BaltimoreCity,Education,,,,,,
+BaltimoreCity,,N/A,,,,,
+BaltimoreCity,,,Not working,23358,21929,22594,20414
+BaltimoreCity,,,part time,,,,
+BaltimoreCity,,,full time,,,,
+BaltimoreCity,,No School,,,,,
+BaltimoreCity,,,Not working,19192,22299,20254,21327
+BaltimoreCity,,,part-time,669,446,241,169
+BaltimoreCity,,,full-time,1927,3371,2742,2578
+BaltimoreCity,,Nursery,,,,,
+BaltimoreCity,,,Not working,11325,9056,9098,11380
+BaltimoreCity,,,part-time,,,133,
+BaltimoreCity,,,full-time,43,,,188
+BaltimoreCity,,Kindergarten,,,,,
+BaltimoreCity,,,Not working,9972,6977,6139,6749
+BaltimoreCity,,,part-time,,,,
+BaltimoreCity,,,full-time,,232,58,
+BaltimoreCity,,Less than Highschool,,,,,
+BaltimoreCity,,,Not working,64780,67051,66579,60818
+BaltimoreCity,,,part time,711,1006,483,212
+BaltimoreCity,,,full time,3874,4803,3710,2581
+BaltimoreCity,,Some Highschool,,,,,
+BaltimoreCity,,,Not working,45766,37241,42579,39600
+BaltimoreCity,,,part time,4132,5502,5773,5547
+BaltimoreCity,,,full time,18968,11291,10627,10421
+BaltimoreCity,,Regular Highschool Diploma,,,,,
+BaltimoreCity,,,Not working,60764,51262,48588,51624
+BaltimoreCity,,,part-time,8765,13083,11218,10461
+BaltimoreCity,,,full-time,61373,57190,59593,55713
+BaltimoreCity,,GED,,,,,
+BaltimoreCity,,,Not working,10463,10938,8418,11527
+BaltimoreCity,,,part-time,1643,3265,1364,641
+BaltimoreCity,,,full-time,9506,9048,9994,11334
+BaltimoreCity,,Some College,,,,,
+BaltimoreCity,,,Not working,9769,8840,11164,11144
+BaltimoreCity,,,part-time,3690,2452,2812,3349
+BaltimoreCity,,,full-time,12043,12449,12026,17017
+BaltimoreCity,,1 or more,,,,,
+BaltimoreCity,,,Not working,34127,26813,31330,18368
+BaltimoreCity,,,part-time,10254,9073,7912,11939
+BaltimoreCity,,,full-time,39265,43750,42791,39817
+BaltimoreCity,,Associate,,,,,
+BaltimoreCity,,,Not working,6821,9081,6076,5202
+BaltimoreCity,,,part-time,905,1578,2791,1579
+BaltimoreCity,,,full-time,12358,12949,13425,14079
+BaltimoreCity,,Bachelor's,,,,,
+BaltimoreCity,,,Not working,14857,11818,14001,13468
+BaltimoreCity,,,part-time,7343,6302,6918,6808
+BaltimoreCity,,,full-time,56090,62820,51853,55764
+BaltimoreCity,,Master's,,,,,
+BaltimoreCity,,,Not working,6223,5879,6383,7412
+BaltimoreCity,,,part-time,3089,2212,4386,5126
+BaltimoreCity,,,full-time,28332,32329,31819,36083
+BaltimoreCity,,Professional,,,,,
+BaltimoreCity,,,Not working,1443,1444,1504,1121
+BaltimoreCity,,,part-time,540,570,1398,1363
+BaltimoreCity,,,full-time,10093,10984,9812,10939
+BaltimoreCity,,Doctoral,,,,,
+BaltimoreCity,,,Not working,1113,984,1443,1354
+BaltimoreCity,,,part-time,212,656,985,547
+BaltimoreCity,,,full-time,6313,6320,8641,8383
+BaltimoreCity,Poverty as a percentage of the Federal poverty level,,,,,,
+BaltimoreCity,,0-25,,,,,
+BaltimoreCity,,,Not working,60310,46324,50404,37030
+BaltimoreCity,,,part-time,4952,6903,4465,10199
+BaltimoreCity,,,full-time,5142,4446,3785,5038
+BaltimoreCity,,26-50,,,,,
+BaltimoreCity,,,Not working,20793,17371,22568,17363
+BaltimoreCity,,,part-time,4841,1858,2811,3075
+BaltimoreCity,,,full-time,3982,3940,2942,2763
+BaltimoreCity,,51-75,,,,,
+BaltimoreCity,,,Not working,27565,25350,25724,24336
+BaltimoreCity,,,part-time,2155,3843,3350,2257
+BaltimoreCity,,,full-time,4016,4629,4431,4065
+BaltimoreCity,,76-100,,,,,
+BaltimoreCity,,,Not working,28883,23094,25950,14785
+BaltimoreCity,,,part-time,3329,2021,2456,5139
+BaltimoreCity,,,full-time,6402,4453,6699,4261
+BaltimoreCity,,100-500,,,,,
+BaltimoreCity,,,Not working,151711,154607,139992,152177
+BaltimoreCity,,,part-time,21578,27124,25559,20103
+BaltimoreCity,,,full-time,156552,166006,147284,154892
+BaltimoreCity,,501,,,,,
+BaltimoreCity,,,Not working,30711,30866,37183,40817
+BaltimoreCity,,,part-time,5098,5018,9099,7968
+BaltimoreCity,,,full-time,84091,86930,96863,96878
+CarrollCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+CarrollCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+CarrollCounty,Gender,,,,,,
+CarrollCounty,,Male,,,,,
+CarrollCounty,,,Not working,33516,31878,33532,34273
+CarrollCounty,,,part-time,5430,5796,6933,5979
+CarrollCounty,,,full-time,42818,45368,42817,43195
+CarrollCounty,,Female,,,,,
+CarrollCounty,,,Not working,41310,41158,39688,39710
+CarrollCounty,,,part-time,11230,10391,10048,10719
+CarrollCounty,,,full-time,33198,33157,34522,34700
+CarrollCounty,Race,,,,,,
+CarrollCounty,,White,,,,,
+CarrollCounty,,,Not working,67253,66896,65505,66229
+CarrollCounty,,,part-time,15424,15139,16185,15115
+CarrollCounty,,,full-time,71110,72641,70346,72002
+CarrollCounty,,Black,,,,,
+CarrollCounty,,,Not working,3350,2377,2359,3431
+CarrollCounty,,,part-time,466,462,301,278
+CarrollCounty,,,full-time,2079,2992,2812,2449
+CarrollCounty,,American Indian or Alaska Native,,,,,
+CarrollCounty,,,Not working,,,412,
+CarrollCounty,,,part-time,,39,,240
+CarrollCounty,,,full-time,110,393,212,
+CarrollCounty,,Chinese,,,,,
+CarrollCounty,,,Not working,653,257,103,267
+CarrollCounty,,,part-time,77,86,,66
+CarrollCounty,,,full-time,154,98,127,390
+CarrollCounty,,Japanese,,,,,
+CarrollCounty,,,Not working,,,69,
+CarrollCounty,,,part time,,,,
+CarrollCounty,,,full time,,,82,
+CarrollCounty,,Other Asian,,,,,
+CarrollCounty,,,Not working,1193,878,970,869
+CarrollCounty,,,part-time,141,210,315,388
+CarrollCounty,,,full-time,1010,1246,1553,1351
+CarrollCounty,,Other Race,,,,,
+CarrollCounty,,,Not working,666,391,1450,508
+CarrollCounty,,,part-time,342,93,,144
+CarrollCounty,,,full-time,826,252,1230,733
+CarrollCounty,,Two Major,,,,,
+CarrollCounty,,,Not working,1417,1919,1931,2445
+CarrollCounty,,,part-time,210,158,133,378
+CarrollCounty,,,full-time,633,837,740,790
+CarrollCounty,,Three or More,,,,,
+CarrollCounty,,,Not working,294,318,421,234
+CarrollCounty,,,part-time,,,47,89
+CarrollCounty,,,full-time,94,66,237,180
+CarrollCounty,Education,,,,,,
+CarrollCounty,,N/A,,,,,
+CarrollCounty,,,Not working,3463,5099,5430,5370
+CarrollCounty,,,part time,0,0,,
+CarrollCounty,,,full time,0,0,,
+CarrollCounty,,No School,,,,,
+CarrollCounty,,,Not working,4110,3215,2904,4277
+CarrollCounty,,,part-time,70,69,61,
+CarrollCounty,,,full-time,171,,,297
+CarrollCounty,,Nursery,,,,,
+CarrollCounty,,,Not working,2662,3596,3481,2329
+CarrollCounty,,,part time,,,,
+CarrollCounty,,,full time,,,,
+CarrollCounty,,Kindergarten,,,,,
+CarrollCounty,,,Not working,1184,1860,1498,1980
+CarrollCounty,,,part time,,,,
+CarrollCounty,,,full time,,,,
+CarrollCounty,,Less than Highschool,,,,,
+CarrollCounty,,,Not working,20190,17713,17130,16975
+CarrollCounty,,,part time,134,0,0,165
+CarrollCounty,,,full time,93,647,891,189
+CarrollCounty,,Some Highschool,,,,,
+CarrollCounty,,,Not working,10166,8660,9830,9910
+CarrollCounty,,,part time,3328,3455,2400,2196
+CarrollCounty,,,full time,2070,3229,1834,3108
+CarrollCounty,,Regular Highschool Diploma,,,,,
+CarrollCounty,,,Not working,11917,13017,13788,13345
+CarrollCounty,,,part-time,3888,4268,3488,3003
+CarrollCounty,,,full-time,18133,20884,19855,19822
+CarrollCounty,,GED,,,,,
+CarrollCounty,,,Not working,1347,2303,1121,1353
+CarrollCounty,,,part-time,158,296,648,151
+CarrollCounty,,,full-time,2049,1493,888,1135
+CarrollCounty,,Some College,,,,,
+CarrollCounty,,,Not working,3394,2821,2475,2667
+CarrollCounty,,,part-time,1212,993,1655,1538
+CarrollCounty,,,full-time,6498,7163,5901,5589
+CarrollCounty,,1 or more,,,,,
+CarrollCounty,,,Not working,5249,4365,5514,4577
+CarrollCounty,,,part-time,3058,1727,3008,3400
+CarrollCounty,,,full-time,10612,9584,10181,8420
+CarrollCounty,,Associate,,,,,
+CarrollCounty,,,Not working,1710,2018,1450,2983
+CarrollCounty,,,part-time,1195,1629,1236,1136
+CarrollCounty,,,full-time,6468,5405,7081,5355
+CarrollCounty,,Bachelor's,,,,,
+CarrollCounty,,,Not working,5961,5924,5538,5953
+CarrollCounty,,,part-time,2303,2652,2924,2917
+CarrollCounty,,,full-time,19035,20545,19811,21714
+CarrollCounty,,Master's,,,,,
+CarrollCounty,,,Not working,2634,1964,2370,1932
+CarrollCounty,,,part-time,1033,916,1442,1011
+CarrollCounty,,,full-time,8256,7320,8675,10340
+CarrollCounty,,Professional,,,,,
+CarrollCounty,,,Not working,449,412,270,176
+CarrollCounty,,,part-time,150,62,108,629
+CarrollCounty,,,full-time,1650,1122,1206,1376
+CarrollCounty,,Doctoral,,,,,
+CarrollCounty,,,Not working,390,69,421,156
+CarrollCounty,,,part-time,131,120,11,552
+CarrollCounty,,,full-time,981,1133,1016,550
+CarrollCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+CarrollCounty,,0-25,,,,,
+CarrollCounty,,,Not working,5935,3935,4502,4474
+CarrollCounty,,,part-time,1829,438,857,1136
+CarrollCounty,,,full-time,577,563,338,684
+CarrollCounty,,26-50,,,,,
+CarrollCounty,,,Not working,730,267,398,179
+CarrollCounty,,,part-time,187,152,198,295
+CarrollCounty,,,full-time,100,259,221,321
+CarrollCounty,,51-75,,,,,
+CarrollCounty,,,Not working,359,1444,841,1399
+CarrollCounty,,,part-time,257,275,315,258
+CarrollCounty,,,full-time,329,228,601,163
+CarrollCounty,,76-100,,,,,
+CarrollCounty,,,Not working,2049,2603,593,1581
+CarrollCounty,,,part-time,379,317,41,96
+CarrollCounty,,,full-time,478,902,662,691
+CarrollCounty,,100-500,,,,,
+CarrollCounty,,,Not working,42705,38091,42083,38619
+CarrollCounty,,,part-time,8580,8273,7985,6973
+CarrollCounty,,,full-time,33394,31480,31991,28502
+CarrollCounty,,501,,,,,
+CarrollCounty,,,Not working,23048,26696,24803,27731
+CarrollCounty,,,part-time,5428,6732,7585,7940
+CarrollCounty,,,full-time,41138,45093,43526,47534
+Cecil County,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+Cecil County,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+Cecil County,Gender,,,,,,
+Cecil County,,Male,,,,,
+Cecil County,,,Not working,22135,21047,22293,22374
+Cecil County,,,part-time,3017,2687,2718,3649
+Cecil County,,,full-time,26340,27230,26882,23915
+Cecil County,,Female,,,,,
+Cecil County,,,Not working,26880,24752,24611,23922
+Cecil County,,,part-time,4686,5896,4254,5338
+Cecil County,,,full-time,19160,20865,21844,23589
+Cecil County,Race,,,,,,
+Cecil County,,White,,,,,
+Cecil County,,,Not working,42651,39359,41246,40675
+Cecil County,,,part-time,6332,7762,6799,7436
+Cecil County,,,full-time,40958,42449,42578,42662
+Cecil County,,Black,,,,,
+Cecil County,,,Not working,3153,3070,3517,3175
+Cecil County,,,part-time,,711,,1296
+Cecil County,,,full-time,2322,3400,4269,1929
+Cecil County,,American Indian or Alaska Native,,,,,
+Cecil County,,,Not working,53,,,
+Cecil County,,,part time,,,,
+Cecil County,,,full time,,,,
+Cecil County,,Chinese,,,,,
+Cecil County,,,Not working,,,,
+Cecil County,,,part time,,7,,
+Cecil County,,,full time,,46,,
+Cecil County,,Japanese,,,,,
+Cecil County,,,Not working,,,,
+Cecil County,,,part time,,,,
+Cecil County,,,full time,,67,,
+Cecil County,,Other Asian,,,,,
+Cecil County,,,Not working,1251,629,454,112
+Cecil County,,,part-time,101,103,,
+Cecil County,,,full-time,459,474,521,848
+Cecil County,,Other Race,,,,,
+Cecil County,,,Not working,,686,304,
+Cecil County,,,part-time,929,,,255
+Cecil County,,,full-time,789,1059,243,793
+Cecil County,,Two Major,,,,,
+Cecil County,,,Not working,1907,1975,1238,1174
+Cecil County,,,part-time,341,,173,
+Cecil County,,,full-time,972,472,1096,948
+Cecil County,,Three or More,,,,,
+Cecil County,,,Not working,,80,145,1160
+Cecil County,,,part time,,,,
+Cecil County,,,full time,,128,19,324
+Cecil County,Education,,,,,,
+Cecil County,,N/A,,,,,
+Cecil County,,,Not working,2001,2925,3033,3754
+Cecil County,,,part time,0,0,,
+Cecil County,,,full time,0,0,,
+Cecil County,,No School,,,,,
+Cecil County,,,Not working,2066,3639,3245,1718
+Cecil County,,,part time,,,,
+Cecil County,,,full-time,84,212,212,204
+Cecil County,,Nursery,,,,,
+Cecil County,,,Not working,2561,2384,1623,1722
+Cecil County,,,part-time,,,,120
+Cecil County,,,full time,,,,
+Cecil County,,Kindergarten,,,,,
+Cecil County,,,Not working,2080,1109,1839,1182
+Cecil County,,,part time,,,,
+Cecil County,,,full time,,,,
+Cecil County,,Less than Highschool,,,,,
+Cecil County,,,Not working,12719,11647,12059,11920
+Cecil County,,,part time,500,0,0,230
+Cecil County,,,full time,353,393,86,289
+Cecil County,,Some Highschool,,,,,
+Cecil County,,,Not working,6273,5972,4724,4653
+Cecil County,,,part time,607,1859,1349,1655
+Cecil County,,,full time,2317,3481,3247,2253
+Cecil County,,Regular Highschool Diploma,,,,,
+Cecil County,,,Not working,11105,7624,8426,9848
+Cecil County,,,part-time,2719,1538,986,2116
+Cecil County,,,full-time,13949,13125,12914,14138
+Cecil County,,GED,,,,,
+Cecil County,,,Not working,1971,1252,1411,1397
+Cecil County,,,part-time,399,690,440,
+Cecil County,,,full-time,2689,1798,1462,1691
+Cecil County,,Some College,,,,,
+Cecil County,,,Not working,1742,2344,1503,2729
+Cecil County,,,part-time,339,366,545,893
+Cecil County,,,full-time,3202,5888,4025,5157
+Cecil County,,1 or more,,,,,
+Cecil County,,,Not working,2725,2695,4020,1937
+Cecil County,,,part-time,591,2006,1764,1751
+Cecil County,,,full-time,8429,7179,8576,4933
+Cecil County,,Associate,,,,,
+Cecil County,,,Not working,1287,828,1387,1330
+Cecil County,,,part-time,841,493,242,289
+Cecil County,,,full-time,3012,4419,3956,4256
+Cecil County,,Bachelor's,,,,,
+Cecil County,,,Not working,1339,1472,2531,2961
+Cecil County,,,part-time,1096,1078,1404,1498
+Cecil County,,,full-time,6249,7399,8389,9293
+Cecil County,,Master's,,,,,
+Cecil County,,,Not working,1146,1478,944,853
+Cecil County,,,part-time,410,383,197,336
+Cecil County,,,full-time,3752,3450,4585,4276
+Cecil County,,Professional,,,,,
+Cecil County,,,Not working,,367,159,284
+Cecil County,,,part-time,90,115,45,
+Cecil County,,,full-time,765,101,443,335
+Cecil County,,Doctoral,,,,,
+Cecil County,,,Not working,,63,,8
+Cecil County,,,part-time,111,55,,99
+Cecil County,,,full-time,699,650,831,679
+Cecil County,,,,,,,
+Cecil County,Poverty as a percentage of the Federal poverty level,0-25,,,,,
+Cecil County,,,Not working,4141,2388,2392,2759
+Cecil County,,,part-time,432,167,63,479
+Cecil County,,,full-time,365,108,293,141
+Cecil County,,26-50,,,,,
+Cecil County,,,Not working,2288,1236,1132,1084
+Cecil County,,,part-time,497,,300,130
+Cecil County,,,full-time,347,162,1145,340
+Cecil County,,51-75,,,,,
+Cecil County,,,Not working,220,3142,622,1488
+Cecil County,,,part-time,,437,89,110
+Cecil County,,,full-time,123,919,118,52
+Cecil County,,76-100,,,,,
+Cecil County,,,Not working,2992,942,2377,957
+Cecil County,,,part-time,41,134,170,
+Cecil County,,,full-time,1003,407,835,299
+Cecil County,,100-500,,,,,
+Cecil County,,,Not working,30222,28878,28534,29602
+Cecil County,,,part-time,4612,5430,4693,5800
+Cecil County,,,full-time,23841,24453,22315,25355
+Cecil County,,501,,,,,
+Cecil County,,,Not working,9152,9213,11847,10406
+Cecil County,,,part-time,2121,2415,1657,2468
+Cecil County,,,full-time,19821,22046,24020,21317
+CharlesCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+CharlesCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+CharlesCounty,Gender,,,,,,
+CharlesCounty,,Male,,,,,
+CharlesCounty,,,Not working,32174,33754,35258,33726
+CharlesCounty,,,part-time,4460,4814,3879,4484
+CharlesCounty,,,full-time,38294,39066,38695,38895
+CharlesCounty,,Female,,,,,
+CharlesCounty,,,Not working,40607,37804,41089,38384
+CharlesCounty,,,part-time,5294,4052,4581,5820
+CharlesCounty,,,full-time,35120,38671,36761,39844
+CharlesCounty,Race,,,,,,
+CharlesCounty,,White,,,,,
+CharlesCounty,,,Not working,32973,31770,31982,31898
+CharlesCounty,,,part-time,4522,4147,4564,5313
+CharlesCounty,,,full-time,35322,36046,34464,32379
+CharlesCounty,,Black,,,,,
+CharlesCounty,,,Not working,28746,31345,33381,33238
+CharlesCounty,,,part-time,3418,3959,3365,3952
+CharlesCounty,,,full-time,33021,36250,33450,40203
+CharlesCounty,,American Indian or Alaska Native,,,,,
+CharlesCounty,,,Not working,86,,126,555
+CharlesCounty,,,part-time,,46,,
+CharlesCounty,,,full-time,51,40,512,521
+CharlesCounty,,Chinese,,,,,
+CharlesCounty,,,Not working,380,242,976,211
+CharlesCounty,,,part-time,132,166,,
+CharlesCounty,,,full-time,449,144,613,376
+CharlesCounty,,Japanese,,,,,
+CharlesCounty,,,Not working,,101,,
+CharlesCounty,,,part time,,,,
+CharlesCounty,,,full time,,,,350
+CharlesCounty,,Other Asian,,,,,
+CharlesCounty,,,Not working,2311,1362,2219,1820
+CharlesCounty,,,part-time,705,122,308,385
+CharlesCounty,,,full-time,1460,2131,2474,1472
+CharlesCounty,,Other Race,,,,,
+CharlesCounty,,,Not working,78,373,526,321
+CharlesCounty,,,part-time,,307,135,94
+CharlesCounty,,,full-time,55,390,355,829
+CharlesCounty,,Two Major,,,,,
+CharlesCounty,,,Not working,7891,5171,5177,3597
+CharlesCounty,,,part-time,977,,88,560
+CharlesCounty,,,full-time,2905,2275,2108,1833
+CharlesCounty,,Three or More,,,,,
+CharlesCounty,,,Not working,316,1194,1960,470
+CharlesCounty,,,part-time,,119,,
+CharlesCounty,,,full-time,151,461,1480,776
+CharlesCounty,Education,,,,,,
+CharlesCounty,,N/A,,,,,
+CharlesCounty,,,Not working,6123,5525,5455,5696
+CharlesCounty,,,part time,,,,
+CharlesCounty,,,full-time,,,,
+CharlesCounty,,No School,,,,,
+CharlesCounty,,,Not working,3956,3809,3611,3922
+CharlesCounty,,,part time,,,,
+CharlesCounty,,,full-time,99,444,390,547
+CharlesCounty,,Nursery,,,,,
+CharlesCounty,,,Not working,2334,2922,2643,2701
+CharlesCounty,,,part time,,,,
+CharlesCounty,,,full time,,,,
+CharlesCounty,,Kindergarten,,,,,
+CharlesCounty,,,Not working,2385,1889,3758,1236
+CharlesCounty,,,part time,0,0,,
+CharlesCounty,,,full time,,,,
+CharlesCounty,,Less than Highschool,,,,,
+CharlesCounty,,,Not working,18895,18812,18167,18906
+CharlesCounty,,,part time,132,0,0,0
+CharlesCounty,,,full time,222,182,673,187
+CharlesCounty,,Some Highschool,,,,,
+CharlesCounty,,,Not working,8166,8134,11216,8771
+CharlesCounty,,,part time,1383,709,676,1853
+CharlesCounty,,,full time,2131,1728,2315,2162
+CharlesCounty,,Regular Highschool Diploma,,,,,
+CharlesCounty,,,Not working,11625,14576,12293,12501
+CharlesCounty,,,part-time,2614,3242,3438,3714
+CharlesCounty,,,full-time,19634,26265,17292,19494
+CharlesCounty,,GED,,,,,
+CharlesCounty,,,Not working,1760,589,2820,1039
+CharlesCounty,,,part-time,232,241,176,57
+CharlesCounty,,,full-time,1406,1239,1560,2434
+CharlesCounty,,Some College,,,,,
+CharlesCounty,,,Not working,2353,2315,2585,3370
+CharlesCounty,,,part-time,701,549,862,453
+CharlesCounty,,,full-time,4447,5476,4246,6454
+CharlesCounty,,1 or more,,,,,
+CharlesCounty,,,Not working,7902,5841,7269,6285
+CharlesCounty,,,part-time,1831,2047,905,1394
+CharlesCounty,,,full-time,11692,13553,12293,13828
+CharlesCounty,,Associate,,,,,
+CharlesCounty,,,Not working,1877,2529,991,2430
+CharlesCounty,,,part-time,506,924,916,585
+CharlesCounty,,,full-time,8687,6490,8400,7287
+CharlesCounty,,Bachelor's,,,,,
+CharlesCounty,,,Not working,3627,2436,3443,3611
+CharlesCounty,,,part-time,1510,742,994,1621
+CharlesCounty,,,full-time,13047,12231,15741,17955
+CharlesCounty,,Master's,,,,,
+CharlesCounty,,,Not working,1300,1730,1379,1403
+CharlesCounty,,,part-time,712,412,392,241
+CharlesCounty,,,full-time,10715,8559,11029,6446
+CharlesCounty,,Professional,,,,,
+CharlesCounty,,,Not working,118,312,433,
+CharlesCounty,,,part-time,75,,,209
+CharlesCounty,,,full-time,921,1188,1109,1242
+CharlesCounty,,Doctoral,,,,,
+CharlesCounty,,,Not working,360,139,284,239
+CharlesCounty,,,part-time,58,,101,177
+CharlesCounty,Poverty as a percentage of the Federal poverty level,,full-time,413,382,408,703
+CharlesCounty,,,,,,,
+CharlesCounty,,0-25,,,,,
+CharlesCounty,,,Not working,4313,4793,5275,4414
+CharlesCounty,,,part-time,405,208,132,
+CharlesCounty,,,full-time,195,1483,1539,767
+CharlesCounty,,26-50,,,,,
+CharlesCounty,,,Not working,1074,320,1548,698
+CharlesCounty,,,part-time,679,,111,226
+CharlesCounty,,,full-time,138,301,,251
+CharlesCounty,,51-75,,,,,
+CharlesCounty,,,Not working,2262,2610,1187,1293
+CharlesCounty,,,part-time,,,312,142
+CharlesCounty,,,full-time,366,862,229,92
+CharlesCounty,,76-100,,,,,
+CharlesCounty,,,Not working,996,2541,2724,279
+CharlesCounty,,,part-time,54,931,273,
+CharlesCounty,,,full-time,391,1155,352,334
+CharlesCounty,,100-500,,,,,
+CharlesCounty,,,Not working,38749,38583,39771,44265
+CharlesCounty,,,part-time,4801,4475,4152,4981
+CharlesCounty,,,full-time,27735,31110,29602,34218
+CharlesCounty,,501,,,,,
+CharlesCounty,,,Not working,25387,22711,25842,21161
+CharlesCounty,,,part-time,3815,3252,3480,4955
+CharlesCounty,,,full-time,44589,42826,43734,43077
+FrederickCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+FrederickCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+FrederickCounty,Gender,,,,,,
+FrederickCounty,,Male,,,,,
+FrederickCounty,,,Not working,44319,47068,46715,50023
+FrederickCounty,,,part-time,8207,9922,9265,8338
+FrederickCounty,,,full-time,66568,65459,67941,69331
+FrederickCounty,,Female,,,,,
+FrederickCounty,,,Not working,57674,56015,59759,57366
+FrederickCounty,,,part-time,15167,14976,14378,16265
+FrederickCounty,,,full-time,53278,54251,54001,53701
+FrederickCounty,Race,,,,,,
+FrederickCounty,,White,,,,,
+FrederickCounty,,,Not working,81008,81582,83517,85347
+FrederickCounty,,,part-time,18687,20788,20331,20158
+FrederickCounty,,,full-time,99519,97844,97194,101654
+FrederickCounty,,Black,,,,,
+FrederickCounty,,,Not working,9232,12901,9273,12124
+FrederickCounty,,,part-time,2545,1833,1751,2675
+FrederickCounty,,,full-time,9732,11734,10323,11752
+FrederickCounty,,American Indian or Alaska Native,,,,,
+FrederickCounty,,,Not working,118,,405,111
+FrederickCounty,,,part-time,,,91,
+FrederickCounty,,,full-time,514,600,405,32
+FrederickCounty,,Chinese,,,,,
+FrederickCounty,,,Not working,1412,491,1111,2294
+FrederickCounty,,,part-time,,,150,310
+FrederickCounty,,,full-time,854,27,965,1912
+FrederickCounty,,Japanese,,,,,
+FrederickCounty,,,Not working,123,,340,268
+FrederickCounty,,,part-time,,138,,186
+FrederickCounty,,,full-time,228,,85,64
+FrederickCounty,,Other Asian,,,,,
+FrederickCounty,,,Not working,2972,3470,4078,2510
+FrederickCounty,,,part-time,946,1230,449,213
+FrederickCounty,,,full-time,4629,5832,5667,3519
+FrederickCounty,,Other Race,,,,,
+FrederickCounty,,,Not working,1683,1009,1688,874
+FrederickCounty,,,part-time,416,280,84,361
+FrederickCounty,,,full-time,2128,1447,3320,1656
+FrederickCounty,,Two Major,,,,,
+FrederickCounty,,,Not working,4877,3467,5586,3125
+FrederickCounty,,,part-time,780,449,787,700
+FrederickCounty,,,full-time,1973,1966,2985,2113
+FrederickCounty,,Three or More,,,,,
+FrederickCounty,,,Not working,568,163,476,736
+FrederickCounty,,,part-time,,180,,
+FrederickCounty,,,full-time,269,260,998,330
+FrederickCounty,Education,,,,,,
+FrederickCounty,,N/A,,,,,
+FrederickCounty,,,Not working,9085,7245,9052,8434
+FrederickCounty,,,part time,0,0,,
+FrederickCounty,,,full time,0,0,,
+FrederickCounty,,No School,,,,,
+FrederickCounty,,,Not working,5633,6367,5966,5457
+FrederickCounty,,,part-time,277,347,191,133
+FrederickCounty,,,full-time,1607,593,581,853
+FrederickCounty,,Nursery,,,,,
+FrederickCounty,,,Not working,4227,4676,4800,5034
+FrederickCounty,,,part time,,,,
+FrederickCounty,,,full time,,,,
+FrederickCounty,,Kindergarten,,,,,
+FrederickCounty,,,Not working,2932,3354,3695,3466
+FrederickCounty,,,part time,0,0,,
+FrederickCounty,,,full time,,,,
+FrederickCounty,,Less than Highschool,,,,,
+FrederickCounty,,,Not working,29729,27591,28402,29119
+FrederickCounty,,,part time,36,155,232,930
+FrederickCounty,,,full time,675,1216,686,2107
+FrederickCounty,,Some Highschool,,,,,
+FrederickCounty,,,Not working,12289,12457,11776,10510
+FrederickCounty,,,part time,1920,4251,3841,3033
+FrederickCounty,,,full time,3247,4017,3633,4071
+FrederickCounty,,Regular Highschool Diploma,,,,,
+FrederickCounty,,,Not working,11794,13878,14151,15624
+FrederickCounty,,,part-time,4539,4773,5032,5144
+FrederickCounty,,,full-time,25777,23843,19962,25456
+FrederickCounty,,GED,,,,,
+FrederickCounty,,,Not working,1046,2209,1232,1479
+FrederickCounty,,,part-time,669,305,303,351
+FrederickCounty,,,full-time,2402,2050,2464,2623
+FrederickCounty,,Some College,,,,,
+FrederickCounty,,,Not working,3740,3320,3643,4873
+FrederickCounty,,,part-time,2739,2042,1691,2324
+FrederickCounty,,,full-time,8815,9988,10145,8200
+FrederickCounty,,1 or more,,,,,
+FrederickCounty,,,Not working,6372,7980,6101,4463
+FrederickCounty,,,part-time,4199,3874,4005,5292
+FrederickCounty,,,full-time,17557,14831,18158,13846
+FrederickCounty,,Associate,,,,,
+FrederickCounty,,,Not working,3214,2774,3094,3334
+FrederickCounty,,,part-time,1293,2237,2094,836
+FrederickCounty,,,full-time,9070,9907,10366,10631
+FrederickCounty,,Bachelor's,,,,,
+FrederickCounty,,,Not working,6893,6247,8099,7888
+FrederickCounty,,,part-time,4653,4052,2987,4611
+FrederickCounty,,,full-time,31198,29753,32732,31323
+FrederickCounty,,Master's,,,,,
+FrederickCounty,,,Not working,3865,3799,4747,6217
+FrederickCounty,,,part-time,2266,2303,2675,1989
+FrederickCounty,,,full-time,13734,17822,16544,17055
+FrederickCounty,,Professional,,,,,
+FrederickCounty,,,Not working,548,813,1061,777
+FrederickCounty,,,part-time,365,383,154,123
+FrederickCounty,,,full-time,2958,2142,2357,2980
+FrederickCounty,,Doctoral,,,,,
+FrederickCounty,,,Not working,626,373,655,714
+FrederickCounty,,,part-time,418,176,438,177
+FrederickCounty,,,full-time,2806,3548,4314,3547
+FrederickCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+FrederickCounty,,0-25,,,,,
+FrederickCounty,,,Not working,7698,6088,5956,6010
+FrederickCounty,,,part-time,1667,1794,1216,1923
+FrederickCounty,,,full-time,574,1631,1966,1167
+FrederickCounty,,26-50,,,,,
+FrederickCounty,,,Not working,832,871,1657,1289
+FrederickCounty,,,part-time,423,,1073,406
+FrederickCounty,,,full-time,1032,1232,1117,196
+FrederickCounty,,51-75,,,,,
+FrederickCounty,,,Not working,2948,2849,2223,3215
+FrederickCounty,,,part-time,420,597,562,528
+FrederickCounty,,,full-time,1419,1393,652,896
+FrederickCounty,,76-100,,,,,
+FrederickCounty,,,Not working,3239,2539,3598,1449
+FrederickCounty,,,part-time,568,1301,728,740
+FrederickCounty,,,full-time,1364,1725,1734,1166
+FrederickCounty,,100-500,,,,,
+FrederickCounty,,,Not working,54181,53588,51760,51760
+FrederickCounty,,,part-time,11616,11382,11130,10390
+FrederickCounty,,,full-time,56148,48082,45888,48439
+FrederickCounty,,501,,,,,
+FrederickCounty,,,Not working,33095,37148,41280,43666
+FrederickCounty,,,part-time,8680,9824,8934,10616
+FrederickCounty,,,full-time,59309,65647,70585,71168
+HarfordCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+HarfordCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+HarfordCounty,Gender,,,,,,
+HarfordCounty,,Male,,,,,
+HarfordCounty,,,Not working,51516,49076,50344,50665
+HarfordCounty,,,part-time,9127,8187,10010,9321
+HarfordCounty,,,full-time,63148,64901,63982,64019
+HarfordCounty,,Female,,,,,
+HarfordCounty,,,Not working,62440,61322,61377,60449
+HarfordCounty,,,part-time,14527,15584,14899,14883
+HarfordCounty,,,full-time,49688,51360,51863,54745
+HarfordCounty,Race,,,,,,
+HarfordCounty,,White,,,,,
+HarfordCounty,,,Not working,89374,86073,87284,84373
+HarfordCounty,,,part-time,19293,19039,19441,20598
+HarfordCounty,,,full-time,91598,93154,90013,93095
+HarfordCounty,,Black,,,,,
+HarfordCounty,,,Not working,16971,15029,15915,16863
+HarfordCounty,,,part-time,2890,3786,3970,2254
+HarfordCounty,,,full-time,13834,14725,16559,16429
+HarfordCounty,,American Indian or Alaska Native,,,,,
+HarfordCounty,,,Not working,117,180,,98
+HarfordCounty,,,part-time,,,,74
+HarfordCounty,,,full-time,296,179,649,124
+HarfordCounty,,Chinese,,,,,
+HarfordCounty,,,Not working,,573,532,735
+HarfordCounty,,,part-time,179,66,,328
+HarfordCounty,,,full-time,127,500,326,979
+HarfordCounty,,Japanese,,,,,
+HarfordCounty,,,Not working,320,,,74
+HarfordCounty,,,part time,,,,
+HarfordCounty,,,full time,,,138,220
+HarfordCounty,,Other Asian,,,,,
+HarfordCounty,,,Not working,1563,1463,2732,2008
+HarfordCounty,,,part-time,572,254,151,136
+HarfordCounty,,,full-time,3172,2338,3760,2593
+HarfordCounty,,Other Race,,,,,
+HarfordCounty,,,Not working,812,254,1848,1620
+HarfordCounty,,,part-time,241,,1147,126
+HarfordCounty,,,full-time,839,2217,2074,1897
+HarfordCounty,,Two Major,,,,,
+HarfordCounty,,,Not working,3885,6359,3294,4666
+HarfordCounty,,,part-time,479,626,200,688
+HarfordCounty,,,full-time,2970,3148,1710,3230
+HarfordCounty,,Three or More,,,,,
+HarfordCounty,,,Not working,914,467,116,677
+HarfordCounty,,,part-time,,,,
+HarfordCounty,,,full-time,,,616,197
+HarfordCounty,Education,,,,,,
+HarfordCounty,,N/A,,,,,
+HarfordCounty,,,Not working,8625,8558,9414,8387
+HarfordCounty,,,part time,0,0,,
+HarfordCounty,,,full time,0,0,,
+HarfordCounty,,No School,,,,,
+HarfordCounty,,,Not working,6729,6273,5657,5600
+HarfordCounty,,,part-time,92,60,138,226
+HarfordCounty,,,full-time,397,873,378,704
+HarfordCounty,,Nursery,,,,,
+HarfordCounty,,,Not working,4166,3693,3303,6133
+HarfordCounty,,,part time,,,,
+HarfordCounty,,,full time,,517,,181
+HarfordCounty,,Kindergarten,,,,,
+HarfordCounty,,,Not working,2078,3836,3758,2672
+HarfordCounty,,,part time,0,0,,
+HarfordCounty,,,full time,,111,,
+HarfordCounty,,Less than Highschool,,,,,
+HarfordCounty,,,Not working,26683,26587,25446,25853
+HarfordCounty,,,part time,0,116,387,131
+HarfordCounty,,,full time,175,159,824,539
+HarfordCounty,,Some Highschool,,,,,
+HarfordCounty,,,Not working,14116,13482,14623,11895
+HarfordCounty,,,part time,2639,3657,3727,5023
+HarfordCounty,,,full time,3617,4246,2398,4634
+HarfordCounty,,Regular Highschool Diploma,,,,,
+HarfordCounty,,,Not working,19138,16483,18122,17569
+HarfordCounty,,,part-time,5146,6301,4530,3993
+HarfordCounty,,,full-time,24861,22948,24415,21686
+HarfordCounty,,GED,,,,,
+HarfordCounty,,,Not working,1234,2527,2966,3642
+HarfordCounty,,,part-time,399,1284,828,871
+HarfordCounty,,,full-time,3225,2966,3610,3124
+HarfordCounty,,Some College,,,,,
+HarfordCounty,,,Not working,5034,5049,6465,4511
+HarfordCounty,,,part-time,3222,1565,1211,1749
+HarfordCounty,,,full-time,8460,10882,8615,10923
+HarfordCounty,,1 or more,,,,,
+HarfordCounty,,,Not working,11550,7727,6690,6865
+HarfordCounty,,,part-time,3673,4553,4136,3288
+HarfordCounty,,,full-time,16953,14908,17752,19641
+HarfordCounty,,Associate,,,,,
+HarfordCounty,,,Not working,3907,2926,4372,3016
+HarfordCounty,,,part-time,1900,1870,2737,2504
+HarfordCounty,,,full-time,10185,10335,10714,8769
+HarfordCounty,,Bachelor's,,,,,
+HarfordCounty,,,Not working,5222,7705,5455,8065
+HarfordCounty,,,part-time,3691,2901,4202,4690
+HarfordCounty,,,full-time,28572,31824,28538,27923
+HarfordCounty,,Master's,,,,,
+HarfordCounty,,,Not working,4984,4430,4298,5794
+HarfordCounty,,,part-time,2482,1098,2330,1476
+HarfordCounty,,,full-time,12836,12554,13722,15742
+HarfordCounty,,Professional,,,,,
+HarfordCounty,,,Not working,294,529,793,617
+HarfordCounty,,,part-time,265,64,289,
+HarfordCounty,,,full-time,1383,2095,2121,3175
+HarfordCounty,,Doctoral,,,,,
+HarfordCounty,,,Not working,196,593,359,495
+HarfordCounty,,,part-time,145,302,394,253
+HarfordCounty,,,full-time,2172,1843,2758,1723
+HarfordCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+HarfordCounty,,0-25,,,,,
+HarfordCounty,,,Not working,5215,7802,5979,6595
+HarfordCounty,,,part-time,591,771,782,459
+HarfordCounty,,,full-time,606,672,1068,827
+HarfordCounty,,26-50,,,,,
+HarfordCounty,,,Not working,4581,1567,1777,3210
+HarfordCounty,,,part-time,1065,570,610,655
+HarfordCounty,,,full-time,673,457,755,427
+HarfordCounty,,51-75,,,,,
+HarfordCounty,,,Not working,3015,2704,2064,2872
+HarfordCounty,,,part-time,412,201,807,552
+HarfordCounty,,,full-time,1015,1251,360,390
+HarfordCounty,,76-100,,,,,
+HarfordCounty,,,Not working,3848,4737,3773,2513
+HarfordCounty,,,part-time,593,95,509,636
+HarfordCounty,,,full-time,1219,1593,1147,726
+HarfordCounty,,100-500,,,,,
+HarfordCounty,,,Not working,66488,56623,60460,60475
+HarfordCounty,,,part-time,11311,12772,12136,11948
+HarfordCounty,,,full-time,48096,44063,46727,48872
+HarfordCounty,,501,,,,,
+HarfordCounty,,,Not working,30809,36965,37668,35449
+HarfordCounty,,,part-time,9682,9362,10065,9954
+HarfordCounty,,,full-time,61227,68225,65788,67522
+HowardCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+HowardCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+HowardCounty,Gender,,,,,,
+HowardCounty,,Male,,,,,
+HowardCounty,,,Not working,58697,59386,60020,60314
+HowardCounty,,,part-time,11483,11605,10374,10351
+HowardCounty,,,full-time,83701,82102,84909,86624
+HowardCounty,,Female,,,,,
+HowardCounty,,,Not working,72191,70870,73601,73923
+HowardCounty,,,part-time,16670,19879,19137,19980
+HowardCounty,,,full-time,70548,73396,73163,71920
+HowardCounty,Race,,--------------------------------------------,,,,
+HowardCounty,,White,,,,,
+HowardCounty,,,Not working,69616,69777,71076,71152
+HowardCounty,,,part-time,18963,20095,16233,20423
+HowardCounty,,,full-time,94631,94789,92978,90324
+HowardCounty,,Black,,,,,
+HowardCounty,,,Not working,25591,26500,23716,27924
+HowardCounty,,,part-time,3974,5977,6865,3557
+HowardCounty,,,full-time,28023,26442,29480,31760
+HowardCounty,,American Indian or Alaska Native,,,,,
+HowardCounty,,,Not working,590,,511,62
+HowardCounty,,,part-time,,76,375,141
+HowardCounty,,,full-time,289,151,785,560
+HowardCounty,,Chinese,,,,,
+HowardCounty,,,Not working,4383,5317,4559,5713
+HowardCounty,,,part-time,552,572,911,1335
+HowardCounty,,,full-time,6046,5425,5135,5600
+HowardCounty,,Japanese,,,,,
+HowardCounty,,,Not working,,617,360,170
+HowardCounty,,,part-time,,50,,
+HowardCounty,,,full-time,618,548,397,118
+HowardCounty,,Other Asian,,,,,
+HowardCounty,,,Not working,21506,18935,22239,19822
+HowardCounty,,,part-time,2413,3073,3732,3232
+HowardCounty,,,full-time,20124,22858,22064,24257
+HowardCounty,,Other Race,,,,,
+HowardCounty,,,Not working,1431,1924,3115,2039
+HowardCounty,,,part-time,219,326,277,693
+HowardCounty,,,full-time,1020,1483,2330,1472
+HowardCounty,,Two Major,,,,,
+HowardCounty,,,Not working,6622,5953,6726,7020
+HowardCounty,,,part-time,2032,1315,1118,760
+HowardCounty,,,full-time,2953,3314,4023,4167
+HowardCounty,,Three or More,,,,,
+HowardCounty,,,Not working,1149,1233,1319,335
+HowardCounty,,,part-time,,,,190
+HowardCounty,,,full-time,545,488,880,286
+HowardCounty,Education,,,,,,
+HowardCounty,,N/A,,,,,
+HowardCounty,,,Not working,10169,10278,11519,10129
+HowardCounty,,,part time,0,0,,
+HowardCounty,,,full time,0,0,,
+HowardCounty,,No School,,,,,
+HowardCounty,,,Not working,6558,7689,6788,10337
+HowardCounty,,,part-time,,128,,
+HowardCounty,,,full-time,904,590,855,1188
+HowardCounty,,Nursery,,,,,
+HowardCounty,,,Not working,6717,4722,6487,4939
+HowardCounty,,,part time,0,164,,
+HowardCounty,,,full time,,81,118,
+HowardCounty,,Kindergarten,,,,,
+HowardCounty,,,Not working,3365,2321,3986,3987
+HowardCounty,,,part time,0,0,,
+HowardCounty,,,full time,,,,
+HowardCounty,,Less than Highschool,,,,,
+HowardCounty,,,Not working,38539,41366,36849,37900
+HowardCounty,,,part time,219,92,324,0
+HowardCounty,,,full time,990,2294,894,829
+HowardCounty,,Some Highschool,,,,,
+HowardCounty,,,Not working,13638,14102,15937,14749
+HowardCounty,,,part time,3592,4265,3326,2996
+HowardCounty,,,full time,3211,2679,2750,2598
+HowardCounty,,Regular Highschool Diploma,,,,,
+HowardCounty,,,Not working,11987,12294,11367,11706
+HowardCounty,,,part-time,3506,4061,3722,5869
+HowardCounty,,,full-time,17043,14921,16129,18725
+HowardCounty,,GED,,,,,
+HowardCounty,,,Not working,903,1571,1212,918
+HowardCounty,,,part-time,170,572,573,607
+HowardCounty,,,full-time,1337,1482,2313,1991
+HowardCounty,,Some College,,,,,
+HowardCounty,,,Not working,3648,2404,3171,3275
+HowardCounty,,,part-time,1514,1156,1557,1376
+HowardCounty,,,full-time,7290,5910,4286,5974
+HowardCounty,,1 or more,,,,,
+HowardCounty,,,Not working,7584,7772,9639,6847
+HowardCounty,,,part-time,5499,7910,6184,4595
+HowardCounty,,,full-time,16418,19663,17712,17989
+HowardCounty,,Associate,,,,,
+HowardCounty,,,Not working,3996,3620,3443,2267
+HowardCounty,,,part-time,2456,2033,1610,1948
+HowardCounty,,,full-time,10792,8325,11232,7772
+HowardCounty,,Bachelor's,,,,,
+HowardCounty,,,Not working,13241,11066,12722,14800
+HowardCounty,,,part-time,6085,5683,6060,6582
+HowardCounty,,,full-time,48891,46681,48354,53204
+HowardCounty,,Master's,,,,,
+HowardCounty,,,Not working,8374,7794,8323,8233
+HowardCounty,,,part-time,3915,4131,4327,4521
+HowardCounty,,,full-time,32903,35164,37446,33133
+HowardCounty,,Professional,,,,,
+HowardCounty,,,Not working,1180,1885,1123,2008
+HowardCounty,,,part-time,797,880,1505,534
+HowardCounty,,,full-time,6784,9147,7994,7695
+HowardCounty,,Doctoral,,,,,
+HowardCounty,,,Not working,989,1372,1055,2142
+HowardCounty,,,part-time,400,573,323,1303
+HowardCounty,,,full-time,7686,8561,7989,7446
+HowardCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+HowardCounty,,0-25,,,,,
+HowardCounty,,,Not working,5698,5164,7334,5755
+HowardCounty,,,part-time,912,618,270,1405
+HowardCounty,,,full-time,185,467,1574,188
+HowardCounty,,26-50,,,,,
+HowardCounty,,,Not working,2263,1086,1350,3632
+HowardCounty,,,part-time,530,,562,1276
+HowardCounty,,,full-time,291,335,994,801
+HowardCounty,,51-75,,,,,
+HowardCounty,,,Not working,1627,2433,3351,2240
+HowardCounty,,,part-time,340,1426,995,1207
+HowardCounty,,,full-time,235,575,1954,548
+HowardCounty,,76-100,,,,,
+HowardCounty,,,Not working,2200,3593,3672,2406
+HowardCounty,,,part-time,1052,285,1783,1180
+HowardCounty,,,full-time,1270,900,1017,1136
+HowardCounty,,100-500,,,,,
+HowardCounty,,,Not working,59427,52265,55304,55403
+HowardCounty,,,part-time,11788,9718,9671,8722
+HowardCounty,,,full-time,48458,45969,45517,49712
+HowardCounty,,501,,,,,
+HowardCounty,,,Not working,59673,65715,62610,64801
+HowardCounty,,,part-time,13531,19437,16230,16541
+HowardCounty,,,full-time,103810,107252,107016,106159
+MontgomeryCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+MontgomeryCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+MontgomeryCounty,Gender,,,,,,
+MontgomeryCounty,,Male,,,,,
+MontgomeryCounty,,,Not working,190122,187556,195203,191241
+MontgomeryCounty,,,part-time,34809,34626,34101,35064
+MontgomeryCounty,,,full-time,275425,279656,283376,282350
+MontgomeryCounty,,Female,,,,,
+MontgomeryCounty,,,Not working,242767,249448,243031,243441
+MontgomeryCounty,,,part-time,60049,65178,65873,69240
+MontgomeryCounty,,,full-time,236644,228635,237293,231789
+MontgomeryCounty,Race,,,,,,
+MontgomeryCounty,,White,,,,,
+MontgomeryCounty,,,Not working,232310,236900,220669,224687
+MontgomeryCounty,,,part-time,57029,57906,56256,56111
+MontgomeryCounty,,,full-time,275124,283035,272612,265015
+MontgomeryCounty,,Black,,,,,
+MontgomeryCounty,,,Not working,80069,77977,81846,78716
+MontgomeryCounty,,,part-time,14993,18851,18264,18810
+MontgomeryCounty,,,full-time,90927,94772,96339,100401
+MontgomeryCounty,,American Indian or Alaska Native,,,,,
+MontgomeryCounty,,,Not working,881,1167,1621,765
+MontgomeryCounty,,,part-time,999,294,264,877
+MontgomeryCounty,,,full-time,2291,973,1983,1457
+MontgomeryCounty,,Chinese,,,,,
+MontgomeryCounty,,,Not working,19593,17798,19418,17613
+MontgomeryCounty,,,part-time,2834,3902,3626,3301
+MontgomeryCounty,,,full-time,24172,23106,23467,26465
+MontgomeryCounty,,Japanese,,,,,
+MontgomeryCounty,,,Not working,1281,2166,1070,1512
+MontgomeryCounty,,,part-time,194,175,166,
+MontgomeryCounty,,,full-time,1152,1706,1046,1688
+MontgomeryCounty,,Other Asian,,,,,
+MontgomeryCounty,,,Not working,40667,44433,44993,41823
+MontgomeryCounty,,,part-time,8178,8167,9915,10045
+MontgomeryCounty,,,full-time,57025,54773,56430,53139
+MontgomeryCounty,,Other Race,,,,,
+MontgomeryCounty,,,Not working,36032,31124,44168,39572
+MontgomeryCounty,,,part-time,6622,6841,8318,11042
+MontgomeryCounty,,,full-time,44566,38697,53083,47478
+MontgomeryCounty,,Two Major,,,,,
+MontgomeryCounty,,,Not working,19791,22774,20966,26301
+MontgomeryCounty,,,part-time,3612,3393,2541,3761
+MontgomeryCounty,,,full-time,14240,10782,14251,17149
+MontgomeryCounty,,Three or More,,,,,
+MontgomeryCounty,,,Not working,2265,2665,3483,3693
+MontgomeryCounty,,,part-time,397,275,624,357
+MontgomeryCounty,,,full-time,2572,447,1458,1347
+MontgomeryCounty,Education,,,,,,
+MontgomeryCounty,,N/A,,,,,
+MontgomeryCounty,,,Not working,38146,40233,38011,40925
+MontgomeryCounty,,,part time,0,0,,
+MontgomeryCounty,,,full time,0,0,,
+MontgomeryCounty,,No School,,,,,
+MontgomeryCounty,,,Not working,33335,28675,31336,27852
+MontgomeryCounty,,,part-time,398,1118,946,1444
+MontgomeryCounty,,,full-time,7063,6514,7641,6453
+MontgomeryCounty,,Nursery,,,,,
+MontgomeryCounty,,,Not working,18803,16335,16966,19879
+MontgomeryCounty,,,part-time,105,,,
+MontgomeryCounty,,,full-time,87,340,,139
+MontgomeryCounty,,Kindergarten,,,,,
+MontgomeryCounty,,,Not working,14789,14876,13907,13781
+MontgomeryCounty,,,part-time,79,,,94
+MontgomeryCounty,,,full-time,352,95,65,
+MontgomeryCounty,,Less than Highschool,,,,,
+MontgomeryCounty,,,Not working,113834,116864,117671,116208
+MontgomeryCounty,,,part time,2210,1829,1542,3225
+MontgomeryCounty,,,full time,15197,15663,12996,12702
+MontgomeryCounty,,Some Highschool,,,,,
+MontgomeryCounty,,,Not working,47298,37437,40004,38326
+MontgomeryCounty,,,part time,8198,7776,9551,10611
+MontgomeryCounty,,,full time,17375,11839,13239,11924
+MontgomeryCounty,,Regular Highschool Diploma,,,,,
+MontgomeryCounty,,,Not working,34327,37408,36260,33799
+MontgomeryCounty,,,part-time,14420,15472,17264,15141
+MontgomeryCounty,,,full-time,56775,60968,62936,59194
+MontgomeryCounty,,GED,,,,,
+MontgomeryCounty,,,Not working,4074,3806,3319,2006
+MontgomeryCounty,,,part-time,1380,1203,533,1117
+MontgomeryCounty,,,full-time,5327,6540,4722,7529
+MontgomeryCounty,,Some College,,,,,
+MontgomeryCounty,,,Not working,8807,9622,9521,7595
+MontgomeryCounty,,,part-time,4152,3720,4271,5299
+MontgomeryCounty,,,full-time,20739,15029,17710,21350
+MontgomeryCounty,,1 or more,,,,,
+MontgomeryCounty,,,Not working,24043,21307,26214,22062
+MontgomeryCounty,,,part-time,16862,16724,16992,15913
+MontgomeryCounty,,,full-time,52514,52979,55020,51352
+MontgomeryCounty,,Associate,,,,,
+MontgomeryCounty,,,Not working,12452,11551,10360,13840
+MontgomeryCounty,,,part-time,4675,5536,5153,6182
+MontgomeryCounty,,,full-time,24628,25376,28511,23376
+MontgomeryCounty,,Bachelor's,,,,,
+MontgomeryCounty,,,Not working,42946,46958,46682,49881
+MontgomeryCounty,,,part-time,23429,22741,19915,22621
+MontgomeryCounty,,,full-time,149463,142286,145854,141351
+MontgomeryCounty,,Master's,,,,,
+MontgomeryCounty,,,Not working,27838,27193,27092,25343
+MontgomeryCounty,,,part-time,11977,14144,13825,12844
+MontgomeryCounty,,,full-time,95984,102615,101603,99659
+MontgomeryCounty,,Professional,,,,,
+MontgomeryCounty,,,Not working,5873,8838,8861,9305
+MontgomeryCounty,,,part-time,3323,4895,4261,4627
+MontgomeryCounty,,,full-time,30848,33921,30620,37764
+MontgomeryCounty,,Doctoral,,,,,
+MontgomeryCounty,,,Not working,6324,10118,6770,7880
+MontgomeryCounty,,,part-time,3650,3412,3230,3186
+MontgomeryCounty,,,full-time,35717,28543,34002,34346
+MontgomeryCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+MontgomeryCounty,,0-25,,,,,
+MontgomeryCounty,,,Not working,22410,24692,25167,23575
+MontgomeryCounty,,,part-time,1557,2815,3550,3648
+MontgomeryCounty,,,full-time,2599,3227,2956,2794
+MontgomeryCounty,,26-50,,,,,
+MontgomeryCounty,,,Not working,8340,4516,13293,7383
+MontgomeryCounty,,,part-time,2885,1665,3321,687
+MontgomeryCounty,,,full-time,3244,1970,3020,3590
+MontgomeryCounty,,51-75,,,,,
+MontgomeryCounty,,,Not working,10834,9246,7865,11138
+MontgomeryCounty,,,part-time,3223,1749,1980,2747
+MontgomeryCounty,,,full-time,2741,3684,2161,"3,32"
+MontgomeryCounty,,76-100,,,,,
+MontgomeryCounty,,,Not working,20831,13765,13826,14802
+MontgomeryCounty,,,part-time,3371,4163,3120,5040
+MontgomeryCounty,,,full-time,8812,5167,6413,6563
+MontgomeryCounty,,100-500,,,,,
+MontgomeryCounty,,,Not working,184369,195790,187678,178745
+MontgomeryCounty,,,part-time,37699,41356,43739,44250
+MontgomeryCounty,,,full-time,195899,193179,199149,179335
+MontgomeryCounty,,501,,,,,
+MontgomeryCounty,,,Not working,186105,188995,190405,199039
+MontgomeryCounty,,,part-time,46123,48056,44264,47932
+MontgomeryCounty,,,full-time,298774,301064,306970,318534
+PrinceGeorgesCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+PrinceGeorgesCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+PrinceGeorgesCounty,Gender,,,,,,
+PrinceGeorgesCounty,,Male,,,,,
+PrinceGeorgesCounty,,,Not working,172867,172446,170472,169808
+PrinceGeorgesCounty,,,part-time,33850,32791,31763,32437
+PrinceGeorgesCounty,,,full-time,230110,231504,237893,236186
+PrinceGeorgesCounty,,Female,,,,,
+PrinceGeorgesCounty,,,Not working,209058,204275,201855,202568
+PrinceGeorgesCounty,,,part-time,41298,42189,45586,46042
+PrinceGeorgesCounty,,,full-time,222201,224398,224397,221549
+PrinceGeorgesCounty,Race,,,,,,
+PrinceGeorgesCounty,,White,,,,,
+PrinceGeorgesCounty,,,Not working,64147,69819,58869,56984
+PrinceGeorgesCounty,,,part-time,15277,15157,15101,17237
+PrinceGeorgesCounty,,,full-time,74137,72741,74515,67852
+PrinceGeorgesCounty,,Black,,,,,
+PrinceGeorgesCounty,,,Not working,234042,229756,223068,221996
+PrinceGeorgesCounty,,,part-time,44962,45628,46295,46155
+PrinceGeorgesCounty,,,full-time,289384,296247,299828,299191
+PrinceGeorgesCounty,,American Indian or Alaska Native,,,,,
+PrinceGeorgesCounty,,,Not working,1064,1761,1702,1170
+PrinceGeorgesCounty,,,part-time,477,204,167,
+PrinceGeorgesCounty,,,full-time,2043,925,1427,1024
+PrinceGeorgesCounty,,Chinese,,,,,
+PrinceGeorgesCounty,,,Not working,3982,4660,2702,1692
+PrinceGeorgesCounty,,,part-time,740,1733,751,925
+PrinceGeorgesCounty,,,full-time,1605,4342,2346,1529
+PrinceGeorgesCounty,,Japanese,,,,,
+PrinceGeorgesCounty,,,Not working,447,99,301,167
+PrinceGeorgesCounty,,,part-time,,111,,
+PrinceGeorgesCounty,,,full-time,71,77,66,
+PrinceGeorgesCounty,,Other Asian,,,,,
+PrinceGeorgesCounty,,,Not working,12721,9066,12906,13253
+PrinceGeorgesCounty,,,part-time,4183,2083,3576,3859
+PrinceGeorgesCounty,,,full-time,17297,14780,16785,15106
+PrinceGeorgesCounty,,Other Race,,,,,
+PrinceGeorgesCounty,,,Not working,53649,46918,59125,62617
+PrinceGeorgesCounty,,,part-time,7585,7689,9094,8439
+PrinceGeorgesCounty,,,full-time,57724,52762,58836,59293
+PrinceGeorgesCounty,,Two Major,,,,,
+PrinceGeorgesCounty,,,Not working,9356,13428,11356,12696
+PrinceGeorgesCounty,,,part-time,1673,1888,2258,1719
+PrinceGeorgesCounty,,,full-time,8134,12233,7354,11419
+PrinceGeorgesCounty,,Three or More,,,,,
+PrinceGeorgesCounty,,,Not working,2517,1214,2298,1801
+PrinceGeorgesCounty,,,part-time,251,487,107,145
+PrinceGeorgesCounty,,,full-time,1916,1795,1133,2321
+PrinceGeorgesCounty,Education,,,,,,
+PrinceGeorgesCounty,,N/A,,,,,
+PrinceGeorgesCounty,,,Not working,37735,35010,35296,37307
+PrinceGeorgesCounty,,,part time,0,0,,
+PrinceGeorgesCounty,,,full time,0,0,,
+PrinceGeorgesCounty,,No School,,,,,
+PrinceGeorgesCounty,,,Not working,26216,31927,26919,25754
+PrinceGeorgesCounty,,,part-time,442,1019,1056,871
+PrinceGeorgesCounty,,,full-time,5998,6707,6690,5906
+PrinceGeorgesCounty,,Nursery,,,,,
+PrinceGeorgesCounty,,,Not working,12041,12940,14482,12832
+PrinceGeorgesCounty,,,part time,,,,
+PrinceGeorgesCounty,,,full-time,53,166,,243
+PrinceGeorgesCounty,,Kindergarten,,,,,
+PrinceGeorgesCounty,,,Not working,13727,14481,12132,10007
+PrinceGeorgesCounty,,,part-time,107,,,
+PrinceGeorgesCounty,,,full-time,182,,114,
+PrinceGeorgesCounty,,Less than Highschool,,,,,
+PrinceGeorgesCounty,,,Not working,99380,93222,97015,97273
+PrinceGeorgesCounty,,,part time,3184,3157,2986,1635
+PrinceGeorgesCounty,,,full time,24062,21951,19938,15580
+PrinceGeorgesCounty,,Some Highschool,,,,,
+PrinceGeorgesCounty,,,Not working,45711,43830,41314,45479
+PrinceGeorgesCounty,,,part time,7922,7404,9595,8985
+PrinceGeorgesCounty,,,full time,25436,28809,23712,26861
+PrinceGeorgesCounty,,Regular Highschool Diploma,,,,,
+PrinceGeorgesCounty,,,Not working,50150,52245,51178,44395
+PrinceGeorgesCounty,,,part-time,17258,16655,14895,14138
+PrinceGeorgesCounty,,,full-time,96459,97364,109269,97812
+PrinceGeorgesCounty,,GED,,,,,
+PrinceGeorgesCounty,,,Not working,6454,8699,6902,8012
+PrinceGeorgesCounty,,,part-time,1389,813,1906,2153
+PrinceGeorgesCounty,,,full-time,11059,11317,11833,10997
+PrinceGeorgesCounty,,Some College,,,,,
+PrinceGeorgesCounty,,,Not working,14363,13013,13860,12130
+PrinceGeorgesCounty,,,part-time,6043,6109,6817,9302
+PrinceGeorgesCounty,,,full-time,22611,28592,27516,28123
+PrinceGeorgesCounty,,1 or more,,,,,
+PrinceGeorgesCounty,,,Not working,29991,26336,28664,31649
+PrinceGeorgesCounty,,,part-time,20196,19627,19809,19105
+PrinceGeorgesCounty,,,full-time,82418,81695,75519,79601
+PrinceGeorgesCounty,,Associate,,,,,
+PrinceGeorgesCounty,,,Not working,6853,7650,10209,9396
+PrinceGeorgesCounty,,,part-time,4311,4424,4343,4114
+PrinceGeorgesCounty,,,full-time,29932,25338,29670,27946
+PrinceGeorgesCounty,,Bachelor's,,,,,
+PrinceGeorgesCounty,,,Not working,23469,21095,22360,21181
+PrinceGeorgesCounty,,,part-time,8491,10014,9225,10671
+PrinceGeorgesCounty,,,full-time,91142,86783,88241,93402
+PrinceGeorgesCounty,,Master's,,,,,
+PrinceGeorgesCounty,,,Not working,12686,12559,9816,12790
+PrinceGeorgesCounty,,,part-time,4494,4779,5656,6094
+PrinceGeorgesCounty,,,full-time,47344,53663,52081,54385
+PrinceGeorgesCounty,,Professional,,,,,
+PrinceGeorgesCounty,,,Not working,1230,1576,1218,2024
+PrinceGeorgesCounty,,,part-time,667,499,649,649
+PrinceGeorgesCounty,,,full-time,5613,7539,8917,9910
+PrinceGeorgesCounty,,Doctoral,,,,,
+PrinceGeorgesCounty,,,Not working,1919,2138,962,2147
+PrinceGeorgesCounty,,,part-time,644,480,412,762
+PrinceGeorgesCounty,,,full-time,10002,5978,8790,6969
+PrinceGeorgesCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+PrinceGeorgesCounty,,0-25,,,,,
+PrinceGeorgesCounty,,,Not working,29622,32390,30645,28567
+PrinceGeorgesCounty,,,part-time,9529,8545,9087,9949
+PrinceGeorgesCounty,,,full-time,5224,5390,6313,3799
+PrinceGeorgesCounty,,26-50,,,,,
+PrinceGeorgesCounty,,,Not working,5761,7872,7566,9357
+PrinceGeorgesCounty,,,part-time,1885,1729,1763,2389
+PrinceGeorgesCounty,,,full-time,2969,2351,2607,4119
+PrinceGeorgesCounty,,51-75,,,,,
+PrinceGeorgesCounty,,,Not working,13002,13045,5155,5073
+PrinceGeorgesCounty,,,part-time,2536,1997,2596,2197
+PrinceGeorgesCounty,,,full-time,4779,3248,2926,3174
+PrinceGeorgesCounty,,76-100,,,,,
+PrinceGeorgesCounty,,,Not working,14595,14674,12102,12678
+PrinceGeorgesCounty,,,part-time,4269,3351,3054,4356
+PrinceGeorgesCounty,,,full-time,6855,4645,7142,5648
+PrinceGeorgesCounty,,100-500,,,,,
+PrinceGeorgesCounty,,,Not working,228199,219529,214609,213135
+PrinceGeorgesCounty,,,part-time,36817,36022,39997,34383
+PrinceGeorgesCounty,,,full-time,226035,227860,218138,227824
+PrinceGeorgesCounty,,501,,,,,
+PrinceGeorgesCounty,,,Not working,90746,89211,102250,103566
+PrinceGeorgesCounty,,,part-time,20112,23336,20852,25205
+PrinceGeorgesCounty,,,full-time,206449,212408,225164,213171
+WashingtonCounty,Column1,Column2,Column3,Column4,Column5,Column6,Column7
+WashingtonCounty,Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+WashingtonCounty,Gender,,,,,,
+WashingtonCounty,,Male,,,,,
+WashingtonCounty,,,Not working,37469,38525,37033,38197
+WashingtonCounty,,,part-time,3843,4137,5248,4695
+WashingtonCounty,,,full-time,35058,34169,34646,33935
+WashingtonCounty,,Female,,,,,
+WashingtonCounty,,,Not working,37546,40135,37805,37267
+WashingtonCounty,,,part-time,6256,7709,8346,8440
+WashingtonCounty,,,full-time,29730,25759,27388,28160
+WashingtonCounty,Race,,,,,,
+WashingtonCounty,,White,,,,,
+WashingtonCounty,,,Not working,59345,63361,58331,59679
+WashingtonCounty,,,part-time,9147,9690,11716,11183
+WashingtonCounty,,,full-time,55682,53376,53184,53013
+WashingtonCounty,,Black,,,,,
+WashingtonCounty,,,Not working,10396,10827,8994,9659
+WashingtonCounty,,,part-time,707,775,1185,1268
+WashingtonCounty,,,full-time,6178,4312,5365,5642
+WashingtonCounty,,American Indian or Alaska Native,,,,,
+WashingtonCounty,,,Not working,94,53,277,61
+WashingtonCounty,,,part time,,,,
+WashingtonCounty,,,full-time,,,,115
+WashingtonCounty,,Chinese,,,,,
+WashingtonCounty,,,Not working,,,,141
+WashingtonCounty,,,part-time,,,114,
+WashingtonCounty,,,full-time,369,,71,
+WashingtonCounty,,Japanese,,,,,
+WashingtonCounty,,,Not working,,,388,
+WashingtonCounty,,,part time,,,,
+WashingtonCounty,,,full time,,136,,
+WashingtonCounty,,Other Asian,,,,,
+WashingtonCounty,,,Not working,621,797,1632,1678
+WashingtonCounty,,,part-time,,429,,177
+WashingtonCounty,,,full-time,1084,948,950,995
+WashingtonCounty,,Other Race,,,,,
+WashingtonCounty,,,Not working,614,134,1170,437
+WashingtonCounty,,,part-time,107,,161,161
+WashingtonCounty,,,full-time,784,73,1280,610
+WashingtonCounty,,Two Major,,,,,
+WashingtonCounty,,,Not working,3945,3418,3715,3630
+WashingtonCounty,,,part-time,138,952,276,346
+WashingtonCounty,,,full-time,691,1083,1184,1587
+WashingtonCounty,,Three or More,,,,,
+WashingtonCounty,,,Not working,,70,331,179
+WashingtonCounty,,,part-time,,,142,
+WashingtonCounty,,,full-time,,,,133
+WashingtonCounty,Education,,,,,,
+WashingtonCounty,,N/A,,,,,
+WashingtonCounty,,,Not working,4781,4430,4888,4697
+WashingtonCounty,,,part time,0,0,,
+WashingtonCounty,,,full time,0,0,,
+WashingtonCounty,,No School,,,,,
+WashingtonCounty,,,Not working,4440,5035,3788,3803
+WashingtonCounty,,,part-time,,79,566,
+WashingtonCounty,,,full-time,76,449,75,615
+WashingtonCounty,,Nursery,,,,,
+WashingtonCounty,,,Not working,1437,1963,1743,1927
+WashingtonCounty,,,part-time,,,,
+WashingtonCounty,,,full time,,,,
+WashingtonCounty,,Kindergarten,,,,,
+WashingtonCounty,,,Not working,1833,2615,1950,1874
+WashingtonCounty,,,part time,,188,,
+WashingtonCounty,,,full time,,,,
+WashingtonCounty,,Less than Highschool,,,,,
+WashingtonCounty,,,Not working,17397,17418,17277,16964
+WashingtonCounty,,,part time,403,147,0,78
+WashingtonCounty,,,full time,91,319,705,802
+WashingtonCounty,,Some Highschool,,,,,
+WashingtonCounty,,,Not working,13215,12098,9696,11806
+WashingtonCounty,,,part time,818,1877,2710,1706
+WashingtonCounty,,,full time,3672,4486,4972,3877
+WashingtonCounty,,Regular Highschool Diploma,,,,,
+WashingtonCounty,,,Not working,14426,14232,14443,14050
+WashingtonCounty,,,part-time,3141,2432,4788,3627
+WashingtonCounty,,,full-time,24205,20231,14565,19004
+WashingtonCounty,,GED,,,,,
+WashingtonCounty,,,Not working,2802,4201,3799,2790
+WashingtonCounty,,,part-time,178,389,29,452
+WashingtonCounty,,,full-time,1844,4039,1481,2018
+WashingtonCounty,,Some College,,,,,
+WashingtonCounty,,,Not working,2771,4515,3643,4274
+WashingtonCounty,,,part-time,1401,1120,989,1892
+WashingtonCounty,,,full-time,4490,4835,6501,7030
+WashingtonCounty,,1 or more,,,,,
+WashingtonCounty,,,Not working,4378,4868,4666,3592
+WashingtonCounty,,,part-time,1490,2142,1735,2218
+WashingtonCounty,,,full-time,9521,8236,8060,8016
+WashingtonCounty,,Associate,,,,,
+WashingtonCounty,,,Not working,2628,1697,2810,2530
+WashingtonCounty,,,part-time,854,1079,1303,1318
+WashingtonCounty,,,full-time,5746,4765,6921,6170
+WashingtonCounty,,Bachelor's,,,,,
+WashingtonCounty,,,Not working,3218,3105,3277,4605
+WashingtonCounty,,,part-time,1530,1567,991,1063
+WashingtonCounty,,,full-time,9773,8093,11493,9476
+WashingtonCounty,,Master's,,,,,
+WashingtonCounty,,,Not working,1270,2089,2485,2327
+WashingtonCounty,,,part-time,284,826,302,526
+WashingtonCounty,,,full-time,4680,3510,5985,3306
+WashingtonCounty,,Professional,,,,,
+WashingtonCounty,,,Not working,354,305,175,190
+WashingtonCounty,,,part-time,,,157,97
+WashingtonCounty,,,full-time,309,394,601,972
+WashingtonCounty,,Doctoral,,,,,
+WashingtonCounty,,,Not working,65,89,198,35
+WashingtonCounty,,,part-time,,,24,158
+WashingtonCounty,,,full-time,381,571,675,809
+WashingtonCounty,Poverty as a percentage of the Federal poverty level,,,,,,
+WashingtonCounty,,0-25,,,,,
+WashingtonCounty,,,Not working,11788,13027,10522,10454
+WashingtonCounty,,,part-time,440,288,883,912
+WashingtonCounty,,,full-time,2224,928,1001,538
+WashingtonCounty,,26-50,,,,,
+WashingtonCounty,,,Not working,1569,2215,2954,3521
+WashingtonCounty,,,part-time,233,407,758,108
+WashingtonCounty,,,full-time,401,134,829,428
+WashingtonCounty,,51-75,,,,,
+WashingtonCounty,,,Not working,3467,3364,5027,3061
+WashingtonCounty,,,part-time,153,193,626,366
+WashingtonCounty,,,full-time,815,1034,1079,559
+WashingtonCounty,,76-100,,,,,
+WashingtonCounty,,,Not working,4273,3117,2417,2346
+WashingtonCounty,,,part-time,382,763,708,1229
+WashingtonCounty,,,full-time,1474,1531,692,1752
+WashingtonCounty,,100-500,,,,,
+WashingtonCounty,,,Not working,41713,47026,40898,41981
+WashingtonCounty,,,part-time,5248,7494,7124,6677
+WashingtonCounty,,,full-time,37628,38141,32763,33311
+WashingtonCounty,,501,,,,,
+WashingtonCounty,,,Not working,12205,9911,13020,14101
+WashingtonCounty,,,part-time,3643,2701,3495,3843
+WashingtonCounty,,,full-time,22246,18160,25670,25507
