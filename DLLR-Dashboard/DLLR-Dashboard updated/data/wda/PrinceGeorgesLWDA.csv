@@ -10,6 +10,20 @@ Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,53,Real
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,61,Educational Services,4371
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,92,Public Administration,4613
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,23,Construction,5102
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2016Q1,A00,All ages,4235
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2016Q2,A00,All ages,4362
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2016Q3,A00,All ages,4653
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,4681
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2017Q1,A00,All ages,4519
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2017Q2,A00,All ages,4529
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2017Q3,A00,All ages,4455
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2017Q4,A00,All ages,4787
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q1,A00,All ages,4595
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages,4684
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages,4552
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ages,4923
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q1,A00,All ages,4669
+Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ages,4814
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,31-33,Manufacturing,5125
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,48-49,Transportation and Warehousing,5139
 Earnings,Prince Georges WIA,Maryland Average Earnings by Industry,2016Q1,42,Wholesale Trade,5337
@@ -376,7 +390,6 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A02,
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A03,22-24,2340
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A04,25-34,3825
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A08,65-99,4467
-Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All Ages,4689
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A05,35-44,5062
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A06,45-54,5702
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q2,A07,55-64,5714
@@ -385,7 +398,6 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A02,
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A03,22-24,2360
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A04,25-34,3790
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A08,65-99,4219
-Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All Ages,4559
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A05,35-44,4975
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A07,55-64,5418
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q3,A06,45-54,5535
@@ -394,7 +406,6 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A02,
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A03,22-24,2476
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A04,25-34,3975
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A08,65-99,4747
-Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All Ages ,4933
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A05,35-44,5310
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A06,45-54,5969
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2018Q4,A07,55-64,6125
@@ -411,7 +422,6 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A02,
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A03,22-24,2486
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A04,25-34,3968
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A08,65-99,4520
-Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All Ages ,4826
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A05,35-44,5261
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A07,55-64,5816
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Age,2019Q2,A06,45-54,5840
@@ -473,7 +483,6 @@ Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2017
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2017Q3,0,All,4453
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2017Q4,0,All,4795
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2018Q1,0,All,4595
-Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2018Q2,0,All,4689
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2018Q3,0,All,4559
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2018Q4,0,All,4933
 Earnings,Prince Georges WIA,Maryland Average Monthly Earnings by Gender All,2019Q1,0,All,4681

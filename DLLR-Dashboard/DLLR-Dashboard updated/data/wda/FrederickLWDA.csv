@@ -13,7 +13,21 @@ Earnings,Frederick WIA,Maryland Average Monthly Earnings by Gender,2016Q2,1,Male
 Job Change,Frederick WIA,Maryland Job Net Change by Industry,2018Q3,72,Accommodation and Food Services,-319
 Job Change,Frederick WIA,Maryland Job Net Change by Industry,2017Q4,23,Construction,-311
 Job Change,Frederick WIA,Maryland Job Net Change by Industry,2018Q1,44-45,Retail Trade,-311
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2016Q1,A00,All ages,4267
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2016Q2,A00,All ages,4151
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2016Q3,A00,All ages,4253
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,4367
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2017Q1,A00,All ages,4477
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2017Q2,A00,All ages,4253
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2017Q3,A00,All ages,4142
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2017Q4,A00,All ages,4545
 Earnings,Frederick WIA,Maryland Average Monthly Earnings by Gender,2016Q3,2,Female,3471
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2018Q1,A00,All ages,4584
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages,4378
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages,4259
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ages,4681
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2019Q1,A00,All ages,4586
+Earnings,Frederick WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ages,4537
 Separations,Frederick WIA,Maryland Separations by Education All,2016Q1,E0,All Education Categories,11855
 Job Change,Frederick WIA,Maryland Job Net Change by Industry,2018Q4,23,Construction,-294
 Job Change,Frederick WIA,Maryland Job Net Change by Industry,2017Q3,72,Accommodation and Food Services,-275
@@ -423,7 +437,6 @@ Turnover,Frederick WIA,Maryland Turnover Rate by Education,2016Q4,E4,Bachelor's 
 Turnover,Frederick WIA,Maryland Turnover Rate by Industry,2017Q3,53,Real Estate and Rental and Leasing,0.091
 Turnover,Frederick WIA,Maryland Turnover Rate by Industry,2016Q3,48-49,Transportation and Warehousing,0.091
 Job Change,Frederick WIA,Maryland Job Net Change by Education,2017Q1,E4,Bachelor's degree or advanced degree,176
-Earnings,Frederick WIA,Maryland Average Monthly Earnings by Gender All,2019Q2,0,All,4530
 Earnings,Frederick WIA,Maryland Average Monthly Earnings by Gender All,2019Q3,0,All,N/A
 Turnover,Frederick WIA,Maryland Turnover Rate by Industry,2019Q1,48-49,Transportation and Warehousing,0.092
 Turnover,Frederick WIA,Maryland Turnover Rate by Industry,2016Q3,23,Construction,0.093

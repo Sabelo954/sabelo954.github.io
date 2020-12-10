@@ -1,11 +1,11 @@
 Location,Time,Indicator,Indicator_Status,Indicator_Value,Employment_Status,QWI-Status,Amount,Unemployment_Rate
-Maryland,2015,Unemployment By Veteran Status,Non Veteran,,,,7.3,0.073
+Maryland,2015,Unemployment By Veteran Status,Non Veteran,,,,7.4,0.074
 Maryland,2015,Unemployment By Veteran Status,Veteran,,,,5.6,0.056
-Maryland,2016,Unemployment By Veteran Status,Non Veteran,,,,6.6,0.066
+Maryland,2016,Unemployment By Veteran Status,Non Veteran,,,,6.7,0.067
 Maryland,2016,Unemployment By Veteran Status,Veteran,,,,5,0.05
-Maryland,2017,Unemployment By Veteran Status,Non Veteran,,,,6.1,0.061
+Maryland,2017,Unemployment By Veteran Status,Non Veteran,,,,6.2,0.062
 Maryland,2017,Unemployment By Veteran Status,Veteran,,,,4.4,0.044
-Maryland,2018,Unemployment By Veteran Status,Non Veteran,,,,5.5,0.055
+Maryland,2018,Unemployment By Veteran Status,Non Veteran,,,,5.7,0.057
 Maryland,2018,Unemployment By Veteran Status,Veteran,,,,3.7,0.037
 Maryland,2015,Unemployment By Race,Asian,,,,5.2,0.052
 Maryland,2015,Unemployment By Race,Black,,,,11.3,0.0113
