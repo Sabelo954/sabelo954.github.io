@@ -6,6 +6,20 @@ Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,11,"Agric
 Separations,Baltimore City WIA,Maryland Separations by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2017Q4,A00,All ages,5689
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ages,5472
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A00,All ages,5118
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A00,All ages,4786
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A00,All ages,5242
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,5625
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A00,All ages,5316
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A00,All ages,5001
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A00,All ages,5192
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A00,All ages,5774
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A00,All ages,5472
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages,5172
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages,5210
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ages,5856
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q1,A00,All ages,5687
+Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ages,5413
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A01,14-18,906
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A02,19-21,1598
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2019Q2,A03,22-24,2896
@@ -32,7 +46,6 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A06,45-54,6857
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A07,55-64,6786
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A08,65-99,6013
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages ,5144
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A01,14-18,1033
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A02,19-21,1595
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A03,22-24,2708
@@ -41,7 +54,6 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A06,45-54,5991
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A07,55-64,5958
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A08,65-99,5293
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages ,5224
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A01,14-18,878
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A02,19-21,1479
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A03,22-24,2742
@@ -130,18 +142,6 @@ Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A05,
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A06,45-54,6022
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A07,55-64,5898
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A08,65-99,4931
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q1,A00,All ages,4300
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q2,A00,All ages,4311
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q3,A00,All ages,4458
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,4933
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q1,A00,All ages,4702
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q2,A00,All ages,4477
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q3,A00,All ages,4419
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2017Q4,A00,All ages,5187
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q1,A00,All ages,4942
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages,4678
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages,4577
-Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ages,5335
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,1,Male,5575
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q2,2,Female,4189
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Gender,2016Q3,1,Male,6096
@@ -940,6 +940,7 @@ Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q1,0,All,3
 Separations,Baltimore City WIA,Maryland Separations by Gender All,2016Q2,0,All,46905
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2019Q1,A00,All ages,5563
 Earnings,Baltimore City WIA,Maryland Average Monthly Earnings by Age All,2018Q1,A00,All ages,5362
+
 Separations,Baltimore City WIA,Maryland Separations by Age All,2018Q1,A00,All ages ,40053
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,21,"Mining, Quarrying, and Oil and Gas Extraction",N/A
 Job Change,Baltimore City WIA,Maryland Job Net Change by Industry,2019Q3,22,Utilities,N/A

@@ -368,7 +368,6 @@ Separations,Susquehanna WIA,Maryland Separations by Education All,2016Q4,E0,All 
 Separations,Susquehanna WIA,Maryland Separations by Education All,2017Q1,E0,All Education Categories,14966
 Separations,Susquehanna WIA,Maryland Separations by Education All,2017Q2,E0,All Education Categories,19005
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Gender All,2018Q2,0,All,4098
-Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Gender All,2018Q3,0,All,3961
 Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Gender All,2018Q4,0,All,4266
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q3,54,"Professional, Scientific, and Technical Services",0.097
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Industry,2018Q4,71,"Arts, Entertainment, and Recreation",0.097
@@ -1600,7 +1599,6 @@ Separations,Susquehanna WIA,Maryland Separations by Gender,2017Q2,1,Male,9677
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,22,Utilities,17
 Workers,Susquehanna WIA,Maryland Workers by Age,2019Q1,A01,14-18,4084
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,55,Management of Companies and Enterprises,31
-Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All Ages ,4098
 Separations,Susquehanna WIA,Maryland Separations by Gender,2017Q3,2,Female,10658
 Separations,Susquehanna WIA,Maryland Separations by Education,2018Q4,E1,Less than High school,3126
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q1,42,Wholesale Trade,4108
@@ -1639,7 +1637,6 @@ Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,21,"Mining, 
 Workers,Susquehanna WIA,Maryland Workers by Industry,2019Q3,42,Wholesale Trade,4210
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2017Q2,E1,Less than High school,0.093
 Separations,Susquehanna WIA,Maryland Separations by Industry,2018Q1,51,Information,79
-Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All Ages ,4219
 Separations,Susquehanna WIA,Maryland Separations by Gender,2018Q1,2,Female,7629
 Workers,Susquehanna WIA,Maryland Workers by Industry,2017Q1,56,Administrative and Support and Waste Management and Remediation Services,4222
 Separations,Susquehanna WIA,Maryland Separations by Gender,2018Q1,1,Male,8365
@@ -1647,7 +1644,6 @@ Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2018Q1,23,Constru
 Job Change,Susquehanna WIA,Maryland Job Net Change by Industry,2018Q1,23,Construction,4242
 Earnings,Susquehanna WIA,Maryland Average Earnings by Industry,2017Q3,92,Public Administration,4263
 Workers,Susquehanna WIA,Maryland Workers by Age,2018Q4,A01,14-18,4263
-Earnings,Susquehanna WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All Ages ,4266
 Separations,Susquehanna WIA,Maryland Separations by Gender,2018Q2,2,Female,9196
 Turnover,Susquehanna WIA,Maryland Turnover Rate by Education,2018Q4,E1,Less than High school,0.096
 Workers,Susquehanna WIA,Maryland Workers by Age,2017Q4,A01,14-18,4275

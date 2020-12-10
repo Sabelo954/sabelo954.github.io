@@ -1460,18 +1460,17 @@ Workers,Mid-Maryland WIA,Maryland Workers by Industry,2019Q1,51,Information,5221
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2018Q2,62,Health Care and Social Assistance,3117
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2016Q3,A00,All Ages,5237
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2016Q3,92,Public Administration,5239
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All Ages,5242
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2016Q1,48-49,Transportation and Warehousing,5252
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2019Q1,48-49,Transportation and Warehousing,5260
 Separations,Mid-Maryland WIA,Maryland Separations by Industry,2018Q2,54,"Professional, Scientific, and Technical Services",3229
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2017Q1,23,Construction,5280
 Separations,Mid-Maryland WIA,Maryland Separations by Age,2018Q2,A02,19-21,3257
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All Ages,5284
 Workers,Mid-Maryland WIA,Maryland Workers by Industry,2018Q3,51,Information,5290
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2017Q3,23,Construction,5295
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2017Q3,92,Public Administration,5297
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2016Q2,53,Real Estate and Rental and Leasing,5298
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2016Q4,A00,All Ages,5299
+Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,5302
 Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age All,2017Q1,A00,All Ages,5301
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",5311
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,22,Utilities,5311
@@ -1527,7 +1526,6 @@ Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,11,"Agric
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Education,2019Q2,E2,"High school or equivalent, no college",333
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2019Q2,23,Construction,5583
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Industry,2019Q2,31-33,Manufacturing,5583
-Earnings,Mid-Maryland WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All Ages,5584
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2016Q3,53,Real Estate and Rental and Leasing,5587
 Job Change,Mid-Maryland WIA,Maryland Job Net Change by Education,2019Q3,E2,"High school or equivalent, no college",N/A
 Earnings,Mid-Maryland WIA,Maryland Average Earnings by Industry,2017Q3,31-33,Manufacturing,5596

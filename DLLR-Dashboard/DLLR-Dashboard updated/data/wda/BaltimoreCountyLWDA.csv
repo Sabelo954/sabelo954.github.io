@@ -1236,10 +1236,22 @@ Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q4,11,"A
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2019Q1,A08,65-99,4298
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q1,61,Educational Services,4301
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q1,61,Educational Services,4301
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2016Q1,A00,All Ages,4302
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q1,A00,All ages,4320
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q2,A00,All ages,4299
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q3,A00,All ages,4504
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q4,A00,All ages,4939
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q1,A00,All ages,4746
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q2,A00,All ages,4447
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q3,A00,All ages,4497
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q4,A00,All ages,5199
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q1,A00,All ages,4991
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All ages,4651
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All ages,4655
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All ages,5360
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2019Q1,A00,All ages,5064
+Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All ages,4767
 Job Change,Baltimore County WIA,Maryland Job Net Change by Gender All,2019Q1,0,All,-36
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q1,92,Public Administration,4305
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2016Q2,A00,All Ages,4312
 Job Change,Baltimore County WIA,Maryland Job Net Change by Gender All,2019Q2,0,All,7536
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q4,62,Health Care and Social Assistance,4342
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q4,62,Health Care and Social Assistance,4342
@@ -1247,18 +1259,14 @@ Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2019Q2,A0
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q1,21,"Mining, Quarrying, and Oil and Gas Extraction",4362
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2019Q1,61,Educational Services,4381
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2019Q1,61,Educational Services,4381
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2017Q3,A00,All Ages,4425
 Job Change,Baltimore County WIA,Maryland Job Net Change by Gender All,2019Q3,0,All,N/A
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q2,61,Educational Services,4430
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",4432
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q4,11,"Agriculture, Forestry, Fishing and Hunting",4432
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q4,21,"Mining, Quarrying, and Oil and Gas Extraction",4445
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2016Q3,A00,All Ages,4469
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q4,A08,65-99,4482
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2017Q2,A00,All Ages,4484
 Separations,Baltimore County WIA,Maryland Separations by Industry,2017Q3,23,Construction,4570
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q2,21,"Mining, Quarrying, and Oil and Gas Extraction",4572
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q3,A00,All Ages ,4583
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q3,92,Public Administration,4620
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q4,61,Educational Services,4635
 Separations,Baltimore County WIA,Maryland Separations by Industry,2018Q3,61,Educational Services,4642
@@ -1267,14 +1275,11 @@ Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q2,61,Ed
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q4,A08,65-99,4652
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q1,92,Public Administration,4652
 Separations,Baltimore County WIA,Maryland Separations by Age,2016Q1,A07,55-64,4665
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q2,A00,All Ages ,4686
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2017Q1,A00,All Ages,4712
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q2,92,Public Administration,4733
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q4,A08,65-99,4735
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q1,23,Construction,4749
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2019Q2,61,Educational Services,4756
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2019Q2,61,Educational Services,4756
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2019Q2,A00,All Ages ,4801
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q3,92,Public Administration,4817
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q3,92,Public Administration,4817
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q1,92,Public Administration,4828
@@ -1292,14 +1297,11 @@ Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q4,61,Ed
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q3,92,Public Administration,4917
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q2,92,Public Administration,4930
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q4,92,Public Administration,4930
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2018Q1,A00,All Ages ,4932
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q4,92,Public Administration,4959
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2016Q4,A00,All Ages,4961
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q2,A05,35-44,4993
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q2,92,Public Administration,4998
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q2,92,Public Administration,4998
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q2,23,Construction,5008
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2019Q1,A00,All Ages ,5014
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2016Q3,A05,35-44,5017
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2019Q1,48-49,Transportation and Warehousing,5025
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2019Q1,48-49,Transportation and Warehousing,5025
@@ -1322,7 +1324,6 @@ Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q3,53,Re
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q2,A05,35-44,5196
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q1,23,Construction,5197
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q2,53,Real Estate and Rental and Leasing,5201
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age All,2017Q4,A00,All Ages,5211
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q2,23,Construction,5239
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2019Q2,48-49,Transportation and Warehousing,5255
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2019Q2,48-49,Transportation and Warehousing,5255
@@ -1346,7 +1347,6 @@ Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q3,48-49
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2017Q3,23,Construction,5353
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2018Q1,23,Construction,5355
 Job Change,Baltimore County WIA,Maryland Job Net Change by Industry,2018Q1,23,Construction,5355
-Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2018Q4,A00,All Ages ,5359
 Separations,Baltimore County WIA,Maryland Separations by Age,2019Q1,A07,55-64,5361
 Earnings,Baltimore County WIA,Maryland Average Monthly Earnings by Age,2017Q3,A07,55-64,5362
 Earnings,Baltimore County WIA,Maryland Average Earnings by Industry,2016Q3,23,Construction,5362
