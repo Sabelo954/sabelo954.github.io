@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="Maryland.css" >
+      <script type="text/javascript" src="Maryland_Pop_and_med_inc.js"></script>
+
+  </head>
+<body>
+<div class="sidebutton">
+
+<select id="CountyDropdown" onChange="window.location.href=this.value" style=width:130px;>
+            <option selected="selected">Choose a county...</option>
+            <option value="file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/MarylandIndex.html" >Maryland</option>
+            <option value="file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Alleghany%20County/AlleghanyCountyIndex.html" >Allegany</option>
+            <option value="AnneArundelCounty.html">Anne Arundel</option>
+            <option value="Baltimorecity.html">Baltimore City</option>
+            <option value="BaltimoreCounty.html">Baltimore County</option>
+            <option value="CalvertCounty.html">Calvert County</option>
+            <option value="CarolineCounty.html">Caroline County</option>
+            <option value="CarrollCounty.html">Carroll County</option>
+            <option value="CecilCounty.html">Cecil County</option>
+            <option value="CharlesCounty.html">Charles County</option>
+            <option value="DorchesterCounty.html">Dorchester County</option>
+            <option value="FrederickCounty.html">Frederick County</option>
+            <option value="GarrettCounty.html">Garrett County</option>
+            <option value="HarfordCounty.html">Harford County</option>
+            <option value="HowardCounty.html">Howard County</option>
+            <option value="KentCounty.html">Kent County</option>
+            <option value="MontgomeryCounty.html">Montgomery County</option>
+            <option value="PrinceGeorgesCounty.html">Prince George's County</option>
+            <option value="QueenAnnesCounty.html">Queen Anne's</option>
+            <option value="SomersetCounty.html">Somerset</option>
+            <option value="StMarysCounty.html">St Mary's County</option>
+            <option value="TalbotCounty.html">Talbot County</option>
+            <option value="WashingtonCounty.html">Washington County</option>
+            <option value="WicomicoCounty.html">Wicomico County</option>
+            <option value="WorcesterCounty.html">Worcester County</option>
+
+         </select>
+
+<select id="LWDADropdown" onChange="window.location.href=this.value" style=width:130px;>
+            <option selected="selected">Or a Local Workforce Development Area (LWDA)</option>
+            <option value="AnneArundelWIOA.html">Anne Arundel LWDA</option>
+            <option value="BaltimoreCityWIOA.html">Baltimore City LWDA</option>
+            <option value="BaltimoreCountyWIOA.html">Baltimore County LWDA</option>
+            <option value="FrederickWIOA.html">Frederick County LWDA</option>
+            <option value="LowerShoreWIOA.html">Lower Shore LWDA</option>
+            <option value="MidMarylandWIOA.html">Mid Maryland LWDA</option>
+            <option value="MontgomeryWIOA.html">Montgomery LWDA</option>
+            <option value="PrinceGeorgesWIOA.html">Prince George's LWDA</option>
+            <option value="SouthernMarylandWIOA.html">Southern Maryland LWDA</option>
+              <option value="SusquehannaWIOA.html">Susquehanna LWDA</option>
+              <option value="UpperShoreWIOA.html">Upper Shore LWDA</option>
+              <option value="WesternMarylandWIOA.html">Western Maryland LWDA</option>
+              <option value="file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/MarylandIndex.html" >Maryland</option>
+
+           </select>
+                  <div class="dropdown">
+              <button class="button" onClick="window.location.href='file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/MarylandPop+MedInc.html';">Population and Median Household Income</button>
+                      </div>
+
+
+
+              <div class="dropdown">
+
+              <button class="button">Demographics</button>
+                  <div class="dropdown-content">
+                  <button class="button" onClick="window.location.href='file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/Demographic+Gender.html';" > Gender</button>
+                  <button class="button" >Race and Ethnicity</button>
+                  <button class="button" >Veteran Status</button>
+                  </div>
+                  </div>
+              <div class="dropdown">
+              <button class="button">Disability and Poverty</button>
+                  </div>
+              <div class="dropdown">
+              <button class="button">TANF</button>
+
+                  </div>
+              <div class="dropdown">
+              <button class="button">Apprenticeship Completers</button>
+                      </div>
+
+              <div class="dropdown">
+
+              <div class="dropdown">
+              <button class="button">Number of Workers and Average Monthly Earnings</button>
+                      </div>
+
+              <div class="dropdown">
+
+              <button class="button">New Hires and Job Net Changes</button>
+          </div>
+                  <div class="dropdown">
+                  <button class="button" >Turnover Rate</button>
+                  </div>
+              <div class="dropdown">
+              <button class="button" >Industry Metrics</button>
+                  </div>
+                   <div class="dropdown">
+              <button class="button" >Separations</button>
+                  </div>
+                  <div class="dropdown">
+              <button class="button" >New Apprentice Programs</button>
+                  </div>
+                  <div class="dropdown">
+              <button class="button" >New/Active Apprentices</button>
+                  </div>
+              </div>
+      <div class="dropdown">
+              <button class="button" >Long Term Unemployed</button>
+                      </div>
+
+                      <div class="dropdown">
+              <button class="button" onClick="window.location.href='file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/MarylandSNAP.html';">SNAP Recipients </button>
+
+                      </div>
+                      <div class="dropdown">
+                          <button class="button">Service Partcipants in SNAP</button>
+                      </div>
+      </div>
+
+
+
+      <!-- DIMPLE SVGS GO IN THE FOLLWING DIV-->
+
+      <div id="buttonsheading">
+        <p id="Selectstatement">Select Different Snapshot and/or County</p>
+        <p id="Start">Start Over</p>
+      <button id="print">
+        <text>Print this snapshot</text>
+      </button>
+      <button id="snapshot">
+        <text> Print the whole page</text>
+      </button>
+      </div>
+
+      <div id="header">
+        <h1>Maryland</h1>
+        <div id="border">
+        <p id="subtitleIndex"> Please select a dashboard from the buttons to the left, or select a different heographic area from the dropdown menus</p>
+      </div>
+      </div>
+
+
+</body>
+</html>
