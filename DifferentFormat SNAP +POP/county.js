@@ -60,4 +60,4 @@ updateSnapChart(data) {
   y.tickFormat = ',.0f';
   populationChart.addSeries(null, dimple.plot.bar);
   populationChart.draw();
-}
+} 
