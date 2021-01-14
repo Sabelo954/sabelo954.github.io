@@ -1350,7 +1350,7 @@
                               "Maryland" == CountyName
                                 ? ""
                                 : "<td>".concat(
-                                    Object(d.cma)(Object(d.findGender)(a, 0)),
+                                    Object(d.pcnt2)(Object(d.findGender)(a, 0)), // first coloumn
                                     "</td>"
                                   ),
                               "\n          "
@@ -1359,7 +1359,7 @@
                               "Maryland" == CountyName
                                 ? ""
                                 : "<td>".concat(
-                                    Object(d.cma)(Object(d.findGender)(a, 1)),
+                                    Object(d.pcnt2)(Object(d.findGender)(a, 1)), // second coloun
                                     "</td>"
                                   ),
                               "\n        </tr>\n        <tr>\n          <th>Not In Labor Force (NIL)</th>\n          <td>"
