@@ -4,9 +4,10 @@ html, body {
 
 
 .sidebutton{
-  margin-top: 7.5px;
+  margin-top: 0px;
+  margin-right: 10px;
   height: 80%;
-  width: 13%;
+  width: 170px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -24,6 +25,7 @@ html, body {
   text-align: center !important;
   color: #2196F3 !important;
   width: 140px;
+
 
 }
 
@@ -54,34 +56,33 @@ html, body {
 .dropdown:hover .dropbtn {background0color:black;}
 
 #visuals {
-  position:absolute;
-  left:220px;
-  bottom:70px;
-  width: auto;
-  height: auto;
-
+  position:relative;
+  left:180px;
+  bottom:-80px;
+  width:600px;
+  height:450px;
 }
 #svgPopulation {
   position:absolute;
   bottom: 40px;
-  width:520px;
-  height:360px;
+  width:auto;
+  height: auto;
 
 }
 
 #svgMedianincome {
   position:absolute;
   left:570px;
-  bottom: -119px;
-  height: 520px;
-  width:360px;
+  bottom: 40px;
+  height: auto;
+  width:auto;
 
 }
 
 table{
-  position:absolute;
+  position:relative;
   left: 500px;
-  bottom:0px;
+  bottom:60px;
   font-size: 15px;
   border-collapse: collapse;
 }
@@ -124,10 +125,10 @@ g.tick text {
 
 #reference{
   position:absolute;
-  bottom:-10px;
+  bottom:-520px;
   font-weight:bold;
     font-size: 12px;
-    left:20%;
+    left:270px;
 }
 
 #print {
@@ -148,19 +149,19 @@ g.tick text {
 
 
 #header{
-  Position:fixed;
+  Position:absolute;
   font-family: sans-serif;
   color:darkblue;
   font-size:14px;
   left:190px;
-  top:80px;
+  top:65px;
 }
 
 #border{
   position:absolute;
   border-top:double;
   color: black;
-  width:1050px;
+  width:1110px;
   height:4px;
   top:65px;
 }
@@ -208,8 +209,10 @@ g.tick text {
 
 
 #buttonsheading{
+  position:relative;
   background-color: cornflowerblue;
   height:80px;
+  bottom:480px;
 }
 
 

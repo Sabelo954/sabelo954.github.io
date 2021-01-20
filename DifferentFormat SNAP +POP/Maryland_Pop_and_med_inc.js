@@ -37,16 +37,16 @@ d3.json(urlpop).get(function(error,data){
 // Select the div you want to place the svg by it's ID
 var svg1 = dimple.newSvg("#svgPopulation", chartSizewidth, chartSizeheight);
 var data = [
-  { "Year":"2015", "Population": dataPop2015 },
-  { "Year":"2016", "Population": dataPop2016 },
-  { "Year":"2017", "Population": dataPop2017 },
-  { "Year":"2018", "Population": dataPop2018 },
-  { "Year":"2019", "Population": dataPop2019}
+  { "Year":"2015", "Total Population": dataPop2015 },
+  { "Year":"2016", "Total Population": dataPop2016 },
+  { "Year":"2017", "Total Population": dataPop2017 },
+  { "Year":"2018", "Total Population": dataPop2018 },
+  { "Year":"2019", "Total Population": dataPop2019}
 ];
 var populationChart = new dimple.chart(svg1, data);
-populationChart.setBounds("100px","50px","60%","70%")
+populationChart.setBounds("130px","50px","60%","70%")
 populationChart.addCategoryAxis("x", "Year");
-var y=populationChart.addMeasureAxis("y", "Population");
+var y=populationChart.addMeasureAxis("y", "Total Population");
 y.tickFormat = ',.0f';
 populationChart.addSeries(null, dimple.plot.bar);
 populationChart.draw();
