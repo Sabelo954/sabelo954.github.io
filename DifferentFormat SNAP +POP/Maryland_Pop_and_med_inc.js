@@ -1,5 +1,5 @@
-var chartSizewidth=500;
-var chartSizeheight=300;
+var chartSizewidth=520;
+var chartSizeheight=360;
 
 //Data gathering from census bureau API. Population data
 var urlpop= "https://api.census.gov/data/2018/acs/acs1/subject?get=NAME,S0101_C01_001E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853";
@@ -44,6 +44,7 @@ var data = [
   { "Year":"2019", "Population": dataPop2019}
 ];
 var populationChart = new dimple.chart(svg1, data);
+populationChart.setBounds("100px","50px","60%","70%")
 populationChart.addCategoryAxis("x", "Year");
 var y=populationChart.addMeasureAxis("y", "Population");
 y.tickFormat = ',.0f';
@@ -101,6 +102,7 @@ var data = [
 ];
 
 var medianHouseholdIncomeChart = new dimple.chart(svg2, data);
+medianHouseholdIncomeChart.setBounds("100px","50px","60%","70%")
 medianHouseholdIncomeChart.addCategoryAxis("x", "Year");
 var y= medianHouseholdIncomeChart.addMeasureAxis("y", "Median Household Income");
 y.tickFormat="$"+',.0f';
