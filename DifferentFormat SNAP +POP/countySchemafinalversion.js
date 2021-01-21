@@ -1,8 +1,8 @@
 https://api.census.gov/data/2019/acs/acs5/profile?get=NAME,DP05_0001E&for=county:005&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853export
-var thisis__ = [
-   {     // beginning of the object for the library
+var endpoints = {
+        // beginning of the object for the library
     AlleganyCounty: { // beginning of the object for the county API data
-      text: "Alleghany County",
+      text: "Allegany County",
       MedianHincome: [  //beginning of measure data
         {
           year: 2015,
@@ -100,11 +100,8 @@ var thisis__ = [
     }, // end of the object for the county API data
 
     BaltimoreCity: {  // beginning of the object for the county API data
-      text: "Baltimore City" ],
-      MedianHincome: [ //beginning of measure data
-          {
-           text: "Baltimore County"
-          },
+      text: "Baltimore City",
+      MedianHincome: [
           {
             year: 2015,
             url: "https://api.census.gov/data/2015/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:510&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853"
@@ -151,7 +148,7 @@ var thisis__ = [
     }, // end of the object for the county API data
 
     BaltimoreCounty: {  // beginning of the object for the county API data
-      text: "Baltimore County" ],
+      text: "Baltimore County",
       MedianHincome: [ //beginning of measure data
           {
             year: 2015,
@@ -247,7 +244,7 @@ var thisis__ = [
     }, // end of the object for the county API data
 
     CarrollCounty: {  // beginning of the object for the county API data
-      text: "Carroll County" ],
+      text: "Carroll County",
       MedianHincome: [ //beginning of measure data
           {
             year: 2015,
@@ -294,8 +291,8 @@ var thisis__ = [
       ],   // end of measure data
     }, // end of the object for the county API data
 
-    CecillCounty: {  // beginning of the object for the county API data
-      text: "Cecill County",
+    CecilCounty: {  // beginning of the object for the county API data
+      text: "Cecil County",
       MedianHincome: [ //beginning of measure data
           {
             year: 2015,
@@ -918,7 +915,7 @@ var thisis__ = [
       ],   // end of measure data
     }, // end of the object for the county API data
 
-    GarretCounty: {  // beginning of the object for the county API data
+    GarrettCounty: {  // beginning of the object for the county API data
       text: "Garret County",
       MedianHincome: [ //beginning of measure data
           {
@@ -1062,7 +1059,7 @@ var thisis__ = [
       ],   // end of measure data
     }, // end of the object for the county API data
 
-    TalbbotCounty: {  // beginning of the object for the county API data
+    TalbotCounty: {  // beginning of the object for the county API data
       text: "Talbot County",
       MedianHincome: [ //beginning of measure data
           {
@@ -1206,5 +1203,5 @@ var thisis__ = [
       ],   // end of measure data
     }, // end of the object for the county API data
 
-  },  // end of the object for the library
-];
+    // end of the object for the library
+};

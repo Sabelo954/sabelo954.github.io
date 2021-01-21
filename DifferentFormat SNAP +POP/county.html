@@ -4,39 +4,40 @@
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
   	<link rel="stylesheet" type="text/css" href="Maryland.css" >
-      <script type="text/javascript" src="Maryland_Pop_and_med_inc.js"></script>
+    <script type="text/javascript" src="countySchemafinalversion.js"></script>
+      <script type="text/javascript" src="countyattempt.js"></script>
 
   </head>
 <body>
 <div class="sidebutton">
 
-<select id="CountyDropdown" onChange="window.location.href=this.value" style=width:130px;>
+<select id="CountyDropdown" onChange="OnChangeCountyClick()" style=width:130px;>
             <option selected="selected">Choose a county...</option>
-            <option value="file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Maryland/MarylandIndex.html" >Maryland</option>
-            <option value="file:///C:/Users/sabel/Desktop/Dr%20zhang%20prject/Dr%20Zhang%20Project/Alleghany%20County/AlleghanyCountyIndex.html" >Allegany</option>
-            <option value="AnneArundelCounty.html">Anne Arundel</option>
-            <option value="Baltimorecity.html">Baltimore City</option>
-            <option value="BaltimoreCounty.html">Baltimore County</option>
-            <option value="CalvertCounty.html">Calvert County</option>
-            <option value="CarolineCounty.html">Caroline County</option>
-            <option value="CarrollCounty.html">Carroll County</option>
-            <option value="CecilCounty.html">Cecil County</option>
-            <option value="CharlesCounty.html">Charles County</option>
-            <option value="DorchesterCounty.html">Dorchester County</option>
-            <option value="FrederickCounty.html">Frederick County</option>
-            <option value="GarrettCounty.html">Garrett County</option>
-            <option value="HarfordCounty.html">Harford County</option>
-            <option value="HowardCounty.html">Howard County</option>
-            <option value="KentCounty.html">Kent County</option>
-            <option value="MontgomeryCounty.html">Montgomery County</option>
-            <option value="PrinceGeorgesCounty.html">Prince George's County</option>
-            <option value="QueenAnnesCounty.html">Queen Anne's</option>
-            <option value="SomersetCounty.html">Somerset</option>
-            <option value="StMarysCounty.html">St Mary's County</option>
-            <option value="TalbotCounty.html">Talbot County</option>
-            <option value="WashingtonCounty.html">Washington County</option>
-            <option value="WicomicoCounty.html">Wicomico County</option>
-            <option value="WorcesterCounty.html">Worcester County</option>
+            <option value="MarylandCounty" >Maryland</option>
+            <option value="AlleganyCounty" >Allegany</option>
+            <option value="AnneArundelCounty">Anne Arundel</option>
+            <option value="BaltimoreCity">Baltimore City</option>
+            <option value="BaltimoreCounty">Baltimore County</option>
+            <option value="CalvertCounty">Calvert County</option>
+            <option value="CarolineCounty">Caroline County</option>
+            <option value="CarrollCounty">Carroll County</option>
+            <option value="CecilCounty">Cecil County</option>
+            <option value="CharlesCounty">Charles County</option>
+            <option value="DorchesterCounty">Dorchester County</option>
+            <option value="FrederickCounty">Frederick County</option>
+            <option value="GarrettCounty">Garrett County</option>
+            <option value="HarfordCounty">Harford County</option>
+            <option value="HowardCounty">Howard County</option>
+            <option value="KentCounty">Kent County</option>
+            <option value="MontgomeryCounty">Montgomery County</option>
+            <option value="PrinceGeorgesCounty">Prince George's County</option>
+            <option value="QueenAnnesCounty">Queen Anne's</option>
+            <option value="SomersetCounty">Somerset</option>
+            <option value="StMarysCounty">St Mary's County</option>
+            <option value="TalbotCounty">Talbot County</option>
+            <option value="WashingtonCounty">Washington County</option>
+            <option value="WicomicoCounty">Wicomico County</option>
+            <option value="WorcesterCounty">Worcester County</option>
 
          </select>
 
@@ -144,7 +145,7 @@
 </div>
 
 <div id="header">
-  <h1>Maryland</h1>
+  <h1 id="countyTitle">Select A County</h1>
   <div id="border">
   <p id="subtitle">Population and Median Household Income</p>
     <p id="reference">Source: American Community Survey 5-year Estimates (Date accessed 20 Jan 2020)</p>
@@ -161,17 +162,17 @@
   </tr>
   <tr>
     <th>Total Population</th>
-    <td id="TotalPop2016">6052177</td>
-    <td id="TotalPop2017">6052177</td>
-   <td id="TotalPop2018">6042718</td>
-    <td id="TotalPop2019">6045680</td>
+    <td id="TotalPop2016">-</td>
+    <td id="TotalPop2017">-</td>
+   <td id="TotalPop2018">-</td>
+    <td id="TotalPop2019">-</td>
   </tr>
   <tr>
     <th>Household Income</th>
-    <td id="MedianHincome2016">83986</td>
-    <td id="MedianHincome2017">83986</td>
-    <td id="MedianHincome2018">84845</td>
-    <td id="MedianHincome2019">86738</td>
+    <td id="MedianHincome2016">-</td>
+    <td id="MedianHincome2017">-</td>
+    <td id="MedianHincome2018">-</td>
+    <td id="MedianHincome2019">-</td>
   </tr>
 </table>
 
