@@ -82,7 +82,7 @@ function createChart(svgId, width, height, data, yAxisLabel, xAxisLabel, countyI
   chart.addCategoryAxis("x", xAxisLabel);
   var y= chart.addMeasureAxis("y", yAxisLabel);
   y.tickFormat="$"+',.0f';
-  svgMedianincome.append(y.tickFormat=',.0f');
+  svgPopulation.append(y.tickFormat=',.0f');
   chart.addSeries(null, dimple.plot.bar);
   chart.draw();
 }
