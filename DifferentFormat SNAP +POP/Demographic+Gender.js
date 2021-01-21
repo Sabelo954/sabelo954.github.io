@@ -1,7 +1,7 @@
-var chartSizewidth=500;
-var chartSizeheight=300;
+var chartSizewidth=520;
+var chartSizeheight=350;
 
-//Data gathering from census bureau API. Population data
+//Data gathering from census bureau API. EmpNILUnemp data
 var urlpop= "https://api.census.gov/data/2019/acs/acs1/cprofile?get=CP05_2015_001E,CP05_2016_001E,CP05_2017_001E,CP05_2018_001E,CP05_2019_001E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853";
 d3.json(urlpop).get(function(error,data){
   var dataPopbeg= data[1];
@@ -26,7 +26,7 @@ dataPop2019=dataPop.slice(4,5);
 //Population chart
 
 // Select the div you want to place the svg by it's ID
-var svg1 = dimple.newSvg("#svgPopulation", chartSizewidth, chartSizeheight);
+var svg1 = dimple.newSvg("#svgEmpNILUnemp", chartSizewidth, chartSizeheight);
 var data = [
   { "Year":"2015","Employment Status":"Employed","Education Status":"Less than High School Graduate","Totals": 168076},
   { "Year":"2015","Employment Status":"Employed","Education Status":"High School Graduate","Totals": 547054},
@@ -42,12 +42,13 @@ var data = [
   { "Year":"2015","Employment Status":"Unemployed","Education Status":"Bachelors Degree or Higher","Totals": 35645},
 
 ];
-var populationChart = new dimple.chart(svg1, data);
-populationChart.addCategoryAxis("x", "Employment Status");
-var y=populationChart.addMeasureAxis("y", "Totals");
+var EmpNILUnempChart = new dimple.chart(svg1, data);
+EmpNILUnempChart.setBounds("130px","80px","60%","65%")
+EmpNILUnempChart.addCategoryAxis("x", "Employment Status");
+var y=EmpNILUnempChart.addMeasureAxis("y", "Totals");
 y.tickFormat = ',.0f';
-var s = populationChart.addSeries("Education Status", dimple.plot.bar);
-populationChart.draw();
+var s = EmpNILUnempChart.addSeries("Education Status", dimple.plot.bar);
+EmpNILUnempChart.draw();
 });
 //Data gathering from census bureau API. Median income data
 var urlmed= "https://api.census.gov/data/2019/acs/acs1/cprofile?get=CP03_2015_062E,CP03_2016_062E,CP03_2017_062E,CP03_2018_062E,CP03_2019_062E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853";
@@ -78,10 +79,11 @@ var data = [
 
 ];
 var decimalformatter=d3.format(".1");
-var medianHouseholdIncomeChart = new dimple.chart(svg2, data);
-medianHouseholdIncomeChart.addCategoryAxis("x", "Gender");
-var y= medianHouseholdIncomeChart.addMeasureAxis("y", "Unemployment rate");
+var GenderUnempChart = new dimple.chart(svg2, data);
+GenderUnempChart.setBounds("130px","25px","60%","65%")
+GenderUnempChart.addCategoryAxis("x", "Gender");
+var y= GenderUnempChart.addMeasureAxis("y", "Unemployment rate");
 y.tickFormat="%"+',.1f';
-medianHouseholdIncomeChart.addSeries("Gender", dimple.plot.bar);
-medianHouseholdIncomeChart.draw();
+GenderUnempChart.addSeries("Gender", dimple.plot.bar);
+GenderUnempChart.draw();
 });
