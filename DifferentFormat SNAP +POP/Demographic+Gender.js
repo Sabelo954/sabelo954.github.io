@@ -1,5 +1,6 @@
 var chartSizewidth=520;
 var chartSizeheight=350;
+var allYears=["2019","2018","2017","2016"];
 
 //Data gathering from census bureau API. EmpNILUnemp data
 var urlpop= "https://api.census.gov/data/2019/acs/acs1/cprofile?get=CP05_2015_001E,CP05_2016_001E,CP05_2017_001E,CP05_2018_001E,CP05_2019_001E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853";
@@ -20,6 +21,27 @@ dataPop2018=dataPop.slice(3,4);
   console.log(dataPop2018);
 dataPop2019=dataPop.slice(4,5);
   console.log(dataPop2019);
+
+//Dropdown data integration
+  d3.select("#Year_dropdown")
+    .selectAll('myOptions')
+    .data(allYears)
+    .enter()
+       .append('option')
+       .text(function (d){return d;})
+       .attr("value",function(d){return d;});
+
+       d3.select("#Year_dropdown").on("change",function(d){
+  console.log("was here");
+  var selectedOption=d3.select(this).property("value")
+ selected = selectedOption.toString();
+  // 2016 - 0
+  // 2017 - 1
+  var yearNum = Number(selectedOption) - 2016;
+
+  updateBars(receivedData[yearNum], Number(selectedOption));
+  // update(selectedOption)
+})
 
 
 
