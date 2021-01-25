@@ -31,12 +31,12 @@ function OnChangeCountyClick() {
     getPopulationData(populationUrl, populationYear, value);
   }
   setTimeout(() => {
-    // Create Median income chart 
-    createChart("#svgMedianincome", 520, 360, allMedianHouseholdIncomeData, 
+    // Create Median income chart
+    createChart("#svgMedianincome", 520, 360, allMedianHouseholdIncomeData,
     "Median Household Income", "Year", value);
 
-    // Create Population chart 
-    createChart("#svgPopulation", 520, 360, allPopulationData, 
+    // Create Population chart
+    createChart("#svgPopulation", 520, 360, allPopulationData,
     "Total Population", "Year", value);
 
     // Create table
@@ -49,7 +49,7 @@ function getMedianHouseholdIncomeData(url, year, countyId) {
   .then((data) => {
     console.log(url + ": DATA " + JSON.stringify(data));
     var formattedData= data[1].map(Number).slice(1,2);
-    
+
     allMedianHouseholdIncomeData.push( {
       "Year" : year,
       "Median Household Income": formattedData,
@@ -81,28 +81,28 @@ function createChart(svgId, width, height, data, yAxisLabel, xAxisLabel, countyI
   chart.setBounds("100px","50px","60%","70%")
   chart.addCategoryAxis("x", xAxisLabel);
   var y= chart.addMeasureAxis("y", yAxisLabel);
-  y.tickFormat="$"+',.0f';
+  y.tickFormat=',.0f';
   chart.addSeries(null, dimple.plot.bar);
   chart.draw();
-  
+
 }
 
 function createTable(medianHouseholdIncome, populationData, countyId) {
-  
+
   document.getElementById("TableCountyHeader").innerHTML = endpoints[countyId].text;
   document.getElementById("TotalPop2016").innerHTML = populationData[1]["Total Population"];
+  console.log(populationData);
   document.getElementById("TotalPop2017").innerHTML = populationData[2]["Total Population"];
   document.getElementById("TotalPop2018").innerHTML = populationData[3]["Total Population"];
   document.getElementById("TotalPop2019").innerHTML = populationData[4]["Total Population"];
 
-  document.getElementById("MedianHincome2016").innerHTML = 
+  document.getElementById("MedianHincome2016").innerHTML =
   medianHouseholdIncome[1]["Median Household Income"];
-  document.getElementById("MedianHincome2017").innerHTML = 
+  document.getElementById("MedianHincome2017").innerHTML =
   medianHouseholdIncome[2]["Median Household Income"];
-  document.getElementById("MedianHincome2018").innerHTML = 
+  document.getElementById("MedianHincome2018").innerHTML =
   medianHouseholdIncome[3]["Median Household Income"];
-  document.getElementById("MedianHincome2019").innerHTML = 
+  document.getElementById("MedianHincome2019").innerHTML =
   medianHouseholdIncome[4]["Median Household Income"];
-  
-}
 
+}

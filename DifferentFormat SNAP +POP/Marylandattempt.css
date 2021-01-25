@@ -1,0 +1,221 @@
+html, body {
+  height: 100%;
+}
+
+
+.sidebutton{
+  margin-top: 0px;
+  margin-right: 10px;
+  height: 80%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 1;
+  background-color: gray;
+  overflow-x: hidden;
+  padding-top: 15px
+}
+
+.button{
+  padding: 10px 10% 10px 10% ;
+  margin: 10px 5px 0px 10px ;
+  text-decoration: none !important;
+  font-size: 13.5px !important;
+  text-align: center !important;
+  color: #2196F3 !important;
+  width: 140px;
+
+
+}
+
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color: #404040;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display:block;}
+
+.dropdown:hover .dropbtn {background0color:black;}
+
+#visuals {
+  position:relative;
+  left:180px;
+  bottom:-80px;
+  width:600px;
+  height:450px;
+}
+#svgPopulation {
+  position:absolute;
+  bottom: 40px;
+  width:auto;
+  height: auto;
+
+}
+
+#svgMedianincome {
+  position:absolute;
+  left:570px;
+  bottom: 40px;
+  height: auto;
+  width:auto;
+
+}
+
+table{
+  position:relative;
+  left: 500px;
+  bottom:60px;
+  font-size: 15px;
+  border-collapse: collapse;
+}
+
+td{
+  text-align:center;
+   padding:8px;
+   border-top:solid;
+   border-bottom:solid;
+   border-color:darkblue;
+
+}
+
+th{
+  color:darkblue;
+  font-family:sans-serif;
+  font-weight:bold;
+  border-top:solid;
+  border-bottom:solid;
+}
+
+#Tableheader{
+    color:darkblue;
+    font-family:sans-serif;
+    font-weight:bold;
+    border-top:solid;
+    border-bottom:solid;
+}
+tr:nth-child(even){background-color:skyblue;}
+
+
+g.tick line {
+  stroke: black;
+}
+
+g.tick text {
+  font-size: 7.8px;
+  fill: black;
+}
+
+#reference{
+  position:absolute;
+  bottom:-520px;
+  font-weight:bold;
+    font-size: 12px;
+    left:270px;
+}
+
+#print {
+  position:absolute;
+  left:90%;
+  width: 120px;
+  top:25px;
+
+}
+
+#snapshot {
+  position:absolute;
+  left:75%;
+  width: 120px;
+  top:25px;
+
+}
+
+
+#header{
+  Position:absolute;
+  font-family: sans-serif;
+  color:darkblue;
+  font-size:14px;
+  left:190px;
+  top:65px;
+}
+
+#border{
+  position:absolute;
+  border-top:double;
+  color: black;
+  width:1110px;
+  height:4px;
+  top:65px;
+}
+
+#subtitle{
+  position:absolute;
+  font-family: sans-serif;
+  color:darkblue;
+  font-size: 15px;
+  font-weight: bold;
+  top:-10px;
+  width: 400px;
+}
+
+#subtitleIndex{
+  position:absolute;
+  font-family: sans-serif;
+  color:darkblue;
+  font-size:20px;
+  top:-20px;
+  width: 600px;
+  font-size:20px;
+}
+
+#Selectstatement{
+  position:absolute;
+  font-size: 16px;
+  font-family: sans-serif;
+  top:10px;
+  color:white;
+  width: 400px;
+  left:190px;
+}
+
+#Start{
+  position:absolute;
+  font-size: 16px;
+  font-family: sans-serif;
+  top:10px;
+  color:white;
+  left:900px;
+  width: 400px;
+  text-decoration:underline;
+}
+
+
+#buttonsheading{
+  position:relative;
+  background-color: cornflowerblue;
+  height:80px;
+  bottom:480px;
+}
+
+
+.dimple-axis{
+  font-size: 17.5px !important;
+}
