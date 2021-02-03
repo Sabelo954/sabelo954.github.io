@@ -1,4 +1,4 @@
-https://api.census.gov/data/2019/acs/acs5/profile?get=NAME,DP05_0001E&for=county:005&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853export
+22_24https://api.census.gov/data/2019/acs/acs5/profile?get=NAME,DP05_0001E&for=county:005&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853export
 var endpoints = {
         // beginning of the object for the library
     Maryland: { // beginning of the object for the county API data
@@ -343,26 +343,26 @@ var endpoints = {
           year: 2015,
           Quarter: "Q1",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=72",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Seperation",dataend],
 
         },
         {
           year: 2015,
           Quarter: "Q2",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=72",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q3",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=72",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q4",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=72",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",72,"Accommodation and Food Services"+",","Seperation",dataend],
         },
 
       ],  // end of measure data
@@ -515,26 +515,26 @@ var endpoints = {
           year: 2015,
           Quarter: "Q1",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=62",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Seperation",dataend],
 
         },
         {
           year: 2015,
           Quarter: "Q2",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=62",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q3",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=62",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q4",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=62",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",62,"Health Care and Social Assistance"+",","Seperation",dataend],
         },
 
       ],  // end of measure data
@@ -685,26 +685,26 @@ var endpoints = {
           year: 2015,
           Quarter: "Q1",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=56",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Seperation",dataend],
 
         },
         {
           year: 2015,
           Quarter: "Q2",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=56",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q3",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=56",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q4",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=56",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",56,"Administrative and Support and Waste Management and Remediation Services"+",","Seperation",dataend],
         },
 
       ],  // end of measure data
@@ -857,26 +857,26 @@ var endpoints = {
           year: 2015,
           Quarter: "Q1",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=11",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Seperation",dataend],
 
         },
         {
           year: 2015,
           Quarter: "Q2",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=11",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q3",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=11",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Seperation",dataend],
         },
         {
           year: 2015,
           Quarter: "Q4",
           url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=11",
-          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Separation",dataend],
+          arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",11,"Agriculture, Forestry, Fishing and Hunting"+",","Seperation",dataend],
         },
 
       ],  // end of measure data
@@ -1029,26 +1029,26 @@ Arts_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=71",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=71",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=71",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=71",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",71,"Arts, Entertainment, and Recreation"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -1201,26 +1201,26 @@ Construction_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=23",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=23",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=23",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=23",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",23,"Construction"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -1373,26 +1373,26 @@ Educational_Services_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=61",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=61",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=61",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=61",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",61,"Educational Services"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -1545,26 +1545,26 @@ Finance_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=52",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=52",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=52",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=52",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",52,"Finance and Insurance"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -1717,26 +1717,26 @@ Information_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=51",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=51",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=51",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=51",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",51,"Information"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -1889,26 +1889,26 @@ Management_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=55",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=55",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=55",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=55",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2061,26 +2061,26 @@ Manufacturing_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=31-33",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=31-33",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=31-33",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=31-33",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2233,26 +2233,26 @@ Mining_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=21",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=21",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=21",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=21",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2405,26 +2405,26 @@ Other Services_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=81",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=81",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=81",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=81",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2577,26 +2577,26 @@ Professional_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=541",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=541",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=541",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=541",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2749,26 +2749,26 @@ Public_Administration_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=92",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=92",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=92",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=92",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -2921,26 +2921,26 @@ Real_Estate_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=53",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=53",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=53",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=53",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -3093,26 +3093,26 @@ Retail_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=44-45",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=44-45",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=44-45",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=44-45",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",44-45,"Retail Trade"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -3265,26 +3265,26 @@ Transportation_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=48-49",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=48-49",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=48-49",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=48-49",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -3437,26 +3437,26 @@ Utilities_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -3609,26 +3609,26 @@ Wholesale_Trade_Separations  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
@@ -3690,6 +3690,616 @@ Wholesale_Trade_Workers  : [  //beginning of measure data
   },
 
 ],  // end of measure data
+
+Age_14_18_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A01","14-18"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A01","14-18"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A01","14-18"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A01","14-18"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_19_21_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A02","19-21"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A02","19-21"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A02","19-21"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A02","19-21"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_22_24_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A03","22-24"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A03","22-24"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A03","22-24"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A03","22-24"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_25_34_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A04","25-34"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A04","25-34"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A04","25-34"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A04","25-34"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_35_44_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A05","35-44"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A05","35-44"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A05","35-44"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A05","35-44"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_45_54_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A06","45-54"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A06","45-54"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A06","45-54"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A06","45-54"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_65_99_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A07","65-99"+",","Earnings",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A07","65-99"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A07","65-99"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Age","A07","65-99"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Age_14_18_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A01","14-18"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A01","14-18"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A01","14-18"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A01","14-18"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_19_21_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A02","19-21"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A02","19-21"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A02","19-21"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A02","19-21"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_22_24_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A03","22-24"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A03","22-24"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A03","22-24"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A03","22-24"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_25_34_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A04","25-34"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A04","25-34"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A04","25-34"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A04","25-34"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_35_44_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A05","35-44"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A05","35-44"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A05","35-44"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A05","35-44"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_45_54_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A06","45-54"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A06","45-54"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A06","45-54"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A06","45-54"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_65_99_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A07","65-99"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A07","65-99"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A07","65-99"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Age","A07","65-99"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Age_14_18_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A01","14-18"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A01","14-18"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A01","14-18"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A01",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A01","14-18"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_19_21_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A02","19-21"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A02","19-21"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A02","19-21"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A02",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A02","19-21"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_22_24_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A03","22-24"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A03","22-24"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A03","22-24"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A03",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A03","22-24"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_25_34_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A04","25-34"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A04","25-34"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A04","25-34"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A04",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A04","25-34"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_35_44_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A05","35-44"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A05","35-44"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A05","35-44"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A05",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A05","35-44"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_45_54_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A06","45-54"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A06","45-54"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A06","45-54"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A06",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A06","45-54"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
+Age_65_99_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A07","65-99"+",","Seperation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A07","65-99"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A07","65-99"+",","Seperation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&agegrp=A07",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Age","A07","65-99"+",","Seperation",dataend],
+  },
+
+],  // end of measure data
+
 
     }, // end of the object for county data
 
