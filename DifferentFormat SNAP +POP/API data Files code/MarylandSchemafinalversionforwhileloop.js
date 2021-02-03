@@ -3347,6 +3347,350 @@ Transportation_Workers  : [  //beginning of measure data
 
 ],  // end of measure data
 
+Utilities_Avg_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",22,"Utilities"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",22,"Utilities"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",22,"Utilities"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",22,"Utilities"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Utilities_Job_Net_Change  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",22,"Utilities"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",22,"Utilities"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",22,"Utilities"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",22,"Utilities"+",","Job Change",dataend],
+  },
+
+],  // end of measure data
+
+Utilities_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",22,"Utilities"+",","New Hires",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",22,"Utilities"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",22,"Utilities"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",22,"Utilities"+",","New Hires",dataend],
+  },
+
+],  // end of measure data
+
+Utilities_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",22,"Utilities"+",","Separation",dataend],
+  },
+
+],  // end of measure data
+
+Utilities_Turnover_Rate  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",22,"Utilities"+",","Turnover Rate",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",22,"Utilities"+",","Turnover Rate",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",22,"Utilities"+",","Turnover Rate",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",22,"Utilities"+",","Turnover Rate",dataend],
+  },
+
+],  // end of measure data
+
+Utilities_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",22,"Utilities"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",22,"Utilities"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",22,"Utilities"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=22",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",22,"Utilities"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_Avg_Monthly_Earnings  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",42,"Wholesale Trade"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",42,"Wholesale Trade"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",42,"Wholesale Trade"+",","Earnings",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Average Earnings by Industry",42,"Wholesale Trade"+",","Earnings",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_Job_Net_Change  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",42,"Wholesale Trade"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",42,"Wholesale Trade"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",42,"Wholesale Trade"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Job Net Change by Industry",42,"Wholesale Trade"+",","Job Change",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",42,"Wholesale Trade"+",","New Hires",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",42,"Wholesale Trade"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",42,"Wholesale Trade"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Industry",42,"Wholesale Trade"+",","New Hires",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_Separations  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Industry",42,"Wholesale Trade"+",","Separation",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_Turnover_Rate  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",42,"Wholesale Trade"+",","Turnover Rate",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",42,"Wholesale Trade"+",","Turnover Rate",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",42,"Wholesale Trade"+",","Turnover Rate",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Industry",42,"Wholesale Trade"+",","Turnover Rate",dataend],
+  },
+
+],  // end of measure data
+
+Wholesale_Trade_Workers  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",42,"Wholesale Trade"+",","Workers",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",42,"Wholesale Trade"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",42,"Wholesale Trade"+",","Workers",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&industry=42",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Industry",42,"Wholesale Trade"+",","Workers",dataend],
+  },
+
+],  // end of measure data
+
     }, // end of the object for county data
 
     // end of the object for the library
