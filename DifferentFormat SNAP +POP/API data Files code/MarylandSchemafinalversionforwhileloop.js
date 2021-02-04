@@ -4561,7 +4561,7 @@ Bachelors_Separations  : [  //beginning of measure data
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E4",
     arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E4","Bachelor's degree or advanced degree"+",","Seperation",dataend],
-Maryland,2017Q3,Maryland Separations by Education,E4,Bachelor's degree or advanced degree,,Seperation,68467,
+
   },
   {
     year: 2015,
