@@ -53,7 +53,7 @@ var endpoint = {
       Non_Disabled_Labor_Force  : [  //beginning of measure data // rethink it is a calculation!!!!
         {
           year: 2015,
-          url: "",
+          url: ",
           arrayformat: ["Maryland","2019","Employment Status By Disability Status","Non Disabled"+",","Labor Force"+",",dataWDisem2019+dataWDisem2019], ***
         },
       ],  // end of measure data
@@ -77,7 +77,7 @@ var endpoint = {
       Disabled_Labor_Force  : [  //beginning of measure data // rethink it is a calculation!!!!
         {
           year: 2015,
-          url: "",
+          url: ",
           arrayformat: ["Maryland","2019","Employment Status By Disability Status","Disabled"+",","Labor Force"+",",dataDisem2019+dataDisem2019], ***
         },
       ],  // end of measure data
@@ -4388,7 +4388,7 @@ Workers__Female  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female""+",","Workers",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female"+",","Workers",dataend],
     Maryland,2019Q2,Maryland Workers by Gender,1,Male,,Workers,1240878,
 
   },
@@ -4396,19 +4396,19 @@ Workers__Female  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female""+",","Workers",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female"+",","Workers",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female""+",","Workers",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female"+",","Workers",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female""+",","Workers",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Workers by Gender","2","Female"+",","Workers",dataend],
   },
 ],  // end of measure data
 
@@ -4417,26 +4417,26 @@ Separations__Male  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","1","Male"+",","Seperation",dataend],
   },
 ],  // end of measure data
 
@@ -4445,143 +4445,486 @@ Separations__Female  : [  //beginning of measure data
     year: 2015,
     Quarter: "Q1",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female"+",","Seperation",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female"+",","Seperation",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+Quarter+"&sex=2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female""+",","Seperation",dataend],
+    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Gender","2","Female"+",","Seperation",dataend],
   },
 ],  // end of measure data
 
-Less_than_High_School_Separations  : [  //beginning of measure data
+Less_than_High_School_Job_Net_Change  : [  //beginning of measure data
   {
     year: 2015,
     Quarter: "Q1",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E1","Less than High School""+",","Seperation",dataend],
-  Maryland,2017Q3,Maryland Separations by Education,E1,Less than High school,,Seperation,51436,
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E1","Less than High School"+",","Job Change",dataend],
+Maryland,2018Q3,Maryland Net Change by Education,E4,Bachelor's degree or advanced degree,,Job Change,-961,
 
   },
   {
     year: 2015,
     Quarter: "Q2",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E1","Less than High School""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E1","Less than High School"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E1","Less than High School""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E1","Less than High School"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E1",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E1","Less than High School""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E1","Less than High School"+",","Job Change",dataend],
   },
 ],  // end of measure data
 
-High_School_Separations  : [  //beginning of measure data
+High_School_Job_Net_Change  : [  //beginning of measure data
   {
     year: 2015,
     Quarter: "Q1",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E2","High school or equivalent, no college"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E2","High school or equivalent, no college"+",","Job Change",dataend],
 
 
   },
   {
     year: 2015,
     Quarter: "Q2",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E2","High school or equivalent, no college"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E2","High school or equivalent, no college"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E2","High school or equivalent, no college"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E2","High school or equivalent, no college"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E2",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E2","High school or equivalent, no college"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E2","High school or equivalent, no college"+",","Job Change",dataend],
   },
 ],  // end of measure data
 
-Some_Colege_Separations  : [  //beginning of measure data
+Some_Colege_Job_Net_Change  : [  //beginning of measure data
   {
     year: 2015,
     Quarter: "Q1",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E3",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E3","Some college or Associate degree""+",","Seperation",dataend],
-  Maryland,2017Q3,Maryland Separations by Education,E3,Some college or Associate degree,,Seperation,51436,
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E3","Some college or Associate degree"+",","Job Change",dataend],
+  Maryland,2017Q3,Maryland Net Change by Education,E3,Some college or Associate degree,,Job Change,51436,
 
   },
   {
     year: 2015,
     Quarter: "Q2",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E3",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E3","Some college or Associate degree""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E3","Some college or Associate degree"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E3",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E3","Some college or Associate degree""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E3","Some college or Associate degree"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E3",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E3","Some college or Associate degree""+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E3","Some college or Associate degree"+",","Job Change",dataend],
   },
 ],  // end of measure data
 
-Bachelors_Separations  : [  //beginning of measure data
+Bachelors_Job_Net_Change  : [  //beginning of measure data
   {
     year: 2015,
     Quarter: "Q1",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E4",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E4","Bachelor's degree or advanced degree"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E4","Bachelor's degree or advanced degree"+",","Job Change",dataend],
 
   },
   {
     year: 2015,
     Quarter: "Q2",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E4",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E4","Bachelor's degree or advanced degree"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E4","Bachelor's degree or advanced degree"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q3",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E4",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E4","Bachelor's degree or advanced degree"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E4","Bachelor's degree or advanced degree"+",","Job Change",dataend],
   },
   {
     year: 2015,
     Quarter: "Q4",
-    url: "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=state:24&time="+year+"-"+Quarter+"&education=E4",
-    arrayformat: ["Maryland",year+Quarter,"Maryland Separations by Education","E4","Bachelor's degree or advanced degree"+",","Seperation",dataend],
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Education","E4","Bachelor's degree or advanced degree"+",","Job Change",dataend],
   },
 ],  // end of measure data
+
+Less_than_High_School_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E1","Less than High School"+",","New Hires",dataend],
+Maryland,2016Q4,Maryland New Hires by Education,E4,Bachelor's degree or advanced degree,,New Hires,56960,
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E1","Less than High School"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E1","Less than High School"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E1","Less than High School"+",","New Hires",dataend],
+  },
+],  // end of measure data
+
+High_School_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E2","High school or equivalent, no college"+",","New Hires",dataend],
+
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E2","High school or equivalent, no college"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E2","High school or equivalent, no college"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E2","High school or equivalent, no college"+",","New Hires",dataend],
+  },
+],  // end of measure data
+
+Some_Colege_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E3","Some college or Associate degree"+",","New Hires",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E3","Some college or Associate degree"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E3","Some college or Associate degree"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E3","Some college or Associate degree"+",","New Hires",dataend],
+  },
+],  // end of measure data
+
+Bachelors_New_Hires  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E4","Bachelor's degree or advanced degree"+",","New Hires",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E4","Bachelor's degree or advanced degree"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E4","Bachelor's degree or advanced degree"+",","New Hires",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland New Hires by Education","E4","Bachelor's degree or advanced degree"+",","New Hires",dataend],
+  },
+],  // end of measure data
+
+Less_than_High_School_Turnover  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E1","Less than High School"+",","Turnover",dataend],
+Maryland,2017Q2,Maryland Turnover Rate by Education,E5,Educational attainment not available (workers aged 24 or younger),,Turnover,0.206,
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E1","Less than High School"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E1","Less than High School"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E1","Less than High School"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+High_School_Turnover  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E2","High school or equivalent, no college"+",","Turnover",dataend],
+
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E2","High school or equivalent, no college"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E2","High school or equivalent, no college"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E2","High school or equivalent, no college"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+Some_Colege_Turnover  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E3","Some college or Associate degree"+",","Turnover",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E3","Some college or Associate degree"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E3","Some college or Associate degree"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E3",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E3","Some college or Associate degree"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+Bachelors_Turnover  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E4","Bachelor's degree or advanced degree"+",","Turnover",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E4","Bachelor's degree or advanced degree"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E4","Bachelor's degree or advanced degree"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+Quarter+"&education=E4",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Education","E4","Bachelor's degree or advanced degree"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+Job_Net_Change_Male  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Gender","1","Male"+",","Job Change",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Gender","1","Male"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Gender","1","Male"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Net Change by Gender","1","Male"+",","Job Change",dataend],
+  },
+],  // end of measure data
+
+Job_Net_Change_Female  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Job Change",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Job Change",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Job Change",dataend],
+  },
+],  // end of measure data
+
+Turnover_Male  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","1","Male"+",","Turnover",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","1","Male"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","1","Male"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=1",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","1","Male"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+Turnover_Female  : [  //beginning of measure data
+  {
+    year: 2015,
+    Quarter: "Q1",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Turnover",dataend],
+
+  },
+  {
+    year: 2015,
+    Quarter: "Q2",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q3",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Turnover",dataend],
+  },
+  {
+    year: 2015,
+    Quarter: "Q4",
+    url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+Quarter+"&sex=2",
+    arrayformat: ["Maryland",year+Quarter,"Maryland Turnover Rate by Gender","2","Female"+",","Turnover",dataend],
+  },
+],  // end of measure data
+
+
+
 
 
     // end of the object for the library
