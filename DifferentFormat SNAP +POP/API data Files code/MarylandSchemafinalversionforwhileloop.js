@@ -1,12 +1,17 @@
+var year = 2015;
+var dataend=2;
+var dataWDisem2019=6;
+var dataWDisem2019=7;
+var dataDisem2019=7;
+
 var endpoint = {
         // beginning of the object for the library
     Maryland: { // beginning of the object for the county API data
-      text: "Maryland",
       MedianHincome: [  //beginning of measure data
         {
           year: 2015,
           url: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat: [text,year,"Median Household Income",",,,",dataend],
+          arrayformat: ["Maryland",year,"Median Household Income",",,,",dataend],
         },
       ],   // end of measure data
 
@@ -22,7 +27,7 @@ var endpoint = {
         {
           year: 2015,
           url: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat: ["Maryland",+year+,"Unemployment By Gender","1"+",,,",dataend,dataend/100],
+          arrayformat: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend,dataend/100],
         },
       ],  // end of measure data
 
@@ -53,8 +58,8 @@ var endpoint = {
       Non_Disabled_Labor_Force  : [  //beginning of measure data // rethink it is a calculation!!!!
         {
           year: 2015,
-          url: ",
-          arrayformat: ["Maryland","2019","Employment Status By Disability Status","Non Disabled"+",","Labor Force"+",",dataWDisem2019+dataWDisem2019], ***
+
+          arrayformat: ["Maryland","2019","Employment Status By Disability Status","Non Disabled"+",","Labor Force"+",",dataWDisem2019+dataWDisem2019],
         },
       ],  // end of measure data
 
@@ -77,8 +82,8 @@ var endpoint = {
       Disabled_Labor_Force  : [  //beginning of measure data // rethink it is a calculation!!!!
         {
           year: 2015,
-          url: ",
-          arrayformat: ["Maryland","2019","Employment Status By Disability Status","Disabled"+",","Labor Force"+",",dataDisem2019+dataDisem2019], ***
+
+          arrayformat: ["Maryland","2019","Employment Status By Disability Status","Disabled"+",","Labor Force"+",",dataDisem2019+dataDisem2019],
         },
       ],  // end of measure data
 
@@ -1600,7 +1605,6 @@ Information_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",51,"Information"+",","Earnings",dataend],
   },
@@ -1628,7 +1632,6 @@ Information_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",51,"Information"+",","Job Change",dataend],
   },
@@ -1657,7 +1660,6 @@ Information_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",51,"Information"+",","New Hires",dataend],
   },
@@ -1686,7 +1688,6 @@ Information_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",51,"Information"+",","Seperation",dataend],
   },
@@ -1715,7 +1716,6 @@ Information_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",51,"Information"+",","Turnover Rate",dataend],
   },
@@ -1744,7 +1744,6 @@ Information_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=51",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",51,"Information"+",","Workers",dataend],
   },
@@ -1772,7 +1771,6 @@ Management_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",55,"Management of Companies and Enterprises"+",","Earnings",dataend],
   },
@@ -1800,7 +1798,6 @@ Management_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",55,"Management of Companies and Enterprises"+",","Job Change",dataend],
   },
@@ -1829,7 +1826,6 @@ Management_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",55,"Management of Companies and Enterprises"+",","New Hires",dataend],
   },
@@ -1858,7 +1854,6 @@ Management_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
@@ -1887,7 +1882,6 @@ Management_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",55,"Management of Companies and Enterprises"+",","Turnover Rate",dataend],
   },
@@ -1916,7 +1910,6 @@ Management_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=55",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",55,"Management of Companies and Enterprises"+",","Workers",dataend],
   },
@@ -1944,7 +1937,6 @@ Manufacturing_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",31-33,"Manufacturing"+",","Earnings",dataend],
   },
@@ -1972,7 +1964,6 @@ Manufacturing_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q3","Maryland Job Net Change by Industry",31-33,"Manufacturing"+",","Job Change",dataend],
   },
@@ -2001,7 +1992,6 @@ Manufacturing_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",31-33,"Manufacturing"+",","New Hires",dataend],
   },
@@ -2030,7 +2020,6 @@ Manufacturing_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
@@ -2059,7 +2048,6 @@ Manufacturing_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",31-33,"Manufacturing"+",","Turnover Rate",dataend],
   },
@@ -2088,7 +2076,6 @@ Manufacturing_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=31-33",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",31-33,"Manufacturing"+",","Workers",dataend],
   },
@@ -2116,7 +2103,6 @@ Mining_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Earnings",dataend],
   },
@@ -2144,7 +2130,6 @@ Mining_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Job Change",dataend],
   },
@@ -2173,7 +2158,6 @@ Mining_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","New Hires",dataend],
   },
@@ -2202,7 +2186,6 @@ Mining_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
@@ -2231,7 +2214,6 @@ Mining_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Turnover Rate",dataend],
   },
@@ -2260,7 +2242,6 @@ Mining_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=21",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Workers",dataend],
   },
@@ -2288,14 +2269,13 @@ Other_Services_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",81,"Other Services (except Public Administration)"+",","Earnings",dataend],
   },
 
 ],  // end of measure data
 
-Other Services_Job_Net_Change  : [  //beginning of measure data
+Other_Services_Job_Net_Change  : [  //beginning of measure data
   {
     year: 2015,
 
@@ -2316,7 +2296,6 @@ Other Services_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",81,"Other Services (except Public Administration)"+",","Job Change",dataend],
   },
@@ -2345,14 +2324,13 @@ Other_Services_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",81,"Other Services (except Public Administration)"+",","New Hires",dataend],
   },
 
 ],  // end of measure data
 
-Other Services_Separations  : [  //beginning of measure data
+Other_Services_Separations  : [  //beginning of measure data
   {
     year: 2015,
 
@@ -2374,14 +2352,13 @@ Other Services_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
 
 ],  // end of measure data
 
-Other Services_Turnover_Rate  : [  //beginning of measure data
+Other_Services_Turnover_Rate  : [  //beginning of measure data
   {
     year: 2015,
 
@@ -2403,14 +2380,13 @@ Other Services_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",81,"Other Services (except Public Administration)"+",","Turnover Rate",dataend],
   },
 
 ],  // end of measure data
 
-Other Services_Workers  : [  //beginning of measure data
+Other_Services_Workers  : [  //beginning of measure data
   {
     year: 2015,
 
@@ -2432,7 +2408,6 @@ Other Services_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=81",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",81,"Other Services (except Public Administration)"+",","Workers",dataend],
   },
@@ -2460,7 +2435,6 @@ Professional_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",541,"Professional, Scientific, and Technical Services"+",","Earnings",dataend],
   },
@@ -2488,7 +2462,6 @@ Professional_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",541,"Professional, Scientific, and Technical Services"+",","Job Change",dataend],
   },
@@ -2517,7 +2490,6 @@ Professional_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",541,"Professional, Scientific, and Technical Services"+",","New Hires",dataend],
   },
@@ -2546,7 +2518,6 @@ Professional_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
@@ -2575,7 +2546,6 @@ Professional_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",541,"Professional, Scientific, and Technical Services"+",","Turnover Rate",dataend],
   },
@@ -2604,7 +2574,6 @@ Professional_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=541",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",541,"Professional, Scientific, and Technical Services"+",","Workers",dataend],
   },
@@ -2632,7 +2601,6 @@ Public_Administration_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",92,"Public Administration"+",","Earnings",dataend],
   },
@@ -2660,7 +2628,6 @@ Public_Administration_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",92,"Public Administration"+",","Job Change",dataend],
   },
@@ -2689,7 +2656,6 @@ Public_Administration_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",92,"Public Administration"+",","New Hires",dataend],
   },
@@ -2718,7 +2684,6 @@ Public_Administration_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
   },
@@ -2747,7 +2712,6 @@ Public_Administration_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",92,"Public Administration"+",","Turnover Rate",dataend],
   },
@@ -2776,7 +2740,6 @@ Public_Administration_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=92",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",92,"Public Administration"+",","Workers",dataend],
   },
@@ -2804,7 +2767,6 @@ Real_Estate_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",53,"Real Estate and Rental and Leasing"+",","Earnings",dataend],
   },
@@ -2832,7 +2794,6 @@ Real_Estate_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",53,"Real Estate and Rental and Leasing"+",","Job Change",dataend],
   },
@@ -2861,7 +2822,6 @@ Real_Estate_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",53,"Real Estate and Rental and Leasing"+",","New Hires",dataend],
   },
@@ -2890,7 +2850,6 @@ Real_Estate_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",53,"Real Estate and Rental and Leasing"+",","Seperation",dataend],
   },
@@ -2919,7 +2878,6 @@ Real_Estate_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",53,"Real Estate and Rental and Leasing"+",","Turnover Rate",dataend],
   },
@@ -2948,7 +2906,6 @@ Real_Estate_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=53",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",53,"Real Estate and Rental and Leasing"+",","Workers",dataend],
   },
@@ -2976,7 +2933,6 @@ Retail_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",44-45,"Retail Trade"+",","Earnings",dataend],
   },
@@ -3004,7 +2960,6 @@ Retail_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",44-45,"Retail Trade"+",","Job Change",dataend],
   },
@@ -3033,7 +2988,6 @@ Retail_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",44-45,"Retail Trade"+",","New Hires",dataend],
   },
@@ -3062,7 +3016,6 @@ Retail_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",44-45,"Retail Trade"+",","Seperation",dataend],
   },
@@ -3091,7 +3044,6 @@ Retail_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",44-45,"Retail Trade"+",","Turnover Rate",dataend],
   },
@@ -3120,7 +3072,6 @@ Retail_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=44-45",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",44-45,"Retail Trade"+",","Workers",dataend],
   },
@@ -3148,7 +3099,6 @@ Transportation_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",48-49,"Transportation and Warehousing"+",","Earnings",dataend],
   },
@@ -3176,7 +3126,6 @@ Transportation_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",48-49,"Transportation and Warehousing"+",","Job Change",dataend],
   },
@@ -3205,7 +3154,6 @@ Transportation_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",48-49,"Transportation and Warehousing"+",","New Hires",dataend],
   },
@@ -3234,7 +3182,6 @@ Transportation_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",48-49,"Transportation and Warehousing"+",","Seperation",dataend],
   },
@@ -3263,7 +3210,6 @@ Transportation_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",48-49,"Transportation and Warehousing"+",","Turnover Rate",dataend],
   },
@@ -3292,7 +3238,6 @@ Transportation_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=48-49",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",48-49,"Transportation and Warehousing"+",","Workers",dataend],
   },
@@ -3320,7 +3265,6 @@ Utilities_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",22,"Utilities"+",","Earnings",dataend],
   },
@@ -3348,7 +3292,6 @@ Utilities_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",22,"Utilities"+",","Job Change",dataend],
   },
@@ -3377,7 +3320,6 @@ Utilities_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",22,"Utilities"+",","New Hires",dataend],
   },
@@ -3406,7 +3348,6 @@ Utilities_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",22,"Utilities"+",","Seperation",dataend],
   },
@@ -3435,7 +3376,6 @@ Utilities_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",22,"Utilities"+",","Turnover Rate",dataend],
   },
@@ -3464,7 +3404,6 @@ Utilities_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=22",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",22,"Utilities"+",","Workers",dataend],
   },
@@ -3492,7 +3431,6 @@ Wholesale_Trade_Avg_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Industry",42,"Wholesale Trade"+",","Earnings",dataend],
   },
@@ -3520,7 +3458,6 @@ Wholesale_Trade_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland Job Net Change by Industry",42,"Wholesale Trade"+",","Job Change",dataend],
   },
@@ -3549,7 +3486,6 @@ Wholesale_Trade_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Industry",42,"Wholesale Trade"+",","New Hires",dataend],
   },
@@ -3578,7 +3514,6 @@ Wholesale_Trade_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Industry",42,"Wholesale Trade"+",","Seperation",dataend],
   },
@@ -3607,7 +3542,6 @@ Wholesale_Trade_Turnover_Rate  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Industry",42,"Wholesale Trade"+",","Turnover Rate",dataend],
   },
@@ -3636,7 +3570,6 @@ Wholesale_Trade_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&industry=42",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Industry",42,"Wholesale Trade"+",","Workers",dataend],
   },
@@ -3665,7 +3598,6 @@ Age_14_18_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A01",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A01","14-18"+",","Earnings",dataend],
   },
@@ -3694,7 +3626,6 @@ Age_19_21_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A02",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A02","19-21"+",","Earnings",dataend],
   },
@@ -3723,7 +3654,6 @@ Age_22_24_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A03",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A03","22-24"+",","Earnings",dataend],
   },
@@ -3752,7 +3682,6 @@ Age_25_34_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A04",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A04","25-34"+",","Earnings",dataend],
   },
@@ -3781,7 +3710,6 @@ Age_35_44_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A05",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A05","35-44"+",","Earnings",dataend],
   },
@@ -3810,7 +3738,6 @@ Age_45_54_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A06",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A06","45-54"+",","Earnings",dataend],
   },
@@ -3839,7 +3766,6 @@ Age_65_99_Monthly_Earnings  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A07",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Earnings by Age","A07","65-99"+",","Earnings",dataend],
   },
@@ -3868,7 +3794,6 @@ Age_14_18_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A01",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A01","14-18"+",","Workers",dataend],
   },
@@ -3897,7 +3822,6 @@ Age_19_21_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A02",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A02","19-21"+",","Workers",dataend],
   },
@@ -3926,7 +3850,6 @@ Age_22_24_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A03",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A03","22-24"+",","Workers",dataend],
   },
@@ -3955,7 +3878,6 @@ Age_25_34_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A04",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A04","25-34"+",","Workers",dataend],
   },
@@ -3984,7 +3906,6 @@ Age_35_44_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A05",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A05","35-44"+",","Workers",dataend],
   },
@@ -4013,7 +3934,6 @@ Age_45_54_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A06",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A06","45-54"+",","Workers",dataend],
   },
@@ -4042,7 +3962,6 @@ Age_65_99_Workers  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A07",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Age","A07","65-99"+",","Workers",dataend],
   },
@@ -4071,7 +3990,6 @@ Age_14_18_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A01",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A01","14-18"+",","Seperation",dataend],
   },
@@ -4100,7 +4018,6 @@ Age_19_21_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A02",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A02","19-21"+",","Seperation",dataend],
   },
@@ -4129,7 +4046,6 @@ Age_22_24_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A03",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A03","22-24"+",","Seperation",dataend],
   },
@@ -4158,7 +4074,6 @@ Age_25_34_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A04",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A04","25-34"+",","Seperation",dataend],
   },
@@ -4187,7 +4102,6 @@ Age_35_44_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A05",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A05","35-44"+",","Seperation",dataend],
   },
@@ -4216,7 +4130,6 @@ Age_45_54_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A06",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A06","45-54"+",","Seperation",dataend],
   },
@@ -4245,7 +4158,6 @@ Age_65_99_Separations  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&agegrp=A07",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Age","A07","65-99"+",","Seperation",dataend],
   },
@@ -4274,7 +4186,6 @@ Monthly_Earnings_Male  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Earns&for=state:24&time="+year+"-"+"Q4"+"&sex=1",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Monthly Earnings by Gender","1","Male"+",","Earnings",dataend],
   },
@@ -4302,7 +4213,6 @@ Monthly_Earnings_Female  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Earns&for=state:24&time="+year+"-"+"Q4"+"&sex=2",
     arrayformat: ["Maryland",year+"Q4","Maryland Average Monthly Earnings by Gender","2","Female"+",","Earnings",dataend],
   },
@@ -4330,7 +4240,6 @@ Workers__Male  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&sex=1",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Gender","1","Male"+",","Workers",dataend],
   },
@@ -4359,7 +4268,6 @@ Workers__Female  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+year+"-"+"Q4"+"&sex=2",
     arrayformat: ["Maryland",year+"Q4","Maryland Workers by Gender","2","Female"+",","Workers",dataend],
   },
@@ -4387,7 +4295,6 @@ Separations__Male  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&sex=1",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Gender","1","Male"+",","Seperation",dataend],
   },
@@ -4415,7 +4322,6 @@ Separations__Female  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+year+"-"+"Q4"+"&sex=2",
     arrayformat: ["Maryland",year+"Q4","Maryland Separations by Gender","2","Female"+",","Seperation",dataend],
   },
@@ -4443,7 +4349,6 @@ Less_than_High_School_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&education=E1",
     arrayformat: ["Maryland",year+"Q4","Maryland Net Change by Education","E1","Less than High School"+",","Job Change",dataend],
   },
@@ -4472,7 +4377,6 @@ High_School_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&education=E2",
     arrayformat: ["Maryland",year+"Q4","Maryland Net Change by Education","E2","High school or equivalent, no college"+",","Job Change",dataend],
   },
@@ -4500,7 +4404,6 @@ Some_Colege_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&education=E3",
     arrayformat: ["Maryland",year+"Q4","Maryland Net Change by Education","E3","Some college or Associate degree"+",","Job Change",dataend],
   },
@@ -4528,7 +4431,6 @@ Bachelors_Job_Net_Change  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&education=E4",
     arrayformat: ["Maryland",year+"Q4","Maryland Net Change by Education","E4","Bachelor's degree or advanced degree"+",","Job Change",dataend],
   },
@@ -4556,7 +4458,6 @@ Less_than_High_School_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+"Q4"+"&education=E1",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Education","E1","Less than High School"+",","New Hires",dataend],
   },
@@ -4585,7 +4486,6 @@ High_School_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+"Q4"+"&education=E2",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Education","E2","High school or equivalent, no college"+",","New Hires",dataend],
   },
@@ -4613,7 +4513,6 @@ Some_Colege_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+"Q4"+"&education=E3",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Education","E3","Some college or Associate degree"+",","New Hires",dataend],
   },
@@ -4641,7 +4540,6 @@ Bachelors_New_Hires  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time="+year+"-"+"Q4"+"&education=E4",
     arrayformat: ["Maryland",year+"Q4","Maryland New Hires by Education","E4","Bachelor's degree or advanced degree"+",","New Hires",dataend],
   },
@@ -4669,7 +4567,6 @@ Less_than_High_School_Turnover  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+"Q4"+"&education=E1",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Education","E1","Less than High School"+",","Turnover",dataend],
   },
@@ -4698,7 +4595,6 @@ High_School_Turnover  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+"Q4"+"&education=E2",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Education","E2","High school or equivalent, no college"+",","Turnover",dataend],
   },
@@ -4726,7 +4622,6 @@ Some_Colege_Turnover  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+"Q4"+"&education=E3",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Education","E3","Some college or Associate degree"+",","Turnover",dataend],
   },
@@ -4754,7 +4649,6 @@ Bachelors_Turnover  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time="+year+"-"+"Q4"+"&education=E4",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Education","E4","Bachelor's degree or advanced degree"+",","Turnover",dataend],
   },
@@ -4782,7 +4676,6 @@ Job_Net_Change_Male  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&sex=1",
     arrayformat: ["Maryland",year+"Q4","Maryland Net Change by Gender","1","Male"+",","Job Change",dataend],
   },
@@ -4810,7 +4703,6 @@ Job_Net_Change_Female  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+year+"-"+"Q4"+"&sex=2",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Gender","2","Female"+",","Job Change",dataend],
   },
@@ -4838,7 +4730,6 @@ Turnover_Male  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&sex=1",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Gender","1","Male"+",","Turnover",dataend],
   },
@@ -4866,10 +4757,11 @@ Turnover_Female  : [  //beginning of measure data
   },
   {
     year: 2015,
-    ,
     url: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+year+"-"+"Q4"+"&sex=2",
     arrayformat: ["Maryland",year+"Q4","Maryland Turnover Rate by Gender","2","Female"+",","Turnover",dataend],
   },
 ],  // end of measure data
     // end of the object for the library
-};
+ }};
+
+console.log(endpoint);
