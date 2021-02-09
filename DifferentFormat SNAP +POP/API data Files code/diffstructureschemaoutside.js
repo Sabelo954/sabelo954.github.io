@@ -11,7 +11,7 @@ var dataWDisem2019=6;
 var dataWDisem2019=7;
 var dataDisem2019=7;
 
-function getCensusApiData(url, year, obj, i) {
+function getCensusApiData(url, year, i) {
   fetch(url).then((response) => response.json())
     .then((data) => {
       var databeg= data[1];
@@ -24,7 +24,7 @@ function getCensusApiData(url, year, obj, i) {
       console.log("check for i in function",i);
       console.log(a);
       console.log(b);
-      results.push([[obj.Maryland[a][b]+","+dataend],]);
+      results.push([[Object.Maryland[a][b]+","+dataend],]);
 
 
 
@@ -48,23 +48,6 @@ if (year == 2020) {
 }
 
 //Object that stores the url for the census bureau data and the format of the data.
-var Object = {
-        // beginning of the object for the library
-    Maryland: {
-               "set1":{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                     arrayformat1:["Maryland",year,"Median Household Income",",,,"],
-                   },
-               "set2":{ url2: "https://api.census.gov/data/"+year+"/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                     arrayformat2: ["Maryland",year,"Total Population",",,,"],
-                   },
-
-               "set3":{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,"],
-                    },
-
-              },  // end of measure data
-
-            }; // end of the Object
 
 //beginning of the function to collect data
             var variableinput = String("S1701_C02_027E");
@@ -74,7 +57,7 @@ var Object = {
             console.log(i);
             var url = Object.Maryland[d][url];
 
-            getCensusApiData(url, year,Object,i);
+            getCensusApiData(url, year,i);
             year++;
 
 
