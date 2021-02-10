@@ -1664,19 +1664,19 @@ set250:
     url250: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=55",
     arrayformat250: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",55,"Management of Companies and Enterprises"+",","Job Change",dataend],
   },
-  {
+  set251:{
 
 
     url251: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=55",
     arrayformat251: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",55,"Management of Companies and Enterprises"+",","Job Change",dataend],
   },
-  {
+  set252:{
 
 
     url252: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=55",
     arrayformat252: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",55,"Management of Companies and Enterprises"+",","Job Change",dataend],
   },
-  {
+  set253:{
 
     url253: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=55",
     arrayformat253: ["Maryland",yearAPIfunction+"Q4","Maryland Job Net Change by Industry",55,"Management of Companies and Enterprises"+",","Job Change",dataend],
@@ -1684,7 +1684,7 @@ set250:
 
 
 
-set:
+set254:
   {
 
 
@@ -1692,19 +1692,19 @@ set:
     arrayformat254: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",55,"Management of Companies and Enterprises"+",","New Hires",dataend],
 
   },
-  {
+  set255:{
 
 
     url255: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=55",
     arrayformat255: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",55,"Management of Companies and Enterprises"+",","New Hires",dataend],
   },
-  {
+  set256:{
 
 
     url256: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=55",
     arrayformat256: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",55,"Management of Companies and Enterprises"+",","New Hires",dataend],
   },
-  {
+  set257:{
 
     url257: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=55",
     arrayformat257: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",55,"Management of Companies and Enterprises"+",","New Hires",dataend],
@@ -1712,7 +1712,7 @@ set:
 
 
 
-set:
+set258:
   {
 
 
@@ -1720,27 +1720,25 @@ set:
     arrayformat258: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
 
   },
-  {
+  set259:{
 
 
     url259: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=55",
     arrayformat259: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
-  {
+  set260:{
 
 
     url260: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=55",
     arrayformat260: ["Maryland",yearAPIfunction+"Q3","Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
-  {
+  set261:{
 
     url261: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=55",
     arrayformat261: ["Maryland",yearAPIfunction+"Q4","Maryland Separations by Industry",55,"Management of Companies and Enterprises"+",","Seperation",dataend],
   },
 
-
-
-set:
+set262:
   {
 
 
@@ -1748,27 +1746,25 @@ set:
     arrayformat262: ["Maryland",yearAPIfunction+"Q1","Maryland Turnover Rate by Industry",55,"Management of Companies and Enterprises"+",","Turnover Rate",dataend],
 
   },
-  {
+  set263:{
 
 
     url263: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=55",
     arrayformat263: ["Maryland",yearAPIfunction+"Q2","Maryland Turnover Rate by Industry",55,"Management of Companies and Enterprises"+",","Turnover Rate",dataend],
   },
-  {
+  set264:{
 
 
     url264: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=55",
     arrayformat264: ["Maryland",yearAPIfunction+"Q3","Maryland Turnover Rate by Industry",55,"Management of Companies and Enterprises"+",","Turnover Rate",dataend],
   },
-  {
+  set265:{
 
     url265: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=55",
     arrayformat265: ["Maryland",yearAPIfunction+"Q4","Maryland Turnover Rate by Industry",55,"Management of Companies and Enterprises"+",","Turnover Rate",dataend],
   },
 
-
-
-set:
+set266:
   {
 
 
@@ -1776,19 +1772,19 @@ set:
     arrayformat266: ["Maryland",yearAPIfunction+"Q1","Maryland Workers by Industry",55,"Management of Companies and Enterprises"+",","Workers",dataend],
 
   },
-  {
+  set267:{
 
 
     url267: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=55",
     arrayformat267: ["Maryland",yearAPIfunction+"Q2","Maryland Workers by Industry",55,"Management of Companies and Enterprises"+",","Workers",dataend],
   },
-  {
+  set268:{
 
 
     url268: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=55",
     arrayformat268: ["Maryland",yearAPIfunction+"Q3","Maryland Workers by Industry",55,"Management of Companies and Enterprises"+",","Workers",dataend],
   },
-  {
+  set269:{
 
     url269: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=55",
     arrayformat269: ["Maryland",yearAPIfunction+"Q4","Maryland Workers by Industry",55,"Management of Companies and Enterprises"+",","Workers",dataend],
@@ -1796,26 +1792,26 @@ set:
 
 
 
-Manufacturing_set
+set270:
   {
 
 
     url270: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=31-33",
     arrayformat270: ["Maryland",yearAPIfunction+"Q1","Maryland Average Earnings by Industry",31-33,"Manufacturing"+",","Earnings",dataend],
   },
-  {
+  set271:{
 
 
     url271: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat271: ["Maryland",yearAPIfunction+"Q2","Maryland Average Earnings by Industry",31-33,"Manufacturing"+",","Earnings",dataend],
   },
-  {
+  set272:{
 
 
     url272: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat272: ["Maryland",yearAPIfunction+"Q3","Maryland Average Earnings by Industry",31-33,"Manufacturing"+",","Earnings",dataend],
   },
-  {
+  set273:{
 
     url273: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat273: ["Maryland",yearAPIfunction+"Q4","Maryland Average Earnings by Industry",31-33,"Manufacturing"+",","Earnings",dataend],
@@ -1823,26 +1819,26 @@ Manufacturing_set
 
 
 
-Manufacturing_set:
+set274:
   {
 
 
     url274: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=31-33",
     arrayformat274: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",31-33,"Manufacturing"+",","Job Change",dataend],
   },
-  {
+  set275:{
 
 
     url275: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat275: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",31-33,"Manufacturing"+",","Job Change",dataend],
   },
-  {
+  set276:{
 
 
     url276: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat276: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",31-33,"Manufacturing"+",","Job Change",dataend],
   },
-  {
+  set277:{
 
     url277: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat277: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",31-33,"Manufacturing"+",","Job Change",dataend],
@@ -1850,7 +1846,7 @@ Manufacturing_set:
 
 
 
-Manufacturing_set:
+set278:
   {
 
 
@@ -1858,19 +1854,19 @@ Manufacturing_set:
     arrayformat278: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",31-33,"Manufacturing"+",","New Hires",dataend],
 
   },
-  {
+  set279:{
 
 
     url279: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat279: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",31-33,"Manufacturing"+",","New Hires",dataend],
   },
-  {
+  set280:{
 
 
     url280: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat280: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",31-33,"Manufacturing"+",","New Hires",dataend],
   },
-  {
+  set281:{
 
     url281: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat281: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",31-33,"Manufacturing"+",","New Hires",dataend],
@@ -1878,7 +1874,7 @@ Manufacturing_set:
 
 
 
-Manufacturing_set:
+set282:
   {
 
 
@@ -1886,19 +1882,19 @@ Manufacturing_set:
     arrayformat282: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
 
   },
-  {
+  set283:{
 
 
     url283: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat283: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
-  {
+  set284:{
 
 
     url284: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat284: ["Maryland",yearAPIfunction+"Q3","Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
   },
-  {
+  set285:{
 
     url285: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat285: ["Maryland",yearAPIfunction+"Q4","Maryland Separations by Industry",31-33,"Manufacturing"+",","Seperation",dataend],
@@ -1906,7 +1902,7 @@ Manufacturing_set:
 
 
 
-Manufacturing_set:
+set286:
   {
 
 
@@ -1914,19 +1910,19 @@ Manufacturing_set:
     arrayformat286: ["Maryland",yearAPIfunction+"Q1","Maryland Turnover Rate by Industry",31-33,"Manufacturing"+",","Turnover Rate",dataend],
 
   },
-  {
+  set287:{
 
 
     url287: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat287: ["Maryland",yearAPIfunction+"Q2","Maryland Turnover Rate by Industry",31-33,"Manufacturing"+",","Turnover Rate",dataend],
   },
-  {
+  set288:{
 
 
     url288: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat288: ["Maryland",yearAPIfunction+"Q3","Maryland Turnover Rate by Industry",31-33,"Manufacturing"+",","Turnover Rate",dataend],
   },
-  {
+  set289:{
 
     url289: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat289: ["Maryland",yearAPIfunction+"Q4","Maryland Turnover Rate by Industry",31-33,"Manufacturing"+",","Turnover Rate",dataend],
@@ -1934,7 +1930,7 @@ Manufacturing_set:
 
 
 
-Manufacturing_set:
+set290:
   {
 
 
@@ -1942,19 +1938,19 @@ Manufacturing_set:
     arrayformat290: ["Maryland",yearAPIfunction+"Q1","Maryland Workers by Industry",31-33,"Manufacturing"+",","Workers",dataend],
 
   },
-  {
+  set291:{
 
 
     url291: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=31-33",
     arrayformat291: ["Maryland",yearAPIfunction+"Q2","Maryland Workers by Industry",31-33,"Manufacturing"+",","Workers",dataend],
   },
-  {
+  set292:{
 
 
     url292: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=31-33",
     arrayformat292: ["Maryland",yearAPIfunction+"Q3","Maryland Workers by Industry",31-33,"Manufacturing"+",","Workers",dataend],
   },
-  {
+  set293:{
 
     url293: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=31-33",
     arrayformat293: ["Maryland",yearAPIfunction+"Q4","Maryland Workers by Industry",31-33,"Manufacturing"+",","Workers",dataend],
@@ -1962,26 +1958,26 @@ Manufacturing_set:
 
 
 
-Mining_set
+set294:
   {
 
 
     url294: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=21",
     arrayformat294: ["Maryland",yearAPIfunction+"Q1","Maryland Average Earnings by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Earnings",dataend],
   },
-  {
+  set295:{
 
 
     url295: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat295: ["Maryland",yearAPIfunction+"Q2","Maryland Average Earnings by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Earnings",dataend],
   },
-  {
+  set296:{
 
 
     url296: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat296: ["Maryland",yearAPIfunction+"Q3","Maryland Average Earnings by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Earnings",dataend],
   },
-  {
+  set297:{
 
     url297: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat297: ["Maryland",yearAPIfunction+"Q4","Maryland Average Earnings by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Earnings",dataend],
@@ -1989,26 +1985,26 @@ Mining_set
 
 
 
-Mining_set:
+set298:
   {
 
 
     url298: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=21",
     arrayformat298: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Job Change",dataend],
   },
-  {
+  set299:{
 
 
     url299: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat299: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Job Change",dataend],
   },
-  {
+  set300:{
 
 
     url300: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat300: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Job Change",dataend],
   },
-  {
+  set301:{
 
     url301: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat301: ["Maryland",yearAPIfunction+"Q4","Maryland Job Net Change by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Job Change",dataend],
@@ -2016,7 +2012,7 @@ Mining_set:
 
 
 
-Mining_set:
+set302:
   {
 
 
@@ -2024,19 +2020,19 @@ Mining_set:
     arrayformat302: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","New Hires",dataend],
 
   },
-  {
+  set303:{
 
 
     url303: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat303: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","New Hires",dataend],
   },
-  {
+  set304:{
 
 
     url304: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat304: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","New Hires",dataend],
   },
-  {
+  set305:{
 
     url305: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat305: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","New Hires",dataend],
@@ -2044,7 +2040,7 @@ Mining_set:
 
 
 
-Mining_set:
+setset306::
   {
 
 
@@ -2052,19 +2048,19 @@ Mining_set:
     arrayformat306: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
 
   },
-  {
+  set307:{
 
 
     url307: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat307: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
-  {
+  set308:{
 
 
     url308: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat308: ["Maryland",yearAPIfunction+"Q3","Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
   },
-  {
+  set309:{
 
     url309: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat309: ["Maryland",yearAPIfunction+"Q4","Maryland Separations by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Seperation",dataend],
@@ -2072,7 +2068,7 @@ Mining_set:
 
 
 
-Mining_set:
+set310:
   {
 
 
@@ -2080,19 +2076,19 @@ Mining_set:
     arrayformat310: ["Maryland",yearAPIfunction+"Q1","Maryland Turnover Rate by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Turnover Rate",dataend],
 
   },
-  {
+  set311:{
 
 
     url311: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat311: ["Maryland",yearAPIfunction+"Q2","Maryland Turnover Rate by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Turnover Rate",dataend],
   },
-  {
+  set312:{
 
 
     url312: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat312: ["Maryland",yearAPIfunction+"Q3","Maryland Turnover Rate by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Turnover Rate",dataend],
   },
-  {
+  set313:{
 
     url313: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat313: ["Maryland",yearAPIfunction+"Q4","Maryland Turnover Rate by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Turnover Rate",dataend],
@@ -2100,7 +2096,7 @@ Mining_set:
 
 
 
-Mining_set:
+set314:
   {
 
 
@@ -2108,19 +2104,19 @@ Mining_set:
     arrayformat314: ["Maryland",yearAPIfunction+"Q1","Maryland Workers by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Workers",dataend],
 
   },
-  {
+  set315:{
 
 
     url315: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=21",
     arrayformat315: ["Maryland",yearAPIfunction+"Q2","Maryland Workers by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Workers",dataend],
   },
-  {
+  set316:{
 
 
     url316: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=21",
     arrayformat316: ["Maryland",yearAPIfunction+"Q3","Maryland Workers by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Workers",dataend],
   },
-  {
+  set317:{
 
     url317: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=21",
     arrayformat317: ["Maryland",yearAPIfunction+"Q4","Maryland Workers by Industry",21,"Mining, Quarrying, and Oil and Gas Extraction"+",","Workers",dataend],
@@ -2128,26 +2124,26 @@ Mining_set:
 
 
 
-Other_Services_set
+set318:
   {
 
 
     url318: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=81",
     arrayformat318: ["Maryland",yearAPIfunction+"Q1","Maryland Average Earnings by Industry",81,"Other Services (except Public Administration)"+",","Earnings",dataend],
   },
-  {
+  set319:{
 
 
     url319: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat319: ["Maryland",yearAPIfunction+"Q2","Maryland Average Earnings by Industry",81,"Other Services (except Public Administration)"+",","Earnings",dataend],
   },
-  {
+  set320:{
 
 
     url320: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat320: ["Maryland",yearAPIfunction+"Q3","Maryland Average Earnings by Industry",81,"Other Services (except Public Administration)"+",","Earnings",dataend],
   },
-  {
+  set321:{
 
     url321: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat321: ["Maryland",yearAPIfunction+"Q4","Maryland Average Earnings by Industry",81,"Other Services (except Public Administration)"+",","Earnings",dataend],
@@ -2155,26 +2151,26 @@ Other_Services_set
 
 
 
-Other_Services_set:
+set322:
   {
 
 
     url322: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=81",
     arrayformat322: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",81,"Other Services (except Public Administration)"+",","Job Change",dataend],
   },
-  {
+  set323:{
 
 
     url323: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat323: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",81,"Other Services (except Public Administration)"+",","Job Change",dataend],
   },
-  {
+  set324:{
 
 
     url324: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat324: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",81,"Other Services (except Public Administration)"+",","Job Change",dataend],
   },
-  {
+  set325:{
 
     url325: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat325: ["Maryland",yearAPIfunction+"Q4","Maryland Job Net Change by Industry",81,"Other Services (except Public Administration)"+",","Job Change",dataend],
@@ -2182,7 +2178,7 @@ Other_Services_set:
 
 
 
-Other_Services_set:
+set326:
   {
 
 
@@ -2190,19 +2186,19 @@ Other_Services_set:
     arrayformat326: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",81,"Other Services (except Public Administration)"+",","New Hires",dataend],
 
   },
-  {
+  set327:{
 
 
     url327: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat327: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",81,"Other Services (except Public Administration)"+",","New Hires",dataend],
   },
-  {
+  set328:{
 
 
     url328: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat328: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",81,"Other Services (except Public Administration)"+",","New Hires",dataend],
   },
-  {
+  set329:{
 
     url329: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat329: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",81,"Other Services (except Public Administration)"+",","New Hires",dataend],
@@ -2210,7 +2206,7 @@ Other_Services_set:
 
 
 
-Other_Services_set:
+set330:
   {
 
 
@@ -2218,19 +2214,19 @@ Other_Services_set:
     arrayformat330: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
 
   },
-  {
+  set331:{
 
 
     url331: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat331: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
-  {
+  set332:{
 
 
     url332: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat332: ["Maryland",yearAPIfunction+"Q3","Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
   },
-  {
+  set333:{
 
     url333: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat333: ["Maryland",yearAPIfunction+"Q4","Maryland Separations by Industry",81,"Other Services (except Public Administration)"+",","Seperation",dataend],
@@ -2238,7 +2234,7 @@ Other_Services_set:
 
 
 
-Other_Services_set:
+set334:
   {
 
 
@@ -2246,19 +2242,19 @@ Other_Services_set:
     arrayformat334: ["Maryland",yearAPIfunction+"Q1","Maryland Turnover Rate by Industry",81,"Other Services (except Public Administration)"+",","Turnover Rate",dataend],
 
   },
-  {
+  set335:{
 
 
     url335: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat335: ["Maryland",yearAPIfunction+"Q2","Maryland Turnover Rate by Industry",81,"Other Services (except Public Administration)"+",","Turnover Rate",dataend],
   },
-  {
+  set336:{
 
 
     url336: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat336: ["Maryland",yearAPIfunction+"Q3","Maryland Turnover Rate by Industry",81,"Other Services (except Public Administration)"+",","Turnover Rate",dataend],
   },
-  {
+  set337:{
 
     url337: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat337: ["Maryland",yearAPIfunction+"Q4","Maryland Turnover Rate by Industry",81,"Other Services (except Public Administration)"+",","Turnover Rate",dataend],
@@ -2266,7 +2262,7 @@ Other_Services_set:
 
 
 
-Other_Services_set:
+set338:
   {
 
 
@@ -2274,19 +2270,19 @@ Other_Services_set:
     arrayformat338: ["Maryland",yearAPIfunction+"Q1","Maryland Workers by Industry",81,"Other Services (except Public Administration)"+",","Workers",dataend],
 
   },
-  {
+  set339:{
 
 
     url339: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=81",
     arrayformat339: ["Maryland",yearAPIfunction+"Q2","Maryland Workers by Industry",81,"Other Services (except Public Administration)"+",","Workers",dataend],
   },
-  {
+  set340:{
 
 
     url340: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=81",
     arrayformat340: ["Maryland",yearAPIfunction+"Q3","Maryland Workers by Industry",81,"Other Services (except Public Administration)"+",","Workers",dataend],
   },
-  {
+  set341:{
 
     url341: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=81",
     arrayformat341: ["Maryland",yearAPIfunction+"Q4","Maryland Workers by Industry",81,"Other Services (except Public Administration)"+",","Workers",dataend],
@@ -2294,26 +2290,26 @@ Other_Services_set:
 
 
 
-Professional_set
+set342:
   {
 
 
     url342: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=541",
     arrayformat342: ["Maryland",yearAPIfunction+"Q1","Maryland Average Earnings by Industry",541,"Professional, Scientific, and Technical Services"+",","Earnings",dataend],
   },
-  {
+  set343:{
 
 
     url343: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat343: ["Maryland",yearAPIfunction+"Q2","Maryland Average Earnings by Industry",541,"Professional, Scientific, and Technical Services"+",","Earnings",dataend],
   },
-  {
+  set344:{
 
 
     url344: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat344: ["Maryland",yearAPIfunction+"Q3","Maryland Average Earnings by Industry",541,"Professional, Scientific, and Technical Services"+",","Earnings",dataend],
   },
-  {
+  set345:{
 
     url345: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat345: ["Maryland",yearAPIfunction+"Q4","Maryland Average Earnings by Industry",541,"Professional, Scientific, and Technical Services"+",","Earnings",dataend],
@@ -2321,26 +2317,26 @@ Professional_set
 
 
 
-Professional_set:
+set346:
   {
 
 
     url346: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=541",
     arrayformat346: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",541,"Professional, Scientific, and Technical Services"+",","Job Change",dataend],
   },
-  {
+  set347:{
 
 
     url347: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat347: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",541,"Professional, Scientific, and Technical Services"+",","Job Change",dataend],
   },
-  {
+  set348:{
 
 
     url348: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat348: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",541,"Professional, Scientific, and Technical Services"+",","Job Change",dataend],
   },
-  {
+  set349:{
 
     url349: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat349: ["Maryland",yearAPIfunction+"Q4","Maryland Job Net Change by Industry",541,"Professional, Scientific, and Technical Services"+",","Job Change",dataend],
@@ -2348,7 +2344,7 @@ Professional_set:
 
 
 
-Professional_set:
+set350:
   {
 
 
@@ -2356,19 +2352,19 @@ Professional_set:
     arrayformat350: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",541,"Professional, Scientific, and Technical Services"+",","New Hires",dataend],
 
   },
-  {
+  set351:{
 
 
     url351: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat351: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",541,"Professional, Scientific, and Technical Services"+",","New Hires",dataend],
   },
-  {
+  set352:{
 
 
     url352: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat352: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",541,"Professional, Scientific, and Technical Services"+",","New Hires",dataend],
   },
-  {
+  set353:{
 
     url353: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat353: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",541,"Professional, Scientific, and Technical Services"+",","New Hires",dataend],
@@ -2376,7 +2372,7 @@ Professional_set:
 
 
 
-Professional_set:
+set354:
   {
 
 
@@ -2384,19 +2380,19 @@ Professional_set:
     arrayformat354: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
 
   },
-  {
+  set355:{
 
 
     url355: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat355: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
-  {
+  set356:{
 
 
     url356: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat356: ["Maryland",yearAPIfunction+"Q3","Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
   },
-  {
+  set357:{
 
     url357: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat357: ["Maryland",yearAPIfunction+"Q4","Maryland Separations by Industry",541,"Professional, Scientific, and Technical Services"+",","Seperation",dataend],
@@ -2404,35 +2400,30 @@ Professional_set:
 
 
 
-Professional_set:
+set358:
   {
-
-
     url358: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=541",
     arrayformat358: ["Maryland",yearAPIfunction+"Q1","Maryland Turnover Rate by Industry",541,"Professional, Scientific, and Technical Services"+",","Turnover Rate",dataend],
 
   },
-  {
+  set359:{
 
 
     url359: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat359: ["Maryland",yearAPIfunction+"Q2","Maryland Turnover Rate by Industry",541,"Professional, Scientific, and Technical Services"+",","Turnover Rate",dataend],
   },
-  {
+  set360:{
 
 
     url360: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat360: ["Maryland",yearAPIfunction+"Q3","Maryland Turnover Rate by Industry",541,"Professional, Scientific, and Technical Services"+",","Turnover Rate",dataend],
   },
-  {
+  set361:{
 
     url361: "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat361: ["Maryland",yearAPIfunction+"Q4","Maryland Turnover Rate by Industry",541,"Professional, Scientific, and Technical Services"+",","Turnover Rate",dataend],
   },
-
-
-
-Professional_set:
+set362:
   {
 
 
@@ -2440,19 +2431,19 @@ Professional_set:
     arrayformat362: ["Maryland",yearAPIfunction+"Q1","Maryland Workers by Industry",541,"Professional, Scientific, and Technical Services"+",","Workers",dataend],
 
   },
-  {
+  set363:{
 
 
     url363: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=541",
     arrayformat363: ["Maryland",yearAPIfunction+"Q2","Maryland Workers by Industry",541,"Professional, Scientific, and Technical Services"+",","Workers",dataend],
   },
-  {
+  set364:{
 
 
     url364: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=541",
     arrayformat364: ["Maryland",yearAPIfunction+"Q3","Maryland Workers by Industry",541,"Professional, Scientific, and Technical Services"+",","Workers",dataend],
   },
-  {
+  set365:{
 
     url365: "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=541",
     arrayformat365: ["Maryland",yearAPIfunction+"Q4","Maryland Workers by Industry",541,"Professional, Scientific, and Technical Services"+",","Workers",dataend],
@@ -2460,26 +2451,26 @@ Professional_set:
 
 
 
-Public_Administration_set
+set366:
   {
 
 
     url366: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=92",
     arrayformat366: ["Maryland",yearAPIfunction+"Q1","Maryland Average Earnings by Industry",92,"Public Administration"+",","Earnings",dataend],
   },
-  {
+  set367:{
 
 
     url367: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=92",
     arrayformat367: ["Maryland",yearAPIfunction+"Q2","Maryland Average Earnings by Industry",92,"Public Administration"+",","Earnings",dataend],
   },
-  {
+  set368:{
 
 
     url368: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=92",
     arrayformat368: ["Maryland",yearAPIfunction+"Q3","Maryland Average Earnings by Industry",92,"Public Administration"+",","Earnings",dataend],
   },
-  {
+  set369:{
 
     url369: "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=92",
     arrayformat369: ["Maryland",yearAPIfunction+"Q4","Maryland Average Earnings by Industry",92,"Public Administration"+",","Earnings",dataend],
@@ -2487,26 +2478,26 @@ Public_Administration_set
 
 
 
-Public_Administration_set:
+set370:
   {
 
 
     url370: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q1"+"&industry=92",
     arrayformat370: ["Maryland",yearAPIfunction+"Q1","Maryland Job Net Change by Industry",92,"Public Administration"+",","Job Change",dataend],
   },
-  {
+  set371:{
 
 
     url371: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=92",
     arrayformat371: ["Maryland",yearAPIfunction+"Q2","Maryland Job Net Change by Industry",92,"Public Administration"+",","Job Change",dataend],
   },
-  {
+  set372:{
 
 
     url372: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=92",
     arrayformat372: ["Maryland",yearAPIfunction+"Q3","Maryland Job Net Change by Industry",92,"Public Administration"+",","Job Change",dataend],
   },
-  {
+  set373:{
 
     url373: "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=92",
     arrayformat373: ["Maryland",yearAPIfunction+"Q4","Maryland Job Net Change by Industry",92,"Public Administration"+",","Job Change",dataend],
@@ -2514,7 +2505,7 @@ Public_Administration_set:
 
 
 
-Public_Administration_set:
+set374:
   {
 
 
@@ -2522,19 +2513,19 @@ Public_Administration_set:
     arrayformat374: ["Maryland",yearAPIfunction+"Q1","Maryland New Hires by Industry",92,"Public Administration"+",","New Hires",dataend],
 
   },
-  {
+  set375:{
 
 
     url375: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=92",
     arrayformat375: ["Maryland",yearAPIfunction+"Q2","Maryland New Hires by Industry",92,"Public Administration"+",","New Hires",dataend],
   },
-  {
+  set376:{
 
 
     url376: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=92",
     arrayformat376: ["Maryland",yearAPIfunction+"Q3","Maryland New Hires by Industry",92,"Public Administration"+",","New Hires",dataend],
   },
-  {
+  set377:{
 
     url377: "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time="+yearAPIfunction+"-"+"Q4"+"&industry=92",
     arrayformat377: ["Maryland",yearAPIfunction+"Q4","Maryland New Hires by Industry",92,"Public Administration"+",","New Hires",dataend],
@@ -2542,7 +2533,7 @@ Public_Administration_set:
 
 
 
-Public_Administration_set:
+set378:
   {
 
 
@@ -2550,13 +2541,13 @@ Public_Administration_set:
     arrayformat378: ["Maryland",yearAPIfunction+"Q1","Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
 
   },
-  {
+  set379:{
 
 
     url379: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q2"+"&industry=92",
     arrayformat379: ["Maryland",yearAPIfunction+"Q2","Maryland Separations by Industry",92,"Public Administration"+",","Seperation",dataend],
   },
-  {
+  set380:{
 
 
     url380: "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time="+yearAPIfunction+"-"+"Q3"+"&industry=92",
@@ -2570,7 +2561,7 @@ Public_Administration_set:
 
 
 
-Public_Administration_set:
+set:
   {
 
 
@@ -2598,7 +2589,7 @@ Public_Administration_set:
 
 
 
-Public_Administration_set:
+set:
   {
 
 
