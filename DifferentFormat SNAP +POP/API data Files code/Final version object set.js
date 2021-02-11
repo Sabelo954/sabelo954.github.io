@@ -1,10 +1,8 @@
-var yearAPIfunction = 2015;
-var dataend = 2;
 var dataWDisem2019 = 6;
 var dataWDisem2019 = 7;
 var dataDisem2019 = 7;
 
-var endpoint = {
+var Object = {
   // beginning of the object for the library
   Maryland: {
     // beginning of the object for the county API data

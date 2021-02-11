@@ -11,7 +11,7 @@ var dataWDisem2019=6;
 var dataWDisem2019=7;
 var dataDisem2019=7;
 
-function getCensusApiData(url, year, i) {
+function getCensusApiData(url, year, obj, i) {
   fetch(url).then((response) => response.json())
     .then((data) => {
       var databeg= data[1];
@@ -24,7 +24,7 @@ function getCensusApiData(url, year, i) {
       console.log("check for i in function",i);
       console.log(a);
       console.log(b);
-      results.push([[Object.Maryland[a][b]+","+dataend],]);
+      results.push([[obj.Maryland[a][b]+","+dataend],]);
 
 
 
@@ -48,6 +48,9 @@ if (year == 2020) {
 }
 
 //Object that stores the url for the census bureau data and the format of the data.
+  <script type="text/javascript" src="Final version object set outside short.js"></script>
+  Object; 
+console.log(Object);
 
 //beginning of the function to collect data
             var variableinput = String("S1701_C02_027E");
@@ -57,7 +60,7 @@ if (year == 2020) {
             console.log(i);
             var url = Object.Maryland[d][url];
 
-            getCensusApiData(url, year,i);
+            getCensusApiData(url, year,Object,i);
             year++;
 
 
