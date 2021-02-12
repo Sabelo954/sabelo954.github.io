@@ -52,23 +52,20 @@ function getCensusApiData(url, year, i) {
       var Objectarray = {
         // beginning of the object for the library
         Maryland: {
-            arrayformat1: [
-              "Maryland",
-              year,
-              "Median Household Income",
-              ",,,",
-              98.5/100,
-            ],
-            arrayformat2: ["Maryland", year, "Total Population", ",,,", dataend],
-            arrayformat3: [
-              "Maryland",
-              year,
-              "Unemployment By Gender",
-              "1" + ",,,",
-              dataend,
-            ],
-        }, // end of measure data
-      }; // end of the Object
+                   "set1":{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                         arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
+                       },
+                   "set2":{ url2: "https://api.census.gov/data/"+year+"/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                         arrayformat2: ["Maryland",year,"Total Population",",,,",dataend],
+                       },
+
+                   "set3":{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                        arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
+                        },
+
+                  },  // end of measure data
+
+                }; // end of the Object
 
       pushresultstoarray(year,Objectarray,i);
 }
@@ -81,12 +78,12 @@ function getCensusApiData(url, year, i) {
 console.log("try something new:",dataend);
 
 function pushresultstoarray(year,obj,i){
-
+  var a = "set"+String(i);
   var b = "arrayformat" + String(i);
   // console.log("check for i in function", i);
   console.log(b); // console log array format
-  // console.log("the object pushed:", obj.Maryland[b]);
-  results.push([obj.Maryland[b]]);
+  console.log("the object pushed:", obj.Maryland[a][b]);
+  results.push([obj.Maryland[a][b]]);
 
 }
 
@@ -121,24 +118,24 @@ for (var i = 1; i < 4; ++i) {
     var Objecturl = {
       // beginning of the object for the library
       Maryland: {
-          url1:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          url2:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          url3:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-        },
-      }; // end of measure data
+                 "set1":{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                       arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
+                     },
+                 "set2":{ url2: "https://api.census.gov/data/"+year+"/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                       arrayformat2: ["Maryland",year,"Total Population",",,,",dataend],
+                     },
 
+                 "set3":{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
+                      },
+
+                },  // end of measure data
+
+              }; // end of the Object
+      var set ="set"+String(i);
       var url = "url" + String(i);
       // console.log("i before function:", i);
-      var url = Objecturl.Maryland[url];
+      var url = Objecturl.Maryland[set][url];
       // console.log("url before function:", url);
   console.log("url before data function:", url);
 
