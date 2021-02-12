@@ -3599,78 +3599,9 @@ var Objectarray = {
         dataend,
       ],
     },
-    set211: {
-      url211:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat211: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Separations by Industry",
-        52,
-        "Finance and Insurance" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set212: {
-      url212:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat212: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Separations by Industry",
-        52,
-        "Finance and Insurance" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set213: {
-      url213:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat213: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Separations by Industry",
-        52,
-        "Finance and Insurance" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-
-    set214: {
-      url214:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat214: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Turnover Rate by Industry",
-        52,
-        "Finance and Insurance" + ",",
-        "Turnover Rate",
-        dataend,
-      ],
-    },
     set215: {
       url215:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -3678,16 +3609,16 @@ var Objectarray = {
       arrayformat215: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set216: {
       url216:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -3695,16 +3626,16 @@ var Objectarray = {
       arrayformat216: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set217: {
       url217:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -3712,17 +3643,17 @@ var Objectarray = {
       arrayformat217: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set218: {
       url218:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -3730,16 +3661,16 @@ var Objectarray = {
       arrayformat218: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set219: {
       url219:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -3747,16 +3678,16 @@ var Objectarray = {
       arrayformat219: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set220: {
       url220:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -3764,16 +3695,16 @@ var Objectarray = {
       arrayformat220: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         52,
         "Finance and Insurance" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set221: {
       url221:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -3781,6 +3712,75 @@ var Objectarray = {
       arrayformat221: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        52,
+        "Finance and Insurance" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set222: {
+      url222:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat222: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        52,
+        "Finance and Insurance" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set223: {
+      url223:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat223: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        52,
+        "Finance and Insurance" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set224: {
+      url224:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat224: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        52,
+        "Finance and Insurance" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set225: {
+      url225:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat225: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         52,
         "Finance and Insurance" + ",",
@@ -3789,78 +3789,9 @@ var Objectarray = {
       ],
     },
 
-    set222: {
-      url222:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat222: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        51,
-        "Information" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set223: {
-      url223:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat223: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        51,
-        "Information" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set224: {
-      url224:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat224: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        51,
-        "Information" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set225: {
-      url225:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat225: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        51,
-        "Information" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set226: {
       url226:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -3868,16 +3799,16 @@ var Objectarray = {
       arrayformat226: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         51,
         "Information" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set227: {
       url227:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -3885,16 +3816,16 @@ var Objectarray = {
       arrayformat227: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         51,
         "Information" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set228: {
       url228:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -3902,16 +3833,16 @@ var Objectarray = {
       arrayformat228: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         51,
         "Information" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set229: {
       url229:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -3919,17 +3850,17 @@ var Objectarray = {
       arrayformat229: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         51,
         "Information" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set230: {
       url230:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -3937,17 +3868,16 @@ var Objectarray = {
       arrayformat230: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         51,
         "Information" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
-
     set231: {
       url231:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -3955,16 +3885,16 @@ var Objectarray = {
       arrayformat231: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         51,
         "Information" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set232: {
       url232:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -3972,16 +3902,16 @@ var Objectarray = {
       arrayformat232: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         51,
         "Information" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set233: {
       url233:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -3989,17 +3919,17 @@ var Objectarray = {
       arrayformat233: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         51,
         "Information" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set234: {
       url234:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4007,16 +3937,17 @@ var Objectarray = {
       arrayformat234: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         51,
         "Information" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
+
     set235: {
       url235:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4024,16 +3955,16 @@ var Objectarray = {
       arrayformat235: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         51,
         "Information" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set236: {
       url236:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4041,16 +3972,16 @@ var Objectarray = {
       arrayformat236: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         51,
         "Information" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set237: {
       url237:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4058,17 +3989,17 @@ var Objectarray = {
       arrayformat237: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         51,
         "Information" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set238: {
       url238:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4076,16 +4007,16 @@ var Objectarray = {
       arrayformat238: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         51,
         "Information" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set239: {
       url239:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4093,16 +4024,16 @@ var Objectarray = {
       arrayformat239: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         51,
         "Information" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set240: {
       url240:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4110,16 +4041,16 @@ var Objectarray = {
       arrayformat240: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         51,
         "Information" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set241: {
       url241:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4127,17 +4058,17 @@ var Objectarray = {
       arrayformat241: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         51,
         "Information" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set242: {
       url242:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4145,16 +4076,16 @@ var Objectarray = {
       arrayformat242: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         51,
         "Information" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set243: {
       url243:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4162,16 +4093,16 @@ var Objectarray = {
       arrayformat243: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         51,
         "Information" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set244: {
       url244:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4179,16 +4110,16 @@ var Objectarray = {
       arrayformat244: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         51,
         "Information" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set245: {
       url245:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4196,6 +4127,75 @@ var Objectarray = {
       arrayformat245: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        51,
+        "Information" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set246: {
+      url246:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat246: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        51,
+        "Information" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set247: {
+      url247:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat247: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        51,
+        "Information" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set248: {
+      url248:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat248: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        51,
+        "Information" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set249: {
+      url249:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=51&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat249: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         51,
         "Information" + ",",
@@ -4204,78 +4204,9 @@ var Objectarray = {
       ],
     },
 
-    set246: {
-      url246:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat246: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        55,
-        "Management of Companies and Enterprises" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set247: {
-      url247:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat247: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        55,
-        "Management of Companies and Enterprises" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set248: {
-      url248:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat248: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        55,
-        "Management of Companies and Enterprises" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set249: {
-      url249:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat249: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        55,
-        "Management of Companies and Enterprises" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set250: {
       url250:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4283,16 +4214,16 @@ var Objectarray = {
       arrayformat250: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set251: {
       url251:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4300,16 +4231,16 @@ var Objectarray = {
       arrayformat251: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set252: {
       url252:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4317,16 +4248,16 @@ var Objectarray = {
       arrayformat252: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set253: {
       url253:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4334,17 +4265,17 @@ var Objectarray = {
       arrayformat253: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set254: {
       url254:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4352,16 +4283,16 @@ var Objectarray = {
       arrayformat254: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set255: {
       url255:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4369,16 +4300,16 @@ var Objectarray = {
       arrayformat255: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set256: {
       url256:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4386,16 +4317,16 @@ var Objectarray = {
       arrayformat256: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set257: {
       url257:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4403,17 +4334,17 @@ var Objectarray = {
       arrayformat257: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set258: {
       url258:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4421,16 +4352,16 @@ var Objectarray = {
       arrayformat258: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set259: {
       url259:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4438,16 +4369,16 @@ var Objectarray = {
       arrayformat259: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set260: {
       url260:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4455,16 +4386,16 @@ var Objectarray = {
       arrayformat260: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set261: {
       url261:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4472,17 +4403,17 @@ var Objectarray = {
       arrayformat261: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set262: {
       url262:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4490,16 +4421,16 @@ var Objectarray = {
       arrayformat262: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set263: {
       url263:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4507,16 +4438,16 @@ var Objectarray = {
       arrayformat263: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set264: {
       url264:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4524,16 +4455,16 @@ var Objectarray = {
       arrayformat264: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set265: {
       url265:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4541,17 +4472,17 @@ var Objectarray = {
       arrayformat265: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set266: {
       url266:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4559,16 +4490,16 @@ var Objectarray = {
       arrayformat266: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set267: {
       url267:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4576,16 +4507,16 @@ var Objectarray = {
       arrayformat267: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set268: {
       url268:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4593,16 +4524,16 @@ var Objectarray = {
       arrayformat268: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set269: {
       url269:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4610,6 +4541,75 @@ var Objectarray = {
       arrayformat269: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        55,
+        "Management of Companies and Enterprises" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set270: {
+      url270:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat270: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        55,
+        "Management of Companies and Enterprises" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set271: {
+      url271:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat271: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        55,
+        "Management of Companies and Enterprises" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set272: {
+      url272:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat272: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        55,
+        "Management of Companies and Enterprises" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set273: {
+      url273:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=55&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat273: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         55,
         "Management of Companies and Enterprises" + ",",
@@ -4618,78 +4618,9 @@ var Objectarray = {
       ],
     },
 
-    set270: {
-      url270:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat270: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        31 - 33,
-        "Manufacturing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set271: {
-      url271:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat271: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        31 - 33,
-        "Manufacturing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set272: {
-      url272:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat272: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        31 - 33,
-        "Manufacturing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set273: {
-      url273:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat273: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        31 - 33,
-        "Manufacturing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set274: {
       url274:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4697,16 +4628,16 @@ var Objectarray = {
       arrayformat274: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set275: {
       url275:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4714,51 +4645,51 @@ var Objectarray = {
       arrayformat275: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set276: {
       url276:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
         "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat276: [
         "Maryland",
-        year + "Q2",
-        "Maryland Job Net Change by Industry",
+        year + "Q3",
+        "Maryland Average Earnings by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set277: {
       url277:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
         "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat277: [
         "Maryland",
-        year + "Q3",
-        "Maryland Job Net Change by Industry",
+        year + "Q4",
+        "Maryland Average Earnings by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set278: {
       url278:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4766,16 +4697,16 @@ var Objectarray = {
       arrayformat278: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set279: {
       url279:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4783,51 +4714,51 @@ var Objectarray = {
       arrayformat279: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set280: {
       url280:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
         "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat280: [
         "Maryland",
-        year + "Q3",
-        "Maryland New Hires by Industry",
+        year + "Q2",
+        "Maryland Job Net Change by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set281: {
       url281:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
         "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat281: [
         "Maryland",
-        year + "Q4",
-        "Maryland New Hires by Industry",
+        year + "Q3",
+        "Maryland Job Net Change by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set282: {
       url282:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4835,16 +4766,16 @@ var Objectarray = {
       arrayformat282: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set283: {
       url283:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4852,16 +4783,16 @@ var Objectarray = {
       arrayformat283: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set284: {
       url284:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4869,16 +4800,16 @@ var Objectarray = {
       arrayformat284: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set285: {
       url285:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4886,17 +4817,17 @@ var Objectarray = {
       arrayformat285: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set286: {
       url286:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4904,16 +4835,16 @@ var Objectarray = {
       arrayformat286: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set287: {
       url287:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4921,16 +4852,16 @@ var Objectarray = {
       arrayformat287: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set288: {
       url288:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -4938,16 +4869,16 @@ var Objectarray = {
       arrayformat288: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set289: {
       url289:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -4955,17 +4886,17 @@ var Objectarray = {
       arrayformat289: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set290: {
       url290:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -4973,16 +4904,16 @@ var Objectarray = {
       arrayformat290: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set291: {
       url291:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -4990,16 +4921,16 @@ var Objectarray = {
       arrayformat291: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set292: {
       url292:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5007,16 +4938,16 @@ var Objectarray = {
       arrayformat292: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         31 - 33,
         "Manufacturing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set293: {
       url293:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5024,6 +4955,75 @@ var Objectarray = {
       arrayformat293: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        31 - 33,
+        "Manufacturing" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set294: {
+      url294:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat294: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        31 - 33,
+        "Manufacturing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set295: {
+      url295:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat295: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        31 - 33,
+        "Manufacturing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set296: {
+      url296:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat296: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        31 - 33,
+        "Manufacturing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set297: {
+      url297:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat297: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         31 - 33,
         "Manufacturing" + ",",
@@ -5032,78 +5032,9 @@ var Objectarray = {
       ],
     },
 
-    set294: {
-      url294:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat294: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        21,
-        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set295: {
-      url295:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat295: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        21,
-        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set296: {
-      url296:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat296: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        21,
-        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set297: {
-      url297:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat297: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        21,
-        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set298: {
       url298:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5111,16 +5042,16 @@ var Objectarray = {
       arrayformat298: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set299: {
       url299:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5128,16 +5059,16 @@ var Objectarray = {
       arrayformat299: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set300: {
       url300:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5145,16 +5076,16 @@ var Objectarray = {
       arrayformat300: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set301: {
       url301:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5162,17 +5093,17 @@ var Objectarray = {
       arrayformat301: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set302: {
       url302:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5180,16 +5111,16 @@ var Objectarray = {
       arrayformat302: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set303: {
       url303:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5197,16 +5128,16 @@ var Objectarray = {
       arrayformat303: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set304: {
       url304:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5214,16 +5145,16 @@ var Objectarray = {
       arrayformat304: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set305: {
       url305:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5231,17 +5162,17 @@ var Objectarray = {
       arrayformat305: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set306: {
       url306:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5249,16 +5180,16 @@ var Objectarray = {
       arrayformat306: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set307: {
       url307:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5266,16 +5197,16 @@ var Objectarray = {
       arrayformat307: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set308: {
       url308:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5283,16 +5214,16 @@ var Objectarray = {
       arrayformat308: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set309: {
       url309:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5300,17 +5231,17 @@ var Objectarray = {
       arrayformat309: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set310: {
       url310:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5318,16 +5249,16 @@ var Objectarray = {
       arrayformat310: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set311: {
       url311:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5335,16 +5266,16 @@ var Objectarray = {
       arrayformat311: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set312: {
       url312:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5352,16 +5283,16 @@ var Objectarray = {
       arrayformat312: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set313: {
       url313:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5369,17 +5300,17 @@ var Objectarray = {
       arrayformat313: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set314: {
       url314:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5387,16 +5318,16 @@ var Objectarray = {
       arrayformat314: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set315: {
       url315:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5404,16 +5335,16 @@ var Objectarray = {
       arrayformat315: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set316: {
       url316:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5421,16 +5352,16 @@ var Objectarray = {
       arrayformat316: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set317: {
       url317:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5438,6 +5369,75 @@ var Objectarray = {
       arrayformat317: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        21,
+        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set318: {
+      url318:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat318: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        21,
+        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set319: {
+      url319:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat319: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        21,
+        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set320: {
+      url320:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat320: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        21,
+        "Mining, Quarrying, and Oil and Gas Extraction" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set321: {
+      url321:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=21&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat321: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         21,
         "Mining, Quarrying, and Oil and Gas Extraction" + ",",
@@ -5446,78 +5446,9 @@ var Objectarray = {
       ],
     },
 
-    set318: {
-      url318:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat318: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        81,
-        "Other Services (except Public Administration)" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set319: {
-      url319:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat319: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        81,
-        "Other Services (except Public Administration)" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set320: {
-      url320:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat320: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        81,
-        "Other Services (except Public Administration)" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set321: {
-      url321:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat321: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        81,
-        "Other Services (except Public Administration)" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set322: {
       url322:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5525,16 +5456,16 @@ var Objectarray = {
       arrayformat322: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set323: {
       url323:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5542,16 +5473,16 @@ var Objectarray = {
       arrayformat323: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set324: {
       url324:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5559,16 +5490,16 @@ var Objectarray = {
       arrayformat324: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set325: {
       url325:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5576,17 +5507,17 @@ var Objectarray = {
       arrayformat325: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set326: {
       url326:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5594,16 +5525,16 @@ var Objectarray = {
       arrayformat326: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set327: {
       url327:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5611,16 +5542,16 @@ var Objectarray = {
       arrayformat327: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set328: {
       url328:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5628,16 +5559,16 @@ var Objectarray = {
       arrayformat328: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set329: {
       url329:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5645,17 +5576,17 @@ var Objectarray = {
       arrayformat329: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set330: {
       url330:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5663,16 +5594,16 @@ var Objectarray = {
       arrayformat330: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set331: {
       url331:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5680,16 +5611,16 @@ var Objectarray = {
       arrayformat331: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set332: {
       url332:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5697,16 +5628,16 @@ var Objectarray = {
       arrayformat332: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set333: {
       url333:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5714,17 +5645,17 @@ var Objectarray = {
       arrayformat333: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set334: {
       url334:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5732,16 +5663,16 @@ var Objectarray = {
       arrayformat334: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set335: {
       url335:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5749,16 +5680,16 @@ var Objectarray = {
       arrayformat335: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set336: {
       url336:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5766,16 +5697,16 @@ var Objectarray = {
       arrayformat336: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set337: {
       url337:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5783,17 +5714,17 @@ var Objectarray = {
       arrayformat337: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set338: {
       url338:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5801,16 +5732,16 @@ var Objectarray = {
       arrayformat338: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set339: {
       url339:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5818,16 +5749,16 @@ var Objectarray = {
       arrayformat339: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set340: {
       url340:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5835,16 +5766,16 @@ var Objectarray = {
       arrayformat340: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set341: {
       url341:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5852,6 +5783,75 @@ var Objectarray = {
       arrayformat341: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        81,
+        "Other Services (except Public Administration)" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set342: {
+      url342:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat342: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        81,
+        "Other Services (except Public Administration)" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set343: {
+      url343:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat343: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        81,
+        "Other Services (except Public Administration)" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set344: {
+      url344:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat344: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        81,
+        "Other Services (except Public Administration)" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set345: {
+      url345:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat345: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         81,
         "Other Services (except Public Administration)" + ",",
@@ -5860,78 +5860,9 @@ var Objectarray = {
       ],
     },
 
-    set342: {
-      url342:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat342: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        541,
-        "Professional, Scientific, and Technical Services" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set343: {
-      url343:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat343: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        541,
-        "Professional, Scientific, and Technical Services" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set344: {
-      url344:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat344: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        541,
-        "Professional, Scientific, and Technical Services" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set345: {
-      url345:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat345: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        541,
-        "Professional, Scientific, and Technical Services" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set346: {
       url346:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -5939,16 +5870,16 @@ var Objectarray = {
       arrayformat346: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set347: {
       url347:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -5956,16 +5887,16 @@ var Objectarray = {
       arrayformat347: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set348: {
       url348:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -5973,16 +5904,16 @@ var Objectarray = {
       arrayformat348: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set349: {
       url349:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -5990,17 +5921,17 @@ var Objectarray = {
       arrayformat349: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set350: {
       url350:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6008,16 +5939,16 @@ var Objectarray = {
       arrayformat350: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set351: {
       url351:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6025,16 +5956,16 @@ var Objectarray = {
       arrayformat351: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set352: {
       url352:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6042,16 +5973,16 @@ var Objectarray = {
       arrayformat352: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set353: {
       url353:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6059,17 +5990,17 @@ var Objectarray = {
       arrayformat353: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set354: {
       url354:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6077,16 +6008,16 @@ var Objectarray = {
       arrayformat354: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set355: {
       url355:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6094,16 +6025,16 @@ var Objectarray = {
       arrayformat355: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set356: {
       url356:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6111,16 +6042,16 @@ var Objectarray = {
       arrayformat356: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set357: {
       url357:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6128,17 +6059,17 @@ var Objectarray = {
       arrayformat357: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set358: {
       url358:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6146,16 +6077,16 @@ var Objectarray = {
       arrayformat358: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set359: {
       url359:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6163,16 +6094,16 @@ var Objectarray = {
       arrayformat359: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set360: {
       url360:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6180,16 +6111,16 @@ var Objectarray = {
       arrayformat360: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set361: {
       url361:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6197,16 +6128,17 @@ var Objectarray = {
       arrayformat361: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
+
     set362: {
       url362:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6214,16 +6146,16 @@ var Objectarray = {
       arrayformat362: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set363: {
       url363:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6231,16 +6163,16 @@ var Objectarray = {
       arrayformat363: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set364: {
       url364:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6248,16 +6180,16 @@ var Objectarray = {
       arrayformat364: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set365: {
       url365:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6265,6 +6197,74 @@ var Objectarray = {
       arrayformat365: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        541,
+        "Professional, Scientific, and Technical Services" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+    set366: {
+      url366:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat366: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        541,
+        "Professional, Scientific, and Technical Services" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set367: {
+      url367:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat367: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        541,
+        "Professional, Scientific, and Technical Services" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set368: {
+      url368:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat368: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        541,
+        "Professional, Scientific, and Technical Services" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set369: {
+      url369:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=541&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat369: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         541,
         "Professional, Scientific, and Technical Services" + ",",
@@ -6273,78 +6273,9 @@ var Objectarray = {
       ],
     },
 
-    set366: {
-      url366:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat366: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        92,
-        "Public Administration" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set367: {
-      url367:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat367: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        92,
-        "Public Administration" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set368: {
-      url368:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat368: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        92,
-        "Public Administration" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set369: {
-      url369:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat369: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        92,
-        "Public Administration" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set370: {
       url370:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6352,16 +6283,16 @@ var Objectarray = {
       arrayformat370: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         92,
         "Public Administration" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set371: {
       url371:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6369,16 +6300,16 @@ var Objectarray = {
       arrayformat371: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         92,
         "Public Administration" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set372: {
       url372:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6386,16 +6317,16 @@ var Objectarray = {
       arrayformat372: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         92,
         "Public Administration" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set373: {
       url373:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6403,17 +6334,17 @@ var Objectarray = {
       arrayformat373: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         92,
         "Public Administration" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set374: {
       url374:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6421,16 +6352,16 @@ var Objectarray = {
       arrayformat374: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         92,
         "Public Administration" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set375: {
       url375:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6438,16 +6369,16 @@ var Objectarray = {
       arrayformat375: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         92,
         "Public Administration" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set376: {
       url376:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6455,16 +6386,16 @@ var Objectarray = {
       arrayformat376: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         92,
         "Public Administration" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set377: {
       url377:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6472,17 +6403,17 @@ var Objectarray = {
       arrayformat377: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         92,
         "Public Administration" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set378: {
       url378:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6490,16 +6421,16 @@ var Objectarray = {
       arrayformat378: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         92,
         "Public Administration" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set379: {
       url379:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6507,16 +6438,16 @@ var Objectarray = {
       arrayformat379: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         92,
         "Public Administration" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set380: {
       url380:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6524,16 +6455,16 @@ var Objectarray = {
       arrayformat380: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         92,
         "Public Administration" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set381: {
       url381:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6541,17 +6472,17 @@ var Objectarray = {
       arrayformat381: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         92,
         "Public Administration" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set382: {
       url382:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6559,16 +6490,16 @@ var Objectarray = {
       arrayformat382: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         92,
         "Public Administration" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set383: {
       url383:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6576,16 +6507,16 @@ var Objectarray = {
       arrayformat383: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         92,
         "Public Administration" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set384: {
       url384:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6593,16 +6524,16 @@ var Objectarray = {
       arrayformat384: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         92,
         "Public Administration" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set385: {
       url385:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6610,17 +6541,17 @@ var Objectarray = {
       arrayformat385: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         92,
         "Public Administration" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set386: {
       url386:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6628,16 +6559,16 @@ var Objectarray = {
       arrayformat386: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         92,
         "Public Administration" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set387: {
       url387:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6645,16 +6576,16 @@ var Objectarray = {
       arrayformat387: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         92,
         "Public Administration" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set388: {
       url388:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6662,16 +6593,16 @@ var Objectarray = {
       arrayformat388: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         92,
         "Public Administration" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set389: {
       url389:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6679,6 +6610,75 @@ var Objectarray = {
       arrayformat389: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        92,
+        "Public Administration" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set390: {
+      url390:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat390: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        92,
+        "Public Administration" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set391: {
+      url391:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat391: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        92,
+        "Public Administration" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set392: {
+      url392:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat392: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        92,
+        "Public Administration" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set393: {
+      url393:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=92&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat393: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         92,
         "Public Administration" + ",",
@@ -6687,78 +6687,9 @@ var Objectarray = {
       ],
     },
 
-    set390: {
-      url390:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat390: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        53,
-        "Real Estate and Rental and Leasing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set391: {
-      url391:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat391: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        53,
-        "Real Estate and Rental and Leasing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set392: {
-      url392:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat392: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        53,
-        "Real Estate and Rental and Leasing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set393: {
-      url393:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat393: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        53,
-        "Real Estate and Rental and Leasing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set394: {
       url394:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6766,16 +6697,16 @@ var Objectarray = {
       arrayformat394: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set395: {
       url395:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6783,16 +6714,16 @@ var Objectarray = {
       arrayformat395: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set396: {
       url396:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6800,16 +6731,16 @@ var Objectarray = {
       arrayformat396: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set397: {
       url397:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6817,17 +6748,17 @@ var Objectarray = {
       arrayformat397: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set398: {
       url398:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6835,16 +6766,16 @@ var Objectarray = {
       arrayformat398: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set399: {
       url399:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6852,16 +6783,16 @@ var Objectarray = {
       arrayformat399: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set400: {
       url400:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6869,16 +6800,16 @@ var Objectarray = {
       arrayformat400: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set401: {
       url401:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6886,17 +6817,17 @@ var Objectarray = {
       arrayformat401: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set402: {
       url402:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6904,16 +6835,16 @@ var Objectarray = {
       arrayformat402: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set403: {
       url403:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6921,16 +6852,16 @@ var Objectarray = {
       arrayformat403: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set404: {
       url404:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -6938,16 +6869,16 @@ var Objectarray = {
       arrayformat404: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set405: {
       url405:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -6955,17 +6886,17 @@ var Objectarray = {
       arrayformat405: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set406: {
       url406:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -6973,16 +6904,16 @@ var Objectarray = {
       arrayformat406: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set407: {
       url407:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -6990,16 +6921,16 @@ var Objectarray = {
       arrayformat407: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set408: {
       url408:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7007,16 +6938,16 @@ var Objectarray = {
       arrayformat408: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set409: {
       url409:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7024,17 +6955,17 @@ var Objectarray = {
       arrayformat409: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set410: {
       url410:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7042,16 +6973,16 @@ var Objectarray = {
       arrayformat410: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set411: {
       url411:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7059,16 +6990,16 @@ var Objectarray = {
       arrayformat411: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set412: {
       url412:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7076,16 +7007,16 @@ var Objectarray = {
       arrayformat412: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set413: {
       url413:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7093,6 +7024,75 @@ var Objectarray = {
       arrayformat413: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        53,
+        "Real Estate and Rental and Leasing" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set414: {
+      url414:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat414: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        53,
+        "Real Estate and Rental and Leasing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set415: {
+      url415:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat415: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        53,
+        "Real Estate and Rental and Leasing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set416: {
+      url416:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat416: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        53,
+        "Real Estate and Rental and Leasing" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set417: {
+      url417:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=53&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat417: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         53,
         "Real Estate and Rental and Leasing" + ",",
@@ -7101,78 +7101,9 @@ var Objectarray = {
       ],
     },
 
-    set414: {
-      url414:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat414: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        44 - 45,
-        "Retail Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set415: {
-      url415:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat415: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        44 - 45,
-        "Retail Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set416: {
-      url416:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat416: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        44 - 45,
-        "Retail Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set417: {
-      url417:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat417: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        44 - 45,
-        "Retail Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set418: {
       url418:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7180,16 +7111,16 @@ var Objectarray = {
       arrayformat418: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set419: {
       url419:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7197,16 +7128,16 @@ var Objectarray = {
       arrayformat419: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set420: {
       url420:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7214,16 +7145,16 @@ var Objectarray = {
       arrayformat420: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set421: {
       url421:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7231,17 +7162,17 @@ var Objectarray = {
       arrayformat421: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set422: {
       url422:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7249,16 +7180,16 @@ var Objectarray = {
       arrayformat422: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set423: {
       url423:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7266,16 +7197,16 @@ var Objectarray = {
       arrayformat423: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set424: {
       url424:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7283,16 +7214,16 @@ var Objectarray = {
       arrayformat424: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set425: {
       url425:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7300,17 +7231,17 @@ var Objectarray = {
       arrayformat425: [
         "Maryland",
         year + "Q4",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
 
     set426: {
       url426:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7318,16 +7249,16 @@ var Objectarray = {
       arrayformat426: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set427: {
       url427:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7335,16 +7266,16 @@ var Objectarray = {
       arrayformat427: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set428: {
       url428:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7352,16 +7283,16 @@ var Objectarray = {
       arrayformat428: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set429: {
       url429:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7369,17 +7300,17 @@ var Objectarray = {
       arrayformat429: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set430: {
       url430:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7387,16 +7318,16 @@ var Objectarray = {
       arrayformat430: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set431: {
       url431:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7404,16 +7335,16 @@ var Objectarray = {
       arrayformat431: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set432: {
       url432:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7421,16 +7352,16 @@ var Objectarray = {
       arrayformat432: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set433: {
       url433:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7438,17 +7369,17 @@ var Objectarray = {
       arrayformat433: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set434: {
       url434:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7456,16 +7387,16 @@ var Objectarray = {
       arrayformat434: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set435: {
       url435:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7473,16 +7404,16 @@ var Objectarray = {
       arrayformat435: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set436: {
       url436:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7490,16 +7421,16 @@ var Objectarray = {
       arrayformat436: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         44 - 45,
         "Retail Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set437: {
       url437:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7507,6 +7438,75 @@ var Objectarray = {
       arrayformat437: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        44 - 45,
+        "Retail Trade" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set438: {
+      url438:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat438: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        44 - 45,
+        "Retail Trade" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set439: {
+      url439:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat439: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        44 - 45,
+        "Retail Trade" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set440: {
+      url440:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat440: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        44 - 45,
+        "Retail Trade" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set441: {
+      url441:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat441: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         44 - 45,
         "Retail Trade" + ",",
@@ -7515,78 +7515,9 @@ var Objectarray = {
       ],
     },
 
-    set438: {
-      url438:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat438: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set439: {
-      url439:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat439: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set440: {
-      url440:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat440: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set441: {
-      url441:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat441: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set442: {
       url442:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7594,16 +7525,16 @@ var Objectarray = {
       arrayformat442: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set443: {
       url443:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7611,16 +7542,16 @@ var Objectarray = {
       arrayformat443: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set444: {
       url444:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7628,16 +7559,16 @@ var Objectarray = {
       arrayformat444: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set445: {
       url445:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7645,17 +7576,17 @@ var Objectarray = {
       arrayformat445: [
         "Maryland",
         year + "Q4",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
 
     set446: {
       url446:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7663,16 +7594,16 @@ var Objectarray = {
       arrayformat446: [
         "Maryland",
         year + "Q1",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set447: {
       url447:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7680,16 +7611,16 @@ var Objectarray = {
       arrayformat447: [
         "Maryland",
         year + "Q2",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set448: {
       url448:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7697,16 +7628,16 @@ var Objectarray = {
       arrayformat448: [
         "Maryland",
         year + "Q3",
-        "Maryland New Hires by Industry",
+        "Maryland Job Net Change by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "New Hires",
+        "Job Change",
         dataend,
       ],
     },
     set449: {
       url449:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7714,6 +7645,75 @@ var Objectarray = {
       arrayformat449: [
         "Maryland",
         year + "Q4",
+        "Maryland Job Net Change by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+
+    set450: {
+      url450:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat450: [
+        "Maryland",
+        year + "Q1",
+        "Maryland New Hires by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set451: {
+      url451:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat451: [
+        "Maryland",
+        year + "Q2",
+        "Maryland New Hires by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set452: {
+      url452:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat452: [
+        "Maryland",
+        year + "Q3",
+        "Maryland New Hires by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set453: {
+      url453:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat453: [
+        "Maryland",
+        year + "Q4",
         "Maryland New Hires by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
@@ -7722,78 +7722,9 @@ var Objectarray = {
       ],
     },
 
-    set450: {
-      url450:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat450: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Separations by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set451: {
-      url451:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat451: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Separations by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set452: {
-      url452:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat452: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Separations by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set453: {
-      url453:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat453: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Separations by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-
     set454: {
       url454:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -7801,16 +7732,16 @@ var Objectarray = {
       arrayformat454: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set455: {
       url455:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -7818,16 +7749,16 @@ var Objectarray = {
       arrayformat455: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set456: {
       url456:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -7835,16 +7766,16 @@ var Objectarray = {
       arrayformat456: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set457: {
       url457:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -7852,6 +7783,75 @@ var Objectarray = {
       arrayformat457: [
         "Maryland",
         year + "Q4",
+        "Maryland Separations by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+
+    set458: {
+      url458:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat458: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Turnover Rate by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+    set459: {
+      url459:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat459: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Turnover Rate by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+    set460: {
+      url460:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat460: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Turnover Rate by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+    set461: {
+      url461:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat461: [
+        "Maryland",
+        year + "Q4",
         "Maryland Turnover Rate by Industry",
         48 - 49,
         "Transportation and Warehousing" + ",",
@@ -7860,147 +7860,78 @@ var Objectarray = {
       ],
     },
 
-    set458: {
-      url458:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat458: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Workers by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set459: {
-      url459:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat459: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Workers by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set460: {
-      url460:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat460: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Workers by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set461: {
-      url461:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat461: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Workers by Industry",
-        48 - 49,
-        "Transportation and Warehousing" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-
     set462: {
       url462:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat462: [
         "Maryland",
         year + "Q1",
-        "Maryland Average Earnings by Industry",
-        22,
-        "Utilities" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Workers",
         dataend,
       ],
     },
     set463: {
       url463:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat463: [
         "Maryland",
         year + "Q2",
-        "Maryland Average Earnings by Industry",
-        22,
-        "Utilities" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Workers",
         dataend,
       ],
     },
     set464: {
       url464:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat464: [
         "Maryland",
         year + "Q3",
-        "Maryland Average Earnings by Industry",
-        22,
-        "Utilities" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Workers",
         dataend,
       ],
     },
     set465: {
       url465:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat465: [
         "Maryland",
         year + "Q4",
-        "Maryland Average Earnings by Industry",
-        22,
-        "Utilities" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        48 - 49,
+        "Transportation and Warehousing" + ",",
+        "Workers",
         dataend,
       ],
     },
 
     set466: {
       url466:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8008,6 +7939,75 @@ var Objectarray = {
       arrayformat466: [
         "Maryland",
         year + "Q1",
+        "Maryland Average Earnings by Industry",
+        22,
+        "Utilities" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set467: {
+      url467:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat467: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Average Earnings by Industry",
+        22,
+        "Utilities" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set468: {
+      url468:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat468: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Average Earnings by Industry",
+        22,
+        "Utilities" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set469: {
+      url469:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat469: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Average Earnings by Industry",
+        22,
+        "Utilities" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+
+    set470: {
+      url470:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat470: [
+        "Maryland",
+        year + "Q1",
         "Maryland Job Net Change by Industry",
         22,
         "Utilities" + ",",
@@ -8015,14 +8015,14 @@ var Objectarray = {
         dataend,
       ],
     },
-    set467: {
-      url467:
+    set471: {
+      url471:
         "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
         "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat467: [
+      arrayformat471: [
         "Maryland",
         year + "Q2",
         "Maryland Job Net Change by Industry",
@@ -8032,14 +8032,14 @@ var Objectarray = {
         dataend,
       ],
     },
-    set468: {
-      url468:
+    set472: {
+      url472:
         "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
         "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat468: [
+      arrayformat472: [
         "Maryland",
         year + "Q3",
         "Maryland Job Net Change by Industry",
@@ -8049,14 +8049,14 @@ var Objectarray = {
         dataend,
       ],
     },
-    set469: {
-      url469:
+    set473: {
+      url473:
         "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
         "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat469: [
+      arrayformat473: [
         "Maryland",
         year + "Q4",
         "Maryland Job Net Change by Industry",
@@ -8067,8 +8067,8 @@ var Objectarray = {
       ],
     },
 
-    set470: {
-      url470:
+    set474: {
+      url470=4:
         "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
@@ -8084,78 +8084,9 @@ var Objectarray = {
         dataend,
       ],
     },
-    set471: {
-      url471:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat471: [
-        "Maryland",
-        year + "Q2",
-        "Maryland New Hires by Industry",
-        22,
-        "Utilities" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set472: {
-      url472:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat472: [
-        "Maryland",
-        year + "Q3",
-        "Maryland New Hires by Industry",
-        22,
-        "Utilities" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set473: {
-      url473:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat473: [
-        "Maryland",
-        year + "Q4",
-        "Maryland New Hires by Industry",
-        22,
-        "Utilities" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-
-    set474: {
-      url474:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat474: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Separations by Industry",
-        22,
-        "Utilities" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
     set475: {
       url475:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8163,16 +8094,16 @@ var Objectarray = {
       arrayformat475: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         22,
         "Utilities" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set476: {
       url476:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8180,16 +8111,16 @@ var Objectarray = {
       arrayformat476: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         22,
         "Utilities" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set477: {
       url477:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8197,17 +8128,17 @@ var Objectarray = {
       arrayformat477: [
         "Maryland",
         year + "Q4",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         22,
         "Utilities" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
 
     set478: {
       url478:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8215,16 +8146,16 @@ var Objectarray = {
       arrayformat478: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         22,
         "Utilities" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set479: {
       url479:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8232,16 +8163,16 @@ var Objectarray = {
       arrayformat479: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         22,
         "Utilities" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set480: {
       url480:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8249,16 +8180,16 @@ var Objectarray = {
       arrayformat480: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         22,
         "Utilities" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
     set481: {
       url481:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8266,17 +8197,17 @@ var Objectarray = {
       arrayformat481: [
         "Maryland",
         year + "Q4",
-        "Maryland Turnover Rate by Industry",
+        "Maryland Separations by Industry",
         22,
         "Utilities" + ",",
-        "Turnover Rate",
+        "Seperation",
         dataend,
       ],
     },
 
     set482: {
       url482:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8284,16 +8215,16 @@ var Objectarray = {
       arrayformat482: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         22,
         "Utilities" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set483: {
       url483:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8301,16 +8232,16 @@ var Objectarray = {
       arrayformat483: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         22,
         "Utilities" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set484: {
       url484:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8318,16 +8249,16 @@ var Objectarray = {
       arrayformat484: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         22,
         "Utilities" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set485: {
       url485:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8335,6 +8266,75 @@ var Objectarray = {
       arrayformat485: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        22,
+        "Utilities" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set486: {
+      url486:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat486: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Industry",
+        22,
+        "Utilities" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set487: {
+      url487:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat487: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Industry",
+        22,
+        "Utilities" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set488: {
+      url488:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat488: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Industry",
+        22,
+        "Utilities" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set489: {
+      url489:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=22&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat489: [
+        "Maryland",
+        year + "Q4",
         "Maryland Workers by Industry",
         22,
         "Utilities" + ",",
@@ -8343,78 +8343,9 @@ var Objectarray = {
       ],
     },
 
-    set486: {
-      url486:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat486: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set487: {
-      url487:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat487: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Earnings by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set488: {
-      url488:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat488: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Earnings by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set489: {
-      url489:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat489: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Earnings by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set490: {
       url490:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8422,16 +8353,16 @@ var Objectarray = {
       arrayformat490: [
         "Maryland",
         year + "Q1",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set491: {
       url491:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8439,16 +8370,16 @@ var Objectarray = {
       arrayformat491: [
         "Maryland",
         year + "Q2",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set492: {
       url492:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8456,16 +8387,16 @@ var Objectarray = {
       arrayformat492: [
         "Maryland",
         year + "Q3",
-        "Maryland Job Net Change by Industry",
+        "Maryland Average Earnings by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Job Change",
+        "Earnings",
         dataend,
       ],
     },
     set493: {
       url493:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8473,6 +8404,75 @@ var Objectarray = {
       arrayformat493: [
         "Maryland",
         year + "Q4",
+        "Maryland Average Earnings by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+
+    set494: {
+      url494:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat494: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Job Net Change by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set495: {
+      url495:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat495: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Job Net Change by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set496: {
+      url496:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat496: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Job Net Change by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set497: {
+      url497:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat497: [
+        "Maryland",
+        year + "Q4",
         "Maryland Job Net Change by Industry",
         42,
         "Wholesale Trade" + ",",
@@ -8481,78 +8481,9 @@ var Objectarray = {
       ],
     },
 
-    set494: {
-      url494:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat494: [
-        "Maryland",
-        year + "Q1",
-        "Maryland New Hires by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set495: {
-      url495:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat495: [
-        "Maryland",
-        year + "Q2",
-        "Maryland New Hires by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set496: {
-      url496:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat496: [
-        "Maryland",
-        year + "Q3",
-        "Maryland New Hires by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set497: {
-      url497:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat497: [
-        "Maryland",
-        year + "Q4",
-        "Maryland New Hires by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-
     set498: {
       url498:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8560,16 +8491,16 @@ var Objectarray = {
       arrayformat498: [
         "Maryland",
         year + "Q1",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set499: {
       url499:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8577,16 +8508,16 @@ var Objectarray = {
       arrayformat499: [
         "Maryland",
         year + "Q2",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set500: {
       url500:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8594,16 +8525,16 @@ var Objectarray = {
       arrayformat500: [
         "Maryland",
         year + "Q3",
-        "Maryland Separations by Industry",
+        "Maryland New Hires by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Seperation",
+        "New Hires",
         dataend,
       ],
     },
     set501: {
       url501:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8611,6 +8542,75 @@ var Objectarray = {
       arrayformat501: [
         "Maryland",
         year + "Q4",
+        "Maryland New Hires by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+
+    set502: {
+      url502:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat502: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Separations by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set503: {
+      url503:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat503: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Separations by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set504: {
+      url504:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat504: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Separations by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set505: {
+      url505:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat505: [
+        "Maryland",
+        year + "Q4",
         "Maryland Separations by Industry",
         42,
         "Wholesale Trade" + ",",
@@ -8619,78 +8619,9 @@ var Objectarray = {
       ],
     },
 
-    set502: {
-      url502:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat502: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Turnover Rate by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Turnover Rate",
-        dataend,
-      ],
-    },
-    set503: {
-      url503:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat503: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Turnover Rate by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Turnover Rate",
-        dataend,
-      ],
-    },
-    set504: {
-      url504:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat504: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Turnover Rate by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Turnover Rate",
-        dataend,
-      ],
-    },
-    set505: {
-      url505:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat505: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Turnover Rate by Industry",
-        42,
-        "Wholesale Trade" + ",",
-        "Turnover Rate",
-        dataend,
-      ],
-    },
-
     set506: {
       url506:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
@@ -8698,16 +8629,16 @@ var Objectarray = {
       arrayformat506: [
         "Maryland",
         year + "Q1",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set507: {
       url507:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -8715,16 +8646,16 @@ var Objectarray = {
       arrayformat507: [
         "Maryland",
         year + "Q2",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set508: {
       url508:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
@@ -8732,16 +8663,16 @@ var Objectarray = {
       arrayformat508: [
         "Maryland",
         year + "Q3",
-        "Maryland Workers by Industry",
+        "Maryland Turnover Rate by Industry",
         42,
         "Wholesale Trade" + ",",
-        "Workers",
+        "Turnover Rate",
         dataend,
       ],
     },
     set509: {
       url509:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
@@ -8749,6 +8680,24 @@ var Objectarray = {
       arrayformat509: [
         "Maryland",
         year + "Q4",
+        "Maryland Turnover Rate by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Turnover Rate",
+        dataend,
+      ],
+    },
+
+    set510: {
+      url510:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat510: [
+        "Maryland",
+        year + "Q1",
         "Maryland Workers by Industry",
         42,
         "Wholesale Trade" + ",",
@@ -8756,72 +8705,54 @@ var Objectarray = {
         dataend,
       ],
     },
-
-    set510: {
-      url510:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat510: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Earnings by Age",
-        "A01",
-        "14-18" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
     set511: {
       url511:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q2" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat511: [
         "Maryland",
         year + "Q2",
-        "Maryland Average Earnings by Age",
-        "A01",
-        "14-18" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Workers",
         dataend,
       ],
     },
     set512: {
       url512:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q3" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat512: [
         "Maryland",
         year + "Q3",
-        "Maryland Average Earnings by Age",
-        "A01",
-        "14-18" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Workers",
         dataend,
       ],
     },
     set513: {
       url513:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q4" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&industry=42&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat513: [
         "Maryland",
         year + "Q4",
-        "Maryland Average Earnings by Age",
-        "A01",
-        "14-18" + ",",
-        "Earnings",
+        "Maryland Workers by Industry",
+        42,
+        "Wholesale Trade" + ",",
+        "Workers",
         dataend,
       ],
     },
@@ -8832,13 +8763,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat514: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Earnings",
         dataend,
       ],
@@ -8849,13 +8780,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat515: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Earnings",
         dataend,
       ],
@@ -8866,13 +8797,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat516: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Earnings",
         dataend,
       ],
@@ -8883,13 +8814,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat517: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Earnings",
         dataend,
       ],
@@ -8901,13 +8832,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat518: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Earnings",
         dataend,
       ],
@@ -8918,13 +8849,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat519: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Earnings",
         dataend,
       ],
@@ -8935,13 +8866,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat520: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Earnings",
         dataend,
       ],
@@ -8952,13 +8883,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat521: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Earnings",
         dataend,
       ],
@@ -8970,13 +8901,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat522: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Earnings",
         dataend,
       ],
@@ -8987,13 +8918,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat523: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Earnings",
         dataend,
       ],
@@ -9004,13 +8935,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat524: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Earnings",
         dataend,
       ],
@@ -9021,13 +8952,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat525: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Earnings",
         dataend,
       ],
@@ -9039,13 +8970,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat526: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Earnings",
         dataend,
       ],
@@ -9056,13 +8987,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat527: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Earnings",
         dataend,
       ],
@@ -9073,13 +9004,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat528: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Earnings",
         dataend,
       ],
@@ -9090,13 +9021,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat529: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Earnings",
         dataend,
       ],
@@ -9108,13 +9039,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat530: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Earnings",
         dataend,
       ],
@@ -9125,13 +9056,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat531: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Earnings",
         dataend,
       ],
@@ -9142,13 +9073,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat532: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Earnings",
         dataend,
       ],
@@ -9159,13 +9090,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat533: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Earnings",
         dataend,
       ],
@@ -9177,13 +9108,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat534: [
         "Maryland",
         year + "Q1",
         "Maryland Average Earnings by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Earnings",
         dataend,
       ],
@@ -9194,13 +9125,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat535: [
         "Maryland",
         year + "Q2",
         "Maryland Average Earnings by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Earnings",
         dataend,
       ],
@@ -9211,13 +9142,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat536: [
         "Maryland",
         year + "Q3",
         "Maryland Average Earnings by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Earnings",
         dataend,
       ],
@@ -9228,8 +9159,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat537: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Average Earnings by Age",
+        "A06",
+        "45-54" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+
+    set538: {
+      url538:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat538: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Average Earnings by Age",
+        "A07",
+        "65-99" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set539: {
+      url539:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat539: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Average Earnings by Age",
+        "A07",
+        "65-99" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set540: {
+      url540:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat540: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Average Earnings by Age",
+        "A07",
+        "65-99" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set541: {
+      url541:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat541: [
         "Maryland",
         year + "Q4",
         "Maryland Average Earnings by Age",
@@ -9240,88 +9240,19 @@ var Objectarray = {
       ],
     },
 
-    set538: {
-      url538:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat538: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Workers by Age",
-        "A01",
-        "14-18" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set539: {
-      url539:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat539: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Workers by Age",
-        "A01",
-        "14-18" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set540: {
-      url540:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat540: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Workers by Age",
-        "A01",
-        "14-18" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set541: {
-      url541:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat541: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Workers by Age",
-        "A01",
-        "14-18" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-
     set542: {
       url542:
         "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat542: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Workers",
         dataend,
       ],
@@ -9332,13 +9263,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat543: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Workers",
         dataend,
       ],
@@ -9349,13 +9280,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat544: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Workers",
         dataend,
       ],
@@ -9366,13 +9297,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat545: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Workers",
         dataend,
       ],
@@ -9384,13 +9315,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat546: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Workers",
         dataend,
       ],
@@ -9401,13 +9332,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat547: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Workers",
         dataend,
       ],
@@ -9418,13 +9349,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat548: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Workers",
         dataend,
       ],
@@ -9435,13 +9366,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat549: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Workers",
         dataend,
       ],
@@ -9453,13 +9384,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat550: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Workers",
         dataend,
       ],
@@ -9470,13 +9401,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat551: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Workers",
         dataend,
       ],
@@ -9487,13 +9418,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat552: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Workers",
         dataend,
       ],
@@ -9504,13 +9435,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat553: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Workers",
         dataend,
       ],
@@ -9522,13 +9453,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat554: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Workers",
         dataend,
       ],
@@ -9539,13 +9470,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat555: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Workers",
         dataend,
       ],
@@ -9556,13 +9487,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat556: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Workers",
         dataend,
       ],
@@ -9573,13 +9504,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat557: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Workers",
         dataend,
       ],
@@ -9591,13 +9522,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat558: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Workers",
         dataend,
       ],
@@ -9608,13 +9539,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat559: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Workers",
         dataend,
       ],
@@ -9625,13 +9556,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat560: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Workers",
         dataend,
       ],
@@ -9642,13 +9573,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat561: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Workers",
         dataend,
       ],
@@ -9660,13 +9591,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat562: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Workers",
         dataend,
       ],
@@ -9677,13 +9608,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat563: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Workers",
         dataend,
       ],
@@ -9694,13 +9625,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat564: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Workers",
         dataend,
       ],
@@ -9711,8 +9642,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat565: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Workers by Age",
+        "A06",
+        "45-54" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+
+    set566: {
+      url566:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat566: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Age",
+        "A07",
+        "65-99" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set567: {
+      url567:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat567: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Age",
+        "A07",
+        "65-99" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set568: {
+      url568:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat568: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Age",
+        "A07",
+        "65-99" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set569: {
+      url569:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat569: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Age",
@@ -9723,88 +9723,19 @@ var Objectarray = {
       ],
     },
 
-    set566: {
-      url566:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat566: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Separations by Age",
-        "A01",
-        "14-18" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set567: {
-      url567:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat567: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Separations by Age",
-        "A01",
-        "14-18" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set568: {
-      url568:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat568: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Separations by Age",
-        "A01",
-        "14-18" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set569: {
-      url569:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat569: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Separations by Age",
-        "A01",
-        "14-18" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-
     set570: {
       url570:
         "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat570: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Seperation",
         dataend,
       ],
@@ -9815,13 +9746,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat571: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Seperation",
         dataend,
       ],
@@ -9832,13 +9763,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat572: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Seperation",
         dataend,
       ],
@@ -9849,13 +9780,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat573: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
-        "A02",
-        "19-21" + ",",
+        "A01",
+        "14-18" + ",",
         "Seperation",
         dataend,
       ],
@@ -9867,13 +9798,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat574: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Seperation",
         dataend,
       ],
@@ -9884,13 +9815,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat575: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Seperation",
         dataend,
       ],
@@ -9901,13 +9832,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat576: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Seperation",
         dataend,
       ],
@@ -9918,13 +9849,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat577: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
-        "A03",
-        "22-24" + ",",
+        "A02",
+        "19-21" + ",",
         "Seperation",
         dataend,
       ],
@@ -9936,13 +9867,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat578: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Seperation",
         dataend,
       ],
@@ -9953,13 +9884,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat579: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Seperation",
         dataend,
       ],
@@ -9970,13 +9901,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat580: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Seperation",
         dataend,
       ],
@@ -9987,13 +9918,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat581: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
-        "A04",
-        "25-34" + ",",
+        "A03",
+        "22-24" + ",",
         "Seperation",
         dataend,
       ],
@@ -10005,13 +9936,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat582: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Seperation",
         dataend,
       ],
@@ -10022,13 +9953,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat583: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Seperation",
         dataend,
       ],
@@ -10039,13 +9970,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat584: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Seperation",
         dataend,
       ],
@@ -10056,13 +9987,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat585: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
-        "A05",
-        "35-44" + ",",
+        "A04",
+        "25-34" + ",",
         "Seperation",
         dataend,
       ],
@@ -10074,13 +10005,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat586: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Seperation",
         dataend,
       ],
@@ -10091,13 +10022,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat587: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Seperation",
         dataend,
       ],
@@ -10108,13 +10039,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat588: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Seperation",
         dataend,
       ],
@@ -10125,13 +10056,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat589: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
-        "A06",
-        "45-54" + ",",
+        "A05",
+        "35-44" + ",",
         "Seperation",
         dataend,
       ],
@@ -10143,13 +10074,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat590: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Seperation",
         dataend,
       ],
@@ -10160,13 +10091,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat591: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Seperation",
         dataend,
       ],
@@ -10177,13 +10108,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat592: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Age",
-        "A07",
-        "65-99" + ",",
+        "A06",
+        "45-54" + ",",
         "Seperation",
         dataend,
       ],
@@ -10194,8 +10125,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat593: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Separations by Age",
+        "A06",
+        "45-54" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+
+    set594: {
+      url594:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat594: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Separations by Age",
+        "A07",
+        "65-99" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set595: {
+      url595:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat595: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Separations by Age",
+        "A07",
+        "65-99" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set596: {
+      url596:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat596: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Separations by Age",
+        "A07",
+        "65-99" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set597: {
+      url597:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat597: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Age",
@@ -10206,88 +10206,19 @@ var Objectarray = {
       ],
     },
 
-    set594: {
-      url594:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat594: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Average Monthly Earnings by Gender",
-        "1",
-        "Male" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set595: {
-      url595:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat595: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Average Monthly Earnings by Gender",
-        "1",
-        "Male" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set596: {
-      url596:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat596: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Average Monthly Earnings by Gender",
-        "1",
-        "Male" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-    set597: {
-      url597:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat597: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Average Monthly Earnings by Gender",
-        "1",
-        "Male" + ",",
-        "Earnings",
-        dataend,
-      ],
-    },
-
     set598: {
       url598:
         "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat598: [
         "Maryland",
         year + "Q1",
         "Maryland Average Monthly Earnings by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Earnings",
         dataend,
       ],
@@ -10298,13 +10229,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat599: [
         "Maryland",
         year + "Q2",
         "Maryland Average Monthly Earnings by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Earnings",
         dataend,
       ],
@@ -10315,13 +10246,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat600: [
         "Maryland",
         year + "Q3",
         "Maryland Average Monthly Earnings by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Earnings",
         dataend,
       ],
@@ -10332,8 +10263,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat601: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Average Monthly Earnings by Gender",
+        "1",
+        "Male" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+
+    set602: {
+      url602:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat602: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Average Monthly Earnings by Gender",
+        "2",
+        "Female" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set603: {
+      url603:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat603: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Average Monthly Earnings by Gender",
+        "2",
+        "Female" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set604: {
+      url604:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat604: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Average Monthly Earnings by Gender",
+        "2",
+        "Female" + ",",
+        "Earnings",
+        dataend,
+      ],
+    },
+    set605: {
+      url605:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat605: [
         "Maryland",
         year + "Q4",
         "Maryland Average Monthly Earnings by Gender",
@@ -10344,88 +10344,19 @@ var Objectarray = {
       ],
     },
 
-    set602: {
-      url602:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat602: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Workers by Gender",
-        "1",
-        "Male" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set603: {
-      url603:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat603: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Workers by Gender",
-        "1",
-        "Male" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set604: {
-      url604:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat604: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Workers by Gender",
-        "1",
-        "Male" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-    set605: {
-      url605:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat605: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Workers by Gender",
-        "1",
-        "Male" + ",",
-        "Workers",
-        dataend,
-      ],
-    },
-
     set606: {
       url606:
         "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat606: [
         "Maryland",
         year + "Q1",
         "Maryland Workers by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Workers",
         dataend,
       ],
@@ -10436,13 +10367,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat607: [
         "Maryland",
         year + "Q2",
         "Maryland Workers by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Workers",
         dataend,
       ],
@@ -10453,13 +10384,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat608: [
         "Maryland",
         year + "Q3",
         "Maryland Workers by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Workers",
         dataend,
       ],
@@ -10470,8 +10401,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat609: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Workers by Gender",
+        "1",
+        "Male" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+
+    set610: {
+      url610:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat610: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Workers by Gender",
+        "2",
+        "Female" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set611: {
+      url611:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat611: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Workers by Gender",
+        "2",
+        "Female" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set612: {
+      url612:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat612: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Workers by Gender",
+        "2",
+        "Female" + ",",
+        "Workers",
+        dataend,
+      ],
+    },
+    set613: {
+      url613:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat613: [
         "Maryland",
         year + "Q4",
         "Maryland Workers by Gender",
@@ -10482,88 +10482,19 @@ var Objectarray = {
       ],
     },
 
-    set610: {
-      url610:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat610: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Separations by Gender",
-        "1",
-        "Male" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set611: {
-      url611:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat611: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Separations by Gender",
-        "1",
-        "Male" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set612: {
-      url612:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat612: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Separations by Gender",
-        "1",
-        "Male" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-    set613: {
-      url613:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat613: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Separations by Gender",
-        "1",
-        "Male" + ",",
-        "Seperation",
-        dataend,
-      ],
-    },
-
     set614: {
       url614:
         "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat614: [
         "Maryland",
         year + "Q1",
         "Maryland Separations by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Seperation",
         dataend,
       ],
@@ -10574,13 +10505,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat615: [
         "Maryland",
         year + "Q2",
         "Maryland Separations by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Seperation",
         dataend,
       ],
@@ -10591,13 +10522,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat616: [
         "Maryland",
         year + "Q3",
         "Maryland Separations by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Seperation",
         dataend,
       ],
@@ -10608,8 +10539,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat617: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Separations by Gender",
+        "1",
+        "Male" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+
+    set618: {
+      url618:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat618: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Separations by Gender",
+        "2",
+        "Female" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set619: {
+      url619:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat619: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Separations by Gender",
+        "2",
+        "Female" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set620: {
+      url620:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat620: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Separations by Gender",
+        "2",
+        "Female" + ",",
+        "Seperation",
+        dataend,
+      ],
+    },
+    set621: {
+      url621:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat621: [
         "Maryland",
         year + "Q4",
         "Maryland Separations by Gender",
@@ -10620,88 +10620,19 @@ var Objectarray = {
       ],
     },
 
-    set618: {
-      url618:
-        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat618: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Net Change by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set619: {
-      url619:
-        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat619: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Net Change by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set620: {
-      url620:
-        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat620: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Net Change by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set621: {
-      url621:
-        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat621: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Net Change by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-
     set622: {
       url622:
         "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat622: [
         "Maryland",
         year + "Q1",
         "Maryland Net Change by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Job Change",
         dataend,
       ],
@@ -10712,13 +10643,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat623: [
         "Maryland",
         year + "Q2",
         "Maryland Net Change by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Job Change",
         dataend,
       ],
@@ -10729,13 +10660,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat624: [
         "Maryland",
         year + "Q3",
         "Maryland Net Change by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Job Change",
         dataend,
       ],
@@ -10746,13 +10677,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat625: [
         "Maryland",
         year + "Q4",
         "Maryland Net Change by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Job Change",
         dataend,
       ],
@@ -10764,13 +10695,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat626: [
         "Maryland",
         year + "Q1",
         "Maryland Net Change by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Job Change",
         dataend,
       ],
@@ -10781,13 +10712,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat627: [
         "Maryland",
         year + "Q2",
         "Maryland Net Change by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Job Change",
         dataend,
       ],
@@ -10798,13 +10729,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat628: [
         "Maryland",
         year + "Q3",
         "Maryland Net Change by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Job Change",
         dataend,
       ],
@@ -10815,13 +10746,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat629: [
         "Maryland",
         year + "Q4",
         "Maryland Net Change by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Job Change",
         dataend,
       ],
@@ -10833,13 +10764,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat630: [
         "Maryland",
         year + "Q1",
         "Maryland Net Change by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Job Change",
         dataend,
       ],
@@ -10850,13 +10781,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat631: [
         "Maryland",
         year + "Q2",
         "Maryland Net Change by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Job Change",
         dataend,
       ],
@@ -10867,13 +10798,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat632: [
         "Maryland",
         year + "Q3",
         "Maryland Net Change by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Job Change",
         dataend,
       ],
@@ -10884,8 +10815,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat633: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Net Change by Education",
+        "E3",
+        "Some college or Associate degree" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+
+    set634: {
+      url634:
+        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat634: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Net Change by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set635: {
+      url635:
+        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat635: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Net Change by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set636: {
+      url636:
+        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat636: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Net Change by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set637: {
+      url637:
+        "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat637: [
         "Maryland",
         year + "Q4",
         "Maryland Net Change by Education",
@@ -10896,88 +10896,19 @@ var Objectarray = {
       ],
     },
 
-    set634: {
-      url634:
-        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat634: [
-        "Maryland",
-        year + "Q1",
-        "Maryland New Hires by Education",
-        "E1",
-        "Less than High School" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set635: {
-      url635:
-        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat635: [
-        "Maryland",
-        year + "Q2",
-        "Maryland New Hires by Education",
-        "E1",
-        "Less than High School" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set636: {
-      url636:
-        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat636: [
-        "Maryland",
-        year + "Q3",
-        "Maryland New Hires by Education",
-        "E1",
-        "Less than High School" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-    set637: {
-      url637:
-        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat637: [
-        "Maryland",
-        year + "Q4",
-        "Maryland New Hires by Education",
-        "E1",
-        "Less than High School" + ",",
-        "New Hires",
-        dataend,
-      ],
-    },
-
     set638: {
       url638:
         "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat638: [
         "Maryland",
         year + "Q1",
         "Maryland New Hires by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "New Hires",
         dataend,
       ],
@@ -10988,13 +10919,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat639: [
         "Maryland",
         year + "Q2",
         "Maryland New Hires by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "New Hires",
         dataend,
       ],
@@ -11005,13 +10936,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat640: [
         "Maryland",
         year + "Q3",
         "Maryland New Hires by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "New Hires",
         dataend,
       ],
@@ -11022,13 +10953,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat641: [
         "Maryland",
         year + "Q4",
         "Maryland New Hires by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "New Hires",
         dataend,
       ],
@@ -11040,13 +10971,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat642: [
         "Maryland",
         year + "Q1",
         "Maryland New Hires by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "New Hires",
         dataend,
       ],
@@ -11057,13 +10988,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat643: [
         "Maryland",
         year + "Q2",
         "Maryland New Hires by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "New Hires",
         dataend,
       ],
@@ -11074,13 +11005,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat644: [
         "Maryland",
         year + "Q3",
         "Maryland New Hires by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "New Hires",
         dataend,
       ],
@@ -11091,13 +11022,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat645: [
         "Maryland",
         year + "Q4",
         "Maryland New Hires by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "New Hires",
         dataend,
       ],
@@ -11109,13 +11040,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat646: [
         "Maryland",
         year + "Q1",
         "Maryland New Hires by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "New Hires",
         dataend,
       ],
@@ -11126,13 +11057,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat647: [
         "Maryland",
         year + "Q2",
         "Maryland New Hires by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "New Hires",
         dataend,
       ],
@@ -11143,13 +11074,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat648: [
         "Maryland",
         year + "Q3",
         "Maryland New Hires by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "New Hires",
         dataend,
       ],
@@ -11160,8 +11091,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat649: [
+        "Maryland",
+        year + "Q4",
+        "Maryland New Hires by Education",
+        "E3",
+        "Some college or Associate degree" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+
+    set650: {
+      url650:
+        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat650: [
+        "Maryland",
+        year + "Q1",
+        "Maryland New Hires by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set651: {
+      url651:
+        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat651: [
+        "Maryland",
+        year + "Q2",
+        "Maryland New Hires by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set652: {
+      url652:
+        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat652: [
+        "Maryland",
+        year + "Q3",
+        "Maryland New Hires by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "New Hires",
+        dataend,
+      ],
+    },
+    set653: {
+      url653:
+        "https://api.census.gov/data/timeseries/qwi/se?get=HirAfor=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat653: [
         "Maryland",
         year + "Q4",
         "Maryland New Hires by Education",
@@ -11172,88 +11172,19 @@ var Objectarray = {
       ],
     },
 
-    set650: {
-      url650:
-        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat650: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Turnover Rate by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set651: {
-      url651:
-        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat651: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Turnover Rate by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set652: {
-      url652:
-        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat652: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Turnover Rate by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set653: {
-      url653:
-        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat653: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Turnover Rate by Education",
-        "E1",
-        "Less than High School" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-
     set654: {
       url654:
         "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat654: [
         "Maryland",
         year + "Q1",
         "Maryland Turnover Rate by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Turnover",
         dataend,
       ],
@@ -11264,13 +11195,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat655: [
         "Maryland",
         year + "Q2",
         "Maryland Turnover Rate by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Turnover",
         dataend,
       ],
@@ -11281,13 +11212,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat656: [
         "Maryland",
         year + "Q3",
         "Maryland Turnover Rate by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Turnover",
         dataend,
       ],
@@ -11298,13 +11229,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat657: [
         "Maryland",
         year + "Q4",
         "Maryland Turnover Rate by Education",
-        "E2",
-        "High school or equivalent, no college" + ",",
+        "E1",
+        "Less than High School" + ",",
         "Turnover",
         dataend,
       ],
@@ -11316,13 +11247,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat658: [
         "Maryland",
         year + "Q1",
         "Maryland Turnover Rate by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Turnover",
         dataend,
       ],
@@ -11333,13 +11264,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat659: [
         "Maryland",
         year + "Q2",
         "Maryland Turnover Rate by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Turnover",
         dataend,
       ],
@@ -11350,13 +11281,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat660: [
         "Maryland",
         year + "Q3",
         "Maryland Turnover Rate by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Turnover",
         dataend,
       ],
@@ -11367,13 +11298,13 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat661: [
         "Maryland",
         year + "Q4",
         "Maryland Turnover Rate by Education",
-        "E3",
-        "Some college or Associate degree" + ",",
+        "E2",
+        "High school or equivalent, no college" + ",",
         "Turnover",
         dataend,
       ],
@@ -11385,13 +11316,13 @@ var Objectarray = {
         year +
         "-" +
         "Q1" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat662: [
         "Maryland",
         year + "Q1",
         "Maryland Turnover Rate by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Turnover",
         dataend,
       ],
@@ -11402,13 +11333,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat663: [
         "Maryland",
         year + "Q2",
         "Maryland Turnover Rate by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Turnover",
         dataend,
       ],
@@ -11419,13 +11350,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat664: [
         "Maryland",
         year + "Q3",
         "Maryland Turnover Rate by Education",
-        "E4",
-        "Bachelor's degree or advanced degree" + ",",
+        "E3",
+        "Some college or Associate degree" + ",",
         "Turnover",
         dataend,
       ],
@@ -11436,8 +11367,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat665: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Turnover Rate by Education",
+        "E3",
+        "Some college or Associate degree" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+
+    set666: {
+      url666:
+        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat666: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Turnover Rate by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set667: {
+      url667:
+        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat667: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Turnover Rate by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set668: {
+      url668:
+        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat668: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Turnover Rate by Education",
+        "E4",
+        "Bachelor's degree or advanced degree" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set669: {
+      url669:
+        "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrSfor=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat669: [
         "Maryland",
         year + "Q4",
         "Maryland Turnover Rate by Education",
@@ -11448,88 +11448,19 @@ var Objectarray = {
       ],
     },
 
-    set666: {
-      url666:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat666: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Net Change by Gender",
-        "1",
-        "Male" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set667: {
-      url667:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat667: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Net Change by Gender",
-        "1",
-        "Male" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set668: {
-      url668:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat668: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Net Change by Gender",
-        "1",
-        "Male" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-    set669: {
-      url669:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat669: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Net Change by Gender",
-        "1",
-        "Male" + ",",
-        "Job Change",
-        dataend,
-      ],
-    },
-
     set670: {
       url670:
         "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat670: [
         "Maryland",
         year + "Q1",
-        "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "Maryland Net Change by Gender",
+        "1",
+        "Male" + ",",
         "Job Change",
         dataend,
       ],
@@ -11540,13 +11471,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat671: [
         "Maryland",
         year + "Q2",
-        "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "Maryland Net Change by Gender",
+        "1",
+        "Male" + ",",
         "Job Change",
         dataend,
       ],
@@ -11557,13 +11488,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat672: [
         "Maryland",
         year + "Q3",
-        "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "Maryland Net Change by Gender",
+        "1",
+        "Male" + ",",
         "Job Change",
         dataend,
       ],
@@ -11574,8 +11505,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat673: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Net Change by Gender",
+        "1",
+        "Male" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+
+    set674: {
+      url674:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat674: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set675: {
+      url675:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat675: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set676: {
+      url676:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat676: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Job Change",
+        dataend,
+      ],
+    },
+    set677: {
+      url677:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat677: [
         "Maryland",
         year + "Q4",
         "Maryland Turnover Rate by Gender",
@@ -11586,88 +11586,19 @@ var Objectarray = {
       ],
     },
 
-    set674: {
-      url674:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat674: [
-        "Maryland",
-        year + "Q1",
-        "Maryland Turnover Rate by Gender",
-        "1",
-        "Male" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set675: {
-      url675:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat675: [
-        "Maryland",
-        year + "Q2",
-        "Maryland Turnover Rate by Gender",
-        "1",
-        "Male" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set676: {
-      url676:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat676: [
-        "Maryland",
-        year + "Q3",
-        "Maryland Turnover Rate by Gender",
-        "1",
-        "Male" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-    set677: {
-      url677:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat677: [
-        "Maryland",
-        year + "Q4",
-        "Maryland Turnover Rate by Gender",
-        "1",
-        "Male" + ",",
-        "Turnover",
-        dataend,
-      ],
-    },
-
     set678: {
       url678:
         "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
         year +
         "-" +
         "Q1" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat678: [
         "Maryland",
         year + "Q1",
         "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Turnover",
         dataend,
       ],
@@ -11678,13 +11609,13 @@ var Objectarray = {
         year +
         "-" +
         "Q2" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat679: [
         "Maryland",
         year + "Q2",
         "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Turnover",
         dataend,
       ],
@@ -11695,13 +11626,13 @@ var Objectarray = {
         year +
         "-" +
         "Q3" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat680: [
         "Maryland",
         year + "Q3",
         "Maryland Turnover Rate by Gender",
-        "2",
-        "Female" + ",",
+        "1",
+        "Male" + ",",
         "Turnover",
         dataend,
       ],
@@ -11712,8 +11643,77 @@ var Objectarray = {
         year +
         "-" +
         "Q4" +
-        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+        "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
       arrayformat681: [
+        "Maryland",
+        year + "Q4",
+        "Maryland Turnover Rate by Gender",
+        "1",
+        "Male" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+
+    set682: {
+      url682:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat682: [
+        "Maryland",
+        year + "Q1",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set683: {
+      url683:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat683: [
+        "Maryland",
+        year + "Q2",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set684: {
+      url684:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat684: [
+        "Maryland",
+        year + "Q3",
+        "Maryland Turnover Rate by Gender",
+        "2",
+        "Female" + ",",
+        "Turnover",
+        dataend,
+      ],
+    },
+    set685: {
+      url685:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat685: [
         "Maryland",
         year + "Q4",
         "Maryland Turnover Rate by Gender",
