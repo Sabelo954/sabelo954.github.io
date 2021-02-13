@@ -28,6 +28,22 @@ var results = [
     "Amount",
     "Unemployment_Rate",
   ],
+  ["Maryland","2015Q3","TANF","Workers"+",,,,",5546,],
+  ["Maryland","2015Q4","TANF","Workers"+",,,,",5875,],
+  ["Maryland","2016Q1","TANF","Workers"+",,,,",4316,],
+  ["Maryland","2016Q2","TANF","Workers"+",,,,",4843,],
+  ["Maryland","2016Q3","TANF","Workers"+",,,,",5179,],
+  ["Maryland","2016Q4","TANF","Workers"+",,,,",5305,],
+  ["Maryland","2017Q1","TANF","Workers"+",,,,",4026,],
+  ["Maryland","2017Q2","TANF","Workers"+",,,,",4361,],
+  ["Maryland","2017Q3","TANF","Workers"+",,,,",4037,],
+  ["Maryland","2017Q4","TANF","Workers"+",,,,",4744,],
+  ["Maryland","2018Q1","TANF","Workers"+",,,,",3643,],
+  ["Maryland","2018Q2","TANF","Workers"+",,,,",3775,],
+  ["Maryland","2018Q3","TANF","Workers"+",,,,",3947,],
+  ["Maryland","2018Q4","TANF","Workers"+",,,,",4106,],
+  ["Maryland","2019Q1","TANF","Workers"+",,,,",2968,],
+  ["Maryland","2019Q2","TANF","Workers"+",,,,",3397,]
 ];
 
 // Just a few operations within the data that needs to be completed. Right now not critical.
@@ -88,19 +104,6 @@ function getCensusApiData(url, year, i) {
              dataend,
            ],
          },
-
-         set5: {
-           url5:
-             "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-           arrayformat5: [
-             "Maryland",
-             year,
-             "Employment Status By Disability Status",
-             "Non " + ",",
-             "Unemployed" + ",",
-             dataend,
-           ],
-         },
        },
           // beginning of the object for the county API data
       }; // end of the object for the library
@@ -122,9 +125,10 @@ function pushresultstoarray(year,obj,i){
   // console.log("check for i in function", i);
   // console.log(b); // console log array format
   // console.log("the object pushed:", obj.Maryland[a][b]);
-  results.push([obj.Maryland[a][b]]);
-
+   results.push([obj.Maryland[a][b]]);
 }
+
+
 
 
 
@@ -136,7 +140,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 1; i < 6; ++i) {
+for (var i = 1; i < 5; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -162,7 +166,7 @@ for (var i = 1; i < 6; ++i) {
     var Objecturl = {
       // beginning of the object for the library
       Maryland: {
-        set1:{ 
+        set1:{
              url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
             },
@@ -187,18 +191,6 @@ for (var i = 1; i < 6; ++i) {
            72,
            "Accommodation and Food Services" + ",",
            "Earnings",
-           dataend,
-         ],
-       },
-       set5: {
-         url5:
-           "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-         arrayformat5: [
-           "Maryland",
-           year,
-           "Employment Status By Disability Status",
-           "Non " + ",",
-           "Unemployed" + ",",
            dataend,
          ],
        },
