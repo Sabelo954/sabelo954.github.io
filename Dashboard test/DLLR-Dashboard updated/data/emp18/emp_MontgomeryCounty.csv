@@ -1,0 +1,134 @@
+Column1,Column2,Column3,Column4,Column5,Column6,Column7
+Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+Gender,,,,,,
+,Male,,,,,
+,,Not working,190122,187556,195203,191241
+,,part-time,34809,34626,34101,35064
+,,full-time,275425,279656,283376,282350
+,Female,,,,,
+,,Not working,242767,249448,243031,243441
+,,part-time,60049,65178,65873,69240
+,,full-time,236644,228635,237293,231789
+Race,,,,,,
+,White,,,,,
+,,Not working,232310,236900,220669,224687
+,,part-time,57029,57906,56256,56111
+,,full-time,275124,283035,272612,265015
+,Black,,,,,
+,,Not working,80069,77977,81846,78716
+,,part-time,14993,18851,18264,18810
+,,full-time,90927,94772,96339,100401
+,American Indian or Alaska Native,,,,,
+,,Not working,881,1167,1621,765
+,,part-time,999,294,264,877
+,,full-time,2291,973,1983,1457
+,Chinese,,,,,
+,,Not working,19593,17798,19418,17613
+,,part-time,2834,3902,3626,3301
+,,full-time,24172,23106,23467,26465
+,Japanese,,,,,
+,,Not working,1281,2166,1070,1512
+,,part-time,194,175,166,
+,,full-time,1152,1706,1046,1688
+,Other Asian,,,,,
+,,Not working,40667,44433,44993,41823
+,,part-time,8178,8167,9915,10045
+,,full-time,57025,54773,56430,53139
+,Other Race,,,,,
+,,Not working,36032,31124,44168,39572
+,,part-time,6622,6841,8318,11042
+,,full-time,44566,38697,53083,47478
+,Two Major,,,,,
+,,Not working,19791,22774,20966,26301
+,,part-time,3612,3393,2541,3761
+,,full-time,14240,10782,14251,17149
+,Three or More,,,,,
+,,Not working,2265,2665,3483,3693
+,,part-time,397,275,624,357
+,,full-time,2572,447,1458,1347
+Education,,,,,,
+,N/A,,,,,
+,,Not working,38146,40233,38011,40925
+,,part time,,,,
+,,full time,,,,
+,No School,,,,,
+,,Not working,33335,28675,31336,27852
+,,part-time,398,1118,946,1444
+,,full-time,7063,6514,7641,6453
+,Nursery,,,,,
+,,Not working,18803,16335,16966,19879
+,,part-time,105,,,
+,,full-time,87,340,,139
+,Kindergarten,,,,,
+,,Not working,14789,14876,13907,13781
+,,part-time,79,,,94
+,,full-time,352,95,65,
+,Less than Highschool,,,,,
+,,Not working,113834,116864,117671,116208
+,,part time,2210,1829,1542,3225
+,,full time,15197,15663,12996,12702
+,Some Highschool,,,,,
+,,Not working,47298,37437,40004,38326
+,,part time,8198,7776,9551,10611
+,,full time,17375,11839,13239,11924
+,Regular Highschool Diploma,,,,,
+,,Not working,34327,37408,36260,33799
+,,part-time,14420,15472,17264,15141
+,,full-time,56775,60968,62936,59194
+,GED,,,,,
+,,Not working,4074,3806,3319,2006
+,,part-time,1380,1203,533,1117
+,,full-time,5327,6540,4722,7529
+,Some College,,,,,
+,,Not working,8807,9622,9521,7595
+,,part-time,4152,3720,4271,5299
+,,full-time,20739,15029,17710,21350
+,1 or more,,,,,
+,,Not working,24043,21307,26214,22062
+,,part-time,16862,16724,16992,15913
+,,full-time,52514,52979,55020,51352
+,Associate,,,,,
+,,Not working,12452,11551,10360,13840
+,,part-time,4675,5536,5153,6182
+,,full-time,24628,25376,28511,23376
+,Bachelor's,,,,,
+,,Not working,42946,46958,46682,49881
+,,part-time,23429,22741,19915,22621
+,,full-time,149463,142286,145854,141351
+,Master's,,,,,
+,,Not working,27838,27193,27092,25343
+,,part-time,11977,14144,13825,12844
+,,full-time,95984,102615,101603,99659
+,Professional,,,,,
+,,Not working,5873,8838,8861,9305
+,,part-time,3323,4895,4261,4627
+,,full-time,30848,33921,30620,37764
+,Doctoral,,,,,
+,,Not working,6324,10118,6770,7880
+,,part-time,3650,3412,3230,3186
+,,full-time,35717,28543,34002,34346
+Poverty as a percentage of the Federal poverty level,,,,,,
+,0-25,,,,,
+,,Not working,22410,24692,25167,23575
+,,part-time,1557,2815,3550,3648
+,,full-time,2599,3227,2956,2794
+,26-50,,,,,
+,,Not working,8340,4516,13293,7383
+,,part-time,2885,1665,3321,687
+,,full-time,3244,1970,3020,3590
+,51-75,,,,,
+,,Not working,10834,9246,7865,11138
+,,part-time,3223,1749,1980,2747
+,,full-time,2741,3684,2161,"3,32"
+,76-100,,,,,
+,,Not working,20831,13765,13826,14802
+,,part-time,3371,4163,3120,5040
+,,full-time,8812,5167,6413,6563
+,100-500,,,,,
+,,Not working,184369,195790,187678,178745
+,,part-time,37699,41356,43739,44250
+,,full-time,195899,193179,199149,179335
+,501,,,,,
+,,Not working,186105,188995,190405,199039
+,,part-time,46123,48056,44264,47932
+,,full-time,298774,301064,306970,318534
