@@ -538,7 +538,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year,
               "Unemployment By Race",
-              "Hispanic or Latino (Any Race)" + ",,,",
+              "Hispanic" + ",,,",
               dataend,
               dataend / 100,
             ],
@@ -9329,7 +9329,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Average Earnings by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Earnings",
               dataend+ ",",
             ],
@@ -9346,7 +9346,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Average Earnings by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Earnings",
               dataend+ ",",
             ],
@@ -9363,7 +9363,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Average Earnings by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Earnings",
               dataend+ ",",
             ],
@@ -9380,7 +9380,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Average Earnings by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Earnings",
               dataend+ ",",
             ],
@@ -9812,7 +9812,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Workers by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Workers",
               dataend+ ",",
             ],
@@ -9829,7 +9829,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Workers by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Workers",
               dataend+ ",",
             ],
@@ -9846,7 +9846,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Workers by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Workers",
               dataend+ ",",
             ],
@@ -9863,7 +9863,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Workers by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Workers",
               dataend+ ",",
             ],
@@ -10295,7 +10295,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Separations by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Seperation",
               dataend+ ",",
             ],
@@ -10312,7 +10312,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Separations by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Seperation",
               dataend+ ",",
             ],
@@ -10329,7 +10329,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Separations by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Seperation",
               dataend+ ",",
             ],
@@ -10346,7 +10346,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Separations by Age",
               "A07",
-              "65-99" + ",",
+              "55-64" + ",",
               "Seperation",
               dataend+ ",",
             ],
@@ -10576,6 +10576,7 @@ function getCensusApiData(url, year, i) {
               dataend+ ",",
             ],
           },
+
           set611: {
             url611:
               "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
@@ -10778,7 +10779,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10795,7 +10796,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10812,7 +10813,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10829,7 +10830,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -11054,7 +11055,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland New Hires by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "New Hires",
               dataend+ ",",
             ],
@@ -11330,7 +11331,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11347,7 +11348,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11364,7 +11365,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11381,7 +11382,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than High school" + ",",
+              "Less than Highschool" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11870,6 +11871,502 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
+          set686: {
+            url686:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat686: [
+              "Maryland",
+              year + "Q1",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Female" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set687: {
+            url687:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat687: [
+              "Maryland",
+              year + "Q2",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Female" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set688: {
+            url688:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat688: [
+              "Maryland",
+              year + "Q3",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Female" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set689: {
+            url689:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat689: [
+              "Maryland",
+              year + "Q4",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Female" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set690: {
+            url690:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat690: [
+              "Maryland",
+              year + "Q1",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Male" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set691: {
+            url691:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat691: [
+              "Maryland",
+              year + "Q2",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Male" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set692: {
+            url692:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat692: [
+              "Maryland",
+              year + "Q3",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Male" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set693: {
+            url693:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat693: [
+              "Maryland",
+              year + "Q4",
+              "Maryland Average Monthly Earnings by Gender",
+              "2",
+              "Male" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+          set694: {
+            url694:
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat694: [
+              "Maryland",
+              year + "Q1",
+              "Maryland New Hires by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set695: {
+            url695:
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat695: [
+              "Maryland",
+              year + "Q2",
+              "Maryland New Hires by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set696: {
+            url696:
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat696: [
+              "Maryland",
+              year + "Q3",
+              "Maryland New Hires by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set697: {
+            url697:
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat697: [
+              "Maryland",
+              year + "Q4",
+              "Maryland New Hires by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "New Hires",
+              dataend+ ",",
+            ],
+          },
+
+          set698: {
+            url698:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat698: [
+              "Maryland",
+              year + "Q1",
+              "Maryland Workers by Gender",
+              "0",
+              "All Sexes" + ",",
+              "Workers",
+              dataend+ ",",
+            ],
+          },
+
+          set699: {
+            url699:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat699: [
+              "Maryland",
+              year + "Q2",
+              "Maryland Workers by Gender",
+              "0",
+              "All Sexes" + ",",
+              "Workers",
+              dataend+ ",",
+            ],
+          },
+
+          set700: {
+            url700:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat700: [
+              "Maryland",
+              year + "Q3",
+              "Maryland Workers by Gender",
+              "0",
+              "All Sexes" + ",",
+              "Workers",
+              dataend+ ",",
+            ],
+          },
+
+          set701: {
+            url701:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat701: [
+              "Maryland",
+              year + "Q4",
+              "Maryland Workers by Gender",
+              "0",
+              "All Sexes" + ",",
+              "Workers",
+              dataend+ ",",
+            ],
+          },
+
+
+                  set702: {
+                    url702:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q1" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat702: [
+                      "Maryland",
+                      year + "Q1",
+                      "Maryland Workers by Age",
+                      "A00",
+                      "All Ages" + ",",
+                      "Workers",
+                      dataend+ ",",
+                    ],
+                  },
+                  set703: {
+                    url703:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat703: [
+                      "Maryland",
+                      year + "Q2",
+                      "Maryland Workers by Age",
+                      "A00",
+                      "All Ages" + ",",
+                      "Workers",
+                      dataend+ ",",
+                    ],
+                  },
+                  set704: {
+                    url704:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q3" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat704: [
+                      "Maryland",
+                      year + "Q3",
+                      "Maryland Workers by Age",
+                      "A00",
+                      "All Ages" + ",",
+                      "Workers",
+                      dataend+ ",",
+                    ],
+                  },
+                  set705: {
+                    url705:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q4" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat705: [
+                      "Maryland",
+                      year + "Q4",
+                      "Maryland Workers by Age",
+                      "A00",
+                      "All Ages" + ",",
+                      "Workers",
+                      dataend+ ",",
+                    ],
+                  },
+
+                  set706: {
+                    url706:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q1" +
+                      "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat706: [
+                      "Maryland",
+                      year + "Q1",
+                      "Maryland Job Net Change by Gender",
+                      "2",
+                      "Female" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set707: {
+                    url707:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat707: [
+                      "Maryland",
+                      year + "Q2",
+                      "Maryland Job Net Change by Gender",
+                      "2",
+                      "Female" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set708: {
+                    url708:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q3" +
+                      "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat708: [
+                      "Maryland",
+                      year + "Q3",
+                      "Maryland Job Net Change by Gender",
+                      "2",
+                      "Female" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set709: {
+                    url709:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q4" +
+                      "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat709: [
+                      "Maryland",
+                      year + "Q4",
+                      "Maryland Job Net Change by Gender",
+                      "2",
+                      "Female" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+
+                  set710: {
+                    url710:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q1" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat710: [
+                      "Maryland",
+                      year + "Q1",
+                      "Maryland Job Net Change by Gender",
+                      "0",
+                      "All sexes" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set711: {
+                    url711:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat711: [
+                      "Maryland",
+                      year + "Q2",
+                      "Maryland Job Net Change by Gender",
+                      "0",
+                      "All sexes" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set712: {
+                    url712:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q3" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat712: [
+                      "Maryland",
+                      year + "Q3",
+                      "Maryland Job Net Change by Gender",
+                      "0",
+                      "All sexes" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set713: {
+                    url713:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q4" +
+                      "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat713: [
+                      "Maryland",
+                      year + "Q4",
+                      "Maryland Job Net Change by Gender",
+                      "0",
+                      "All sexes" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+
+
          },
 
           // beginning of the object for the county API data
@@ -11915,7 +12412,7 @@ for (var i = 1; i < 686; ++i) {
     // console.log("Check year loop:", year);
 
     // var datafinal = collectACSAPI("S1701_C02_027E",year);
-    if (year == 2021) {
+    if (year == 2019) {
       break;
     }
 
@@ -12338,7 +12835,7 @@ for (var i = 1; i < 686; ++i) {
             "Maryland",
             year,
             "Unemployment By Race",
-            "Hispanic or Latino (Any Race)" + ",,,",
+            "Hispanic" + ",,,",
             dataend,
             dataend / 100,
           ],
@@ -21128,7 +21625,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q1",
             "Maryland Average Earnings by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Earnings",
             dataend+ ",",
           ],
@@ -21145,7 +21642,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q2",
             "Maryland Average Earnings by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Earnings",
             dataend+ ",",
           ],
@@ -21162,7 +21659,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q3",
             "Maryland Average Earnings by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Earnings",
             dataend+ ",",
           ],
@@ -21179,7 +21676,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q4",
             "Maryland Average Earnings by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Earnings",
             dataend+ ",",
           ],
@@ -21611,7 +22108,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q1",
             "Maryland Workers by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Workers",
             dataend+ ",",
           ],
@@ -21628,7 +22125,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q2",
             "Maryland Workers by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Workers",
             dataend+ ",",
           ],
@@ -21645,7 +22142,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q3",
             "Maryland Workers by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Workers",
             dataend+ ",",
           ],
@@ -21662,7 +22159,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q4",
             "Maryland Workers by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Workers",
             dataend+ ",",
           ],
@@ -22094,7 +22591,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q1",
             "Maryland Separations by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Seperation",
             dataend+ ",",
           ],
@@ -22111,7 +22608,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q2",
             "Maryland Separations by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Seperation",
             dataend+ ",",
           ],
@@ -22122,13 +22619,13 @@ for (var i = 1; i < 686; ++i) {
             year +
             "-" +
             "Q3" +
-            "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat596: [
             "Maryland",
             year + "Q3",
             "Maryland Separations by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Seperation",
             dataend+ ",",
           ],
@@ -22145,7 +22642,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q4",
             "Maryland Separations by Age",
             "A07",
-            "65-99" + ",",
+            "55-64" + ",",
             "Seperation",
             dataend+ ",",
           ],
@@ -22577,7 +23074,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q1",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -22594,7 +23091,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q2",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -22611,7 +23108,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q3",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -22628,7 +23125,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q4",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -23129,7 +23626,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q1",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -23146,7 +23643,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q2",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -23163,7 +23660,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q3",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -23180,7 +23677,7 @@ for (var i = 1; i < 686; ++i) {
             year + "Q4",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than High school" + ",",
+            "Less than Highschool" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -23668,6 +24165,502 @@ for (var i = 1; i < 686; ++i) {
             dataend+ ",",
           ],
         },
+
+        set686: {
+          url686:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat686: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Female" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set687: {
+          url687:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat687: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Female" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set688: {
+          url688:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat688: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Female" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+        set689: {
+          url689:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat689: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Female" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set690: {
+          url690:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat690: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Male" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set691: {
+          url691:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat691: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Male" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set692: {
+          url692:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat692: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Male" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set693: {
+          url693:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat693: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Average Monthly Earnings by Gender",
+            "2",
+            "Male" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set694: {
+          url694:
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat694: [
+            "Maryland",
+            year + "Q1",
+            "Maryland New Hires by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set695: {
+          url695:
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat695: [
+            "Maryland",
+            year + "Q2",
+            "Maryland New Hires by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set696: {
+          url696:
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat696: [
+            "Maryland",
+            year + "Q3",
+            "Maryland New Hires by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set697: {
+          url697:
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat697: [
+            "Maryland",
+            year + "Q4",
+            "Maryland New Hires by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "New Hires",
+            dataend+ ",",
+          ],
+        },
+
+        set698: {
+          url698:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat698: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Workers by Gender",
+            "0",
+            "All Sexes" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+
+        set699: {
+          url699:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat699: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Workers by Gender",
+            "0",
+            "All Sexes" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+
+        set700: {
+          url700:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat700: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Workers by Gender",
+            "0",
+            "All Sexes" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+
+        set701: {
+          url701:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat701: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Workers by Gender",
+            "0",
+            "All Sexes" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+
+        set702: {
+          url702:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat702: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Workers by Age",
+            "A00",
+            "All Ages" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+        set703: {
+          url703:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat703: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Workers by Age",
+            "A00",
+            "All Ages" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+        set704: {
+          url704:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat704: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Workers by Age",
+            "A00",
+            "All Ages" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+        set705: {
+          url705:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat705: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Workers by Age",
+            "A00",
+            "All Ages" + ",",
+            "Workers",
+            dataend+ ",",
+          ],
+        },
+
+        set706: {
+          url706:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat706: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Job Net Change by Gender",
+            "2",
+            "Female" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set707: {
+          url707:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat707: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Job Net Change by Gender",
+            "2",
+            "Female" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set708: {
+          url708:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat708: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Job Net Change by Gender",
+            "2",
+            "Female" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set709: {
+          url709:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat709: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Job Net Change by Gender",
+            "2",
+            "Female" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+        set710: {
+          url710:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat710: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Job Net Change by Gender",
+            "0",
+            "All sexes" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set711: {
+          url711:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat711: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Job Net Change by Gender",
+            "0",
+            "All sexes" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set712: {
+          url712:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat712: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Job Net Change by Gender",
+            "0",
+            "All sexes" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set713: {
+          url713:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat713: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Job Net Change by Gender",
+            "0",
+            "All sexes" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+       },
 
        },
         // beginning of the object for the county API data
