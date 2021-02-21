@@ -1,4 +1,4 @@
-"11",//ACS Data
+//ACS Data
 // The table or array that will be converted to the excel spreadsheet
 var results = [
   [
@@ -98,6 +98,15 @@ var results = [
   ["Maryland"+",","2018"+",","SNAP Recipient Workers"+",,,,,",275670+","],
   ["Maryland"+",","2016Q3"+",","Service Participants in SNAP"+",,,,,",0.0591+","],
   ["Maryland"+",","2016Q4"+",","Service Participants in SNAP"+",,,,,",0.0466+","],
+  ["Maryland"+",","2016"+",","Maryland Apprentices"+",","Active Apprentices"+",,",11821],
+  ["Maryland"+",","2017"+",","Maryland Apprentices"+",","Active Apprentices"+",,",9090],
+  ["Maryland"+",","2018"+",","Maryland Apprentices"+",","Active Apprentices"+",,",8567],
+  ["Maryland"+",","2016"+",","Maryland Apprentices"+",","New Apprentices"+",,",1070],
+  ["Maryland"+",","2017"+",","Maryland Apprentices"+",","New Apprentices"+",,",2631],
+  ["Maryland"+",","2018"+",","Maryland Apprentices"+",","New Apprentices"+",,",1904],
+  ["Maryland"+",","2013"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",76000],
+  ["Maryland"+",","2014"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",71000],
+  ["Maryland"+",","2015"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",56000]
 
 ];
 
