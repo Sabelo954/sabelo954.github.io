@@ -77,11 +77,20 @@ function getCensusApiData(url, year, i) {
         // beginning of the object for the library
         Maryland: {
 
-          set1:{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+          set1:{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
                 arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
               },
-          set2:{ url2: "https://api.census.gov/data/"+year+"/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat2: ["Maryland",year,"Total Population",",,,",dataend],
+              set2: {
+                url2:
+                  "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat2: [
+                  "Maryland",
+                  year,
+                  "Employment Status By Disability Status",
+                  "Disabled" + ",",
+                  "Unemployed" + ",",
+                  dataend+ ",",
+                ],
               },
 
           set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
@@ -97,7 +106,7 @@ function getCensusApiData(url, year, i) {
            arrayformat4: [
              "Maryland",
              year + "Q1",
-             "Maryland Average Earnings by Industry",
+             '"Maryland,Average Earnings by Industry"',
              72,
              "Accommodation and Food Services" + ",",
              "Earnings",
@@ -170,10 +179,18 @@ for (var i = 1; i < 5; ++i) {
              url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
             },
-        set2:{ url2: "https://api.census.gov/data/"+year+"/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-              arrayformat2: ["Maryland",year,"Total Population",",,,",dataend],
+            set2: {
+              url2:
+                "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat2: [
+                "Maryland",
+                year,
+                "Employment Status By Disability Status",
+                "Disabled" + ",",
+                "Unemployed" + ",",
+                dataend+ ",",
+              ],
             },
-
         set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
              arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
              },
@@ -187,7 +204,7 @@ for (var i = 1; i < 5; ++i) {
          arrayformat4: [
            "Maryland",
            year + "Q1",
-           "Maryland Average Earnings by Industry",
+           '"Maryland,Average Earnings by Industry"',
            72,
            "Accommodation and Food Services" + ",",
            "Earnings",
