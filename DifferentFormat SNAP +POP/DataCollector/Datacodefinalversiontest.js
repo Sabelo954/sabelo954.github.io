@@ -44,18 +44,18 @@ var results = [
   ["Maryland"+",","2018Q4"+",","TANF Workers"+",,,,,",4106+","],
   ["Maryland"+",","2019Q1"+",","TANF Workers"+",,,,,",2968+","],
   ["Maryland"+",","2019Q2"+",","TANF Workers"+",,,,,",3397+","],
-  ["Maryland"+",","2016Q3"+",","TANF Participants in Workforce Service"+" "+",,,,,",391+","],
-  ["Maryland"+",","2016Q4"+",","TANF Participants in Workforce Service"+" "+",,,,,",224+","],
-  ["Maryland"+",","2017Q1"+",","TANF Participants in Workforce Service"+" "+",,,,,",265+","],
-  ["Maryland"+",","2017Q2"+",","TANF Participants in Workforce Service"+" "+",,,,,",242+","],
-  ["Maryland"+",","2017Q3"+",","TANF Participants in Workforce Service"+" "+",,,,,",202+","],
-  ["Maryland"+",","2017Q4"+",","TANF Participants in Workforce Service"+" "+",,,,,",168+","],
-  ["Maryland"+",","2018Q1"+",","TANF Participants in Workforce Service"+" "+",,,,,",132+","],
-  ["Maryland"+",","2018Q2"+",","TANF Participants in Workforce Service"+" "+",,,,,",152+","],
-  ["Maryland"+",","2018Q3"+",","TANF Participants in Workforce Service"+" "+",,,,,",153+","],
-  ["Maryland"+",","2018Q4"+",","TANF Participants in Workforce Service"+" "+",,,,,",172+","],
-  ["Maryland"+",","2019Q1"+",","TANF Participants in Workforce Service"+" "+",,,,,",144+","],
-  ["Maryland"+",","2019Q2"+",","TANF Participants in Workforce Service"+" "+",,,,,",37+","],
+  ["Maryland"+",","2016Q3"+",","TANF Participants in Workforce Service "+",,,,,",391+","],
+  ["Maryland"+",","2016Q4"+",","TANF Participants in Workforce Service "+",,,,,",224+","],
+  ["Maryland"+",","2017Q1"+",","TANF Participants in Workforce Service "+",,,,,",265+","],
+  ["Maryland"+",","2017Q2"+",","TANF Participants in Workforce Service "+",,,,,",242+","],
+  ["Maryland"+",","2017Q3"+",","TANF Participants in Workforce Service "+",,,,,",202+","],
+  ["Maryland"+",","2017Q4"+",","TANF Participants in Workforce Service "+",,,,,",168+","],
+  ["Maryland"+",","2018Q1"+",","TANF Participants in Workforce Service "+",,,,,",132+","],
+  ["Maryland"+",","2018Q2"+",","TANF Participants in Workforce Service "+",,,,,",152+","],
+  ["Maryland"+",","2018Q3"+",","TANF Participants in Workforce Service "+",,,,,",153+","],
+  ["Maryland"+",","2018Q4"+",","TANF Participants in Workforce Service "+",,,,,",172+","],
+  ["Maryland"+",","2019Q1"+",","TANF Participants in Workforce Service "+",,,,,",144+","],
+  ["Maryland"+",","2019Q2"+",","TANF Participants in Workforce Service "+",,,,,",37+","],
   ["Maryland"+",","2016Q3"+",","Percent of Workforce Service participants in TANF (%)"+",,,,,",3.03054+","],
   ["Maryland"+",","2016Q4"+",","Percent of Workforce Service participants in TANF (%)"+",,,,,",1.85231+","],
   ["Maryland"+",","2017Q1"+",","Percent of Workforce Service participants in TANF (%)"+",,,,,",1.81856+","],
@@ -98,15 +98,15 @@ var results = [
   ["Maryland"+",","2018"+",","SNAP Recipient Workers"+",,,,,",275670+","],
   ["Maryland"+",","2016Q3"+",","Service Participants in SNAP"+",,,,,",0.0591+","],
   ["Maryland"+",","2016Q4"+",","Service Participants in SNAP"+",,,,,",0.0466+","],
-  ["Maryland"+",","2016"+",","Maryland Apprentices"+",","Active Apprentices"+",,",11821],
-  ["Maryland"+",","2017"+",","Maryland Apprentices"+",","Active Apprentices"+",,",9090],
-  ["Maryland"+",","2018"+",","Maryland Apprentices"+",","Active Apprentices"+",,",8567],
-  ["Maryland"+",","2016"+",","Maryland Apprentices"+",","New Apprentices"+",,",1070],
-  ["Maryland"+",","2017"+",","Maryland Apprentices"+",","New Apprentices"+",,",2631],
-  ["Maryland"+",","2018"+",","Maryland Apprentices"+",","New Apprentices"+",,",1904],
-  ["Maryland"+",","2013"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",76000],
-  ["Maryland"+",","2014"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",71000],
-  ["Maryland"+",","2015"+",","Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",","Unemployed"+",,",56000],
+  ["Maryland"+",","2016"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
+  ["Maryland"+",","2017"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
+  ["Maryland"+",","2018"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
+  ["Maryland"+",","2016"+",","Maryland Apprentices"+",,","New Apprentices"+",,",1070],
+  ["Maryland"+",","2017"+",","Maryland Apprentices"+",,","New Apprentices"+",,",2631],
+  ["Maryland"+",","2018"+",","Maryland Apprentices"+",,","New Apprentices"+",,",1904],
+  ["Maryland"+",","2013"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",76000],
+  ["Maryland"+",","2014"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",71000],
+  ["Maryland"+",","2015"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",56000],
   ["Maryland,","2015,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3016531],
   ["Maryland,","2015,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",184714],
   ["Maryland,","2016,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3029225],
@@ -123,12 +123,6 @@ var results = [
   ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2864507],
   ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329],
   ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397]
-
-
-
-
-
-
 
 
 
@@ -238,15 +232,17 @@ function getCensusApiData(url, year, i) {
 
           set6: {
             url6:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat6: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Labor Force" + ",",
-              0+ ",",
-            ],
+              "https://api.census.gov/data/" +
+              year +
+              "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat6: [
+                "Maryland",
+                year,
+                "Unemployment By Gender",
+                "Female" + ",,,",
+                dataend,
+                dataend / 100,
+              ],
           },
 
           set7: {
@@ -12856,14 +12852,14 @@ for (var i = 1; i < 734; ++i) {
             "https://api.census.gov/data/" +
             year +
             "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat3: [
-            "Maryland",
-            year,
-            "Unemployment By Gender",
-            "1" + ",,,",
-            0,
-            0/ 100,
-          ],
+            arrayformat3: [
+              "Maryland",
+              year,
+              "Unemployment By Gender",
+              "Male" + ",,,",
+              dataend,
+              dataend / 100,
+            ],
         },
 
         set4: {
@@ -12894,15 +12890,17 @@ for (var i = 1; i < 734; ++i) {
 
         set6: {
           url6:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat6: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "" + ",",
-            "Labor Force" + ",",
-            0+ ",",
-          ],
+            "https://api.census.gov/data/" +
+            year +
+            "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat6: [
+              "Maryland",
+              year,
+              "Unemployment By Gender",
+              "Female" + ",,,",
+              dataend,
+              dataend / 100,
+            ],
         },
 
         set7: {
