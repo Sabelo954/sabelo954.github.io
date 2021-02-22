@@ -98,12 +98,12 @@ var results = [
   ["Maryland"+",","2018"+",","SNAP Recipient Workers"+",,,,,",275670+","],
   ["Maryland"+",","2016Q3"+",","Service Participants in SNAP"+",,,,,",0.0591+","],
   ["Maryland"+",","2016Q4"+",","Service Participants in SNAP"+",,,,,",0.0466+","],
-  ["Maryland"+",","2016"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
-  ["Maryland"+",","2017"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
-  ["Maryland"+",","2018"+",","Maryland Apprentices"+",,","Active Apprentices"+",,,",9090],
-  ["Maryland"+",","2016"+",","Maryland Apprentices"+",,","New Apprentices"+",,",1070],
-  ["Maryland"+",","2017"+",","Maryland Apprentices"+",,","New Apprentices"+",,",2631],
-  ["Maryland"+",","2018"+",","Maryland Apprentices"+",,","New Apprentices"+",,",1904],
+  ["Maryland,","2016,","Maryland Apprentices,,","Active Apprentices,,,",11821],
+  ["Maryland,","2016,","Maryland Apprentices,,","New Apprentices,,,",1070],
+  ["Maryland,","2017,","Maryland Apprentices,,","New Apprentices,,,",2631],
+  ["Maryland,","2017,","Maryland Apprentices,,","Active Apprentices,,,",9090],
+  ["Maryland,","2018,","Maryland Apprentices,,","Active Apprentices,,,",8567],
+  ["Maryland,","2018,","Maryland Apprentices,,","New Apprentices,,,",1904],
   ["Maryland"+",","2013"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",76000],
   ["Maryland"+",","2014"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",71000],
   ["Maryland"+",","2015"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",56000],
@@ -830,8 +830,7 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=72&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat45: [
-              "Maryland",
-              year + "Q1",
+              "Maryland",year + "Q1",
               "Maryland Separations by Industry",
               "72",
               "Accommodation and Food Services" + ",",
@@ -839,6 +838,7 @@ function getCensusApiData(url, year, i) {
               dataend+ ",",
             ],
           },
+
           set46: {
             url46:
               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -1913,6 +1913,7 @@ function getCensusApiData(url, year, i) {
               dataend+ ",",
             ],
           },
+
           set107: {
             url107:
               "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
@@ -2110,15 +2111,16 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat118: [
-              "Maryland",
+              '"'+"Maryland",
               year + "Q1",
               "Maryland Separations by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Seperation"+ ",",
+              '""Agriculture, Forestry, Fishing and Hunting""',
+              ",,Seperation,",
               dataend+ ",",
             ],
           },
+
           set119: {
             url119:
               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -2126,16 +2128,16 @@ function getCensusApiData(url, year, i) {
               "-" +
               "Q2" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat119: [
-              "Maryland",
-              year + "Q2",
-              "Maryland Separations by Industry",
-              "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Seperation"+ ",",
-              dataend+ ",",
-            ],
-          },
+              arrayformat119: [
+                '"'+"Maryland",
+                year + "Q2",
+                "Maryland Separations by Industry",
+                "11",
+                '""Agriculture, Forestry, Fishing and Hunting""',
+                ",,Seperation,",
+                dataend+ ",",
+              ],
+            },
           set120: {
             url120:
               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -2143,16 +2145,16 @@ function getCensusApiData(url, year, i) {
               "-" +
               "Q3" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat120: [
-              "Maryland",
-              year + "Q3",
-              "Maryland Separations by Industry",
-              "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Seperation"+ ",",
-              dataend+ ",",
-            ],
-          },
+              arrayformat120: [
+                '"'+"Maryland",
+                year + "Q3",
+                "Maryland Separations by Industry",
+                "11",
+                '""Agriculture, Forestry, Fishing and Hunting""',
+                ",,Seperation,",
+                dataend+ ",",
+              ],
+            },
           set121: {
             url121:
               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -2160,16 +2162,16 @@ function getCensusApiData(url, year, i) {
               "-" +
               "Q4" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat121: [
-              "Maryland",
-              year + "Q4",
-              "Maryland Separations by Industry",
-              "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Seperation"+ ",",
-              dataend+ ",",
-            ],
-          },
+              arrayformat121: [
+                '"'+"Maryland",
+                year + "Q4",
+                "Maryland Separations by Industry",
+                "11",
+                '""Agriculture, Forestry, Fishing and Hunting""',
+                ",,Seperation,",
+                dataend+ ",",
+              ],
+            },
           set122: {
             url122:
               "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
@@ -14764,16 +14766,16 @@ for (var i = 1; i < 734; ++i) {
             "-" +
             "Q1" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat118: [
-            "Maryland",
-            year + "Q1",
-            "Maryland Separations by Industry",
-            "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Seperation"+ ",",
-            dataend+ ",",
-          ],
-        },
+            arrayformat118: [
+              '"'+"Maryland",
+              year + "Q1",
+              "Maryland Separations by Industry",
+              "11",
+              '""Agriculture, Forestry, Fishing and Hunting""',
+              ",,Seperation,",
+              dataend+ ",",
+            ],
+          },
         set119: {
           url119:
             "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -14781,16 +14783,16 @@ for (var i = 1; i < 734; ++i) {
             "-" +
             "Q2" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat119: [
-            "Maryland",
-            year + "Q2",
-            "Maryland Separations by Industry",
-            "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Seperation"+ ",",
-            dataend+ ",",
-          ],
-        },
+            arrayformat119: [
+              '"'+"Maryland",
+              year + "Q2",
+              "Maryland Separations by Industry",
+              "11",
+              '""Agriculture, Forestry, Fishing and Hunting""',
+              ",,Seperation,",
+              dataend+ ",",
+            ],
+          },
         set120: {
           url120:
             "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -14798,16 +14800,16 @@ for (var i = 1; i < 734; ++i) {
             "-" +
             "Q3" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat120: [
-            "Maryland",
-            year + "Q3",
-            "Maryland Separations by Industry",
-            "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Seperation"+ ",",
-            dataend+ ",",
-          ],
-        },
+            arrayformat120: [
+              '"'+"Maryland",
+              year + "Q3",
+              "Maryland Separations by Industry",
+              "11",
+              '""Agriculture, Forestry, Fishing and Hunting""',
+              ",,Seperation,",
+              dataend+ ",",
+            ],
+          },
         set121: {
           url121:
             "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
@@ -14815,16 +14817,16 @@ for (var i = 1; i < 734; ++i) {
             "-" +
             "Q4" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat121: [
-            "Maryland",
-            year + "Q4",
-            "Maryland Separations by Industry",
-            "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Seperation"+ ",",
-            dataend+ ",",
-          ],
-        },
+            arrayformat121: [
+              '"'+"Maryland",
+              year + "Q4",
+              "Maryland Separations by Industry",
+              "11",
+              '""Agriculture, Forestry, Fishing and Hunting""',
+              ",,Seperation,",
+              dataend+ ",",
+            ],
+          },
         set122: {
           url122:
             "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=state:24&time=" +
