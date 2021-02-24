@@ -1,6 +1,6 @@
 //ACS Data
 // The table or array that will be converted to the excel spreadsheet
-var results = [
+let results = [
   [
     "Col1",
     "Col2",
@@ -96,28 +96,24 @@ function getCensusApiData(url, year, i) {
           set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
                arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
                },
-         set4: {
-           url4:
-             "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-             year +
-             "-" +
-             "Q1" +
-             "&industry=72&key=855666deab62d95596011f1944d9f1bd8c918853",
-           arrayformat4: [
-             "Maryland",
-             year + "Q1",
-             '"Maryland,Average Earnings by Industry"',
-             72,
-             "Accommodation and Food Services" + ",",
-             "Earnings",
-             dataend,
-           ],
-         },
-       },
+               set4: {
+                 url4:
+                   "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                   year +
+                   "-" +
+                   "Q3" +
+                   "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
+                   arrayformat4: [
+                     `'"Maryland,${year}Q3,Maryland Separations by Industry,,11,""Agriculture, Forestry, Fishing and Hunting"",,Seperation,${dataend},"''`
+                   ]
+
+                 },
+                 },
+
           // beginning of the object for the county API data
+
       }; // end of the object for the library
-
-
+    // Objectarray.Maryland[set4][arrayformat4].splice(0,1);
       pushresultstoarray(year,Objectarray,i);
 }
 ) // end of function to collect the Census bureau data
@@ -194,23 +190,17 @@ for (var i = 1; i < 5; ++i) {
         set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
              arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
              },
-        set4: {
-         url4:
-           "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
-           year +
-           "-" +
-           "Q1" +
-           "&industry=72&key=855666deab62d95596011f1944d9f1bd8c918853",
-         arrayformat4: [
-           "Maryland",
-           year + "Q1",
-           '"Maryland,Average Earnings by Industry"',
-           72,
-           "Accommodation and Food Services" + ",",
-           "Earnings",
-           dataend,
-         ],
-       },
+             set4: {
+               url4:
+                 "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                 year +
+                 "-" +
+                 "Q3" +
+                 "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
+                 arrayformat4: [
+                   `hello${'"'}Maryland,${year}Q3,Maryland Separations by Industry,,11,Agriculture, Forestry, Fishing and Hunting,,Seperation,${dataend},`
+                 ],
+               },
         // beginning of the object for the county API data
       },
     }; // end of the object for the library
@@ -245,15 +235,17 @@ for (var i = 1; i < 5; ++i) {
   } // end of the while loop
 
   console.log("What to convert:",results);
+
 } // end of the for loop for each set of data in the Object
 
 //The conversion of the results array to an excel csv format
+
 
 exportToCsv = function () {
   var CsvString = "";
   results.forEach(function (RowItem, RowIndex) {
     RowItem.forEach(function (ColItem, ColIndex) {
-      CsvString += ColItem + ",";
+      CsvString += ColItem;
     });
     CsvString += "\r\n";
   });
