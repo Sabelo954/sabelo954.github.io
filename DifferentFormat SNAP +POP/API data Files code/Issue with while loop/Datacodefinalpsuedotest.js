@@ -104,7 +104,13 @@ function getCensusApiData(url, year, i) {
                    "Q3" +
                    "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
                    arrayformat4: [
-                     `'"Maryland,${year}Q3,Maryland Separations by Industry,,11,""Agriculture, Forestry, Fishing and Hunting"",,Seperation,${dataend},"''`
+                     // `
+                     '"'+'"'+'"Maryland,'
+                     +year+"Q3,"
+                     +"\"Maryland Separations by Industry,,11,\""
+                     +"\"Agriculture, Forestry, Fishing and Hunting\""+'"'+",,"
+                     +"Seperation,"+dataend+","+'"'
+                     // `
                    ]
 
                  },

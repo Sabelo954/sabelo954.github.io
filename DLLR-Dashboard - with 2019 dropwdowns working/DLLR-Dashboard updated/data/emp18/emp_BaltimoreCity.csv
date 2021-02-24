@@ -1,0 +1,134 @@
+Column1,Column2,Column3,Column4,Column5,Column6,Column7
+Employment Status Amongst Maryland Workers,,,2015,2016,2017,2018
+Gender,,,,,,
+,Male,,,,,
+,,Not working,148886,144152,137430,129233
+,,part-time,18247,17322,20313,20902
+,,full-time,126372,127667,129225,131041
+,Female,,,,,
+,,Not working,171087,153460,164391,157275
+,,part-time,23706,29445,27427,27839
+,,full-time,133813,142737,132779,136856
+Race,,,,,,
+,White,,,,,
+,,Not working,77999,71493,71458,64447
+,,part-time,15042,16452,15415,18843
+,,full-time,100537,101382,97637,101048
+,Black,,,,,
+,,Not working,220551,207878,211718,201501
+,,part-time,23699,28052,28477,25361
+,,full-time,138559,150393,144644,146146
+,American Indian or Alaska Native,,,,,
+,,Not working,553,317,1625,346
+,,part-time,160,103,80,553
+,,full-time,501,518,1090,580
+,Chinese,,,,,
+,,Not working,2548,1535,2072,1396
+,,part-time,360,106,63,1403
+,,full-time,2128,1333,1427,2294
+,Japanese,,,,,
+,,Not working,73,,172,141
+,,part-time,,36,70,
+,,full-time,120,200,52,120
+,Other Asian,,,,,
+,,Not working,4372,5297,4387,4307
+,,part-time,1054,758,1308,709
+,,full-time,6829,6521,6799,5767
+,Other Race,,,,,
+,,Not working,3974,3311,3687,6416
+,,part-time,497,496,943,519
+,,full-time,5321,4282,5272,5603
+,Two Major,,,,,
+,,Not working,7376,6302,5328,7032
+,,part-time,753,719,1129,1200
+,,full-time,4470,5107,4199,5848
+,Three or More,,,,,
+,,Not working,2527,1479,1374,922
+,,part-time,388,45,255,153
+,,full-time,1720,668,884,491
+Education,,,,,,
+,N/A,,,,,
+,,Not working,23358,21929,22594,20414
+,,part time,,,,
+,,full time,,,,
+,No School,,,,,
+,,Not working,19192,22299,20254,21327
+,,part-time,669,446,241,169
+,,full-time,1927,3371,2742,2578
+,Nursery,,,,,
+,,Not working,11325,9056,9098,11380
+,,part-time,,,133,
+,,full-time,43,,,188
+,Kindergarten,,,,,
+,,Not working,9972,6977,6139,6749
+,,part-time,,,,
+,,full-time,,232,58,
+,Less than Highschool,,,,,
+,,Not working,64780,67051,66579,60818
+,,part time,711,1006,483,212
+,,full time,3874,4803,3710,2581
+,Some Highschool,,,,,
+,,Not working,45766,37241,42579,39600
+,,part time,4132,5502,5773,5547
+,,full time,18968,11291,10627,10421
+,Regular Highschool Diploma,,,,,
+,,Not working,60764,51262,48588,51624
+,,part-time,8765,13083,11218,10461
+,,full-time,61373,57190,59593,55713
+,GED,,,,,
+,,Not working,10463,10938,8418,11527
+,,part-time,1643,3265,1364,641
+,,full-time,9506,9048,9994,11334
+,Some College,,,,,
+,,Not working,9769,8840,11164,11144
+,,part-time,3690,2452,2812,3349
+,,full-time,12043,12449,12026,17017
+,1 or more,,,,,
+,,Not working,34127,26813,31330,18368
+,,part-time,10254,9073,7912,11939
+,,full-time,39265,43750,42791,39817
+,Associate,,,,,
+,,Not working,6821,9081,6076,5202
+,,part-time,905,1578,2791,1579
+,,full-time,12358,12949,13425,14079
+,Bachelor's,,,,,
+,,Not working,14857,11818,14001,13468
+,,part-time,7343,6302,6918,6808
+,,full-time,56090,62820,51853,55764
+,Master's,,,,,
+,,Not working,6223,5879,6383,7412
+,,part-time,3089,2212,4386,5126
+,,full-time,28332,32329,31819,36083
+,Professional,,,,,
+,,Not working,1443,1444,1504,1121
+,,part-time,540,570,1398,1363
+,,full-time,10093,10984,9812,10939
+,Doctoral,,,,,
+,,Not working,1113,984,1443,1354
+,,part-time,212,656,985,547
+,,full-time,6313,6320,8641,8383
+Poverty as a percentage of the Federal poverty level,,,,,,
+,0-25,,,,,
+,,Not working,60310,46324,50404,37030
+,,part-time,4952,6903,4465,10199
+,,full-time,5142,4446,3785,5038
+,26-50,,,,,
+,,Not working,20793,17371,22568,17363
+,,part-time,4841,1858,2811,3075
+,,full-time,3982,3940,2942,2763
+,51-75,,,,,
+,,Not working,27565,25350,25724,24336
+,,part-time,2155,3843,3350,2257
+,,full-time,4016,4629,4431,4065
+,76-100,,,,,
+,,Not working,28883,23094,25950,14785
+,,part-time,3329,2021,2456,5139
+,,full-time,6402,4453,6699,4261
+,100-500,,,,,
+,,Not working,151711,154607,139992,152177
+,,part-time,21578,27124,25559,20103
+,,full-time,156552,166006,147284,154892
+,501,,,,,
+,,Not working,30711,30866,37183,40817
+,,part-time,5098,5018,9099,7968
+,,full-time,84091,86930,96863,96878
