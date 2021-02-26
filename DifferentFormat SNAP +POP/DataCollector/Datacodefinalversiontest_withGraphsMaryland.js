@@ -98,31 +98,31 @@ var results = [
   ["Maryland"+",","2018"+",","SNAP Recipient Workers"+",,,,,",275670+","],
   ["Maryland"+",","2016Q3"+",","Service Participants in SNAP"+",,,,,",0.0591+","],
   ["Maryland"+",","2016Q4"+",","Service Participants in SNAP"+",,,,,",0.0466+","],
-  ["Maryland,","2016,","Maryland Apprentices,,","Active Apprentices,,,",11821],
-  ["Maryland,","2016,","Maryland Apprentices,,","New Apprentices,,,",1070],
-  ["Maryland,","2017,","Maryland Apprentices,,","New Apprentices,,,",2631],
-  ["Maryland,","2017,","Maryland Apprentices,,","Active Apprentices,,,",9090],
-  ["Maryland,","2018,","Maryland Apprentices,,","Active Apprentices,,,",8567],
-  ["Maryland,","2018,","Maryland Apprentices,,","New Apprentices,,,",1904],
-  ["Maryland"+",","2013"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",76000],
-  ["Maryland"+",","2014"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",71000],
-  ["Maryland"+",","2015"+",","Long Term Unemployed"+",,","Unemployed for 27 Weeks or More,"+",","Unemployed"+",,",56000],
-  ["Maryland,","2015,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3016531+","],
-  ["Maryland,","2015,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",184714+","],
-  ["Maryland,","2016,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3029225+","],
-  ["Maryland,","2016,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",179375+","],
-  ["Maryland,","2017,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3053027+","],
-  ["Maryland,","2017,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",173147+","],
-  ["Maryland,","2018,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3070769+","],
-  ["Maryland,","2018,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",167852+","],
-  ["Maryland,","2015,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",147296+","],
-  ["Maryland,","2015,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2861550+","],
-  ["Maryland,","2016,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",150516+","],
-  ["Maryland,","2016,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2857188+","],
-  ["Maryland,","2017,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",153211+","],
-  ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2864507+","],
-  ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329+","],
-  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397+","]
+  ["Maryland,","2016,","Maryland Apprentices,,","Active Apprentices,,,",11821+","],
+  ["Maryland,","2016,","Maryland Apprentices,,","New Apprentices,,,",1070+","],
+  ["Maryland,","2017,","Maryland Apprentices,,","New Apprentices,,,",2631+","],
+  ["Maryland,","2017,","Maryland Apprentices,,","Active Apprentices,,,",9090+","],
+  ["Maryland,","2018,","Maryland Apprentices,,","Active Apprentices,,,",8567+","],
+  ["Maryland,","2018,","Maryland Apprentices,,","New Apprentices,,,",1904+","],
+  ["Maryland"+",", "2013"+",", "Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",", "Unemployed"+",,,", 76000+","],
+  ["Maryland"+",", "2014"+",", "Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",", "Unemployed"+",,,", 71000+","],
+  ["Maryland"+",", "2015"+",", "Long Term Unemployed"+",","Unemployed for 27 Weeks or More"+",", "Unemployed"+",,,", 56000+","],
+  ["Maryland,","2015,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3016531],
+  ["Maryland,","2015,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",184714],
+  ["Maryland,","2016,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3029225],
+  ["Maryland,","2016,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",179375],
+  ["Maryland,","2017,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3053027],
+  ["Maryland,","2017,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",173147],
+  ["Maryland,","2018,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3070769],
+  ["Maryland,","2018,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",167852],
+  ["Maryland,","2015,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",147296],
+  ["Maryland,","2015,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2861550],
+  ["Maryland,","2016,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",150516],
+  ["Maryland,","2016,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2857188],
+  ["Maryland,","2017,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",153211],
+  ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2864507],
+  ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329],
+  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397]
 
 
 
@@ -166,7 +166,7 @@ function getCensusApiData(url, year, i) {
             url1:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat1: [
               "Maryland",
               year,
@@ -179,7 +179,7 @@ function getCensusApiData(url, year, i) {
             url2:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/profile?get=NAME,DP05_0001E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat2: [
               "Maryland",
               year,
@@ -193,7 +193,7 @@ function getCensusApiData(url, year, i) {
             url3:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat3: [
               "Maryland",
               year,
@@ -206,7 +206,7 @@ function getCensusApiData(url, year, i) {
 
           set4: {
             url4:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat4: [
               "Maryland",
               year,
@@ -219,7 +219,7 @@ function getCensusApiData(url, year, i) {
 
           set5: {
             url5:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat5: [
               "Maryland",
               year,
@@ -234,7 +234,7 @@ function getCensusApiData(url, year, i) {
             url6:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat6: [
                 "Maryland",
                 year,
@@ -249,7 +249,7 @@ function getCensusApiData(url, year, i) {
             url7:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat7: [
               "Maryland",
               year,
@@ -262,7 +262,7 @@ function getCensusApiData(url, year, i) {
 
           set8: {
             url8:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat8: [
               "Maryland",
               year,
@@ -277,7 +277,7 @@ function getCensusApiData(url, year, i) {
             url9:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_027E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat9: [
               "Maryland",
               year,
@@ -291,7 +291,7 @@ function getCensusApiData(url, year, i) {
             url10:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_028E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat10: [
               "Maryland",
               year,
@@ -305,7 +305,7 @@ function getCensusApiData(url, year, i) {
             url11:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_029E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_029E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat11: [
               "Maryland",
               year,
@@ -319,7 +319,7 @@ function getCensusApiData(url, year, i) {
             url12:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat12: [
               "Maryland",
               year,
@@ -334,7 +334,7 @@ function getCensusApiData(url, year, i) {
             url13:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_014E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_014E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat13: [
               "Maryland",
               year,
@@ -349,7 +349,7 @@ function getCensusApiData(url, year, i) {
             url14:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_015E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat14: [
               "Maryland",
               year,
@@ -364,7 +364,7 @@ function getCensusApiData(url, year, i) {
             url15:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat15: [
               "Maryland",
               year,
@@ -379,7 +379,7 @@ function getCensusApiData(url, year, i) {
             url16:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat16: [
               "Maryland",
               year,
@@ -394,7 +394,7 @@ function getCensusApiData(url, year, i) {
             url17:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat17: [
               "Maryland",
               year,
@@ -409,7 +409,7 @@ function getCensusApiData(url, year, i) {
             url18:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_006E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_006E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat18: [
               "Maryland",
               year,
@@ -424,7 +424,7 @@ function getCensusApiData(url, year, i) {
             url19:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat19: [
               "Maryland",
               year,
@@ -439,7 +439,7 @@ function getCensusApiData(url, year, i) {
             url20:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat20: [
               "Maryland",
               year,
@@ -452,7 +452,7 @@ function getCensusApiData(url, year, i) {
 
           set21: {
             url21:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat21: [
               "Maryland",
               year,
@@ -465,7 +465,7 @@ function getCensusApiData(url, year, i) {
 
           set22: {
             url22:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat22: [
               "Maryland",
               year,
@@ -480,7 +480,7 @@ function getCensusApiData(url, year, i) {
             url23:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_020E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_020E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat23: [
               "Maryland",
               year,
@@ -495,7 +495,7 @@ function getCensusApiData(url, year, i) {
             url24:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_021E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_021E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat24: [
               "Maryland",
               year,
@@ -510,7 +510,7 @@ function getCensusApiData(url, year, i) {
             url25:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5?get=NAME,B23006_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5?get=NAME,B23006_022E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat25: [
               "Maryland",
               year,
@@ -523,7 +523,7 @@ function getCensusApiData(url, year, i) {
 
           set26: {
             url26:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat26: [
               "Maryland",
               year,
@@ -536,7 +536,7 @@ function getCensusApiData(url, year, i) {
 
           set27: {
             url27:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat27: [
               "Maryland",
               year,
@@ -549,7 +549,7 @@ function getCensusApiData(url, year, i) {
 
           set28: {
             url28:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat28: [
               "Maryland",
               year,
@@ -562,7 +562,7 @@ function getCensusApiData(url, year, i) {
 
           set29: {
             url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat29: [
               "Maryland",
               year,
@@ -575,7 +575,7 @@ function getCensusApiData(url, year, i) {
 
           set30: {
             url30:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat30: [
               "Maryland",
               "2019",
@@ -588,7 +588,7 @@ function getCensusApiData(url, year, i) {
 
           set31: {
             url31:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat31: [
               "Maryland",
               year,
@@ -601,7 +601,7 @@ function getCensusApiData(url, year, i) {
 
           set32: {
             url32:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat32: [
               "Maryland",
               year,
@@ -1908,8 +1908,8 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Average Earnings by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Earnings"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+",",
+              "Earnings",
               dataend+ ",",
             ],
           },
@@ -1926,8 +1926,8 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Average Earnings by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Earnings"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Earnings",
               dataend+ ",",
             ],
           },
@@ -1943,8 +1943,8 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Average Earnings by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Earnings"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Earnings",
               dataend+ ",",
             ],
           },
@@ -1960,8 +1960,8 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Average Earnings by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Earnings"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Earnings",
               dataend+ ",",
             ],
           },
@@ -1977,8 +1977,8 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Job Net Change by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Job Change"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Job Change",
               dataend+ ",",
             ],
           },
@@ -1994,8 +1994,8 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Job Net Change by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Job Change"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Job Change",
               dataend+ ",",
             ],
           },
@@ -2011,8 +2011,8 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Job Net Change by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Job Change"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Job Change",
               dataend+ ",",
             ],
           },
@@ -2028,8 +2028,8 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Job Net Change by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Job Change"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Job Change",
               dataend+ ",",
             ],
           },
@@ -2046,8 +2046,8 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland New Hires by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "New Hires"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "New Hires",
               dataend+ ",",
             ],
           },
@@ -2063,8 +2063,8 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland New Hires by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "New Hires"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "New Hires",
               dataend+ ",",
             ],
           },
@@ -2080,8 +2080,8 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland New Hires by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "New Hires"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "New Hires",
               dataend+ ",",
             ],
           },
@@ -2097,8 +2097,8 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland New Hires by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "New Hires"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "New Hires",
               dataend+ ",",
             ],
           },
@@ -2111,12 +2111,12 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat118: [
-                '"Maryland',
+                "Maryland",
                 year + "Q1",
                 "Maryland Separations by Industry",
                 "11",
-                '""Agriculture, Forestry, Fishing and Hunting""',
-                ",Seperation",
+                '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+                "Seperation",
                 dataend+ ",",
               ],
             },
@@ -2128,12 +2128,12 @@ function getCensusApiData(url, year, i) {
               "Q2" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat119: [
-                '"Maryland',
+                "Maryland",
                 year + "Q2",
                 "Maryland Separations by Industry",
                 "11",
-                '""Agriculture, Forestry, Fishing and Hunting""',
-                ",Seperation",
+                '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+                "Seperation",
                 dataend+ ",",
               ],
             },
@@ -2145,12 +2145,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat120: [
-                '"Maryland',
+                "Maryland",
                 year + "Q3",
                 "Maryland Separations by Industry",
                 "11",
-                '""Agriculture, Forestry, Fishing and Hunting""',
-                ",Seperation",
+                '"Agriculture, Forestry, Fishing and Hunting"'+",",
+                "Seperation",
                 dataend+ ",",
               ],
             },
@@ -2162,12 +2162,12 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat121: [
-                '"Maryland',
+                "Maryland",
                 year + "Q4",
                 "Maryland Separations by Industry",
                 "11",
-                '""Agriculture, Forestry, Fishing and Hunting""',
-                ",Seperation",
+                '"Agriculture, Forestry, Fishing and Hunting"'+",",
+                "Seperation",
                 dataend+ ",",
               ],
             },
@@ -2183,8 +2183,8 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Turnover Rate by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Turnover Rate"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Turnover Rate",
               dataend+ ",",
             ],
           },
@@ -2200,8 +2200,8 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Turnover Rate by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Turnover Rate"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Turnover Rate",
               dataend+ ",",
             ],
           },
@@ -2217,8 +2217,8 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Turnover Rate by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Turnover Rate"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Turnover Rate",
               dataend+ ",",
             ],
           },
@@ -2234,8 +2234,8 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Turnover Rate by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Turnover Rate"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Turnover Rate",
               dataend+ ",",
             ],
           },
@@ -2252,8 +2252,8 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Workers by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Workers"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Workers",
               dataend+ ",",
             ],
           },
@@ -2269,8 +2269,8 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Workers by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Workers"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Workers",
               dataend+ ",",
             ],
           },
@@ -2286,8 +2286,8 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Workers by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Workers"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Workers",
               dataend+ ",",
             ],
           },
@@ -2303,8 +2303,8 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Workers by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              "Workers"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Workers",
               dataend+ ",",
             ],
           },
@@ -6047,7 +6047,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland Average Earnings by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Earnings",
               dataend+ ",",
@@ -6064,7 +6064,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland Average Earnings by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Earnings",
               dataend+ ",",
@@ -6081,7 +6081,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland Average Earnings by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Earnings",
               dataend+ ",",
@@ -6098,7 +6098,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland Average Earnings by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Earnings",
               dataend+ ",",
@@ -6116,7 +6116,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland Job Net Change by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Job Change",
               dataend+ ",",
@@ -6133,7 +6133,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland Job Net Change by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Job Change",
               dataend+ ",",
@@ -6150,7 +6150,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland Job Net Change by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Job Change",
               dataend+ ",",
@@ -6167,7 +6167,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland Job Net Change by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Job Change",
               dataend+ ",",
@@ -6185,7 +6185,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland New Hires by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "New Hires",
               dataend+ ",",
@@ -6202,7 +6202,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland New Hires by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "New Hires",
               dataend+ ",",
@@ -6219,7 +6219,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland New Hires by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "New Hires",
               dataend+ ",",
@@ -6236,7 +6236,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland New Hires by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "New Hires",
               dataend+ ",",
@@ -6254,7 +6254,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland Separations by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Seperation",
               dataend+ ",",
@@ -6271,7 +6271,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland Separations by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Seperation",
               dataend+ ",",
@@ -6288,7 +6288,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland Separations by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Seperation",
               dataend+ ",",
@@ -6305,7 +6305,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland Separations by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Seperation",
               dataend+ ",",
@@ -6323,7 +6323,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland Turnover Rate by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
               dataend+ ",",
@@ -6340,7 +6340,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland Turnover Rate by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
               dataend+ ",",
@@ -6357,7 +6357,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland Turnover Rate by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
               dataend+ ",",
@@ -6374,7 +6374,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland Turnover Rate by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
               dataend+ ",",
@@ -6391,7 +6391,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q1",
               "Maryland Workers by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Workers",
               dataend+ ",",
@@ -6408,7 +6408,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q2",
               "Maryland Workers by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Workers",
               dataend+ ",",
@@ -6425,7 +6425,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q3",
               "Maryland Workers by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Workers",
               dataend+ ",",
@@ -6442,7 +6442,7 @@ function getCensusApiData(url, year, i) {
               "Maryland",
               year + "Q4",
               "Maryland Workers by Industry",
-              "541",
+              "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Workers",
               dataend+ ",",
@@ -10809,7 +10809,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10826,7 +10826,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10843,7 +10843,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -10860,7 +10860,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Job Net Change by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Job Change",
               dataend+ ",",
             ],
@@ -11085,7 +11085,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland New Hires by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "New Hires",
               dataend+ ",",
             ],
@@ -11361,7 +11361,7 @@ function getCensusApiData(url, year, i) {
               year + "Q1",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11378,7 +11378,7 @@ function getCensusApiData(url, year, i) {
               year + "Q2",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11395,7 +11395,7 @@ function getCensusApiData(url, year, i) {
               year + "Q3",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -11412,7 +11412,7 @@ function getCensusApiData(url, year, i) {
               year + "Q4",
               "Maryland Turnover Rate by Education",
               "E1",
-              "Less than Highschool" + ",",
+              "Less than High school" + ",",
               "Turnover",
               dataend+ ",",
             ],
@@ -12339,7 +12339,7 @@ function getCensusApiData(url, year, i) {
                       year + "Q1",
                       "Maryland Job Net Change by Gender",
                       "0",
-                      "All sexes" + ",",
+                      "All" + ",",
                       "Job Change",
                       dataend+ ",",
                     ],
@@ -12356,7 +12356,7 @@ function getCensusApiData(url, year, i) {
                       year + "Q2",
                       "Maryland Job Net Change by Gender",
                       "0",
-                      "All sexes" + ",",
+                      "All" + ",",
                       "Job Change",
                       dataend+ ",",
                     ],
@@ -12373,7 +12373,7 @@ function getCensusApiData(url, year, i) {
                       year + "Q3",
                       "Maryland Job Net Change by Gender",
                       "0",
-                      "All sexes" + ",",
+                      "All" + ",",
                       "Job Change",
                       dataend+ ",",
                     ],
@@ -12390,7 +12390,7 @@ function getCensusApiData(url, year, i) {
                       year + "Q4",
                       "Maryland Job Net Change by Gender",
                       "0",
-                      "All sexes" + ",",
+                      "All" + ",",
                       "Job Change",
                       dataend+ ",",
                     ],
@@ -12752,74 +12752,11 @@ function getCensusApiData(url, year, i) {
                       dataend+ ",",
                     ],
                   },
-                  set734: {
-                    url734:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q1" +
-                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat734: [
-                      "Maryland",
-                      year + "Q1",
-                      "Maryland Job Net Change by Education",
-                      "E0",
-                      "All" + ",",
-                      "Job Change",
-                      dataend+ ",",
-                    ],
-                  },
-                  set735: {
-                    url735:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q2" +
-                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat735: [
-                      "Maryland",
-                      year + "Q2",
-                      "Maryland Job Net Change by Education",
-                      "E0",
-                      "All" + ",",
-                      "Job Change",
-                      dataend+ ",",
-                    ],
-                  },
-                  set736: {
-                    url736:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q3" +
-                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat736: [
-                      "Maryland",
-                      year + "Q3",
-                      "Maryland Job Net Change by Education",
-                      "E0",
-                      "All" + ",",
-                      "Job Change",
-                      dataend+ ",",
-                    ],
-                  },
-                  set737: {
-                    url737:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q4" +
-                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat737: [
-                      "Maryland",
-                      year + "Q4",
-                      "Maryland Job Net Change by Education",
-                      "E0",
-                      "All" + ",",
-                      "Job Change",
-                      dataend+ ",",
-                    ],
-                  },
+
+
+
+
+
 
          },
 
@@ -12888,7 +12825,7 @@ for (var i = 1; i < 734; ++i) {
           url1:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat1: [
             "Maryland",
             year,
@@ -12901,7 +12838,7 @@ for (var i = 1; i < 734; ++i) {
           url2:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/profile?get=NAME,DP05_0001E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/profile?get=NAME,DP05_0001E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat2: [
             "Maryland",
             year,
@@ -12915,7 +12852,7 @@ for (var i = 1; i < 734; ++i) {
           url3:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat3: [
               "Maryland",
               year,
@@ -12928,7 +12865,7 @@ for (var i = 1; i < 734; ++i) {
 
         set4: {
           url4:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat4: [
             "Maryland",
             year,
@@ -12941,7 +12878,7 @@ for (var i = 1; i < 734; ++i) {
 
         set5: {
           url5:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat5: [
             "Maryland",
             year,
@@ -12956,7 +12893,7 @@ for (var i = 1; i < 734; ++i) {
           url6:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat6: [
               "Maryland",
               year,
@@ -12971,7 +12908,7 @@ for (var i = 1; i < 734; ++i) {
           url7:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,C18120_004E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat7: [
             "Maryland",
             year,
@@ -12983,7 +12920,7 @@ for (var i = 1; i < 734; ++i) {
 
         set8: {
           url8:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat8: [
             "Maryland",
             year,
@@ -12997,7 +12934,7 @@ for (var i = 1; i < 734; ++i) {
           url9:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_027E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat9: [
             "Maryland",
             year,
@@ -13011,7 +12948,7 @@ for (var i = 1; i < 734; ++i) {
           url10:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_028E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat10: [
             "Maryland",
             year,
@@ -13025,7 +12962,7 @@ for (var i = 1; i < 734; ++i) {
           url11:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_029E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_029E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat11: [
             "Maryland",
             year,
@@ -13039,7 +12976,7 @@ for (var i = 1; i < 734; ++i) {
           url12:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat12: [
             "Maryland",
             year,
@@ -13054,7 +12991,7 @@ for (var i = 1; i < 734; ++i) {
           url13:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_014E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_014E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat13: [
             "Maryland",
             year,
@@ -13069,7 +13006,7 @@ for (var i = 1; i < 734; ++i) {
           url14:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_015E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat14: [
             "Maryland",
             year,
@@ -13084,7 +13021,7 @@ for (var i = 1; i < 734; ++i) {
           url15:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat15: [
             "Maryland",
             year,
@@ -13099,7 +13036,7 @@ for (var i = 1; i < 734; ++i) {
           url16:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat16: [
             "Maryland",
             year,
@@ -13114,7 +13051,7 @@ for (var i = 1; i < 734; ++i) {
           url17:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat17: [
             "Maryland",
             year,
@@ -13129,7 +13066,7 @@ for (var i = 1; i < 734; ++i) {
           url18:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_006E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_006E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat18: [
             "Maryland",
             year,
@@ -13144,7 +13081,7 @@ for (var i = 1; i < 734; ++i) {
           url19:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat19: [
             "Maryland",
             year,
@@ -13159,7 +13096,7 @@ for (var i = 1; i < 734; ++i) {
           url20:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat20: [
             "Maryland",
             year,
@@ -13172,7 +13109,7 @@ for (var i = 1; i < 734; ++i) {
 
         set21: {
           url21:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat21: [
             "Maryland",
             year,
@@ -13185,7 +13122,7 @@ for (var i = 1; i < 734; ++i) {
 
         set22: {
           url22:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat22: [
             "Maryland",
             year,
@@ -13200,7 +13137,7 @@ for (var i = 1; i < 734; ++i) {
           url23:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_020E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_020E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat23: [
             "Maryland",
             year,
@@ -13215,7 +13152,7 @@ for (var i = 1; i < 734; ++i) {
           url24:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_021E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_021E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat24: [
             "Maryland",
             year,
@@ -13230,7 +13167,7 @@ for (var i = 1; i < 734; ++i) {
           url25:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5?get=NAME,B23006_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5?get=NAME,B23006_022E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat25: [
             "Maryland",
             year,
@@ -13243,7 +13180,7 @@ for (var i = 1; i < 734; ++i) {
 
         set26: {
           url26:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat26: [
             "Maryland",
             year,
@@ -13256,7 +13193,7 @@ for (var i = 1; i < 734; ++i) {
 
         set27: {
           url27:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat27: [
             "Maryland",
             year,
@@ -13269,7 +13206,7 @@ for (var i = 1; i < 734; ++i) {
 
         set28: {
           url28:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat28: [
             "Maryland",
             year,
@@ -13282,7 +13219,7 @@ for (var i = 1; i < 734; ++i) {
 
         set29: {
           url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat29: [
             "Maryland",
             year,
@@ -13295,7 +13232,7 @@ for (var i = 1; i < 734; ++i) {
 
         set30: {
           url30:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat30: [
             "Maryland",
             "2019",
@@ -13308,7 +13245,7 @@ for (var i = 1; i < 734; ++i) {
 
         set31: {
           url31:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat31: [
             "Maryland",
             year,
@@ -13321,7 +13258,7 @@ for (var i = 1; i < 734; ++i) {
 
         set32: {
           url32:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat682: [
             "Maryland",
             "2019",
@@ -14627,8 +14564,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Average Earnings by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Earnings"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Earnings",
             dataend+ ",",
           ],
         },
@@ -14644,8 +14581,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Average Earnings by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Earnings"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Earnings",
             dataend+ ",",
           ],
         },
@@ -14661,8 +14598,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Average Earnings by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Earnings"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Earnings",
             dataend+ ",",
           ],
         },
@@ -14678,8 +14615,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Average Earnings by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Earnings"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Earnings",
             dataend+ ",",
           ],
         },
@@ -14695,8 +14632,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Job Net Change by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Job Change"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Job Change",
             dataend+ ",",
           ],
         },
@@ -14712,8 +14649,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Job Net Change by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Job Change"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Job Change",
             dataend+ ",",
           ],
         },
@@ -14729,8 +14666,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Job Net Change by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Job Change"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Job Change",
             dataend+ ",",
           ],
         },
@@ -14746,8 +14683,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Job Net Change by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Job Change"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Job Change",
             dataend+ ",",
           ],
         },
@@ -14764,8 +14701,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland New Hires by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "New Hires"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "New Hires",
             dataend+ ",",
           ],
         },
@@ -14781,8 +14718,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland New Hires by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "New Hires"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "New Hires",
             dataend+ ",",
           ],
         },
@@ -14798,8 +14735,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland New Hires by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "New Hires"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "New Hires",
             dataend+ ",",
           ],
         },
@@ -14815,8 +14752,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland New Hires by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "New Hires"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "New Hires",
             dataend+ ",",
           ],
         },
@@ -14829,12 +14766,12 @@ for (var i = 1; i < 734; ++i) {
             "Q1" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat118: [
-              '"Maryland',
+              "Maryland",
               year + "Q1",
-              "Maryland New Hires by Industry",
+              "Maryland Separations by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              ",Seperation"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Seperation",
               dataend+ ",",
             ],
           },
@@ -14846,12 +14783,12 @@ for (var i = 1; i < 734; ++i) {
             "Q2" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat119: [
-              '"Maryland',
+              "Maryland",
               year + "Q2",
-              "Maryland New Hires by Industry",
+              "Maryland Separations by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              ",Seperation"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Seperation",
               dataend+ ",",
             ],
           },
@@ -14863,12 +14800,12 @@ for (var i = 1; i < 734; ++i) {
             "Q3" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat120: [
-              '"Maryland',
+              "Maryland",
               year + "Q3",
-              "Maryland New Hires by Industry",
+              "Maryland Separations by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              ",Seperation"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Seperation",
               dataend+ ",",
             ],
           },
@@ -14880,12 +14817,12 @@ for (var i = 1; i < 734; ++i) {
             "Q4" +
             "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat121: [
-              '"Maryland',
+              "Maryland",
               year + "Q4",
-              "Maryland New Hires by Industry",
+              "Maryland Separations by Industry",
               "11",
-              '"Agriculture, Forestry, Fishing and Hunting"',
-              ",Seperation"+ ",",
+              '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+              "Seperation",
               dataend+ ",",
             ],
           },
@@ -14901,8 +14838,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Turnover Rate by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Turnover Rate"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Turnover Rate",
             dataend+ ",",
           ],
         },
@@ -14918,8 +14855,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Turnover Rate by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Turnover Rate"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Turnover Rate",
             dataend+ ",",
           ],
         },
@@ -14935,7 +14872,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Turnover Rate by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
             "Turnover Rate"+ ",",
             dataend+ ",",
           ],
@@ -14952,8 +14889,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Turnover Rate by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Turnover Rate"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Turnover Rate",
             dataend+ ",",
           ],
         },
@@ -14970,8 +14907,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Workers by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Workers"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Workers",
             dataend+ ",",
           ],
         },
@@ -14987,8 +14924,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Workers by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Workers"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Workers",
             dataend+ ",",
           ],
         },
@@ -15004,8 +14941,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Workers by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Workers"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Workers",
             dataend+ ",",
           ],
         },
@@ -15021,8 +14958,8 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Workers by Industry",
             "11",
-            '"Agriculture, Forestry, Fishing and Hunting"',
-            "Workers"+ ",",
+            '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
+            "Workers",
             dataend+ ",",
           ],
         },
@@ -18765,7 +18702,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland Average Earnings by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Earnings",
             dataend+ ",",
@@ -18782,7 +18719,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland Average Earnings by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Earnings",
             dataend+ ",",
@@ -18799,7 +18736,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland Average Earnings by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Earnings",
             dataend+ ",",
@@ -18816,7 +18753,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland Average Earnings by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Earnings",
             dataend+ ",",
@@ -18834,7 +18771,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland Job Net Change by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Job Change",
             dataend+ ",",
@@ -18851,7 +18788,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland Job Net Change by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Job Change",
             dataend+ ",",
@@ -18868,7 +18805,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland Job Net Change by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Job Change",
             dataend+ ",",
@@ -18885,7 +18822,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland Job Net Change by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Job Change",
             dataend+ ",",
@@ -18903,7 +18840,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland New Hires by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "New Hires",
             dataend+ ",",
@@ -18920,7 +18857,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland New Hires by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "New Hires",
             dataend+ ",",
@@ -18937,7 +18874,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland New Hires by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "New Hires",
             dataend+ ",",
@@ -18954,7 +18891,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland New Hires by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "New Hires",
             dataend+ ",",
@@ -18972,7 +18909,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland Separations by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Seperation",
             dataend+ ",",
@@ -18989,7 +18926,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland Separations by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Seperation",
             dataend+ ",",
@@ -19006,7 +18943,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland Separations by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Seperation",
             dataend+ ",",
@@ -19023,7 +18960,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland Separations by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Seperation",
             dataend+ ",",
@@ -19041,7 +18978,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland Turnover Rate by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
             dataend+ ",",
@@ -19058,7 +18995,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland Turnover Rate by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
             dataend+ ",",
@@ -19075,7 +19012,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland Turnover Rate by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
             dataend+ ",",
@@ -19092,7 +19029,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland Turnover Rate by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
             dataend+ ",",
@@ -19109,7 +19046,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q1",
             "Maryland Workers by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Workers",
             dataend+ ",",
@@ -19126,7 +19063,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q2",
             "Maryland Workers by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Workers",
             dataend+ ",",
@@ -19143,7 +19080,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q3",
             "Maryland Workers by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Workers",
             dataend+ ",",
@@ -19160,7 +19097,7 @@ for (var i = 1; i < 734; ++i) {
             "Maryland",
             year + "Q4",
             "Maryland Workers by Industry",
-            "541",
+            "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Workers",
             dataend+ ",",
@@ -23526,7 +23463,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -23543,7 +23480,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -23560,7 +23497,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -23577,7 +23514,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Job Net Change by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -24078,7 +24015,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -24095,7 +24032,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -24112,7 +24049,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -24129,7 +24066,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Turnover Rate by Education",
             "E1",
-            "Less than Highschool" + ",",
+            "Less than High school" + ",",
             "Turnover",
             dataend+ ",",
           ],
@@ -25055,7 +24992,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q1",
             "Maryland Job Net Change by Gender",
             "0",
-            "All sexes" + ",",
+            "All" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -25072,7 +25009,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q2",
             "Maryland Job Net Change by Gender",
             "0",
-            "All sexes" + ",",
+            "All" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -25089,7 +25026,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q3",
             "Maryland Job Net Change by Gender",
             "0",
-            "All sexes" + ",",
+            "All" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -25106,7 +25043,7 @@ for (var i = 1; i < 734; ++i) {
             year + "Q4",
             "Maryland Job Net Change by Gender",
             "0",
-            "All sexes" + ",",
+            "All" + ",",
             "Job Change",
             dataend+ ",",
           ],
@@ -25465,147 +25402,6 @@ for (var i = 1; i < 734; ++i) {
             "A08",
             "65-99" + ",",
             "Earnings",
-            dataend+ ",",
-          ],
-        },
-
-        set734: {
-          url734:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-            year +
-            "-" +
-            "Q1" +
-            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat734: [
-            "Maryland",
-            year + "Q1",
-            "Maryland Job Net Change by Education",
-            "E0",
-            "All" + ",",
-            "Job Change",
-            dataend+ ",",
-          ],
-        },
-        set735: {
-          url735:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-            year +
-            "-" +
-            "Q2" +
-            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat735: [
-            "Maryland",
-            year + "Q2",
-            "Maryland Job Net Change by Education",
-            "E0",
-            "All" + ",",
-            "Job Change",
-            dataend+ ",",
-          ],
-        },
-        set736: {
-          url736:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-            year +
-            "-" +
-            "Q3" +
-            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat736: [
-            "Maryland",
-            year + "Q3",
-            "Maryland Job Net Change by Education",
-            "E0",
-            "All" + ",",
-            "Job Change",
-            dataend+ ",",
-          ],
-        },
-        set737: {
-          url737:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
-            year +
-            "-" +
-            "Q4" +
-            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat737: [
-            "Maryland",
-            year + "Q4",
-            "Maryland Job Net Change by Education",
-            "E0",
-            "All" + ",",
-            "Job Change",
-            dataend+ ",",
-          ],
-        },
-
-        set738: {
-          url738:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q1" +
-            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat738: [
-            "Maryland",
-            year + "Q1",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set739: {
-          url739:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q2" +
-            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat739: [
-            "Maryland",
-            year + "Q2",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set740: {
-          url740:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q3" +
-            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat740: [
-            "Maryland",
-            year + "Q3",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set741: {
-          url741:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q4" +
-            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat741: [
-            "Maryland",
-            year + "Q4",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
             dataend+ ",",
           ],
         },
