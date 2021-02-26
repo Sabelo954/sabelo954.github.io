@@ -12753,6 +12753,75 @@ function getCensusApiData(url, year, i) {
                     ],
                   },
 
+                  set734: {
+                    url734:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q1" +
+                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat734: [
+                      "Maryland",
+                      year + "Q1",
+                      "Maryland Job Net Change by Education",
+                      "E0",
+                      "All" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set735: {
+                    url735:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat735: [
+                      "Maryland",
+                      year + "Q2",
+                      "Maryland Job Net Change by Education",
+                      "E0",
+                      "All" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set736: {
+                    url736:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q3" +
+                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat736: [
+                      "Maryland",
+                      year + "Q3",
+                      "Maryland Job Net Change by Education",
+                      "E0",
+                      "All" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+                  set737: {
+                    url737:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q4" +
+                      "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat737: [
+                      "Maryland",
+                      year + "Q4",
+                      "Maryland Job Net Change by Education",
+                      "E0",
+                      "All" + ",",
+                      "Job Change",
+                      dataend+ ",",
+                    ],
+                  },
+
 
 
 
@@ -25405,6 +25474,563 @@ for (var i = 1; i < 734; ++i) {
             dataend+ ",",
           ],
         },
+
+        set734: {
+          url734:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat734: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Job Net Change by Education",
+            "E0",
+            "All" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set735: {
+          url735:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat735: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Job Net Change by Education",
+            "E0",
+            "All" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set736: {
+          url736:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat736: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Job Net Change by Education",
+            "E0",
+            "All" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+        set737: {
+          url737:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat737: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Job Net Change by Education",
+            "E0",
+            "All" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+        set738: {
+          url738:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat738: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education All",
+            "E0",
+            "All" + ",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set739: {
+          url739:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat739: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education All",
+            "E0",
+            "All" + ",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set740: {
+          url740:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat740: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education All",
+            "E0",
+            "All" + ",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set741: {
+          url741:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat741: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education All",
+            "E0",
+            "All" + ",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set742: {
+          url742:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat742: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education",
+            "E1",
+            "Less than High school"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set743: {
+          url743:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat743: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education",
+            "E1",
+            "Less than High school"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set744: {
+          url744:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat744: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education",
+            "E1",
+            "Less than High school"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set745: {
+          url745:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat745: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education",
+            "E1",
+            "Less than High school"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set746: {
+          url746:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat746: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education",
+            "E2",
+            '"High school or equivalent, no college"'+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set747: {
+          url747:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat747: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education",
+            "E2",
+            '"High school or equivalent, no college"'+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set748: {
+          url748:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat748: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education",
+            "E2",
+            '"High school or equivalent, no college"'+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set748: {
+          url748:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E2&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat748: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education",
+            "E2",
+            '"High school or equivalent, no college"'+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set749: {
+          url749:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat749: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education",
+            "E3",
+            "Some college or Associate degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set750: {
+          url750:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat750: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education",
+            "E3",
+            "Some college or Associate degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set751: {
+          url751:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat751: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education",
+            "E3",
+            "Some college or Associate degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set752: {
+          url752:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E3&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat752: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education",
+            "E3",
+            "Some college or Associate degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set753: {
+          url753:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat753: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education",
+            "E4",
+            "Bachelor's degree or advanced degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set754: {
+          url754:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat754: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education",
+            "E4",
+            "Bachelor's degree or advanced degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set755: {
+          url755:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat755: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education",
+            "E4",
+            "Bachelor's degree or advanced degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set756: {
+          url756:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E4&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat756: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education",
+            "E4",
+            "Bachelor's degree or advanced degree"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set757: {
+          url757:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat757: [
+            "Maryland",year + "Q1",
+            "Maryland Separations by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set758: {
+          url758:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat758: [
+            "Maryland",year + "Q2",
+            "Maryland Separations by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set759: {
+          url759:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat759: [
+            "Maryland",year + "Q3",
+            "Maryland Separations by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set760: {
+          url760:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat760: [
+            "Maryland",year + "Q4",
+            "Maryland Separations by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)"+",",
+            "Seperation",
+            dataend+ ",",
+          ],
+        },
+
+        set761: {
+          url761:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q1" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat761: [
+            "Maryland",
+            year + "Q1",
+            "Maryland Job Net Change by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+        set762: {
+          url762:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat762: [
+            "Maryland",
+            year + "Q2",
+            "Maryland Job Net Change by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+        set763: {
+          url763:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat763: [
+            "Maryland",
+            year + "Q3",
+            "Maryland Job Net Change by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+        set764: {
+          url764:
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat764: [
+            "Maryland",
+            year + "Q4",
+            "Maryland Job Net Change by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Job Change",
+            dataend+ ",",
+          ],
+        },
+
+
+
+
+
+
+
+
 
        },
         // beginning of the object for the county API data
