@@ -101,20 +101,17 @@ function getCensusApiData(url, year, i) {
                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
                    year +
                    "-" +
-                   "Q3" +
-                   "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-                   arrayformat4: [
-                     // `
-                     '"Maryland,'
-                     +year+"Q3,"
-                     +'\"Maryland Separations by Industry,11,\"'
-                     +'Agriculture, Forestry, Fishing and Hunting"'
-                     +",,Seperation,"
-                     +dataend+","
-                     // `
-                   ]
-
-                 },
+                   "Q1" +
+                   "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                 arrayformat4: [
+                   "Maryland",year + "Q1",
+                   "Maryland Separations by Education",
+                   "E1",
+                   "Less than High school"+",",
+                   "Seperation",
+                   dataend+ ",",
+                 ],
+               },
                  },
 
           // beginning of the object for the county API data
