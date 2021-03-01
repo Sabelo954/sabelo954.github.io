@@ -77,9 +77,19 @@ function getCensusApiData(url, year, i) {
         // beginning of the object for the library
         Maryland: {
 
-          set1:{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
-              },
+          set1: {
+            url1:
+              "https://api.census.gov/data/" +
+              year +
+              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat1: [
+              "Maryland",
+              year,
+              "Median Household Income",
+              ",,,",
+              dataend+",",
+            ],
+          },
               set2: {
                 url2:
                   "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
@@ -98,18 +108,17 @@ function getCensusApiData(url, year, i) {
                },
                set4: {
                  url4:
-                   "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                   "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
                    year +
                    "-" +
                    "Q1" +
-                   "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                   "&industry=72&key=855666deab62d95596011f1944d9f1bd8c918853",
                  arrayformat4: [
-                   "Maryland",year + "Q1",
-                   "Maryland Separations by Education",
-                   "E1",
-                   "Less than High school"+",",
-                   "Seperation",
-                   dataend+ ",",
+                   "Earnings,Anne Arundel WIA",
+                   "Maryland Average Earnings by Industry",
+                   + year + "Q1","72",
+                   "Accommodation and Food Services" + ",",
+                   dataend,
                  ],
                },
                  },
@@ -196,7 +205,7 @@ for (var i = 1; i < 5; ++i) {
              },
              set4: {
                url4:
-                 "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                 "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
                  year +
                  "-" +
                  "Q3" +

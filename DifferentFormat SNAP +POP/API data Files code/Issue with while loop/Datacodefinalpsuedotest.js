@@ -77,9 +77,17 @@ function getCensusApiData(url, year, i) {
         // beginning of the object for the library
         Maryland: {
 
-          set1:{ url1:"https://api.census.gov/data/"+year+"/acs/acs5/get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
-              },
+          set1: {
+            url1:
+              "https://api.census.gov/data/" +
+              year +
+              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat1: [
+              year,"Median Household Income,,",'"Alleghany County,Maryland"',
+              dataend+",,,,,",
+            ],
+          },
+          2015,Median Household Income,,,"Somerset County, Maryland",35154,,,,,
               set2: {
                 url2:
                   "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
