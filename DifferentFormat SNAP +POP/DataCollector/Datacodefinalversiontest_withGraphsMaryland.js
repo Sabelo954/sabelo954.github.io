@@ -4906,7 +4906,7 @@ function getCensusApiData(url, year, i) {
               "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat280: [
               "Maryland",
-              year + "Q2",
+              year + "Q3",
               "Maryland Job Net Change by Industry",
               "31-33",
               "Manufacturing" + ",",
@@ -4923,7 +4923,7 @@ function getCensusApiData(url, year, i) {
               "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat281: [
               "Maryland",
-              year + "Q3",
+              year + "Q4",
               "Maryland Job Net Change by Industry",
               "31-33",
               "Manufacturing" + ",",
@@ -18123,7 +18123,7 @@ for (var i = 1; i < 766; ++i) {
             "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat280: [
             "Maryland",
-            year + "Q2",
+            year + "Q3",
             "Maryland Job Net Change by Industry",
             "31-33",
             "Manufacturing" + ",",
@@ -18140,7 +18140,7 @@ for (var i = 1; i < 766; ++i) {
             "&industry=31-33&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat281: [
             "Maryland",
-            year + "Q3",
+            year + "Q4",
             "Maryland Job Net Change by Industry",
             "31-33",
             "Manufacturing" + ",",
