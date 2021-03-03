@@ -1147,11 +1147,11 @@
                           "</td>\n            <td>"
                         )
                         .concat(
-                          Object(s.cma)(r(n, 4).Amount),
+                          Object(s.cma)(r(n, 4)?r(n, 4).Amount:"N/A"),
                           "</td>\n            <td>"
                         )
                         .concat(
-                          Object(s.pcnt)(r(d, 4).Amount),
+                          Object(s.pcnt)(r(d, 4)?r(d, 4).Amount:"N/A"),
                           "</td>\n         </tr>\n         <tr>\n            <th>"
                         )
                         .concat(
@@ -1263,7 +1263,7 @@
                           "</td>\n            <td>"
                         )
                         .concat(
-                          Object(s.dlr)(e[0] ? r(e, 9).Amount : 0),
+                          Object(s.dlr)(e[0] ?(r(e, 9)?r(e, 9).Amount:"N/A") : 0),
                           "</td>\n            <td>"
                         )
                         .concat(
