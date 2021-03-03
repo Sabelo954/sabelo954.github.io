@@ -1263,7 +1263,7 @@
                           "</td>\n            <td>"
                         )
                         .concat(
-                          Object(s.dlr)(e[0] ? r(e, 9).Amount : 0),
+                          Object(s.dlr)(e[0] ?(r(e, 9)?r(e, 9).Amount:"N/A") : 0),
                           "</td>\n            <td>"
                         )
                         .concat(
