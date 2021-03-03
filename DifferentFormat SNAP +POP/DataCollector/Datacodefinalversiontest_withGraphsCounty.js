@@ -194,6 +194,8 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
+
+
           set4: {
             url4:
               "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
