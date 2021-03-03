@@ -668,7 +668,7 @@
                 var u = function (t, n, e) {
                   document.getElementById(yle.display = n[e]
                     ? "inline"
-                    : "none";)
+                    : "none")
                 };
                 u("dropdownMenu", l, "dm"),
                   u("dropdownMenuY", l, "dmy"),
