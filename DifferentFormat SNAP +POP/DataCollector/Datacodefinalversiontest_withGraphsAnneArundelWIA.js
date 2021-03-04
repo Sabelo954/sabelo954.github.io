@@ -3505,7 +3505,7 @@ function getCensusApiData(url, year, i) {
             ],
           },
           set203: {
-            url1203:
+            url203:
               "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
               year +
               "-" +
@@ -13232,6 +13232,78 @@ function getCensusApiData(url, year, i) {
                     ],
                   },
 
+                  set766: {
+                    url766:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q1" +
+                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat766: [
+                      "Maryland",
+                      year + "Q1",
+                      "Maryland Turnover Rate by Education",
+                      "E5",
+                      "Educational attainment not available (workers aged 24 or younger)" + ",",
+                      "Turnover",
+                      dataend+ ",",
+                    ],
+                  },
+
+                  set767: {
+                    url767:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat767: [
+                      "Maryland",
+                      year + "Q2",
+                      "Maryland Turnover Rate by Education",
+                      "E5",
+                      "Educational attainment not available (workers aged 24 or younger)" + ",",
+                      "Turnover",
+                      dataend+ ",",
+                    ],
+                  },
+
+                  set767: {
+                    url767:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q3" +
+                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat767: [
+                      "Maryland",
+                      year + "Q3",
+                      "Maryland Turnover Rate by Education",
+                      "E5",
+                      "Educational attainment not available (workers aged 24 or younger)" + ",",
+                      "Turnover",
+                      dataend+ ",",
+                    ],
+                  },
+
+                  set768: {
+                    url768:
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q4" +
+                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat768: [
+                      "Maryland",
+                      year + "Q4",
+                      "Maryland Turnover Rate by Education",
+                      "E5",
+                      "Educational attainment not available (workers aged 24 or younger)" + ",",
+                      "Turnover",
+                      dataend+ ",",
+                    ],
+                  },
+
 
          },
 
@@ -13269,7 +13341,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 33; i < 766; ++i) {
+for (var i = 33; i < 769; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -16648,7 +16720,7 @@ for (var i = 33; i < 766; ++i) {
           ],
         },
         set203: {
-          url1203:
+          url203:
             "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
             year +
             "-" +
@@ -26372,6 +26444,78 @@ for (var i = 33; i < 766; ++i) {
                     "Educational attainment not available (workers aged 24 or younger)" + ",",
                     "Job Change",
                     dataend,
+                  ],
+                },
+
+                set766: {
+                  url766:
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q1" +
+                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat766: [
+                    "Maryland",
+                    year + "Q1",
+                    "Maryland Turnover Rate by Education",
+                    "E5",
+                    "Educational attainment not available (workers aged 24 or younger)" + ",",
+                    "Turnover",
+                    dataend+ ",",
+                  ],
+                },
+
+                set767: {
+                  url767:
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q2" +
+                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat767: [
+                    "Maryland",
+                    year + "Q2",
+                    "Maryland Turnover Rate by Education",
+                    "E5",
+                    "Educational attainment not available (workers aged 24 or younger)" + ",",
+                    "Turnover",
+                    dataend+ ",",
+                  ],
+                },
+
+                set767: {
+                  url767:
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q3" +
+                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat767: [
+                    "Maryland",
+                    year + "Q3",
+                    "Maryland Turnover Rate by Education",
+                    "E5",
+                    "Educational attainment not available (workers aged 24 or younger)" + ",",
+                    "Turnover",
+                    dataend+ ",",
+                  ],
+                },
+
+                set768: {
+                  url768:
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q4" +
+                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat768: [
+                    "Maryland",
+                    year + "Q4",
+                    "Maryland Turnover Rate by Education",
+                    "E5",
+                    "Educational attainment not available (workers aged 24 or younger)" + ",",
+                    "Turnover",
+                    dataend+ ",",
                   ],
                 },
 
