@@ -3569,7 +3569,7 @@ function getCensusApiData(url, year, i) {
             ],
           },
           set203: {
-            url1203:
+            url203:
               "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
               year +
               "-" +
@@ -16786,7 +16786,7 @@ for (var i = 1; i < 766; ++i) {
           ],
         },
         set203: {
-          url1203:
+          url203:
             "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=state:24&time=" +
             year +
             "-" +
