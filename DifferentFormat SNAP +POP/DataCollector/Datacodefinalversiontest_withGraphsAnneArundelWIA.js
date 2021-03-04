@@ -1269,7 +1269,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","62",
               "Health Care and Social Assistance",
               "Seperation",
-              dataend,
+              0,
             ],
           },
           set73: {
@@ -6806,7 +6806,7 @@ function getCensusApiData(url, year, i) {
               "Earnings,Anne Arundel WIA",
 
               "Maryland Average Earnings by Industry",
-              +year+"Q1",+year+"Q1","53",
+              +year+"Q1","53",
               "Real Estate and Rental and Leasing",
 
               dataend,
@@ -11146,7 +11146,7 @@ function getCensusApiData(url, year, i) {
               "New Hires,Anne Arundel WIA",
 
               "Maryland New Hires by Education",
-              +year+"Q1",+year+"Q1","E3",
+              +year+"Q1","E3",
               "Some college or Associate degree",
               "New Hires",
               dataend,
@@ -11163,7 +11163,7 @@ function getCensusApiData(url, year, i) {
               "New Hires,Anne Arundel WIA",
 
               "Maryland New Hires by Education",
-              +year+"Q2",+year+"Q2","E3",
+              +year+"Q2","E3",
               "Some college or Associate degree",
               "New Hires",
               dataend,
@@ -12323,9 +12323,8 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat714: [
                       "Workers,Anne Arundel WIA",
-
                       "Maryland Workers by Age",
-                      +year+"Q1",+year+"Q1","A08",
+                      +year+"Q1","A08",
                       "65-99",
                       "Workers",
                       dataend,
@@ -12341,15 +12340,13 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat715: [
                       "Workers,Anne Arundel WIA",
-
                       "Maryland Workers by Age",
-                      +year+"Q2",+year+"Q2","A08",
+                      +year+"Q2","A08",
                       "65-99",
                       "Workers",
                       dataend,
                     ],
                   },
-
                   set716: {
                     ur716:
                       "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
@@ -12361,7 +12358,7 @@ function getCensusApiData(url, year, i) {
                       "Workers,Anne Arundel WIA",
 
                       "Maryland Workers by Age",
-                      +year+"Q3",+year+"Q3","A08",
+                      +year+"Q3","A08",
                       "65-99",
                       "Workers",
                       dataend,
@@ -12379,7 +12376,7 @@ function getCensusApiData(url, year, i) {
                       "Workers,Anne Arundel WIA",
 
                       "Maryland Workers by Age",
-                      +year+"Q4",+year+"Q4","A08",
+                      +year+"Q4","A08",
                       "65-99",
                       "Workers",
                       dataend,
@@ -14484,7 +14481,7 @@ for (var i = 33; i < 769; ++i) {
             +year+"Q3","62",
             "Health Care and Social Assistance",
             "Seperation",
-            dataend,
+            0,
           ],
         },
         set73: {
@@ -20021,7 +20018,7 @@ for (var i = 33; i < 769; ++i) {
             "Earnings,Anne Arundel WIA",
 
             "Maryland Average Earnings by Industry",
-            +year+"Q1",+year+"Q1","53",
+            +year+"Q1","53",
             "Real Estate and Rental and Leasing",
 
             dataend,
@@ -24361,7 +24358,7 @@ for (var i = 33; i < 769; ++i) {
             "New Hires,Anne Arundel WIA",
 
             "Maryland New Hires by Education",
-            +year+"Q1",+year+"Q1","E3",
+            +year+"Q1","E3",
             "Some college or Associate degree",
             "New Hires",
             dataend,
@@ -24378,7 +24375,7 @@ for (var i = 33; i < 769; ++i) {
             "New Hires,Anne Arundel WIA",
 
             "Maryland New Hires by Education",
-            +year+"Q2",+year+"Q2","E3",
+            +year+"Q2","E3",
             "Some college or Associate degree",
             "New Hires",
             dataend,
@@ -25530,7 +25527,7 @@ for (var i = 33; i < 769; ++i) {
                 },
 
                 set714: {
-                  ur714:
+                  url714:
                     "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
                     year +
                     "-" +
@@ -25540,7 +25537,7 @@ for (var i = 33; i < 769; ++i) {
                     "Workers,Anne Arundel WIA",
 
                     "Maryland Workers by Age",
-                    +year+"Q1",+year+"Q1","A08",
+                    +year+"Q1","A08",
                     "65-99",
                     "Workers",
                     dataend,
@@ -25558,7 +25555,7 @@ for (var i = 33; i < 769; ++i) {
                     "Workers,Anne Arundel WIA",
 
                     "Maryland Workers by Age",
-                    +year+"Q2",+year+"Q2","A08",
+                    +year+"Q2","A08",
                     "65-99",
                     "Workers",
                     dataend,
@@ -25566,7 +25563,7 @@ for (var i = 33; i < 769; ++i) {
                 },
 
                 set716: {
-                  ur716:
+                  url716:
                     "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
                     year +
                     "-" +
@@ -25576,7 +25573,7 @@ for (var i = 33; i < 769; ++i) {
                     "Workers,Anne Arundel WIA",
 
                     "Maryland Workers by Age",
-                    +year+"Q3",+year+"Q3","A08",
+                    +year+"Q3","A08",
                     "65-99",
                     "Workers",
                     dataend,
@@ -25592,9 +25589,8 @@ for (var i = 33; i < 769; ++i) {
                     "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat717: [
                     "Workers,Anne Arundel WIA",
-
                     "Maryland Workers by Age",
-                    +year+"Q4",+year+"Q4","A08",
+                    +year+"Q4","A08",
                     "65-99",
                     "Workers",
                     dataend,

@@ -165,7 +165,6 @@ function getCensusApiData(url, year, i) {
               ",,,,",
             ],
           },
-2007-2011,Median Household Income,,,"Allegany County, Maryland",39408,,,,,
           set2: {
             url2:
               "https://api.census.gov/data/" +
@@ -185,39 +184,27 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat3: [
-              "Maryland",
-              year,
-              "Unemployment By Gender",
-              "Male" + ",,,",
+              year,"Unemployment By Gender,","Male",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
           },
 
-
-
           set4: {
             url4:
               "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat4: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status by Disability Status","Unemployed","Disabled",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
+
 
           set5: {
             url5:
               "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat5: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status by Disability Status","Unemployed","Non Disabled",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -228,14 +215,12 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
               arrayformat6: [
-                "Maryland",
-                year,
-                "Unemployment By Gender",
-                "Female" + ",,,",
+                year,"Unemployment by Gender,","Female",'"Alleghany County,Maryland"',
                 dataend,
                 dataend / 100,
               ],
           },
+
 
           set7: {
             url7:
@@ -243,11 +228,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat7: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Employed" + ",",
+              year,"Unemplyment by Gender,","Female",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -256,11 +237,7 @@ function getCensusApiData(url, year, i) {
             url8:
               "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat8: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status By Disability Status","Unemployed","Non Disabled",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -271,10 +248,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat9: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "Employed"+ ",",
+              year,"Employment Status By Education","Employed","Bachelor's or Higher",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -285,10 +259,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat10: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "Unemployed"+ ",",
+              year,"Employment Status By Education","Unemployed","Bachelor's or Higher",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -299,10 +270,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_029E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat11: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "NIL" + ",",
+              year,"Employment Status By Education","NIL","Bachelor's or Higher",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -322,17 +290,16 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
+          2016,Employment Status By Education,Unemployed,Highschool,"Queen Annes County, Maryland",227,,,,,
+
+
           set13: {
             url13:
               "https://api.census.gov/data/" +
               year +
               "/acs/acs5?get=NAME,B23006_014E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat13: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status By Education","Unemployed","Highschool",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -343,11 +310,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat14: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "NIL" + ",",
+              year,"Employment Status By Education","NIL","Highschool",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -358,11 +321,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat15: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Employed" + ",",
+              year,"Employment Status By Poverty Status","Employed","Below Poverty",'"Alleghany County,Maryland"',
               dataend + ",",
             ],
           },
@@ -373,11 +332,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat16: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status By Poverty Status","Unemployed","Below Poverty",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -388,14 +343,11 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat17: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Labor Force" + ",",
+              year,"Employment Status By Poverty Status","Labor Force","Below Poverty",'"Alleghany County,Maryland"',
               0+ ",",
             ],
           },
+
 
           set18: {
             url18:
@@ -403,12 +355,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_006E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat18: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "Employed" + ",",
-              dataend+ ",",
+              year,"Employment Status By Education","Employed","Less than Highschool",'"Alleghany County,Maryland"',
             ],
           },
 
@@ -418,11 +365,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat19: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "Unemployed" + ",",
+              year,"Employment Status By Education","Unemployed","Less than Highschool",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -433,11 +376,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat20: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "NIL" + ",",
+              year,"Employment Status By Education","NIL","Less than Highschool",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -446,10 +385,7 @@ function getCensusApiData(url, year, i) {
             url21:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat21: [
-              "Maryland",
-              year,
-              "Unemployment By Veteran Status",
-              "Non Veteran" + ",,,",
+              year,"Unemployment By Veteran Status,","Non Veteran",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
@@ -459,10 +395,7 @@ function getCensusApiData(url, year, i) {
             url22:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat22: [
-              "Maryland",
-              year,
-              "Unemployment By Veteran Status",
-              "Veteran" + ",,,",
+              year,"Unemployment By Veteran Status,","Veteran",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
@@ -474,11 +407,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_020E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat23: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "Employed,",
+              year,"Employment Status By Education,","Employed","Some College",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -489,11 +418,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_021E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat24: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "Unemployed,",
+              year,"Employment Status By Education,","Unemployed","Some College",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -504,11 +429,7 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat25: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "NIL,",
+              year,"Employment Status By Education,","NIL","Some College",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
@@ -517,23 +438,18 @@ function getCensusApiData(url, year, i) {
             url26:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat26: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Asian" + ",,,",
+              year,"Unemployment By Race,","Asian",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
           },
 
+
           set27: {
             url27:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat27: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "White" + ",,,",
+              year,"Unemployment By Race,","White",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
@@ -543,10 +459,7 @@ function getCensusApiData(url, year, i) {
             url28:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat28: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Black" + ",,,",
+              year,"Unemployment By Race,","Black",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
@@ -556,10 +469,7 @@ function getCensusApiData(url, year, i) {
             url29:
               "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat29: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Hispanic" + ",,,",
+              year,"Unemployment By Race,","Hispanic",'"Alleghany County,Maryland"',
               dataend,
               dataend / 100,
             ],
