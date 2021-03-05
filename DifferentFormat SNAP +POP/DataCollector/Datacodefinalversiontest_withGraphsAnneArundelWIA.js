@@ -152,459 +152,6 @@ function getCensusApiData(url, year, i) {
       var Objectarray = {
         // beginning of the object for the library
         Maryland: {
-
-          // beginning of the object for the county API data // anything in while loop counts grey comma as a comma
-          set1: {
-            url1:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat1: [
-              "Maryland",
-              year,
-              "Median Household Income",
-              ",,,",
-              dataend+",",
-            ],
-          },
-          set2: {
-            url2:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/profile?get=NAME,DP05_0001E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat2: [
-              "Maryland",
-              year,
-              "Total Population",
-              ",,,",
-              dataend+",",
-            ],
-          },
-
-          set3: {
-            url3:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat3: [
-              "Maryland",
-              year,
-              "Unemployment By Gender",
-              "Male" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set4: {
-            url4:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat4: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set5: {
-            url5:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat5: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set6: {
-            url6:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-              arrayformat6: [
-                "Maryland",
-                year,
-                "Unemployment By Gender",
-                "Female" + ",,,",
-                dataend,
-                dataend / 100,
-              ],
-          },
-
-          set7: {
-            url7:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat7: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set8: {
-            url8:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat8: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set9: {
-            url9:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_027E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat9: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "Employed"+ ",",
-              dataend+ ",",
-            ],
-          },
-
-          set10: {
-            url10:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_028E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat10: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "Unemployed"+ ",",
-              dataend+ ",",
-            ],
-          },
-
-          set11: {
-            url11:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_029E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat11: [
-              "Maryland",
-              year,
-              "Employment Status By Education,Bachelor's or Higher" + ",",
-              "NIL" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set12: {
-            url12:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat12: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set13: {
-            url13:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_014E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat13: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set14: {
-            url14:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_015E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat14: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "NIL" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set15: {
-            url15:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat15: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Employed" + ",",
-              dataend,
-            ],
-          },
-
-          set16: {
-            url16:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat16: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set17: {
-            url17:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat17: [
-              "Maryland",
-              year,
-              "Employment Status By Poverty Status",
-              "Below Poverty" + ",",
-              "Labor Force" + ",",
-              0+ ",",
-            ],
-          },
-
-          set18: {
-            url18:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_006E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat18: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set19: {
-            url19:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_007E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat19: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "Unemployed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set20: {
-            url20:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat20: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Less than Highschool" + ",",
-              "NIL" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set21: {
-            url21:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat21: [
-              "Maryland",
-              year,
-              "Unemployment By Veteran Status",
-              "Non Veteran" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set22: {
-            url22:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat22: [
-              "Maryland",
-              year,
-              "Unemployment By Veteran Status",
-              "Veteran" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set23: {
-            url23:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_020E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat23: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "Employed,",
-              dataend+ ",",
-            ],
-          },
-
-          set24: {
-            url24:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_021E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat24: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "Unemployed,",
-              dataend+ ",",
-            ],
-          },
-
-          set25: {
-            url25:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,B23006_022E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat25: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Some College" + ",",
-              "NIL,",
-              dataend+ ",",
-            ],
-          },
-
-          set26: {
-            url26:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat26: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Asian" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set27: {
-            url27:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat27: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "White" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set28: {
-            url28:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat28: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Black" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set29: {
-            url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat29: [
-              "Maryland",
-              year,
-              "Unemployment By Race",
-              "Hispanic" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-          },
-
-          set30: {
-            url30:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat30: [
-              "Maryland",
-              "2019",
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set31: {
-            url31:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat31: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-          set32: {
-            url32:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat32: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
-              dataend+ ",",
-            ],
-          },
-
-
           //QWI data
 
           set33: {
@@ -681,7 +228,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               + year + "Q1","72",
               "Accommodation and Food Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -698,7 +245,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               + year + "Q2","72",
               "Accommodation and Food Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -714,7 +261,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               + year + "Q3","72",
               "Accommodation and Food Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -730,7 +277,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               + year + "Q4","72",
               "Accommodation and Food Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -747,7 +294,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               + year + "Q1","72",
               "Accommodation and Food Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -764,7 +311,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               + year + "Q2","72",
               "Accommodation and Food Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -780,7 +327,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               + year + "Q3","72",
               "Accommodation and Food Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -796,7 +343,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               + year + "Q4","72",
               "Accommodation and Food Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -813,7 +360,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               + year + "Q1","72",
               "Accommodation and Food Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -830,7 +377,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               + year + "Q2","72",
               "Accommodation and Food Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -846,7 +393,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               + year + "Q3","72",
               "Accommodation and Food Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -862,7 +409,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               + year + "Q4","72",
               "Accommodation and Food Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -879,7 +426,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               + year + "Q1","72",
               "Accommodation and Food Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -895,7 +442,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               + year + "Q2","72",
               "Accommodation and Food Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -911,7 +458,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               + year + "Q3","72",
               "Accommodation and Food Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -927,7 +474,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               + year + "Q4","72",
               "Accommodation and Food Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -944,7 +491,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               + year + "Q1","72",
               "Accommodation and Food Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -960,7 +507,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               + year + "Q2","72",
               "Accommodation and Food Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -976,7 +523,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               + year + "Q3","72",
               "Accommodation and Food Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -992,7 +539,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               + year + "Q4","72",
               "Accommodation and Food Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1077,7 +624,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","62",
               "Health Care and Social Assistance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1094,7 +641,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","62",
               "Health Care and Social Assistance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1111,7 +658,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","62",
               "Health Care and Social Assistance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1128,7 +675,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","62",
               "Health Care and Social Assistance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1146,7 +693,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","62",
               "Health Care and Social Assistance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1163,7 +710,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","62",
               "Health Care and Social Assistance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1180,7 +727,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","62",
               "Health Care and Social Assistance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1197,7 +744,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","62",
               "Health Care and Social Assistance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1215,7 +762,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","62",
               "Health Care and Social Assistance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1232,7 +779,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","62",
               "Health Care and Social Assistance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1250,7 +797,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","62",
               "Health Care and Social Assistance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1263,12 +810,11 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat72: [
-              "Maryland",
+              "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
               year + "Q4",
-              "Maryland Turnover Rate by Education",
               "E5",
-              "Educational attainment not available (workers aged 24 or younger)" + ",",
-              "Turnover",
+              "Educational attainment not available (workers aged 24 or younger)",
+
               dataend+ ",",
             ],
           },
@@ -1285,7 +831,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","62",
               "Health Care and Social Assistance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1297,12 +843,12 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat74: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q1","62",
               "Health Care and Social Assistance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1314,12 +860,12 @@ function getCensusApiData(url, year, i) {
               "Q2" +
               "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat75: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q2","62",
               "Health Care and Social Assistance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1331,12 +877,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat76: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q3","62",
               "Health Care and Social Assistance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1348,12 +894,12 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat77: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q4","62",
               "Health Care and Social Assistance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1371,7 +917,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","62",
               "Health Care and Social Assistance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1388,7 +934,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","62",
               "Health Care and Social Assistance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1405,7 +951,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","62",
               "Health Care and Social Assistance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1422,7 +968,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","62",
               "Health Care and Social Assistance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1508,7 +1054,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1525,7 +1071,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1542,7 +1088,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1559,7 +1105,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -1577,7 +1123,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1594,7 +1140,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1611,7 +1157,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1628,7 +1174,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -1646,7 +1192,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1663,7 +1209,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1680,7 +1226,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1697,7 +1243,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -1715,7 +1261,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1732,7 +1278,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1749,7 +1295,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1766,7 +1312,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -1783,7 +1329,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1800,7 +1346,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1817,7 +1363,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1833,7 +1379,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -1848,7 +1394,7 @@ function getCensusApiData(url, year, i) {
               "Earnings,Anne Arundel WIA",
               "Maryland Average Earnings by Industry",
               +year+"Q1","11",
-              'Agriculture, Forestry, Fishing and Hunting',
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
               dataend,
             ],
           },
@@ -1865,7 +1411,7 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Average Earnings by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
 
               dataend,
             ],
@@ -1882,7 +1428,7 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Average Earnings by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
 
               dataend,
             ],
@@ -1899,7 +1445,7 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Average Earnings by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
 
               dataend,
             ],
@@ -1916,8 +1462,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Industry",
               +year+"Q1","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Job Change",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -1933,8 +1479,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Job Change",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -1950,8 +1496,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Job Change",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -1967,8 +1513,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Job Change",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -1985,8 +1531,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Industry",
               +year+"Q1","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "New Hires",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2002,8 +1548,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "New Hires",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2019,8 +1565,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "New Hires",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2036,8 +1582,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "New Hires",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2054,8 +1600,8 @@ function getCensusApiData(url, year, i) {
 
                 "Maryland Separations by Industry",
                 +year+"Q1","11",
-                "Agriculture, Forestry, Fishing and Hunting",
-                "Seperation",
+                "\"Agriculture, Forestry, Fishing and Hunting\"",
+
                 dataend,
               ],
             },
@@ -2071,8 +1617,8 @@ function getCensusApiData(url, year, i) {
 
                 "Maryland Separations by Industry",
                 +year+"Q2","11",
-                "Agriculture, Forestry, Fishing and Hunting",
-                "Seperation",
+                "\"Agriculture, Forestry, Fishing and Hunting\"",
+
                 dataend,
               ],
             },
@@ -2088,8 +1634,8 @@ function getCensusApiData(url, year, i) {
 
                 "Maryland Separations by Industry",
                 +year+"Q3","11",
-                "Agriculture, Forestry, Fishing and Hunting",
-                "Seperation",
+                "\"Agriculture, Forestry, Fishing and Hunting\"",
+
                 dataend,
               ],
             },
@@ -2105,8 +1651,8 @@ function getCensusApiData(url, year, i) {
 
                 "Maryland Separations by Industry",
                 +year+"Q4","11",
-                "Agriculture, Forestry, Fishing and Hunting",
-                "Seperation",
+                "\"Agriculture, Forestry, Fishing and Hunting\"",
+
                 dataend,
               ],
             },
@@ -2122,8 +1668,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Industry",
               +year+"Q1","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Turnover Rate",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2139,8 +1685,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Turnover Rate",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2156,8 +1702,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Turnover Rate",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2173,8 +1719,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Turnover Rate",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2191,8 +1737,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Workers by Industry",
               +year+"Q1","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Workers",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2208,8 +1754,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Workers by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Workers",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2225,8 +1771,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Workers by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Workers",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2242,8 +1788,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Workers by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Workers",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -2330,7 +1876,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2347,7 +1893,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2364,7 +1910,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2381,7 +1927,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2399,7 +1945,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2416,7 +1962,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2433,7 +1979,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2450,7 +1996,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2468,7 +2014,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2485,7 +2031,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2502,7 +2048,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2519,7 +2065,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2537,7 +2083,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2554,7 +2100,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2571,7 +2117,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2588,7 +2134,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2606,7 +2152,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -2623,7 +2169,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -2640,7 +2186,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -2657,7 +2203,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -2742,7 +2288,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","23",
               "Construction",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2759,7 +2305,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","23",
               "Construction",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2776,7 +2322,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","23",
               "Construction",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2793,7 +2339,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","23",
               "Construction",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -2811,7 +2357,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","23",
               "Construction",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2828,7 +2374,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","23",
               "Construction",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2845,7 +2391,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","23",
               "Construction",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2862,7 +2408,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","23",
               "Construction",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -2880,7 +2426,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","23",
               "Construction",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2897,7 +2443,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","23",
               "Construction",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2914,7 +2460,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","23",
               "Construction",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2931,7 +2477,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","23",
               "Construction",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -2949,7 +2495,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","23",
               "Construction",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2966,7 +2512,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","23",
               "Construction",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -2983,7 +2529,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","23",
               "Construction",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3000,7 +2546,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","23",
               "Construction",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3018,7 +2564,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","23",
               "Construction",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3035,7 +2581,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","23",
               "Construction",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3052,7 +2598,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","23",
               "Construction",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3069,7 +2615,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","23",
               "Construction",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3155,7 +2701,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","61",
               "Educational Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3172,7 +2718,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","61",
               "Educational Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3189,7 +2735,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","61",
               "Educational Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3206,7 +2752,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","61",
               "Educational Services",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3224,7 +2770,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","61",
               "Educational Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3241,7 +2787,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","61",
               "Educational Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3258,7 +2804,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","61",
               "Educational Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3275,7 +2821,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","61",
               "Educational Services",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3293,7 +2839,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","61",
               "Educational Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3310,7 +2856,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","61",
               "Educational Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3327,7 +2873,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","61",
               "Educational Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3344,7 +2890,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","61",
               "Educational Services",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3362,7 +2908,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","61",
               "Educational Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3379,7 +2925,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","61",
               "Educational Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3396,7 +2942,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","61",
               "Educational Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3413,7 +2959,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","61",
               "Educational Services",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3431,7 +2977,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","61",
               "Educational Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3448,7 +2994,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","61",
               "Educational Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3465,7 +3011,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","61",
               "Educational Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3482,7 +3028,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","61",
               "Educational Services",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3569,7 +3115,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","52",
               "Finance and Insurance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3586,7 +3132,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","52",
               "Finance and Insurance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3603,7 +3149,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","52",
               "Finance and Insurance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3620,7 +3166,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","52",
               "Finance and Insurance",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3638,7 +3184,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","52",
               "Finance and Insurance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3655,7 +3201,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","52",
               "Finance and Insurance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3672,7 +3218,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","52",
               "Finance and Insurance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3689,7 +3235,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","52",
               "Finance and Insurance",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -3707,7 +3253,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","52",
               "Finance and Insurance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3724,7 +3270,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","52",
               "Finance and Insurance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3741,7 +3287,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","52",
               "Finance and Insurance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3758,7 +3304,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","52",
               "Finance and Insurance",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -3776,7 +3322,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","52",
               "Finance and Insurance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3793,7 +3339,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","52",
               "Finance and Insurance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3810,7 +3356,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","52",
               "Finance and Insurance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3827,7 +3373,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","52",
               "Finance and Insurance",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -3845,7 +3391,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","52",
               "Finance and Insurance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3862,7 +3408,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","52",
               "Finance and Insurance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3879,7 +3425,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","52",
               "Finance and Insurance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3896,7 +3442,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","52",
               "Finance and Insurance",
-              "Workers",
+
               dataend,
             ],
           },
@@ -3981,7 +3527,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","51",
               "Information",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -3998,7 +3544,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","51",
               "Information",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4015,7 +3561,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","51",
               "Information",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4032,7 +3578,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","51",
               "Information",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4050,7 +3596,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","51",
               "Information",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4068,7 +3614,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","51",
               "Information",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4085,7 +3631,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","51",
               "Information",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4102,7 +3648,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","51",
               "Information",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4120,7 +3666,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","51",
               "Information",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4137,7 +3683,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","51",
               "Information",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4154,7 +3700,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","51",
               "Information",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4171,7 +3717,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","51",
               "Information",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4189,7 +3735,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","51",
               "Information",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4206,7 +3752,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","51",
               "Information",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4223,7 +3769,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","51",
               "Information",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4240,7 +3786,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","51",
               "Information",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4258,7 +3804,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","51",
               "Information",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4275,7 +3821,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","51",
               "Information",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4292,7 +3838,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","51",
               "Information",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4309,7 +3855,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","51",
               "Information",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4396,7 +3942,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","55",
               "Management of Companies and Enterprises",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4413,7 +3959,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","55",
               "Management of Companies and Enterprises",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4430,7 +3976,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","55",
               "Management of Companies and Enterprises",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4447,7 +3993,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","55",
               "Management of Companies and Enterprises",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4465,7 +4011,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","55",
               "Management of Companies and Enterprises",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4482,7 +4028,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","55",
               "Management of Companies and Enterprises",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4499,7 +4045,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","55",
               "Management of Companies and Enterprises",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4516,7 +4062,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","55",
               "Management of Companies and Enterprises",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4534,7 +4080,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","55",
               "Management of Companies and Enterprises",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4551,7 +4097,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","55",
               "Management of Companies and Enterprises",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4568,7 +4114,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","55",
               "Management of Companies and Enterprises",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4585,7 +4131,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","55",
               "Management of Companies and Enterprises",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4603,7 +4149,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","55",
               "Management of Companies and Enterprises",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4620,7 +4166,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","55",
               "Management of Companies and Enterprises",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4637,7 +4183,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","55",
               "Management of Companies and Enterprises",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4654,7 +4200,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","55",
               "Management of Companies and Enterprises",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -4672,7 +4218,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","55",
               "Management of Companies and Enterprises",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4689,7 +4235,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","55",
               "Management of Companies and Enterprises",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4706,7 +4252,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","55",
               "Management of Companies and Enterprises",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4723,7 +4269,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","55",
               "Management of Companies and Enterprises",
-              "Workers",
+
               dataend,
             ],
           },
@@ -4810,7 +4356,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","31-33",
               "Manufacturing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4827,7 +4373,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","31-33",
               "Manufacturing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4844,7 +4390,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","31-33",
               "Manufacturing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4861,7 +4407,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","31-33",
               "Manufacturing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -4879,7 +4425,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","31-33",
               "Manufacturing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4896,7 +4442,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","31-33",
               "Manufacturing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4913,7 +4459,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","31-33",
               "Manufacturing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4930,7 +4476,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","31-33",
               "Manufacturing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -4948,7 +4494,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","31-33",
               "Manufacturing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4965,7 +4511,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","31-33",
               "Manufacturing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4982,7 +4528,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","31-33",
               "Manufacturing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -4999,7 +4545,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","31-33",
               "Manufacturing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5017,7 +4563,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","31-33",
               "Manufacturing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5034,7 +4580,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","31-33",
               "Manufacturing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5051,7 +4597,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","31-33",
               "Manufacturing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5068,7 +4614,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","31-33",
               "Manufacturing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5086,7 +4632,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","31-33",
               "Manufacturing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5103,7 +4649,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","31-33",
               "Manufacturing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5120,7 +4666,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","31-33",
               "Manufacturing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5137,7 +4683,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","31-33",
               "Manufacturing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5222,7 +4768,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5239,7 +4785,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5256,7 +4802,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5273,7 +4819,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5291,7 +4837,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5308,7 +4854,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5325,7 +4871,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5342,7 +4888,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5360,7 +4906,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5377,7 +4923,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5394,7 +4940,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5411,7 +4957,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5429,7 +4975,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5446,7 +4992,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5463,7 +5009,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5480,7 +5026,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5498,7 +5044,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -5515,7 +5061,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -5532,7 +5078,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -5549,7 +5095,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -5636,7 +5182,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","81",
               "Other Services (except Public Administration)",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5653,7 +5199,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","81",
               "Other Services (except Public Administration)",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5670,7 +5216,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","81",
               "Other Services (except Public Administration)",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5687,7 +5233,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","81",
               "Other Services (except Public Administration)",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -5705,7 +5251,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","81",
               "Other Services (except Public Administration)",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5722,7 +5268,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","81",
               "Other Services (except Public Administration)",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5739,7 +5285,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","81",
               "Other Services (except Public Administration)",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5756,7 +5302,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","81",
               "Other Services (except Public Administration)",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -5774,7 +5320,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","81",
               "Other Services (except Public Administration)",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5791,7 +5337,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","81",
               "Other Services (except Public Administration)",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5808,7 +5354,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","81",
               "Other Services (except Public Administration)",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5825,7 +5371,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","81",
               "Other Services (except Public Administration)",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -5838,12 +5384,12 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat338: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q1","81",
               "Other Services (except Public Administration)",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5855,12 +5401,12 @@ function getCensusApiData(url, year, i) {
               "Q2" +
               "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat339: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q2","81",
               "Other Services (except Public Administration)",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5872,12 +5418,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat340: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q3","81",
               "Other Services (except Public Administration)",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5889,12 +5435,12 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat341: [
-              "Turnover Rate,Anne Arundel WIA",
+              "Turnover,Anne Arundel WIA",
 
               "Maryland Turnover Rate by Industry",
               +year+"Q4","81",
               "Other Services (except Public Administration)",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -5912,7 +5458,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","81",
               "Other Services (except Public Administration)",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5929,7 +5475,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","81",
               "Other Services (except Public Administration)",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5946,7 +5492,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","81",
               "Other Services (except Public Administration)",
-              "Workers",
+
               dataend,
             ],
           },
@@ -5963,7 +5509,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","81",
               "Other Services (except Public Administration)",
-              "Workers",
+
               dataend,
             ],
           },
@@ -6050,7 +5596,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6067,7 +5613,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6084,7 +5630,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6101,7 +5647,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6119,7 +5665,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6136,7 +5682,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6153,7 +5699,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6170,7 +5716,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6188,7 +5734,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6205,7 +5751,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6222,7 +5768,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6239,7 +5785,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6257,7 +5803,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6274,7 +5820,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6291,7 +5837,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6308,7 +5854,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6325,7 +5871,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -6342,7 +5888,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -6359,7 +5905,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -6376,7 +5922,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
-              "Workers",
+
               dataend,
             ],
           },
@@ -6463,7 +6009,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","92",
               "Public Administration",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6480,7 +6026,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","92",
               "Public Administration",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6497,7 +6043,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","92",
               "Public Administration",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6514,7 +6060,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","92",
               "Public Administration",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6532,7 +6078,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","92",
               "Public Administration",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6549,7 +6095,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","92",
               "Public Administration",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6566,7 +6112,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","92",
               "Public Administration",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6583,7 +6129,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","92",
               "Public Administration",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6601,7 +6147,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","92",
               "Public Administration",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6618,7 +6164,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","92",
               "Public Administration",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6635,7 +6181,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","92",
               "Public Administration",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6652,7 +6198,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","92",
               "Public Administration",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -6670,7 +6216,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","92",
               "Public Administration",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6687,7 +6233,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","92",
               "Public Administration",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6704,7 +6250,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","92",
               "Public Administration",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6721,7 +6267,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","92",
               "Public Administration",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -6739,7 +6285,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","92",
               "Public Administration",
-              "Workers",
+
               dataend,
             ],
           },
@@ -6756,7 +6302,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","92",
               "Public Administration",
-              "Workers",
+
               dataend,
             ],
           },
@@ -6773,7 +6319,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","92",
               "Public Administration",
-              "Workers",
+
               dataend,
             ],
           },
@@ -6790,7 +6336,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","92",
               "Public Administration",
-              "Workers",
+
               dataend,
             ],
           },
@@ -6877,7 +6423,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6894,7 +6440,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6911,7 +6457,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6928,7 +6474,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -6946,7 +6492,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6963,7 +6509,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6980,7 +6526,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -6997,7 +6543,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7015,7 +6561,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7032,7 +6578,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7049,7 +6595,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7066,7 +6612,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7084,7 +6630,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7101,7 +6647,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7118,7 +6664,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7135,7 +6681,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7153,7 +6699,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7170,7 +6716,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7187,7 +6733,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7204,7 +6750,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7291,7 +6837,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","44-45",
               "Retail Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7308,7 +6854,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","44-45",
               "Retail Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7325,7 +6871,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","44-45",
               "Retail Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7342,7 +6888,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","44-45",
               "Retail Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7360,7 +6906,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","44-45",
               "Retail Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7377,7 +6923,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","44-45",
               "Retail Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7394,7 +6940,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","44-45",
               "Retail Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7411,7 +6957,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","44-45",
               "Retail Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7424,12 +6970,12 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat430: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q1","44-45",
               "Retail Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7441,12 +6987,12 @@ function getCensusApiData(url, year, i) {
               "Q2" +
               "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat431: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q2","44-45",
               "Retail Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7458,12 +7004,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat432: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q3","44-45",
               "Retail Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7475,12 +7021,12 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat433: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q4","44-45",
               "Retail Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7498,7 +7044,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","44-45",
               "Retail Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7515,7 +7061,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","44-45",
               "Retail Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7532,7 +7078,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","44-45",
               "Retail Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7549,7 +7095,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","44-45",
               "Retail Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7567,7 +7113,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","44-45",
               "Retail Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7584,7 +7130,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","44-45",
               "Retail Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7601,7 +7147,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","44-45",
               "Retail Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7618,7 +7164,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","44-45",
               "Retail Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7705,7 +7251,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","48-49",
               "Transportation and Warehousing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7722,7 +7268,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","48-49",
               "Transportation and Warehousing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7739,7 +7285,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","48-49",
               "Transportation and Warehousing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7756,7 +7302,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","48-49",
               "Transportation and Warehousing",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -7774,7 +7320,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","48-49",
               "Transportation and Warehousing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7791,7 +7337,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","48-49",
               "Transportation and Warehousing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7808,7 +7354,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","48-49",
               "Transportation and Warehousing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7825,7 +7371,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","48-49",
               "Transportation and Warehousing",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -7838,12 +7384,12 @@ function getCensusApiData(url, year, i) {
               "Q1" +
               "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat454: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q1","48-49",
               "Transportation and Warehousing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7855,12 +7401,12 @@ function getCensusApiData(url, year, i) {
               "Q2" +
               "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat455: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q2","48-49",
               "Transportation and Warehousing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7872,12 +7418,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat456: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q3","48-49",
               "Transportation and Warehousing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7889,12 +7435,12 @@ function getCensusApiData(url, year, i) {
               "Q4" +
               "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat457: [
-              "Seperations,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Industry",
               +year+"Q4","48-49",
               "Transportation and Warehousing",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -7912,7 +7458,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","48-49",
               "Transportation and Warehousing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7929,7 +7475,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","48-49",
               "Transportation and Warehousing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7946,7 +7492,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","48-49",
               "Transportation and Warehousing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7963,7 +7509,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","48-49",
               "Transportation and Warehousing",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -7981,7 +7527,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","48-49",
               "Transportation and Warehousing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -7998,7 +7544,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","48-49",
               "Transportation and Warehousing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8015,7 +7561,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","48-49",
               "Transportation and Warehousing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8032,7 +7578,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","48-49",
               "Transportation and Warehousing",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8117,7 +7663,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","22",
               "Utilities",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8134,7 +7680,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","22",
               "Utilities",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8151,7 +7697,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","22",
               "Utilities",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8168,7 +7714,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","22",
               "Utilities",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8186,7 +7732,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","22",
               "Utilities",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8203,7 +7749,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","22",
               "Utilities",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8220,7 +7766,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","22",
               "Utilities",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8237,7 +7783,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","22",
               "Utilities",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8255,7 +7801,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","22",
               "Utilities",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8272,7 +7818,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","22",
               "Utilities",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8289,7 +7835,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","22",
               "Utilities",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8306,7 +7852,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","22",
               "Utilities",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8324,7 +7870,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","22",
               "Utilities",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8341,7 +7887,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","22",
               "Utilities",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8358,7 +7904,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","22",
               "Utilities",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8375,7 +7921,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","22",
               "Utilities",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8393,7 +7939,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","22",
               "Utilities",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8410,7 +7956,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","22",
               "Utilities",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8427,7 +7973,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","22",
               "Utilities",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8444,7 +7990,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","22",
               "Utilities",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8531,7 +8077,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q1","42",
               "Wholesale Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8548,7 +8094,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q2","42",
               "Wholesale Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8565,7 +8111,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q3","42",
               "Wholesale Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8582,7 +8128,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Industry",
               +year+"Q4","42",
               "Wholesale Trade",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -8600,7 +8146,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q1","42",
               "Wholesale Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8617,7 +8163,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q2","42",
               "Wholesale Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8634,7 +8180,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q3","42",
               "Wholesale Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8651,7 +8197,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Industry",
               +year+"Q4","42",
               "Wholesale Trade",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -8669,7 +8215,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q1","42",
               "Wholesale Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8686,7 +8232,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q2","42",
               "Wholesale Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8703,7 +8249,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q3","42",
               "Wholesale Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8720,7 +8266,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Industry",
               +year+"Q4","42",
               "Wholesale Trade",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -8738,7 +8284,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q1","42",
               "Wholesale Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8755,7 +8301,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q2","42",
               "Wholesale Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8772,7 +8318,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q3","42",
               "Wholesale Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8789,7 +8335,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Industry",
               +year+"Q4","42",
               "Wholesale Trade",
-              "Turnover Rate",
+
               dataend,
             ],
           },
@@ -8807,7 +8353,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q1","42",
               "Wholesale Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8824,7 +8370,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q2","42",
               "Wholesale Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8841,7 +8387,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q3","42",
               "Wholesale Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8858,7 +8404,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Industry",
               +year+"Q4","42",
               "Wholesale Trade",
-              "Workers",
+
               dataend,
             ],
           },
@@ -8872,7 +8418,6 @@ function getCensusApiData(url, year, i) {
               "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat514: [
               "Earnings,Anne Arundel WIA",
-
               "Maryland Average Monthly Earnings by Age",
               +year+"Q1","A01",
               "14-18",
@@ -8889,7 +8434,6 @@ function getCensusApiData(url, year, i) {
               "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat515: [
               "Earnings,Anne Arundel WIA",
-
               "Maryland Average Monthly Earnings by Age",
               +year+"Q2","A01",
               "14-18",
@@ -8906,11 +8450,9 @@ function getCensusApiData(url, year, i) {
               "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat516: [
               "Earnings,Anne Arundel WIA",
-
               "Maryland Average Monthly Earnings by Age",
               +year+"Q3","A01",
               "14-18",
-
               dataend,
             ],
           },
@@ -9359,7 +8901,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A01",
               "14-18",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9376,7 +8918,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A01",
               "14-18",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9393,7 +8935,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A01",
               "14-18",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9410,7 +8952,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A01",
               "14-18",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9428,7 +8970,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A02",
               "19-21",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9445,7 +8987,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A02",
               "19-21",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9462,7 +9004,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A02",
               "19-21",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9479,7 +9021,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A02",
               "19-21",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9497,7 +9039,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A03",
               "22-24",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9514,7 +9056,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A03",
               "22-24",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9531,7 +9073,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A03",
               "22-24",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9548,7 +9090,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A03",
               "22-24",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9566,7 +9108,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A04",
               "25-34",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9583,7 +9125,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A04",
               "25-34",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9600,7 +9142,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A04",
               "25-34",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9617,7 +9159,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A04",
               "25-34",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9635,7 +9177,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A05",
               "35-44",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9652,7 +9194,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A05",
               "35-44",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9669,7 +9211,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A05",
               "35-44",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9686,7 +9228,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A05",
               "35-44",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9704,7 +9246,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A06",
               "45-54",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9721,7 +9263,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A06",
               "45-54",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9738,7 +9280,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A06",
               "45-54",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9755,7 +9297,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A06",
               "45-54",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9773,7 +9315,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q1","A07",
               "55-64",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9790,7 +9332,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q2","A07",
               "55-64",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9807,7 +9349,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q3","A07",
               "55-64",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9824,7 +9366,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Age",
               +year+"Q4","A07",
               "55-64",
-              "Workers",
+
               dataend,
             ],
           },
@@ -9838,11 +9380,10 @@ function getCensusApiData(url, year, i) {
               "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat570: [
               "Separations,Anne Arundel WIA",
-
               "Maryland Separations by Age",
               +year+"Q1","A01",
               "14-18",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9859,7 +9400,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A01",
               "14-18",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9876,7 +9417,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A01",
               "14-18",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9893,7 +9434,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A01",
               "14-18",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9911,7 +9452,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A02",
               "19-21",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9928,7 +9469,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A02",
               "19-21",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9945,7 +9486,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A02",
               "19-21",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9962,7 +9503,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A02",
               "19-21",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9980,7 +9521,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A03",
               "22-24",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -9997,7 +9538,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A03",
               "22-24",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10014,7 +9555,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A03",
               "22-24",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10031,7 +9572,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A03",
               "22-24",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10049,7 +9590,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A04",
               "25-34",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10066,7 +9607,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A04",
               "25-34",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10083,7 +9624,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A04",
               "25-34",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10100,7 +9641,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A04",
               "25-34",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10118,7 +9659,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A05",
               "35-44",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10135,7 +9676,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A05",
               "35-44",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10152,7 +9693,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A05",
               "35-44",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10169,7 +9710,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A05",
               "35-44",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10187,7 +9728,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A06",
               "45-54",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10204,7 +9745,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A06",
               "45-54",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10221,7 +9762,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A06",
               "45-54",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10238,7 +9779,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A06",
               "45-54",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10256,7 +9797,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q1","A07",
               "55-64",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10273,7 +9814,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q2","A07",
               "55-64",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10290,7 +9831,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q3","A07",
               "55-64",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10307,7 +9848,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Age",
               +year+"Q4","A07",
               "55-64",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10463,7 +10004,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q1","1",
               "Male",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10480,7 +10021,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q2","1",
               "Male",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10497,7 +10038,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q3","1",
               "Male",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10514,7 +10055,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q4","1",
               "Male",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10532,7 +10073,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q1","2",
               "Female",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10550,7 +10091,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q2","2",
               "Female",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10567,7 +10108,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q3","2",
               "Female",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10584,7 +10125,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Workers by Gender",
               +year+"Q4","2",
               "Female",
-              "Workers",
+
               dataend,
             ],
           },
@@ -10602,7 +10143,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q1","1",
               "Male",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10619,7 +10160,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q2","1",
               "Male",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10631,12 +10172,12 @@ function getCensusApiData(url, year, i) {
               "Q3" +
               "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat616: [
-              "Separaions,Anne Arundel WIA",
+              "Separations,Anne Arundel WIA",
 
               "Maryland Separations by Gender",
               +year+"Q3","1",
               "Male",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10653,7 +10194,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q4","1",
               "Male",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10671,7 +10212,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q1","2",
               "Female",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10688,7 +10229,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q2","2",
               "Female",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10705,7 +10246,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q3","2",
               "Female",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10722,7 +10263,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Separations by Gender",
               +year+"Q4","2",
               "Female",
-              "Seperation",
+
               dataend,
             ],
           },
@@ -10739,7 +10280,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q1","E1",
               "Less than High school",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10756,7 +10297,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q2","E1",
               "Less than High school",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10773,7 +10314,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q3","E1",
               "Less than High school",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10790,7 +10331,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q4","E1",
               "Less than High school",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10808,7 +10349,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q1","E2",
               '"High school or equivalent, no college"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10825,7 +10366,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q2","E2",
               '"High school or equivalent, no college"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10841,7 +10382,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q3","E2",
               '"High school or equivalent, no college"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10857,7 +10398,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q4","E2",
               '"High school or equivalent, no college"',
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10874,7 +10415,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q1","E3",
               "Some college or Associate degree",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10890,7 +10431,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q2","E3",
               "Some college or Associate degree",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10906,7 +10447,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q3","E3",
               "Some college or Associate degree",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10923,7 +10464,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Education",
               +year+"Q4","E3",
               "Some college or Associate degree",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -10940,8 +10481,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Education",
               +year+"Q1","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Job Change",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -10957,8 +10498,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Education",
               +year+"Q2","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Job Change",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -10974,8 +10515,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Education",
               +year+"Q3","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Job Change",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -10991,8 +10532,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Job Net Change by Education",
               +year+"Q4","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Job Change",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11010,7 +10551,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q1","E1",
               "Less than High school",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11027,7 +10568,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q2","E1",
               "Less than High school",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11044,7 +10585,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q3","E1",
               "Less than High school",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11061,7 +10602,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q4","E1",
               "Less than High school",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11079,7 +10620,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q1","E2",
               '"High school or equivalent, no college"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11096,7 +10637,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q2","E2",
               '"High school or equivalent, no college"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11113,7 +10654,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q3","E2",
               '"High school or equivalent, no college"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11130,7 +10671,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q4","E2",
               '"High school or equivalent, no college"',
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11148,7 +10689,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q1","E3",
               "Some college or Associate degree",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11165,7 +10706,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q2","E3",
               "Some college or Associate degree",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11181,7 +10722,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q3","E3",
               "Some college or Associate degree",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11197,7 +10738,7 @@ function getCensusApiData(url, year, i) {
               "Maryland New Hires by Education",
               +year+"Q4","E3",
               "Some college or Associate degree",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11214,8 +10755,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q1","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "New Hires",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11231,8 +10772,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q2","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "New Hires",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11248,8 +10789,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q3","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "New Hires",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11265,8 +10806,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q4","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "New Hires",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11280,11 +10821,10 @@ function getCensusApiData(url, year, i) {
               "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat654: [
               "Turnover,Anne Arundel WIA",
-
               "Maryland Turnover Rate by Education",
               +year+"Q1","E1",
               "Less than High school",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11297,11 +10837,10 @@ function getCensusApiData(url, year, i) {
               "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat655: [
               "Turnover,Anne Arundel WIA",
-
               "Maryland Turnover Rate by Education",
               +year+"Q2","E1",
               "Less than High school",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11318,7 +10857,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q3","E1",
               "Less than High school",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11335,7 +10874,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q4","E1",
               "Less than High school",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11353,7 +10892,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q1","E2",
               '"High school or equivalent, no college"',
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11370,7 +10909,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q2","E2",
               '"High school or equivalent, no college"',
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11387,7 +10926,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q3","E2",
               '"High school or equivalent, no college"',
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11404,7 +10943,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q4","E2",
               '"High school or equivalent, no college"',
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11422,7 +10961,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q1","E3",
               "Some college or Associate degree",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11438,7 +10977,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q2","E3",
               "Some college or Associate degree",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11454,7 +10993,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q3","E3",
               "Some college or Associate degree",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11470,7 +11009,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Education",
               +year+"Q4","E3",
               "Some college or Associate degree",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11487,8 +11026,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Education",
               +year+"Q1","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Turnover",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11504,8 +11043,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Education",
               +year+"Q2","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Turnover",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11521,8 +11060,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Education",
               +year+"Q3","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Turnover",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11538,8 +11077,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland Turnover Rate by Education",
               +year+"Q4","E4",
-              "Bachelor's degree or advanced degree" + ",",
-              "Turnover",
+              "Bachelor's degree or advanced degree",
+
               dataend,
             ],
           },
@@ -11557,7 +11096,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Gender",
               +year+"Q1","1",
               "Male",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11574,7 +11113,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Gender",
               +year+"Q2","1",
               "Male",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11591,7 +11130,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Gender",
               +year+"Q3","1",
               "Male",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11608,7 +11147,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Job Net Change by Gender",
               +year+"Q4","1",
               "Male",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11626,7 +11165,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q1","2",
               "Female",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11643,7 +11182,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q2","2",
               "Female",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11660,7 +11199,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q3","2",
               "Female",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11677,7 +11216,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q4","2",
               "Female",
-              "Job Change",
+
               dataend,
             ],
           },
@@ -11695,7 +11234,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q1","1",
               "Male",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11712,7 +11251,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q2","1",
               "Male",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11729,7 +11268,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q3","1",
               "Male",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11746,7 +11285,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q4","1",
               "Male",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11764,7 +11303,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q1","2",
               "Female",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11781,7 +11320,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q2","2",
               "Female",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11798,7 +11337,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q3","2",
               "Female",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11815,7 +11354,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Turnover Rate by Gender",
               +year+"Q4","2",
               "Female",
-              "Turnover",
+
               dataend,
             ],
           },
@@ -11833,7 +11372,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q1","2",
               "Female",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11851,7 +11390,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q2","2",
               "Female",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11869,7 +11408,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q3","2",
               "Female",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11887,7 +11426,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q4","2",
               "Female",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11905,7 +11444,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q1","2",
               "Male",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11923,7 +11462,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q2","2",
               "Male",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11941,7 +11480,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q3","2",
               "Male",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11959,7 +11498,7 @@ function getCensusApiData(url, year, i) {
               "Maryland Average Monthly Earnings by Gender",
               +year+"Q4","2",
               "Male",
-              "New Hires",
+
               dataend,
             ],
           },
@@ -11975,8 +11514,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q1","E5",
-              "Educational attainment not available (workers aged 24 or younger)" + ",",
-              "New Hires",
+              "Educational attainment not available (workers aged 24 or younger)",
+
               dataend,
             ],
           },
@@ -11993,8 +11532,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q2","E5",
-              "Educational attainment not available (workers aged 24 or younger)" + ",",
-              "New Hires",
+              "Educational attainment not available (workers aged 24 or younger)",
+
               dataend,
             ],
           },
@@ -12011,8 +11550,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q3","E5",
-              "Educational attainment not available (workers aged 24 or younger)" + ",",
-              "New Hires",
+              "Educational attainment not available (workers aged 24 or younger)",
+
               dataend,
             ],
           },
@@ -12029,8 +11568,8 @@ function getCensusApiData(url, year, i) {
 
               "Maryland New Hires by Education",
               +year+"Q4","E5",
-              "Educational attainment not available (workers aged 24 or younger)" + ",",
-              "New Hires",
+              "Educational attainment not available (workers aged 24 or younger)",
+
               dataend,
             ],
           },
@@ -12045,10 +11584,10 @@ function getCensusApiData(url, year, i) {
             arrayformat698: [
               "Workers,Anne Arundel WIA",
 
-              "Maryland Workers by Gender",
+              "Maryland Workers by Gender All",
               +year+"Q1","0",
-              "All Sexes" + ",",
-              "Workers",
+              "All Sexes",
+
               dataend,
             ],
           },
@@ -12063,10 +11602,10 @@ function getCensusApiData(url, year, i) {
             arrayformat699: [
               "Workers,Anne Arundel WIA",
 
-              "Maryland Workers by Gender",
+              "Maryland Workers by Gender All",
               +year+"Q2","0",
-              "All Sexes" + ",",
-              "Workers",
+              "All Sexes",
+
               dataend,
             ],
           },
@@ -12081,10 +11620,10 @@ function getCensusApiData(url, year, i) {
             arrayformat700: [
               "Workers,Anne Arundel WIA",
 
-              "Maryland Workers by Gender",
+              "Maryland Workers by Gender All",
               +year+"Q3","0",
-              "All Sexes" + ",",
-              "Workers",
+              "All Sexes",
+
               dataend,
             ],
           },
@@ -12099,10 +11638,10 @@ function getCensusApiData(url, year, i) {
             arrayformat701: [
               "Workers,Anne Arundel WIA",
 
-              "Maryland Workers by Gender",
+              "Maryland Workers by Gender All",
               +year+"Q4","0",
-              "All Sexes" + ",",
-              "Workers",
+              "All Sexes",
+
               dataend,
             ],
           },
@@ -12117,10 +11656,10 @@ function getCensusApiData(url, year, i) {
                       "&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat702: [
                       "Workers,Anne Arundel WIA",
-                      "Maryland Workers by Age",
+                      "Maryland Workers by Age All",
                       +year+"Q1","A00",
                       "All Ages",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12134,10 +11673,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat703: [
                       "Workers,Anne Arundel WIA",
 
-                      "Maryland Workers by Age",
+                      "Maryland Workers by Age All",
                       +year+"Q2","A00",
                       "All Ages",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12151,10 +11690,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat704: [
                       "Workers,Anne Arundel WIA",
 
-                      "Maryland Workers by Age",
+                      "Maryland Workers by Age All",
                       +year+"Q3","A00",
                       "All Ages",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12168,10 +11707,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat705: [
                       "Workers,Anne Arundel WIA",
 
-                      "Maryland Workers by Age",
+                      "Maryland Workers by Age All",
                       +year+"Q4","A00",
                       "All Ages",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12189,7 +11728,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Job Net Change by Gender",
                       +year+"Q1","2",
                       "Female",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12206,7 +11745,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Job Net Change by Gender",
                       +year+"Q2","2",
                       "Female",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12223,7 +11762,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Job Net Change by Gender",
                       +year+"Q3","2",
                       "Female",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12240,7 +11779,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Job Net Change by Gender",
                       +year+"Q4","2",
                       "Female",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12255,10 +11794,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat710: [
                       "Job Change,Anne Arundel WIA",
 
-                      "Maryland Job Net Change by Gender",
+                      "Maryland Job Net Change by Gender All",
                       +year+"Q1","0",
                       "All",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12272,10 +11811,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat711: [
                       "Job Change,Anne Arundel WIA",
 
-                      "Maryland Job Net Change by Gender",
+                      "Maryland Job Net Change by Gender All",
                       +year+"Q2","0",
                       "All",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12289,10 +11828,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat712: [
                       "Job Change,Anne Arundel WIA",
 
-                      "Maryland Job Net Change by Gender",
+                      "Maryland Job Net Change by Gender All",
                       +year+"Q3","0",
                       "All",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12306,10 +11845,10 @@ function getCensusApiData(url, year, i) {
                     arrayformat713: [
                       "Job Change,Anne Arundel WIA",
 
-                      "Maryland Job Net Change by Gender",
+                      "Maryland Job Net Change by Gender All",
                       +year+"Q4","0",
                       "All",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12326,7 +11865,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Workers by Age",
                       +year+"Q1","A08",
                       "65-99",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12343,7 +11882,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Workers by Age",
                       +year+"Q2","A08",
                       "65-99",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12360,7 +11899,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Workers by Age",
                       +year+"Q3","A08",
                       "65-99",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12378,7 +11917,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Workers by Age",
                       +year+"Q4","A08",
                       "65-99",
-                      "Workers",
+
                       dataend,
                     ],
                   },
@@ -12396,7 +11935,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Age",
                       +year+"Q1","A08",
                       "65-99",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12413,7 +11952,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Age",
                       +year+"Q2","A08",
                       "65-99",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12430,7 +11969,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Age",
                       +year+"Q3","A08",
                       "65-99",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12447,7 +11986,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Age",
                       +year+"Q4","A08",
                       "65-99",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12465,7 +12004,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q1","1",
                       "Male",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12483,7 +12022,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q2","1",
                       "Male",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12501,7 +12040,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q3","1",
                       "Male",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12519,7 +12058,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q4","1",
                       "Male",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12537,7 +12076,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q1","2",
                       "Female",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12555,7 +12094,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q2","2",
                       "Female",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12573,7 +12112,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q3","2",
                       "Female",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12591,7 +12130,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland New Hires by Gender",
                       +year+"Q4","2",
                       "Female",
-                      "New Hires",
+
                       dataend,
                     ],
                   },
@@ -12605,7 +12144,6 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat730: [
                       "Earnings,Anne Arundel WIA",
-
                       "Maryland Average Monthly Earnings by Age",
                       +year+"Q1","A08",
                       "65-99",
@@ -12623,7 +12161,6 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat731: [
                       "Earnings,Anne Arundel WIA",
-
                       "Maryland Average Monthly Earnings by Age",
                       +year+"Q2","A08",
                       "65-99",
@@ -12641,7 +12178,6 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat732: [
                       "Earnings,Anne Arundel WIA",
-
                       "Maryland Average Monthly Earnings by Age",
                       +year+"Q3","A08",
                       "65-99",
@@ -12659,7 +12195,6 @@ function getCensusApiData(url, year, i) {
                       "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat733: [
                       "Earnings,Anne Arundel WIA",
-
                       "Maryland Average Monthly Earnings by Age",
                       +year+"Q4","A08",
                       "65-99",
@@ -12676,10 +12211,9 @@ function getCensusApiData(url, year, i) {
                       "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat734: [
                       "Job change,Anne Arundel WIA",
-                      "Maryland Job Net Change by Education",
+                      "Maryland Job Net Change by Education All",
                       +year+"Q1","E0",
                       "All Education Categories",
-                      "Job Change",
                       dataend,
                     ],
                   },
@@ -12692,10 +12226,10 @@ function getCensusApiData(url, year, i) {
                       "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat735: [
                       "Job change,Anne Arundel WIA",
-                      "Maryland Job Net Change by Education",
+                      "Maryland Job Net Change by Education All",
                       +year+"Q2","E0",
                       "All Education Categories",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12708,10 +12242,10 @@ function getCensusApiData(url, year, i) {
                       "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat736: [
                       "Job change,Anne Arundel WIA",
-                      "Maryland Job Net Change by Education",
+                      "Maryland Job Net Change by Education All",
                       +year+"Q3","E0",
                       "All Education Categories",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12724,10 +12258,10 @@ function getCensusApiData(url, year, i) {
                       "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat737: [
                       "Job change,Anne Arundel WIA",
-                      "Maryland Job Net Change by Education",
+                      "Maryland Job Net Change by Education All",
                       +year+"Q4","E0",
                       "All Education Categories",
-                      "Job Change",
+
                       dataend,
                     ],
                   },
@@ -12744,7 +12278,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education All",
                       +year+"Q1","E0",
                       "All Education Categories",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12761,7 +12295,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education All",
                       +year+"Q2","E0",
                       "All Education Categories",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12778,7 +12312,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education All",
                       +year+"Q3","E0",
                       "All Education Categories",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12795,7 +12329,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education All",
                       +year+"Q4","E0",
                       "All Education Categories",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -12811,8 +12345,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q1","E1",
-                      "Less than High school"+",",
-                      "Seperation",
+                      "Less than High school",
+
                       dataend,
                     ],
                   },
@@ -12828,8 +12362,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q2","E1",
-                      "Less than High school"+",",
-                      "Seperation",
+                      "Less than High school",
+
                       dataend,
                     ],
                   },
@@ -12845,8 +12379,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q3","E1",
-                      "Less than High school"+",",
-                      "Seperation",
+                      "Less than High school",
+
                       dataend,
                     ],
                   },
@@ -12862,8 +12396,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q4","E1",
-                      "Less than High school"+",",
-                      "Seperation",
+                      "Less than High school",
+
                       dataend,
                     ],
                   },
@@ -12879,8 +12413,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q1","E2",
-                      '"High school or equivalent, no college"'+",",
-                      "Seperation",
+                      '"High school or equivalent, no college"',
+
                       dataend,
                     ],
                   },
@@ -12896,8 +12430,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q2","E2",
-                      '"High school or equivalent, no college"'+",",
-                      "Seperation",
+                      '"High school or equivalent, no college"',
+
                       dataend,
                     ],
                   },
@@ -12913,8 +12447,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q3","E2",
-                      '"High school or equivalent, no college"'+",",
-                      "Seperation",
+                      '"High school or equivalent, no college"',
+
                       dataend,
                     ],
                   },
@@ -12930,8 +12464,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q3","E2",
-                      '"High school or equivalent, no college"'+",",
-                      "Seperation",
+                      '"High school or equivalent, no college"',
+
                       dataend,
                     ],
                   },
@@ -12947,8 +12481,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q4","E2",
-                      '"High school or equivalent, no college"'+",",
-                      "Seperation",
+                      '"High school or equivalent, no college"',
+
                       dataend,
                     ],
                   },
@@ -12964,8 +12498,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q1","E3",
-                      "Some college or Associate degree"+",",
-                      "Seperation",
+                      "Some college or Associate degree",
+
                       dataend,
                     ],
                   },
@@ -12981,8 +12515,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q2","E3",
-                      "Some college or Associate degree"+",",
-                      "Seperation",
+                      "Some college or Associate degree",
+
                       dataend,
                     ],
                   },
@@ -12998,8 +12532,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q3","E3",
-                      "Some college or Associate degree"+",",
-                      "Seperation",
+                      "Some college or Associate degree",
+
                       dataend,
                     ],
                   },
@@ -13015,8 +12549,8 @@ function getCensusApiData(url, year, i) {
                       "Separations,Anne Arundel WIA",
                       "Maryland Separations by Education",
                       +year+"Q4","E3",
-                      "Some college or Associate degree"+",",
-                      "Seperation",
+                      "Some college or Associate degree",
+
                       dataend,
                     ],
                   },
@@ -13033,7 +12567,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q1","E4",
                       "Bachelor's degree or advanced degree",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13050,7 +12584,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q2","E4",
                       "Bachelor's degree or advanced degree",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13067,7 +12601,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q3","E4",
                       "Bachelor's degree or advanced degree",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13084,7 +12618,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q4","E4",
                       "Bachelor's degree or advanced degree",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13101,7 +12635,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q1","E5",
                       "Educational attainment not available (workers aged 24 or younger)",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13118,7 +12652,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q2","E5",
                       "Educational attainment not available (workers aged 24 or younger)",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13135,7 +12669,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q3","E5",
                       "Educational attainment not available (workers aged 24 or younger)",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13152,7 +12686,7 @@ function getCensusApiData(url, year, i) {
                       "Maryland Separations by Education",
                       +year+"Q4","E5",
                       "Educational attainment not available (workers aged 24 or younger)",
-                      "Seperation",
+
                       dataend,
                     ],
                   },
@@ -13169,8 +12703,8 @@ function getCensusApiData(url, year, i) {
 
                       "Maryland Job Net Change by Education",
                       +year+"Q1","E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Job Change",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend,
                     ],
                   },
@@ -13187,8 +12721,8 @@ function getCensusApiData(url, year, i) {
 
                       "Maryland Job Net Change by Education",
                       +year+"Q2","E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Job Change",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend,
                     ],
                   },
@@ -13205,8 +12739,8 @@ function getCensusApiData(url, year, i) {
 
                       "Maryland Job Net Change by Education",
                       +year+"Q3","E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Job Change",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend,
                     ],
                   },
@@ -13223,8 +12757,8 @@ function getCensusApiData(url, year, i) {
 
                       "Maryland Job Net Change by Education",
                       +year+"Q4","E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Job Change",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend,
                     ],
                   },
@@ -13237,12 +12771,11 @@ function getCensusApiData(url, year, i) {
                       "Q1" +
                       "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat766: [
-                      "Maryland",
-                      year + "Q1",
+                      "Turnover,Anne Arundel WIA",
                       "Maryland Turnover Rate by Education",
+                      year + "Q1",
                       "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
+                      "Educational attainment not available (workers aged 24 or younger)",
                       dataend+ ",",
                     ],
                   },
@@ -13255,34 +12788,436 @@ function getCensusApiData(url, year, i) {
                       "Q2" +
                       "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat767: [
-                      "Maryland",
-                      year + "Q2",
+                      "Turnover,Anne Arundel WIA",
                       "Maryland Turnover Rate by Education",
+                      year + "Q2",
                       "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend+ ",",
                     ],
                   },
 
-                  set767: {
-                    url767:
+                  set768: {
+                    url768:
                       "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
                       "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat767: [
-                      "Maryland",
+                    arrayformat768: [
+                      "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
                       year + "Q3",
-                      "Maryland Turnover Rate by Education",
                       "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
+                      "Educational attainment not available (workers aged 24 or younger)",
+
                       dataend+ ",",
                     ],
                   },
 
+                  set769: {
+                  url769:
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q1" +
+                    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat769: [
+                    "Earnings,Anne Arundel WIA",
+                    "Maryland Average Monthly Earnings by Age All",
+                    +year+"Q1","A00",
+                    "All Ages",
+                    dataend,
+                  ],
+                },
+
+                set770: {
+                url770:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q2" +
+                  "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat770: [
+                  "Earnings,Anne Arundel WIA",
+                  "Maryland Average Monthly Earnings by Age All",
+                  +year+"Q2","A00",
+                  "All Ages",
+                  dataend,
+                ],
+              },
+
+              set771: {
+              url771:
+                "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                year +
+                "-" +
+                "Q2" +
+                "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat771: [
+                "Earnings,Anne Arundel WIA",
+                "Maryland Average Monthly Earnings by Age All",
+                +year+"Q2","A00",
+                "All Ages",
+                dataend,
+              ],
+              },
+
+              set772: {
+              url772:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat772: [
+              "Earnings,Anne Arundel WIA",
+              "Maryland Average Monthly Earnings by Age All",
+              +year+"Q3","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+
+              set773: {
+              url773:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat773: [
+              "Earnings,Anne Arundel WIA",
+              "Maryland Average Monthly Earnings by Age All",
+              +year+"Q4","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+
+              set774: {
+              url774:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat774: [
+              "Separations,Anne Arundel WIA",
+              "Maryland Separations by Age All",
+              +year+"Q1","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+
+              set775: {
+              url775:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat775: [
+              "Separations,Anne Arundel WIA",
+              "Maryland Separations by Age All",
+              +year+"Q2","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+
+              set776: {
+              url776:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat776: [
+              "Separations,Anne Arundel WIA",
+              "Maryland Separations by Age All",
+              +year+"Q3","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+
+              set777: {
+              url777:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat777: [
+              "Separations,Anne Arundel WIA",
+              "Maryland Separations by Age All",
+              +year+"Q4","A00",
+              "All Ages",
+              dataend,
+              ],
+              },
+              set778: {
+              url778:
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat778: [
+              "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+              year + "Q1",
+              "E0",
+              "All Education Categories",
+              dataend,
+              ],
+              },
+
+              set779: {
+              url779:
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat779: [
+              "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+              year + "Q2",
+              "E0",
+              "All Education Categories",
+              dataend,
+              ],
+              },
+
+              set780: {
+              url780:
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat780: [
+              "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+              year + "Q3",
+              "E0",
+              "All Education Categories",
+              dataend,
+              ],
+              },
+
+              set781: {
+              url781:
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat781: [
+              "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+              year + "Q4",
+              "E0",
+              "All Education Categories",
+              dataend,
+              ],
+              },
+
+              set782: {
+              url782:
+               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+               year +
+               "-" +
+               "Q1" +
+               "&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat782: [
+               "Separations,Anne Arundel WIA",
+               "Maryland Separations by Gender All",
+               +year+"Q1","0",
+               "All",
+               dataend,
+              ],
+              },
+
+              set783: {
+                url783:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q2" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat783: [
+                  "Separations,Anne Arundel WIA",
+                  "Maryland Separations by Gender All",
+                  +year+"Q2","0",
+                  "All",
+                  dataend,
+                ],
+                },
+
+                set784: {
+                   url784:
+                     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                     year +
+                     "-" +
+                     "Q3" +
+                     "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                   arrayformat784: [
+                     "Separations,Anne Arundel WIA",
+                     "Maryland Separations by Gender All",
+                     +year+"Q3","0",
+                     "All",
+                     dataend,
+                   ],
+                   },
+
+                   set785: {
+                      url785:
+                        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                        year +
+                        "-" +
+                        "Q4" +
+                        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      arrayformat785: [
+                        "Separations,Anne Arundel WIA",
+                        "Maryland Separations by Gender All",
+                        +year+"Q4","0",
+                        "All",
+                        dataend,
+                      ],
+                      },
+
+                      set786: {
+                      url786:
+                        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                        year +
+                        "-" +
+                        "Q1" +
+                        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      arrayformat786: [
+                        "Turnover,Anne Arundel WIA",
+                        "Maryland Turnover Rate by Gender All",
+                        +year+"Q1","0",
+                        "All",
+                        dataend,
+                      ],
+                    },
+
+                    set787: {
+                    url787:
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      year +
+                      "-" +
+                      "Q2" +
+                      "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat787: [
+                      "Turnover,Anne Arundel WIA",
+                      "Maryland Turnover Rate by Gender All",
+                      +year+"Q2","0",
+                      "All",
+                      dataend,
+                    ],
+                  },
+
+                  set788: {
+                  url788:
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    year +
+                    "-" +
+                    "Q3" +
+                    "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat788: [
+                    "Turnover,Anne Arundel WIA",
+                    "Maryland Turnover Rate by Gender All",
+                    +year+"Q3","0",
+                    "All",
+                    dataend,
+                  ],
+                },
+
+                set789: {
+                url789:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q4" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat789: [
+                  "Turnover,Anne Arundel WIA",
+                  "Maryland Turnover Rate by Gender All",
+                  +year+"Q4","0",
+                  "All",
+                  dataend,
+                ],
+              },
+
+              set790: {
+                url790:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q1" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat790: [
+                  "Earnings,Anne Arundel WIA",
+
+                  "Maryland Average Monthly Earnings by Gender All",
+                  +year+"Q1","0",
+                  "All",
+
+                  dataend,
+                ],
+              },
+
+              set791: {
+                url791:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q2" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat791: [
+                  "Earnings,Anne Arundel WIA",
+
+                  "Maryland Average Monthly Earnings by Gender All",
+                  +year+"Q2","0",
+                  "All",
+
+                  dataend,
+                ],
+              },
+
+              set792: {
+                url792:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q3" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat792: [
+                  "Earnings,Anne Arundel WIA",
+                  "Maryland Average Monthly Earnings by Gender All",
+                  +year+"Q3","0",
+                  "All",
+                  dataend,
+                ],
+              },
+
+              set793: {
+                url793:
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  year +
+                  "-" +
+                  "Q4" +
+                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
+                arrayformat793: [
+                  "Earnings,Anne Arundel WIA",
+
+                  "Maryland Average Monthly Earnings by Gender All",
+                  +year+"Q4","0",
+                  "All",
+                  dataend,
+                ],
+              },
 
 
          },
@@ -13321,7 +13256,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 33; i < 768; ++i) {
+for (var i = 33; i < 794; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -13347,459 +13282,6 @@ for (var i = 33; i < 768; ++i) {
     var Objecturl = {
 
       Maryland: {
-
-        // beginning of the object for the county API data // anything in while loop counts grey comma as a comma
-        set1: {
-          url1:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat1: [
-            "Maryland",
-            year,
-            "Median Household Income",
-            ",,,",
-            dataend+",",
-          ],
-        },
-        set2: {
-          url2:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/profile?get=NAME,DP05_0001E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat2: [
-            "Maryland",
-            year,
-            "Total Population",
-            ",,,",
-            dataend+",",
-          ],
-        },
-
-        set3: {
-          url3:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S2301_C04_022E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat3: [
-            "Maryland",
-            year,
-            "Unemployment By Gender",
-            "Male" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set4: {
-          url4:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat4: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Disabled" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set5: {
-          url5:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat5: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Non Disabled" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set6: {
-          url6:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S2301_C04_023E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat6: [
-              "Maryland",
-              year,
-              "Unemployment By Gender",
-              "Female" + ",,,",
-              dataend,
-              dataend / 100,
-            ],
-        },
-
-        set7: {
-          url7:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat7: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Non Disabled" + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set8: {
-          url8:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat8: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Non Disabled" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set9: {
-          url9:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_027E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat9: [
-            "Maryland",
-            year,
-            "Employment Status By Education,Bachelor's or Higher" + ",",
-            "Employed"+ ",",
-            dataend+ ",",
-          ],
-        },
-
-        set10: {
-          url10:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_028E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat10: [
-            "Maryland",
-            year,
-            "Employment Status By Education,Bachelor's or Higher" + ",",
-            "Unemployed"+ ",",
-            dataend+ ",",
-          ],
-        },
-
-        set11: {
-          url11:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_029E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat11: [
-            "Maryland",
-            year,
-            "Employment Status By Education,Bachelor's or Higher" + ",",
-            "NIL" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set12: {
-          url12:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat12: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Highschool" + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set13: {
-          url13:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_014E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat13: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Highschool" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set14: {
-          url14:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_015E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat14: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Highschool" + ",",
-            "NIL" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set15: {
-          url15:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_028E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat15: [
-            "Maryland",
-            year,
-            "Employment Status By Poverty Status",
-            "Below Poverty" + ",",
-            "Employed" + ",",
-            dataend,
-          ],
-        },
-
-        set16: {
-          url16:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat16: [
-            "Maryland",
-            year,
-            "Employment Status By Poverty Status",
-            "Below Poverty" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set17: {
-          url17:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat17: [
-            "Maryland",
-            year,
-            "Employment Status By Poverty Status",
-            "Below Poverty" + ",",
-            "Labor Force" + ",",
-            0+ ",",
-          ],
-        },
-
-        set18: {
-          url18:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_006E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat18: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Less than Highschool" + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set19: {
-          url19:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_007E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat19: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Less than Highschool" + ",",
-            "Unemployed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set20: {
-          url20:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_008E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat20: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Less than Highschool" + ",",
-            "NIL" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set21: {
-          url21:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C06_034E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat21: [
-            "Maryland",
-            year,
-            "Unemployment By Veteran Status",
-            "Non Veteran" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set22: {
-          url22:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2101_C04_034E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat22: [
-            "Maryland",
-            year,
-            "Unemployment By Veteran Status",
-            "Veteran" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set23: {
-          url23:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_020E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat23: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Some College" + ",",
-            "Employed,",
-            dataend+ ",",
-          ],
-        },
-
-        set24: {
-          url24:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_021E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat24: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Some College" + ",",
-            "Unemployed,",
-            dataend+ ",",
-          ],
-        },
-
-        set25: {
-          url25:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,B23006_022E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat25: [
-            "Maryland",
-            year,
-            "Employment Status By Education",
-            "Some College" + ",",
-            "NIL,",
-            dataend+ ",",
-          ],
-        },
-
-        set26: {
-          url26:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_015E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat26: [
-            "Maryland",
-            year,
-            "Unemployment By Race",
-            "Asian" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set27: {
-          url27:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_012E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat27: [
-            "Maryland",
-            year,
-            "Unemployment By Race",
-            "White" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set28: {
-          url28:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat28: [
-            "Maryland",
-            year,
-            "Unemployment By Race",
-            "Black" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set29: {
-          url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat29: [
-            "Maryland",
-            year,
-            "Unemployment By Race",
-            "Hispanic" + ",,,",
-            dataend,
-            dataend / 100,
-          ],
-        },
-
-        set30: {
-          url30:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat30: [
-            "Maryland",
-            "2019",
-            "Employment Status By Disability Status",
-            "Non Disabled " + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set31: {
-          url31:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat31: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Disabled" + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-        set32: {
-          url32:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=workforce+investment+area:001004&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat32: [
-            "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Non Disabled " + ",",
-            "Employed" + ",",
-            dataend+ ",",
-          ],
-        },
-
-
         //QWI data
 
         set33: {
@@ -13876,7 +13358,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             + year + "Q1","72",
             "Accommodation and Food Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -13893,7 +13375,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             + year + "Q2","72",
             "Accommodation and Food Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -13909,7 +13391,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             + year + "Q3","72",
             "Accommodation and Food Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -13925,7 +13407,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             + year + "Q4","72",
             "Accommodation and Food Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -13942,7 +13424,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             + year + "Q1","72",
             "Accommodation and Food Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -13959,7 +13441,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             + year + "Q2","72",
             "Accommodation and Food Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -13975,7 +13457,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             + year + "Q3","72",
             "Accommodation and Food Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -13991,7 +13473,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             + year + "Q4","72",
             "Accommodation and Food Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14008,7 +13490,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             + year + "Q1","72",
             "Accommodation and Food Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14025,7 +13507,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             + year + "Q2","72",
             "Accommodation and Food Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14041,7 +13523,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             + year + "Q3","72",
             "Accommodation and Food Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14057,7 +13539,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             + year + "Q4","72",
             "Accommodation and Food Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14074,7 +13556,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             + year + "Q1","72",
             "Accommodation and Food Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14090,7 +13572,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             + year + "Q2","72",
             "Accommodation and Food Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14106,7 +13588,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             + year + "Q3","72",
             "Accommodation and Food Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14122,7 +13604,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             + year + "Q4","72",
             "Accommodation and Food Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14139,7 +13621,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             + year + "Q1","72",
             "Accommodation and Food Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14155,7 +13637,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             + year + "Q2","72",
             "Accommodation and Food Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14171,7 +13653,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             + year + "Q3","72",
             "Accommodation and Food Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14187,7 +13669,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             + year + "Q4","72",
             "Accommodation and Food Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14272,7 +13754,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","62",
             "Health Care and Social Assistance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14289,7 +13771,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","62",
             "Health Care and Social Assistance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14306,7 +13788,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","62",
             "Health Care and Social Assistance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14323,7 +13805,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","62",
             "Health Care and Social Assistance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14341,7 +13823,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","62",
             "Health Care and Social Assistance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14358,7 +13840,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","62",
             "Health Care and Social Assistance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14375,7 +13857,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","62",
             "Health Care and Social Assistance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14392,7 +13874,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","62",
             "Health Care and Social Assistance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14410,7 +13892,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","62",
             "Health Care and Social Assistance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14427,7 +13909,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","62",
             "Health Care and Social Assistance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14445,7 +13927,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","62",
             "Health Care and Social Assistance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14458,12 +13940,11 @@ for (var i = 33; i < 768; ++i) {
             "Q4" +
             "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat72: [
-            "Maryland",
+            "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
             year + "Q4",
-            "Maryland Turnover Rate by Education",
             "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
+            "Educational attainment not available (workers aged 24 or younger)",
+
             dataend+ ",",
           ],
         },
@@ -14480,7 +13961,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","62",
             "Health Care and Social Assistance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14492,12 +13973,12 @@ for (var i = 33; i < 768; ++i) {
             "Q1" +
             "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat74: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q1","62",
             "Health Care and Social Assistance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14509,12 +13990,12 @@ for (var i = 33; i < 768; ++i) {
             "Q2" +
             "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat75: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q2","62",
             "Health Care and Social Assistance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14526,12 +14007,12 @@ for (var i = 33; i < 768; ++i) {
             "Q3" +
             "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat76: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q3","62",
             "Health Care and Social Assistance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14543,12 +14024,12 @@ for (var i = 33; i < 768; ++i) {
             "Q4" +
             "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat77: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q4","62",
             "Health Care and Social Assistance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14566,7 +14047,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","62",
             "Health Care and Social Assistance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14583,7 +14064,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","62",
             "Health Care and Social Assistance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14600,7 +14081,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","62",
             "Health Care and Social Assistance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14617,7 +14098,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","62",
             "Health Care and Social Assistance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14703,7 +14184,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14720,7 +14201,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14737,7 +14218,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14754,7 +14235,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -14772,7 +14253,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14789,7 +14270,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14806,7 +14287,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14823,7 +14304,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -14841,7 +14322,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14858,7 +14339,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14875,7 +14356,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14892,7 +14373,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -14910,7 +14391,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14927,7 +14408,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14944,7 +14425,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14961,7 +14442,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -14978,7 +14459,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -14995,7 +14476,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -15012,7 +14493,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -15028,7 +14509,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -15043,7 +14524,7 @@ for (var i = 33; i < 768; ++i) {
             "Earnings,Anne Arundel WIA",
             "Maryland Average Earnings by Industry",
             +year+"Q1","11",
-            "Agriculture, Forestry, Fishing and Hunting",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
             dataend,
           ],
         },
@@ -15060,7 +14541,7 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Average Earnings by Industry",
             +year+"Q2","11",
-            "Agriculture, Forestry, Fishing and Hunting",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
 
             dataend,
           ],
@@ -15077,7 +14558,7 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Average Earnings by Industry",
             +year+"Q3","11",
-            "Agriculture, Forestry, Fishing and Hunting",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
 
             dataend,
           ],
@@ -15094,7 +14575,7 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Average Earnings by Industry",
             +year+"Q4","11",
-            "Agriculture, Forestry, Fishing and Hunting",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
 
             dataend,
           ],
@@ -15111,8 +14592,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Industry",
             +year+"Q1","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Job Change",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15128,8 +14609,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Industry",
             +year+"Q2","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Job Change",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15145,8 +14626,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Industry",
             +year+"Q3","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Job Change",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15162,8 +14643,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Industry",
             +year+"Q4","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Job Change",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15180,8 +14661,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Industry",
             +year+"Q1","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "New Hires",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15197,8 +14678,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Industry",
             +year+"Q2","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "New Hires",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15214,8 +14695,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Industry",
             +year+"Q3","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "New Hires",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15231,8 +14712,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Industry",
             +year+"Q4","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "New Hires",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15249,8 +14730,8 @@ for (var i = 33; i < 768; ++i) {
 
               "Maryland Separations by Industry",
               +year+"Q1","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Seperation",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -15266,8 +14747,8 @@ for (var i = 33; i < 768; ++i) {
 
               "Maryland Separations by Industry",
               +year+"Q2","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Seperation",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -15283,8 +14764,8 @@ for (var i = 33; i < 768; ++i) {
 
               "Maryland Separations by Industry",
               +year+"Q3","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Seperation",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -15300,8 +14781,8 @@ for (var i = 33; i < 768; ++i) {
 
               "Maryland Separations by Industry",
               +year+"Q4","11",
-              "Agriculture, Forestry, Fishing and Hunting",
-              "Seperation",
+              "\"Agriculture, Forestry, Fishing and Hunting\"",
+
               dataend,
             ],
           },
@@ -15317,8 +14798,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Industry",
             +year+"Q1","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Turnover Rate",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15334,8 +14815,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Industry",
             +year+"Q2","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Turnover Rate",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15351,8 +14832,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Industry",
             +year+"Q3","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Turnover Rate",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15368,8 +14849,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Industry",
             +year+"Q4","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Turnover Rate",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15386,8 +14867,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Workers by Industry",
             +year+"Q1","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Workers",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15403,8 +14884,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Workers by Industry",
             +year+"Q2","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Workers",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15420,8 +14901,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Workers by Industry",
             +year+"Q3","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Workers",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15437,8 +14918,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Workers by Industry",
             +year+"Q4","11",
-            "Agriculture, Forestry, Fishing and Hunting",
-            "Workers",
+            "\"Agriculture, Forestry, Fishing and Hunting\"",
+
             dataend,
           ],
         },
@@ -15525,7 +15006,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15542,7 +15023,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15559,7 +15040,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15576,7 +15057,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15594,7 +15075,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -15611,7 +15092,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -15628,7 +15109,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -15645,7 +15126,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -15663,7 +15144,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -15680,7 +15161,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -15697,7 +15178,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -15714,7 +15195,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -15732,7 +15213,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -15749,7 +15230,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -15766,7 +15247,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -15783,7 +15264,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -15801,7 +15282,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -15818,7 +15299,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -15835,7 +15316,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -15852,7 +15333,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -15937,7 +15418,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","23",
             "Construction",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15954,7 +15435,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","23",
             "Construction",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15971,7 +15452,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","23",
             "Construction",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -15988,7 +15469,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","23",
             "Construction",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16006,7 +15487,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","23",
             "Construction",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16023,7 +15504,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","23",
             "Construction",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16040,7 +15521,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","23",
             "Construction",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16057,7 +15538,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","23",
             "Construction",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16075,7 +15556,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","23",
             "Construction",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16092,7 +15573,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","23",
             "Construction",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16109,7 +15590,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","23",
             "Construction",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16126,7 +15607,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","23",
             "Construction",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16144,7 +15625,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","23",
             "Construction",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16161,7 +15642,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","23",
             "Construction",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16178,7 +15659,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","23",
             "Construction",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16195,7 +15676,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","23",
             "Construction",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16213,7 +15694,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","23",
             "Construction",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16230,7 +15711,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","23",
             "Construction",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16247,7 +15728,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","23",
             "Construction",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16264,7 +15745,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","23",
             "Construction",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16350,7 +15831,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","61",
             "Educational Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16367,7 +15848,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","61",
             "Educational Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16384,7 +15865,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","61",
             "Educational Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16401,7 +15882,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","61",
             "Educational Services",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16419,7 +15900,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","61",
             "Educational Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16436,7 +15917,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","61",
             "Educational Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16453,7 +15934,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","61",
             "Educational Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16470,7 +15951,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","61",
             "Educational Services",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16488,7 +15969,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","61",
             "Educational Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16505,7 +15986,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","61",
             "Educational Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16522,7 +16003,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","61",
             "Educational Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16539,7 +16020,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","61",
             "Educational Services",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16557,7 +16038,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","61",
             "Educational Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16574,7 +16055,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","61",
             "Educational Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16591,7 +16072,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","61",
             "Educational Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16608,7 +16089,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","61",
             "Educational Services",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -16626,7 +16107,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","61",
             "Educational Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16643,7 +16124,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","61",
             "Educational Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16660,7 +16141,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","61",
             "Educational Services",
-            "Workers",
+
             dataend,
           ],
         },
@@ -16673,11 +16154,9 @@ for (var i = 33; i < 768; ++i) {
             "&industry=61&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat201: [
             "Workers,Anne Arundel WIA",
-
             "Maryland Workers by Industry",
             +year+"Q4","61",
             "Educational Services",
-            "Workers",
             dataend,
           ],
         },
@@ -16691,11 +16170,9 @@ for (var i = 33; i < 768; ++i) {
             "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat202: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Earnings by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-
             dataend,
           ],
         },
@@ -16764,7 +16241,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16781,7 +16258,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","52",
             "Finance and Insurance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16798,7 +16275,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","52",
             "Finance and Insurance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16815,7 +16292,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","52",
             "Finance and Insurance",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -16833,7 +16310,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16850,7 +16327,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","52",
             "Finance and Insurance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16867,7 +16344,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","52",
             "Finance and Insurance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16884,7 +16361,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","52",
             "Finance and Insurance",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -16902,7 +16379,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16919,7 +16396,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","52",
             "Finance and Insurance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16936,7 +16413,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","52",
             "Finance and Insurance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16953,7 +16430,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","52",
             "Finance and Insurance",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -16967,11 +16444,9 @@ for (var i = 33; i < 768; ++i) {
             "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat218: [
             "Turnover,Anne Arundel WIA",
-
             "Maryland Turnover Rate by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            "Turnover Rate",
             dataend,
           ],
         },
@@ -16988,7 +16463,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","52",
             "Finance and Insurance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17005,7 +16480,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","52",
             "Finance and Insurance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17022,7 +16497,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","52",
             "Finance and Insurance",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17036,11 +16511,10 @@ for (var i = 33; i < 768; ++i) {
             "&industry=52&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat222: [
             "Workers,Anne Arundel WIA",
-
             "Maryland Workers by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17057,7 +16531,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","52",
             "Finance and Insurance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17074,7 +16548,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","52",
             "Finance and Insurance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17091,7 +16565,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","52",
             "Finance and Insurance",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17176,7 +16650,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","51",
             "Information",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17193,7 +16667,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","51",
             "Information",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17210,7 +16684,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","51",
             "Information",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17227,7 +16701,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","51",
             "Information",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17245,7 +16719,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","51",
             "Information",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17263,7 +16737,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","51",
             "Information",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17280,7 +16754,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","51",
             "Information",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17297,7 +16771,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","51",
             "Information",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17315,7 +16789,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","51",
             "Information",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17332,7 +16806,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","51",
             "Information",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17349,7 +16823,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","51",
             "Information",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17366,7 +16840,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","51",
             "Information",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17384,7 +16858,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","51",
             "Information",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17401,7 +16875,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","51",
             "Information",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17418,7 +16892,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","51",
             "Information",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17435,7 +16909,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","51",
             "Information",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17453,7 +16927,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","51",
             "Information",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17470,7 +16944,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","51",
             "Information",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17487,7 +16961,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","51",
             "Information",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17504,7 +16978,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","51",
             "Information",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17591,7 +17065,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","55",
             "Management of Companies and Enterprises",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17608,7 +17082,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","55",
             "Management of Companies and Enterprises",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17625,7 +17099,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","55",
             "Management of Companies and Enterprises",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17642,7 +17116,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","55",
             "Management of Companies and Enterprises",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -17660,7 +17134,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","55",
             "Management of Companies and Enterprises",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17677,7 +17151,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","55",
             "Management of Companies and Enterprises",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17694,7 +17168,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","55",
             "Management of Companies and Enterprises",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17711,7 +17185,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","55",
             "Management of Companies and Enterprises",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -17729,7 +17203,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","55",
             "Management of Companies and Enterprises",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17746,7 +17220,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","55",
             "Management of Companies and Enterprises",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17763,7 +17237,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","55",
             "Management of Companies and Enterprises",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17780,7 +17254,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","55",
             "Management of Companies and Enterprises",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -17798,7 +17272,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","55",
             "Management of Companies and Enterprises",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17815,7 +17289,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","55",
             "Management of Companies and Enterprises",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17832,7 +17306,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","55",
             "Management of Companies and Enterprises",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17849,7 +17323,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","55",
             "Management of Companies and Enterprises",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -17867,7 +17341,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","55",
             "Management of Companies and Enterprises",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17884,7 +17358,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","55",
             "Management of Companies and Enterprises",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17901,7 +17375,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","55",
             "Management of Companies and Enterprises",
-            "Workers",
+
             dataend,
           ],
         },
@@ -17918,7 +17392,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","55",
             "Management of Companies and Enterprises",
-            "Workers",
+
             dataend,
           ],
         },
@@ -18005,7 +17479,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","31-33",
             "Manufacturing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18022,7 +17496,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","31-33",
             "Manufacturing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18039,7 +17513,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","31-33",
             "Manufacturing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18056,7 +17530,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","31-33",
             "Manufacturing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18074,7 +17548,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","31-33",
             "Manufacturing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18091,7 +17565,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","31-33",
             "Manufacturing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18108,7 +17582,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","31-33",
             "Manufacturing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18125,7 +17599,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","31-33",
             "Manufacturing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18143,7 +17617,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","31-33",
             "Manufacturing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18160,7 +17634,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","31-33",
             "Manufacturing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18177,7 +17651,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","31-33",
             "Manufacturing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18194,7 +17668,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","31-33",
             "Manufacturing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18212,7 +17686,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","31-33",
             "Manufacturing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18229,7 +17703,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","31-33",
             "Manufacturing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18246,7 +17720,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","31-33",
             "Manufacturing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18263,7 +17737,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","31-33",
             "Manufacturing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18281,7 +17755,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","31-33",
             "Manufacturing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -18298,7 +17772,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","31-33",
             "Manufacturing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -18315,7 +17789,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","31-33",
             "Manufacturing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -18332,7 +17806,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","31-33",
             "Manufacturing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -18417,7 +17891,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18434,7 +17908,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18451,7 +17925,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18468,7 +17942,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18486,7 +17960,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18503,7 +17977,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18520,7 +17994,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18537,7 +18011,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18555,7 +18029,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18572,7 +18046,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18589,7 +18063,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18606,7 +18080,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18624,7 +18098,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18641,7 +18115,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18658,7 +18132,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18675,7 +18149,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -18693,7 +18167,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -18710,7 +18184,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -18727,7 +18201,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -18744,7 +18218,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -18831,7 +18305,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","81",
             "Other Services (except Public Administration)",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18848,7 +18322,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","81",
             "Other Services (except Public Administration)",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18865,7 +18339,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","81",
             "Other Services (except Public Administration)",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18882,7 +18356,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","81",
             "Other Services (except Public Administration)",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -18900,7 +18374,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","81",
             "Other Services (except Public Administration)",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18917,7 +18391,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","81",
             "Other Services (except Public Administration)",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18934,7 +18408,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","81",
             "Other Services (except Public Administration)",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18951,7 +18425,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","81",
             "Other Services (except Public Administration)",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -18969,7 +18443,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","81",
             "Other Services (except Public Administration)",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -18986,7 +18460,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","81",
             "Other Services (except Public Administration)",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19003,7 +18477,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","81",
             "Other Services (except Public Administration)",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19020,7 +18494,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","81",
             "Other Services (except Public Administration)",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19033,12 +18507,12 @@ for (var i = 33; i < 768; ++i) {
             "Q1" +
             "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat338: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q1","81",
             "Other Services (except Public Administration)",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19050,12 +18524,12 @@ for (var i = 33; i < 768; ++i) {
             "Q2" +
             "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat339: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q2","81",
             "Other Services (except Public Administration)",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19067,12 +18541,12 @@ for (var i = 33; i < 768; ++i) {
             "Q3" +
             "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat340: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q3","81",
             "Other Services (except Public Administration)",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19084,12 +18558,12 @@ for (var i = 33; i < 768; ++i) {
             "Q4" +
             "&industry=81&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat341: [
-            "Turnover Rate,Anne Arundel WIA",
+            "Turnover,Anne Arundel WIA",
 
             "Maryland Turnover Rate by Industry",
             +year+"Q4","81",
             "Other Services (except Public Administration)",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19107,7 +18581,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","81",
             "Other Services (except Public Administration)",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19124,7 +18598,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","81",
             "Other Services (except Public Administration)",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19141,7 +18615,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","81",
             "Other Services (except Public Administration)",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19158,7 +18632,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","81",
             "Other Services (except Public Administration)",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19245,7 +18719,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19262,7 +18736,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19279,7 +18753,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19296,7 +18770,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19314,7 +18788,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19331,7 +18805,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19348,7 +18822,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19365,7 +18839,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19383,7 +18857,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19400,7 +18874,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19417,7 +18891,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19434,7 +18908,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19452,7 +18926,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19469,7 +18943,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19486,7 +18960,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19503,7 +18977,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19520,7 +18994,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -19537,7 +19011,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -19554,7 +19028,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -19571,7 +19045,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
-            "Workers",
+
             dataend,
           ],
         },
@@ -19658,7 +19132,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","92",
             "Public Administration",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19675,7 +19149,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","92",
             "Public Administration",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19692,7 +19166,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","92",
             "Public Administration",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19709,7 +19183,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","92",
             "Public Administration",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -19727,7 +19201,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","92",
             "Public Administration",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19744,7 +19218,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","92",
             "Public Administration",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19761,7 +19235,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","92",
             "Public Administration",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19778,7 +19252,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","92",
             "Public Administration",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -19796,7 +19270,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","92",
             "Public Administration",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19813,7 +19287,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","92",
             "Public Administration",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19830,7 +19304,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","92",
             "Public Administration",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19847,7 +19321,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","92",
             "Public Administration",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -19865,7 +19339,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","92",
             "Public Administration",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19882,7 +19356,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","92",
             "Public Administration",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19899,7 +19373,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","92",
             "Public Administration",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19916,7 +19390,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","92",
             "Public Administration",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -19934,7 +19408,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","92",
             "Public Administration",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19951,7 +19425,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","92",
             "Public Administration",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19968,7 +19442,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","92",
             "Public Administration",
-            "Workers",
+
             dataend,
           ],
         },
@@ -19985,7 +19459,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","92",
             "Public Administration",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20072,7 +19546,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20089,7 +19563,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20106,7 +19580,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20123,7 +19597,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20141,7 +19615,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20158,7 +19632,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20175,7 +19649,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20192,7 +19666,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20210,7 +19684,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20227,7 +19701,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20244,7 +19718,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20261,7 +19735,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20279,7 +19753,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20296,7 +19770,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20313,7 +19787,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20330,7 +19804,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20348,7 +19822,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20365,7 +19839,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20382,7 +19856,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20399,7 +19873,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20486,7 +19960,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","44-45",
             "Retail Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20503,7 +19977,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","44-45",
             "Retail Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20520,7 +19994,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","44-45",
             "Retail Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20537,7 +20011,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","44-45",
             "Retail Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20555,7 +20029,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","44-45",
             "Retail Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20572,7 +20046,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","44-45",
             "Retail Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20589,7 +20063,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","44-45",
             "Retail Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20606,7 +20080,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","44-45",
             "Retail Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20619,12 +20093,12 @@ for (var i = 33; i < 768; ++i) {
             "Q1" +
             "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat430: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q1","44-45",
             "Retail Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20636,12 +20110,12 @@ for (var i = 33; i < 768; ++i) {
             "Q2" +
             "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat431: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q2","44-45",
             "Retail Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20653,12 +20127,12 @@ for (var i = 33; i < 768; ++i) {
             "Q3" +
             "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat432: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q3","44-45",
             "Retail Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20670,12 +20144,12 @@ for (var i = 33; i < 768; ++i) {
             "Q4" +
             "&industry=44-45&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat433: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q4","44-45",
             "Retail Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -20693,7 +20167,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","44-45",
             "Retail Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20710,7 +20184,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","44-45",
             "Retail Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20727,7 +20201,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","44-45",
             "Retail Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20744,7 +20218,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","44-45",
             "Retail Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -20762,7 +20236,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","44-45",
             "Retail Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20779,7 +20253,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","44-45",
             "Retail Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20796,7 +20270,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","44-45",
             "Retail Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20813,7 +20287,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","44-45",
             "Retail Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -20900,7 +20374,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","48-49",
             "Transportation and Warehousing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20917,7 +20391,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","48-49",
             "Transportation and Warehousing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20934,7 +20408,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","48-49",
             "Transportation and Warehousing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20951,7 +20425,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","48-49",
             "Transportation and Warehousing",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -20969,7 +20443,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","48-49",
             "Transportation and Warehousing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -20986,7 +20460,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","48-49",
             "Transportation and Warehousing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21003,7 +20477,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","48-49",
             "Transportation and Warehousing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21020,7 +20494,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","48-49",
             "Transportation and Warehousing",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21033,12 +20507,12 @@ for (var i = 33; i < 768; ++i) {
             "Q1" +
             "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat454: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q1","48-49",
             "Transportation and Warehousing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21050,12 +20524,12 @@ for (var i = 33; i < 768; ++i) {
             "Q2" +
             "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat455: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q2","48-49",
             "Transportation and Warehousing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21067,12 +20541,12 @@ for (var i = 33; i < 768; ++i) {
             "Q3" +
             "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat456: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q3","48-49",
             "Transportation and Warehousing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21084,12 +20558,12 @@ for (var i = 33; i < 768; ++i) {
             "Q4" +
             "&industry=48-49&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat457: [
-            "Seperations,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Industry",
             +year+"Q4","48-49",
             "Transportation and Warehousing",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21107,7 +20581,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","48-49",
             "Transportation and Warehousing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21124,7 +20598,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","48-49",
             "Transportation and Warehousing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21141,7 +20615,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","48-49",
             "Transportation and Warehousing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21158,7 +20632,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","48-49",
             "Transportation and Warehousing",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21176,7 +20650,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","48-49",
             "Transportation and Warehousing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21193,7 +20667,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","48-49",
             "Transportation and Warehousing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21210,7 +20684,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","48-49",
             "Transportation and Warehousing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21227,7 +20701,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","48-49",
             "Transportation and Warehousing",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21312,7 +20786,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","22",
             "Utilities",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21329,7 +20803,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","22",
             "Utilities",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21346,7 +20820,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","22",
             "Utilities",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21363,7 +20837,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","22",
             "Utilities",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21381,7 +20855,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","22",
             "Utilities",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21398,7 +20872,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","22",
             "Utilities",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21415,7 +20889,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","22",
             "Utilities",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21432,7 +20906,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","22",
             "Utilities",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21450,7 +20924,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","22",
             "Utilities",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21467,7 +20941,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","22",
             "Utilities",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21484,7 +20958,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","22",
             "Utilities",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21501,7 +20975,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","22",
             "Utilities",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21519,7 +20993,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","22",
             "Utilities",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21536,7 +21010,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","22",
             "Utilities",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21553,7 +21027,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","22",
             "Utilities",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21570,7 +21044,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","22",
             "Utilities",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21588,7 +21062,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","22",
             "Utilities",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21605,7 +21079,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","22",
             "Utilities",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21622,7 +21096,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","22",
             "Utilities",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21639,7 +21113,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","22",
             "Utilities",
-            "Workers",
+
             dataend,
           ],
         },
@@ -21726,7 +21200,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q1","42",
             "Wholesale Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21743,7 +21217,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q2","42",
             "Wholesale Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21760,7 +21234,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q3","42",
             "Wholesale Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21777,7 +21251,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Industry",
             +year+"Q4","42",
             "Wholesale Trade",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -21795,7 +21269,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q1","42",
             "Wholesale Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21812,7 +21286,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q2","42",
             "Wholesale Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21829,7 +21303,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q3","42",
             "Wholesale Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21846,7 +21320,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Industry",
             +year+"Q4","42",
             "Wholesale Trade",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -21864,7 +21338,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q1","42",
             "Wholesale Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21881,7 +21355,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q2","42",
             "Wholesale Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21898,7 +21372,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q3","42",
             "Wholesale Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21915,7 +21389,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Industry",
             +year+"Q4","42",
             "Wholesale Trade",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -21933,7 +21407,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","42",
             "Wholesale Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21950,7 +21424,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q2","42",
             "Wholesale Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21967,7 +21441,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q3","42",
             "Wholesale Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -21984,7 +21458,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q4","42",
             "Wholesale Trade",
-            "Turnover Rate",
+
             dataend,
           ],
         },
@@ -22002,7 +21476,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q1","42",
             "Wholesale Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22019,7 +21493,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q2","42",
             "Wholesale Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22036,7 +21510,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q3","42",
             "Wholesale Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22053,7 +21527,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Industry",
             +year+"Q4","42",
             "Wholesale Trade",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22067,7 +21541,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat514: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A01",
             "14-18",
@@ -22084,7 +21557,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat515: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q2","A01",
             "14-18",
@@ -22101,7 +21573,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat516: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A01",
             "14-18",
@@ -22118,7 +21589,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A01&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat517: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q4","A01",
             "14-18",
@@ -22136,7 +21606,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat518: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A02",
             "19-21",
@@ -22153,7 +21622,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat519: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q2","A02",
             "19-21",
@@ -22170,7 +21638,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat520: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A02",
             "19-21",
@@ -22187,7 +21654,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A02&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat521: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q4","A02",
             "19-21",
@@ -22205,7 +21671,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat522: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A03",
             "22-24",
@@ -22222,7 +21687,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat523: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q2","A03",
             "22-24",
@@ -22239,7 +21703,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat524: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A03",
             "22-24",
@@ -22256,7 +21719,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A03&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat525: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q4","A03",
             "22-24",
@@ -22274,7 +21736,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat526: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A04",
             "25-34",
@@ -22308,7 +21769,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat528: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A04",
             "25-34",
@@ -22325,7 +21785,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A04&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat529: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q4","A04",
             "25-34",
@@ -22343,7 +21802,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat530: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A05",
             "35-44",
@@ -22360,7 +21818,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat531: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q2","A05",
             "35-44",
@@ -22377,7 +21834,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat532: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A05",
             "35-44",
@@ -22394,7 +21850,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A05&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat533: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q4","A05",
             "35-44",
@@ -22412,7 +21867,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat534: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q1","A06",
             "45-54",
@@ -22429,7 +21883,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat535: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q2","A06",
             "45-54",
@@ -22446,7 +21899,6 @@ for (var i = 33; i < 768; ++i) {
             "&agegrp=A06&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat536: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Age",
             +year+"Q3","A06",
             "45-54",
@@ -22554,7 +22006,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A01",
             "14-18",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22571,7 +22023,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A01",
             "14-18",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22588,7 +22040,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A01",
             "14-18",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22605,7 +22057,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A01",
             "14-18",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22623,7 +22075,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A02",
             "19-21",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22640,7 +22092,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A02",
             "19-21",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22657,7 +22109,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A02",
             "19-21",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22674,7 +22126,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A02",
             "19-21",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22692,7 +22144,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A03",
             "22-24",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22709,7 +22161,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A03",
             "22-24",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22726,7 +22178,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A03",
             "22-24",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22743,7 +22195,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A03",
             "22-24",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22761,7 +22213,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A04",
             "25-34",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22778,7 +22230,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A04",
             "25-34",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22795,7 +22247,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A04",
             "25-34",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22812,7 +22264,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A04",
             "25-34",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22830,7 +22282,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A05",
             "35-44",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22847,7 +22299,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A05",
             "35-44",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22864,7 +22316,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A05",
             "35-44",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22881,7 +22333,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A05",
             "35-44",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22899,7 +22351,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A06",
             "45-54",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22916,7 +22368,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A06",
             "45-54",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22933,7 +22385,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A06",
             "45-54",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22950,7 +22402,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A06",
             "45-54",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22968,7 +22420,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q1","A07",
             "55-64",
-            "Workers",
+
             dataend,
           ],
         },
@@ -22985,7 +22437,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q2","A07",
             "55-64",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23002,7 +22454,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q3","A07",
             "55-64",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23019,7 +22471,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Age",
             +year+"Q4","A07",
             "55-64",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23037,7 +22489,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A01",
             "14-18",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23054,7 +22506,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A01",
             "14-18",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23071,7 +22523,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A01",
             "14-18",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23088,7 +22540,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A01",
             "14-18",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23106,7 +22558,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A02",
             "19-21",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23123,7 +22575,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A02",
             "19-21",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23140,7 +22592,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A02",
             "19-21",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23157,7 +22609,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A02",
             "19-21",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23175,7 +22627,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A03",
             "22-24",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23192,7 +22644,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A03",
             "22-24",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23209,7 +22661,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A03",
             "22-24",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23226,7 +22678,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A03",
             "22-24",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23244,7 +22696,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A04",
             "25-34",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23261,7 +22713,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A04",
             "25-34",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23278,7 +22730,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A04",
             "25-34",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23295,7 +22747,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A04",
             "25-34",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23313,7 +22765,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A05",
             "35-44",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23330,7 +22782,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A05",
             "35-44",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23347,7 +22799,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A05",
             "35-44",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23364,7 +22816,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A05",
             "35-44",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23382,7 +22834,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A06",
             "45-54",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23399,7 +22851,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A06",
             "45-54",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23416,7 +22868,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A06",
             "45-54",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23433,7 +22885,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A06",
             "45-54",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23451,7 +22903,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q1","A07",
             "55-64",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23468,7 +22920,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q2","A07",
             "55-64",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23485,7 +22937,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q3","A07",
             "55-64",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23502,7 +22954,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Age",
             +year+"Q4","A07",
             "55-64",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23516,7 +22968,6 @@ for (var i = 33; i < 768; ++i) {
             "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat598: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q1","1",
             "Male",
@@ -23533,7 +22984,6 @@ for (var i = 33; i < 768; ++i) {
             "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat599: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q2","1",
             "Male",
@@ -23567,7 +23017,6 @@ for (var i = 33; i < 768; ++i) {
             "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat601: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q4","1",
             "Male",
@@ -23658,7 +23107,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q1","1",
             "Male",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23675,7 +23124,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q2","1",
             "Male",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23692,7 +23141,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q3","1",
             "Male",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23709,7 +23158,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q4","1",
             "Male",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23727,7 +23176,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q1","2",
             "Female",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23745,7 +23194,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q2","2",
             "Female",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23762,7 +23211,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q3","2",
             "Female",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23779,7 +23228,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Workers by Gender",
             +year+"Q4","2",
             "Female",
-            "Workers",
+
             dataend,
           ],
         },
@@ -23793,11 +23242,9 @@ for (var i = 33; i < 768; ++i) {
             "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat614: [
             "Separations,Anne Arundel WIA",
-
             "Maryland Separations by Gender",
             +year+"Q1","1",
             "Male",
-            "Seperation",
             dataend,
           ],
         },
@@ -23814,7 +23261,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q2","1",
             "Male",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23826,12 +23273,12 @@ for (var i = 33; i < 768; ++i) {
             "Q3" +
             "&sex=1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat616: [
-            "Separaions,Anne Arundel WIA",
+            "Separations,Anne Arundel WIA",
 
             "Maryland Separations by Gender",
             +year+"Q3","1",
             "Male",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23848,7 +23295,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q4","1",
             "Male",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23866,7 +23313,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q1","2",
             "Female",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23883,7 +23330,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q2","2",
             "Female",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23900,7 +23347,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q3","2",
             "Female",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23917,7 +23364,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Separations by Gender",
             +year+"Q4","2",
             "Female",
-            "Seperation",
+
             dataend,
           ],
         },
@@ -23934,7 +23381,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q1","E1",
             "Less than High school",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -23951,7 +23398,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q2","E1",
             "Less than High school",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -23968,7 +23415,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q3","E1",
             "Less than High school",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -23985,7 +23432,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q4","E1",
             "Less than High school",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24003,7 +23450,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q1","E2",
             '"High school or equivalent, no college"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24020,7 +23467,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q2","E2",
             '"High school or equivalent, no college"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24036,7 +23483,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q3","E2",
             '"High school or equivalent, no college"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24052,7 +23499,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q4","E2",
             '"High school or equivalent, no college"',
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24069,7 +23516,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q1","E3",
             "Some college or Associate degree",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24085,7 +23532,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q2","E3",
             "Some college or Associate degree",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24101,7 +23548,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q3","E3",
             "Some college or Associate degree",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24118,7 +23565,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Education",
             +year+"Q4","E3",
             "Some college or Associate degree",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24135,8 +23582,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Education",
             +year+"Q1","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Job Change",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24152,8 +23599,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Education",
             +year+"Q2","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Job Change",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24169,8 +23616,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Education",
             +year+"Q3","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Job Change",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24186,8 +23633,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Job Net Change by Education",
             +year+"Q4","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Job Change",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24205,7 +23652,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q1","E1",
             "Less than High school",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24222,7 +23669,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q2","E1",
             "Less than High school",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24239,7 +23686,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q3","E1",
             "Less than High school",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24256,7 +23703,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q4","E1",
             "Less than High school",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24274,7 +23721,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q1","E2",
             '"High school or equivalent, no college"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24291,7 +23738,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q2","E2",
             '"High school or equivalent, no college"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24308,7 +23755,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q3","E2",
             '"High school or equivalent, no college"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24325,7 +23772,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q4","E2",
             '"High school or equivalent, no college"',
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24343,7 +23790,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q1","E3",
             "Some college or Associate degree",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24360,7 +23807,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q2","E3",
             "Some college or Associate degree",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24376,7 +23823,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q3","E3",
             "Some college or Associate degree",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24392,7 +23839,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland New Hires by Education",
             +year+"Q4","E3",
             "Some college or Associate degree",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -24409,8 +23856,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q1","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "New Hires",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24426,8 +23873,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q2","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "New Hires",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24443,8 +23890,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q3","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "New Hires",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24460,8 +23907,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q4","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "New Hires",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24475,11 +23922,9 @@ for (var i = 33; i < 768; ++i) {
             "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat654: [
             "Turnover,Anne Arundel WIA",
-
             "Maryland Turnover Rate by Education",
             +year+"Q1","E1",
             "Less than High school",
-            "Turnover",
             dataend,
           ],
         },
@@ -24496,7 +23941,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q2","E1",
             "Less than High school",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24513,7 +23958,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q3","E1",
             "Less than High school",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24530,7 +23975,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q4","E1",
             "Less than High school",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24548,7 +23993,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q1","E2",
             '"High school or equivalent, no college"',
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24565,7 +24010,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q2","E2",
             '"High school or equivalent, no college"',
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24582,7 +24027,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q3","E2",
             '"High school or equivalent, no college"',
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24599,7 +24044,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q4","E2",
             '"High school or equivalent, no college"',
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24617,7 +24062,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q1","E3",
             "Some college or Associate degree",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24633,7 +24078,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q2","E3",
             "Some college or Associate degree",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24649,7 +24094,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q3","E3",
             "Some college or Associate degree",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24665,7 +24110,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Education",
             +year+"Q4","E3",
             "Some college or Associate degree",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24682,8 +24127,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Education",
             +year+"Q1","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Turnover",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24699,8 +24144,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Education",
             +year+"Q2","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Turnover",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24716,8 +24161,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Education",
             +year+"Q3","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Turnover",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24733,8 +24178,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland Turnover Rate by Education",
             +year+"Q4","E4",
-            "Bachelor's degree or advanced degree" + ",",
-            "Turnover",
+            "Bachelor's degree or advanced degree",
+
             dataend,
           ],
         },
@@ -24752,7 +24197,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Gender",
             +year+"Q1","1",
             "Male",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24769,7 +24214,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Gender",
             +year+"Q2","1",
             "Male",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24786,7 +24231,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Gender",
             +year+"Q3","1",
             "Male",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24803,7 +24248,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Job Net Change by Gender",
             +year+"Q4","1",
             "Male",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24821,7 +24266,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q1","2",
             "Female",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24838,7 +24283,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q2","2",
             "Female",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24855,7 +24300,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q3","2",
             "Female",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24872,7 +24317,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q4","2",
             "Female",
-            "Job Change",
+
             dataend,
           ],
         },
@@ -24890,7 +24335,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q1","1",
             "Male",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24907,7 +24352,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q2","1",
             "Male",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24924,7 +24369,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q3","1",
             "Male",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24941,7 +24386,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q4","1",
             "Male",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24959,7 +24404,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q1","2",
             "Female",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24976,7 +24421,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q2","2",
             "Female",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -24993,7 +24438,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q3","2",
             "Female",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -25010,7 +24455,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Turnover Rate by Gender",
             +year+"Q4","2",
             "Female",
-            "Turnover",
+
             dataend,
           ],
         },
@@ -25028,7 +24473,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q1","2",
             "Female",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25046,7 +24491,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q2","2",
             "Female",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25064,7 +24509,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q3","2",
             "Female",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25082,7 +24527,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q4","2",
             "Female",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25100,7 +24545,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q1","2",
             "Male",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25118,7 +24563,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q2","2",
             "Male",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25136,7 +24581,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q3","2",
             "Male",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25154,7 +24599,7 @@ for (var i = 33; i < 768; ++i) {
             "Maryland Average Monthly Earnings by Gender",
             +year+"Q4","2",
             "Male",
-            "New Hires",
+
             dataend,
           ],
         },
@@ -25170,8 +24615,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q1","E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "New Hires",
+            "Educational attainment not available (workers aged 24 or younger)",
+
             dataend,
           ],
         },
@@ -25188,8 +24633,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q2","E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "New Hires",
+            "Educational attainment not available (workers aged 24 or younger)",
+
             dataend,
           ],
         },
@@ -25206,8 +24651,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q3","E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "New Hires",
+            "Educational attainment not available (workers aged 24 or younger)",
+
             dataend,
           ],
         },
@@ -25224,8 +24669,8 @@ for (var i = 33; i < 768; ++i) {
 
             "Maryland New Hires by Education",
             +year+"Q4","E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "New Hires",
+            "Educational attainment not available (workers aged 24 or younger)",
+
             dataend,
           ],
         },
@@ -25240,10 +24685,10 @@ for (var i = 33; i < 768; ++i) {
           arrayformat698: [
             "Workers,Anne Arundel WIA",
 
-            "Maryland Workers by Gender",
+            "Maryland Workers by Gender All",
             +year+"Q1","0",
-            "All Sexes" + ",",
-            "Workers",
+            "All Sexes",
+
             dataend,
           ],
         },
@@ -25258,10 +24703,10 @@ for (var i = 33; i < 768; ++i) {
           arrayformat699: [
             "Workers,Anne Arundel WIA",
 
-            "Maryland Workers by Gender",
+            "Maryland Workers by Gender All",
             +year+"Q2","0",
-            "All Sexes" + ",",
-            "Workers",
+            "All Sexes",
+
             dataend,
           ],
         },
@@ -25276,10 +24721,10 @@ for (var i = 33; i < 768; ++i) {
           arrayformat700: [
             "Workers,Anne Arundel WIA",
 
-            "Maryland Workers by Gender",
+            "Maryland Workers by Gender All",
             +year+"Q3","0",
-            "All Sexes" + ",",
-            "Workers",
+            "All Sexes",
+
             dataend,
           ],
         },
@@ -25294,10 +24739,10 @@ for (var i = 33; i < 768; ++i) {
           arrayformat701: [
             "Workers,Anne Arundel WIA",
 
-            "Maryland Workers by Gender",
+            "Maryland Workers by Gender All",
             +year+"Q4","0",
-            "All Sexes" + ",",
-            "Workers",
+            "All Sexes",
+
             dataend,
           ],
         },
@@ -25312,10 +24757,9 @@ for (var i = 33; i < 768; ++i) {
                     "&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat702: [
                     "Workers,Anne Arundel WIA",
-                    "Maryland Workers by Age",
+                    "Maryland Workers by Age All",
                     +year+"Q1","A00",
                     "All Ages",
-                    "Workers",
                     dataend,
                   ],
                 },
@@ -25329,10 +24773,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat703: [
                     "Workers,Anne Arundel WIA",
 
-                    "Maryland Workers by Age",
+                    "Maryland Workers by Age All",
                     +year+"Q2","A00",
                     "All Ages",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25346,10 +24790,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat704: [
                     "Workers,Anne Arundel WIA",
 
-                    "Maryland Workers by Age",
+                    "Maryland Workers by Age All",
                     +year+"Q3","A00",
                     "All Ages",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25363,10 +24807,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat705: [
                     "Workers,Anne Arundel WIA",
 
-                    "Maryland Workers by Age",
+                    "Maryland Workers by Age All",
                     +year+"Q4","A00",
                     "All Ages",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25384,7 +24828,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Job Net Change by Gender",
                     +year+"Q1","2",
                     "Female",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25401,7 +24845,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Job Net Change by Gender",
                     +year+"Q2","2",
                     "Female",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25418,7 +24862,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Job Net Change by Gender",
                     +year+"Q3","2",
                     "Female",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25435,7 +24879,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Job Net Change by Gender",
                     +year+"Q4","2",
                     "Female",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25450,10 +24894,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat710: [
                     "Job Change,Anne Arundel WIA",
 
-                    "Maryland Job Net Change by Gender",
+                    "Maryland Job Net Change by Gender All",
                     +year+"Q1","0",
                     "All",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25467,10 +24911,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat711: [
                     "Job Change,Anne Arundel WIA",
 
-                    "Maryland Job Net Change by Gender",
+                    "Maryland Job Net Change by Gender All",
                     +year+"Q2","0",
                     "All",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25484,10 +24928,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat712: [
                     "Job Change,Anne Arundel WIA",
 
-                    "Maryland Job Net Change by Gender",
+                    "Maryland Job Net Change by Gender All",
                     +year+"Q3","0",
                     "All",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25501,10 +24945,10 @@ for (var i = 33; i < 768; ++i) {
                   arrayformat713: [
                     "Job Change,Anne Arundel WIA",
 
-                    "Maryland Job Net Change by Gender",
+                    "Maryland Job Net Change by Gender All",
                     +year+"Q4","0",
                     "All",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25522,7 +24966,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Workers by Age",
                     +year+"Q1","A08",
                     "65-99",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25540,7 +24984,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Workers by Age",
                     +year+"Q2","A08",
                     "65-99",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25558,7 +25002,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Workers by Age",
                     +year+"Q3","A08",
                     "65-99",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25575,7 +25019,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Workers by Age",
                     +year+"Q4","A08",
                     "65-99",
-                    "Workers",
+
                     dataend,
                   ],
                 },
@@ -25593,7 +25037,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Age",
                     +year+"Q1","A08",
                     "65-99",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25610,7 +25054,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Age",
                     +year+"Q2","A08",
                     "65-99",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25627,7 +25071,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Age",
                     +year+"Q3","A08",
                     "65-99",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25644,7 +25088,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Age",
                     +year+"Q4","A08",
                     "65-99",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25662,7 +25106,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q1","1",
                     "Male",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25680,7 +25124,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q2","1",
                     "Male",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25698,7 +25142,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q3","1",
                     "Male",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25716,7 +25160,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q4","1",
                     "Male",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25734,7 +25178,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q1","2",
                     "Female",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25752,7 +25196,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q2","2",
                     "Female",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25770,7 +25214,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q3","2",
                     "Female",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25788,7 +25232,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland New Hires by Gender",
                     +year+"Q4","2",
                     "Female",
-                    "New Hires",
+
                     dataend,
                   ],
                 },
@@ -25873,10 +25317,10 @@ for (var i = 33; i < 768; ++i) {
                     "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat734: [
                     "Job change,Anne Arundel WIA",
-                    "Maryland Job Net Change by Education",
+                    "Maryland Job Net Change by Education All",
                     +year+"Q1","E0",
                     "All Education Categories",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25889,10 +25333,10 @@ for (var i = 33; i < 768; ++i) {
                     "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat735: [
                     "Job change,Anne Arundel WIA",
-                    "Maryland Job Net Change by Education",
+                    "Maryland Job Net Change by Education All",
                     +year+"Q2","E0",
                     "All Education Categories",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25905,10 +25349,10 @@ for (var i = 33; i < 768; ++i) {
                     "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat736: [
                     "Job change,Anne Arundel WIA",
-                    "Maryland Job Net Change by Education",
+                    "Maryland Job Net Change by Education All",
                     +year+"Q3","E0",
                     "All Education Categories",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25921,10 +25365,10 @@ for (var i = 33; i < 768; ++i) {
                     "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat737: [
                     "Job change,Anne Arundel WIA",
-                    "Maryland Job Net Change by Education",
+                    "Maryland Job Net Change by Education All",
                     +year+"Q4","E0",
                     "All Education Categories",
-                    "Job Change",
+
                     dataend,
                   ],
                 },
@@ -25941,7 +25385,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education All",
                     +year+"Q1","E0",
                     "All Education Categories",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25958,7 +25402,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education All",
                     +year+"Q2","E0",
                     "All Education Categories",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25975,7 +25419,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education All",
                     +year+"Q3","E0",
                     "All Education Categories",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -25992,7 +25436,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education All",
                     +year+"Q4","E0",
                     "All Education Categories",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26008,8 +25452,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q1","E1",
-                    "Less than High school"+",",
-                    "Seperation",
+                    "Less than High school",
+
                     dataend,
                   ],
                 },
@@ -26025,8 +25469,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q2","E1",
-                    "Less than High school"+",",
-                    "Seperation",
+                    "Less than High school",
+
                     dataend,
                   ],
                 },
@@ -26042,8 +25486,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q3","E1",
-                    "Less than High school"+",",
-                    "Seperation",
+                    "Less than High school",
+
                     dataend,
                   ],
                 },
@@ -26059,8 +25503,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q4","E1",
-                    "Less than High school"+",",
-                    "Seperation",
+                    "Less than High school",
+
                     dataend,
                   ],
                 },
@@ -26076,8 +25520,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q1","E2",
-                    '"High school or equivalent, no college"'+",",
-                    "Seperation",
+                    '"High school or equivalent, no college"',
+
                     dataend,
                   ],
                 },
@@ -26093,8 +25537,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q2","E2",
-                    '"High school or equivalent, no college"'+",",
-                    "Seperation",
+                    '"High school or equivalent, no college"',
+
                     dataend,
                   ],
                 },
@@ -26110,8 +25554,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q3","E2",
-                    '"High school or equivalent, no college"'+",",
-                    "Seperation",
+                    '"High school or equivalent, no college"',
+
                     dataend,
                   ],
                 },
@@ -26127,8 +25571,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q3","E2",
-                    '"High school or equivalent, no college"'+",",
-                    "Seperation",
+                    '"High school or equivalent, no college"',
+
                     dataend,
                   ],
                 },
@@ -26144,8 +25588,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q4","E2",
-                    '"High school or equivalent, no college"'+",",
-                    "Seperation",
+                    '"High school or equivalent, no college"',
+
                     dataend,
                   ],
                 },
@@ -26161,8 +25605,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q1","E3",
-                    "Some college or Associate degree"+",",
-                    "Seperation",
+                    "Some college or Associate degree",
+
                     dataend,
                   ],
                 },
@@ -26178,8 +25622,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q2","E3",
-                    "Some college or Associate degree"+",",
-                    "Seperation",
+                    "Some college or Associate degree",
+
                     dataend,
                   ],
                 },
@@ -26195,8 +25639,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q3","E3",
-                    "Some college or Associate degree"+",",
-                    "Seperation",
+                    "Some college or Associate degree",
+
                     dataend,
                   ],
                 },
@@ -26212,8 +25656,8 @@ for (var i = 33; i < 768; ++i) {
                     "Separations,Anne Arundel WIA",
                     "Maryland Separations by Education",
                     +year+"Q4","E3",
-                    "Some college or Associate degree"+",",
-                    "Seperation",
+                    "Some college or Associate degree",
+
                     dataend,
                   ],
                 },
@@ -26230,7 +25674,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q1","E4",
                     "Bachelor's degree or advanced degree",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26247,7 +25691,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q2","E4",
                     "Bachelor's degree or advanced degree",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26264,7 +25708,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q3","E4",
                     "Bachelor's degree or advanced degree",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26281,7 +25725,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q4","E4",
                     "Bachelor's degree or advanced degree",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26298,7 +25742,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q1","E5",
                     "Educational attainment not available (workers aged 24 or younger)",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26315,7 +25759,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q2","E5",
                     "Educational attainment not available (workers aged 24 or younger)",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26332,7 +25776,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q3","E5",
                     "Educational attainment not available (workers aged 24 or younger)",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26349,7 +25793,7 @@ for (var i = 33; i < 768; ++i) {
                     "Maryland Separations by Education",
                     +year+"Q4","E5",
                     "Educational attainment not available (workers aged 24 or younger)",
-                    "Seperation",
+
                     dataend,
                   ],
                 },
@@ -26366,8 +25810,8 @@ for (var i = 33; i < 768; ++i) {
 
                     "Maryland Job Net Change by Education",
                     +year+"Q1","E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Job Change",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend,
                   ],
                 },
@@ -26384,8 +25828,8 @@ for (var i = 33; i < 768; ++i) {
 
                     "Maryland Job Net Change by Education",
                     +year+"Q2","E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Job Change",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend,
                   ],
                 },
@@ -26402,8 +25846,8 @@ for (var i = 33; i < 768; ++i) {
 
                     "Maryland Job Net Change by Education",
                     +year+"Q3","E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Job Change",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend,
                   ],
                 },
@@ -26420,8 +25864,8 @@ for (var i = 33; i < 768; ++i) {
 
                     "Maryland Job Net Change by Education",
                     +year+"Q4","E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Job Change",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend,
                   ],
                 },
@@ -26434,12 +25878,11 @@ for (var i = 33; i < 768; ++i) {
                     "Q1" +
                     "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat766: [
-                    "Maryland",
+                    "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
                     year + "Q1",
-                    "Maryland Turnover Rate by Education",
                     "E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Turnover",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend+ ",",
                   ],
                 },
@@ -26456,31 +25899,432 @@ for (var i = 33; i < 768; ++i) {
                     year + "Q2",
                     "Maryland Turnover Rate by Education",
                     "E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Turnover",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend+ ",",
                   ],
                 },
 
-                set767: {
-                  url767:
+                set768: {
+                  url768:
                     "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
                     "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                  arrayformat767: [
+                  arrayformat768: [
                     "Maryland",
                     year + "Q3",
                     "Maryland Turnover Rate by Education",
                     "E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Turnover",
+                    "Educational attainment not available (workers aged 24 or younger)",
+
                     dataend+ ",",
                   ],
                 },
+        set769: {
+        url769:
+          "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+          year +
+          "-" +
+          "Q1" +
+          "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+        arrayformat769: [
+          "Earnings,Anne Arundel WIA",
+          "Maryland Average Monthly Earnings by Age All",
+          +year+"Q1","A00",
+          "All Ages",
+          dataend,
+        ],
+      },
 
+      set770: {
+      url770:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat770: [
+        "Earnings,Anne Arundel WIA",
+        "Maryland Average Monthly Earnings by Age All",
+        +year+"Q2","A00",
+        "All Ages",
+        dataend,
+      ],
+    },
 
+    set771: {
+    url771:
+      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+      year +
+      "-" +
+      "Q2" +
+      "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+    arrayformat771: [
+      "Earnings,Anne Arundel WIA",
+      "Maryland Average Monthly Earnings by Age All",
+      +year+"Q2","A00",
+      "All Ages",
+      dataend,
+    ],
+  },
+
+  set772: {
+  url772:
+    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+    year +
+    "-" +
+    "Q3" +
+    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat772: [
+    "Earnings,Anne Arundel WIA",
+    "Maryland Average Monthly Earnings by Age All",
+    +year+"Q3","A00",
+    "All Ages",
+    dataend,
+  ],
+},
+
+set773: {
+url773:
+  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+  year +
+  "-" +
+  "Q4" +
+  "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+arrayformat773: [
+  "Earnings,Anne Arundel WIA",
+  "Maryland Average Monthly Earnings by Age All",
+  +year+"Q4","A00",
+  "All Ages",
+  dataend,
+],
+},
+
+set774: {
+  url774:
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    year +
+    "-" +
+    "Q1" +
+    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat774: [
+    "Separations,Anne Arundel WIA",
+    "Maryland Separations by Age All",
+    +year+"Q1","A00",
+    "All Ages",
+    dataend,
+  ],
+},
+
+set775: {
+  url775:
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    year +
+    "-" +
+    "Q2" +
+    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat775: [
+    "Separations,Anne Arundel WIA",
+    "Maryland Separations by Age All",
+    +year+"Q2","A00",
+    "All Ages",
+    dataend,
+  ],
+},
+
+set776: {
+  url776:
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    year +
+    "-" +
+    "Q3" +
+    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat776: [
+    "Separations,Anne Arundel WIA",
+    "Maryland Separations by Age All",
+    +year+"Q3","A00",
+    "All Ages",
+    dataend,
+  ],
+},
+
+set777: {
+  url777:
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    year +
+    "-" +
+    "Q4" +
+    "&agegrp=A00&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat777: [
+    "Separations,Anne Arundel WIA",
+    "Maryland Separations by Age All",
+    +year+"Q4","A00",
+    "All Ages",
+    dataend,
+  ],
+},
+set778: {
+  url778:
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    year +
+    "-" +
+    "Q1" +
+    "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat778: [
+    "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+    year + "Q1",
+    "E0",
+    "All Education Categories",
+    dataend,
+  ],
+},
+
+set779: {
+  url779:
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    year +
+    "-" +
+    "Q2" +
+    "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat779: [
+    "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+    year + "Q2",
+    "E0",
+    "All Education Categories",
+    dataend,
+  ],
+},
+
+set780: {
+  url780:
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    year +
+    "-" +
+    "Q3" +
+    "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat780: [
+    "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+    year + "Q3",
+    "E0",
+    "All Education Categories",
+    dataend,
+  ],
+},
+
+set781: {
+  url781:
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    year +
+    "-" +
+    "Q4" +
+    "&education=E0&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat781: [
+    "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education All",
+    year + "Q4",
+    "E0",
+    "All Education Categories",
+    dataend,
+  ],
+},
+
+set782: {
+   url782:
+     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+     year +
+     "-" +
+     "Q1" +
+     "&key=855666deab62d95596011f1944d9f1bd8c918853",
+   arrayformat782: [
+     "Separations,Anne Arundel WIA",
+     "Maryland Separations by Gender All",
+     +year+"Q1","0",
+     "All",
+     dataend,
+   ],
+   },
+
+   set783: {
+      url783:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat783: [
+        "Separations,Anne Arundel WIA",
+        "Maryland Separations by Gender All",
+        +year+"Q2","0",
+        "All",
+        dataend,
+      ],
+      },
+
+      set784: {
+         url784:
+           "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+           year +
+           "-" +
+           "Q3" +
+           "&key=855666deab62d95596011f1944d9f1bd8c918853",
+         arrayformat784: [
+           "Separations,Anne Arundel WIA",
+           "Maryland Separations by Gender All",
+           +year+"Q3","0",
+           "All",
+           dataend,
+         ],
+         },
+
+         set785: {
+            url785:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat785: [
+              "Separations,Anne Arundel WIA",
+              "Maryland Separations by Gender All",
+              +year+"Q4","0",
+              "All",
+              dataend,
+            ],
+            },
+
+            set786: {
+            url786:
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              year +
+              "-" +
+              "Q1" +
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
+            arrayformat786: [
+              "Turnover,Anne Arundel WIA",
+              "Maryland Turnover Rate by Gender All",
+              +year+"Q1","0",
+              "All",
+              dataend,
+            ],
+          },
+
+          set787: {
+          url787:
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat787: [
+            "Turnover,Anne Arundel WIA",
+            "Maryland Turnover Rate by Gender All",
+            +year+"Q2","0",
+            "All",
+            dataend,
+          ],
+        },
+
+        set788: {
+        url788:
+          "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+          year +
+          "-" +
+          "Q3" +
+          "&key=855666deab62d95596011f1944d9f1bd8c918853",
+        arrayformat788: [
+          "Turnover,Anne Arundel WIA",
+          "Maryland Turnover Rate by Gender All",
+          +year+"Q3","0",
+          "All",
+          dataend,
+        ],
+      },
+
+      set789: {
+      url789:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat789: [
+        "Turnover,Anne Arundel WIA",
+        "Maryland Turnover Rate by Gender All",
+        +year+"Q4","0",
+        "All",
+        dataend,
+      ],
+    },
+
+    set790: {
+      url790:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q1" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat790: [
+        "Earnings,Anne Arundel WIA",
+
+        "Maryland Average Monthly Earnings by Gender All",
+        +year+"Q1","0",
+        "All",
+
+        dataend,
+      ],
+    },
+
+    set791: {
+      url791:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q2" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat791: [
+        "Earnings,Anne Arundel WIA",
+
+        "Maryland Average Monthly Earnings by Gender All",
+        +year+"Q2","0",
+        "All",
+
+        dataend,
+      ],
+    },
+
+    set792: {
+      url792:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q3" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat792: [
+        "Earnings,Anne Arundel WIA",
+        "Maryland Average Monthly Earnings by Gender All",
+        +year+"Q3","0",
+        "All",
+        dataend,
+      ],
+    },
+
+    set793: {
+      url793:
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        year +
+        "-" +
+        "Q4" +
+        "&key=855666deab62d95596011f1944d9f1bd8c918853",
+      arrayformat793: [
+        "Earnings,Anne Arundel WIA",
+
+        "Maryland Average Monthly Earnings by Gender All",
+        +year+"Q4","0",
+        "All",
+        dataend,
+      ],
+    },
 
        },
       // beginning of the object for the library

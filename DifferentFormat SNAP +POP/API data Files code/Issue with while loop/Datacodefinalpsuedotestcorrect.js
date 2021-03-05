@@ -103,7 +103,8 @@ function getCensusApiData(url, year, i) {
                 ],
               },
 
-          set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+          set3:{
+                url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
                arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
                },
                set4: {
@@ -112,26 +113,23 @@ function getCensusApiData(url, year, i) {
                    year +
                    "-" +
                    "Q1" +
-                   "&industry=72&key=855666deab62d95596011f1944d9f1bd8c918853",
+                   "&key=855666deab62d95596011f1944d9f1bd8c918853",
                  arrayformat4: [
                    "Earnings,Anne Arundel WIA",
-                   "Maryland Average Earnings by Industry",
-                   + year + "Q1","72",
-                   "Accommodation and Food Services" + ",",
+                   "Maryland Average Monthly Earnings by Gender All",
+                   +year+"Q1","0",
+                   "All",
                    dataend,
                  ],
                },
-                 },
 
           // beginning of the object for the county API data
-
+     },
       }; // end of the object for the library
     // Objectarray.Maryland[set4][arrayformat4].splice(0,1);
       pushresultstoarray(year,Objectarray,i);
-}
+},
 ) // end of function to collect the Census bureau data
-
-
 
 };
 
@@ -200,22 +198,30 @@ for (var i = 1; i < 5; ++i) {
                 dataend+ ",",
               ],
             },
-        set3:{ url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-             arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
+        set3:{
+               url3: "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_022E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              arrayformat3: ["Maryland",year,"Unemployment By Gender","1"+",,,",dataend],
              },
              set4: {
                url4:
-                 "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                 "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
                  year +
                  "-" +
-                 "Q3" +
-                 "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-                 arrayformat4: [
-                   `hello${'"'}Maryland,${year}Q3,Maryland Separations by Industry,,11,Agriculture, Forestry, Fishing and Hunting,,Seperation,${dataend},`
-                 ],
-               },
-        // beginning of the object for the county API data
-      },
+                 "Q1" +
+                 "&key=855666deab62d95596011f1944d9f1bd8c918853",
+               arrayformat4: [
+                 "Earnings,Anne Arundel WIA",
+
+                 "Maryland Average Monthly Earnings by Gender All",
+                 +year+"Q1","0",
+                 "All",
+
+                 dataend,
+               ],
+             },
+
+
+},
     }; // end of the object for the library
 
       var set ="set"+String(i);

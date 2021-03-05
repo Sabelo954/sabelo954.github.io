@@ -87,7 +87,6 @@ function getCensusApiData(url, year, i) {
               dataend+",,,,,",
             ],
           },
-          2015,Median Household Income,,,"Somerset County, Maryland",35154,,,,,
               set2: {
                 url2:
                   "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
@@ -106,22 +105,21 @@ function getCensusApiData(url, year, i) {
                },
                set4: {
                  url4:
-                   "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                   "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
                    year +
                    "-" +
-                   "Q3" +
+                   "Q2" +
                    "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-                   arrayformat4: [
-                     // `
-                     '"'+'"'+'"Maryland,'
-                     +year+"Q3,"
-                     +"\"Maryland Separations by Industry,,11,\""
-                     +"\"Agriculture, Forestry, Fishing and Hunting\""+'"'+",,"
-                     +"Seperation,"+dataend+","+'"'
-                     // `
-                   ]
+                 arrayformat4: [
+                   "Earnings,Anne Arundel WIA",
 
-                 },
+                   "Maryland Average Earnings by Industry",
+                   +year+"Q2","11",
+                   '"Agriculture, Forestry, Fishing and Hunting"',
+
+                   dataend,
+                 ],
+               },
                  },
 
           // beginning of the object for the county API data
@@ -206,15 +204,21 @@ for (var i = 1; i < 5; ++i) {
              },
              set4: {
                url4:
-                 "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=state:24&time=" +
+                 "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
                  year +
                  "-" +
-                 "Q3" +
+                 "Q2" +
                  "&industry=11&key=855666deab62d95596011f1944d9f1bd8c918853",
-                 arrayformat4: [
-                   `hello${'"'}Maryland,${year}Q3,Maryland Separations by Industry,,11,Agriculture, Forestry, Fishing and Hunting,,Seperation,${dataend},`
-                 ],
-               },
+               arrayformat4: [
+                 "Earnings,Anne Arundel WIA",
+
+                 "Maryland Average Earnings by Industry",
+                 +year+"Q2","11",
+                 '"Agriculture, Forestry, Fishing and Hunting"',
+
+                 dataend,
+               ],
+             },
         // beginning of the object for the county API data
       },
     }; // end of the object for the library
