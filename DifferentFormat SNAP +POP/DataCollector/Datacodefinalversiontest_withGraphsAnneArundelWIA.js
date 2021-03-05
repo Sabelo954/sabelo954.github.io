@@ -1257,19 +1257,19 @@ function getCensusApiData(url, year, i) {
 
           set72: {
             url72:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
               year +
               "-" +
-              "Q3" +
-              "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "Q4" +
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat72: [
-              "Separations,Anne Arundel WIA",
-
-              "Maryland Separations by Industry",
-              +year+"Q3","62",
-              "Health Care and Social Assistance",
-              "Seperation",
-              0,
+              "Maryland",
+              year + "Q4",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
+              dataend+ ",",
             ],
           },
           set73: {
@@ -13283,23 +13283,6 @@ function getCensusApiData(url, year, i) {
                     ],
                   },
 
-                  set768: {
-                    url768:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q4" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat768: [
-                      "Maryland",
-                      year + "Q4",
-                      "Maryland Turnover Rate by Education",
-                      "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
-                      dataend+ ",",
-                    ],
-                  },
 
 
          },
@@ -13338,7 +13321,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 33; i < 769; ++i) {
+for (var i = 33; i < 768; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -14469,19 +14452,19 @@ for (var i = 33; i < 769; ++i) {
 
         set72: {
           url72:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
             year +
             "-" +
-            "Q3" +
-            "&industry=62&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "Q4" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat72: [
-            "Separations,Anne Arundel WIA",
-
-            "Maryland Separations by Industry",
-            +year+"Q3","62",
-            "Health Care and Social Assistance",
-            "Seperation",
-            0,
+            "Maryland",
+            year + "Q4",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
+            dataend+ ",",
           ],
         },
         set73: {
@@ -26497,23 +26480,6 @@ for (var i = 33; i < 769; ++i) {
                   ],
                 },
 
-                set768: {
-                  url768:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-                    year +
-                    "-" +
-                    "Q4" +
-                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                  arrayformat768: [
-                    "Maryland",
-                    year + "Q4",
-                    "Maryland Turnover Rate by Education",
-                    "E5",
-                    "Educational attainment not available (workers aged 24 or younger)" + ",",
-                    "Turnover",
-                    dataend+ ",",
-                  ],
-                },
 
 
        },
