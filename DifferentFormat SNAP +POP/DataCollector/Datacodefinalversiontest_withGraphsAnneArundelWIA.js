@@ -13182,12 +13182,12 @@ function pushresultstoarray(year,obj,i){
 
 
 
-// console.log(results);
+console.log(results);
 // console.log("Outside fucntion:",dataend);
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 33; i < 794; ++i) {
+for (var i = 33; i < 790; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -24193,11 +24193,9 @@ for (var i = 33; i < 794; ++i) {
             "&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat674: [
             "Earnings,Anne Arundel WIA",
-
             "Maryland Average Monthly Earnings by Gender All",
             +year+"Q1","0",
             "All",
-
             dataend,
           ],
         },

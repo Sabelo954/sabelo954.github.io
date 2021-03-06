@@ -281,17 +281,10 @@ function getCensusApiData(url, year, i) {
               year +
               "/acs/acs5?get=NAME,B23006_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat12: [
-              "Maryland",
-              year,
-              "Employment Status By Education",
-              "Highschool" + ",",
-              "Employed" + ",",
+              year,"Employment Status By Education","Employed","Highschool",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
-
-          2016,Employment Status By Education,Unemployed,Highschool,"Queen Annes County, Maryland",227,,,,,
-
 
           set13: {
             url13:
@@ -479,38 +472,26 @@ function getCensusApiData(url, year, i) {
             url30:
               "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat30: [
-              "Maryland",
-              "2019",
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
+              year,"Employment Status By Disability Status","Employed","Non Disabled",'"Alleghany County,Maryland"',
               dataend+ ",",
             ],
           },
 
           set31: {
             url31:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat31: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Employed" + ",",
-              dataend+ ",",
+              year,"Employment Status By Disability Status","Unemployed","Disabled",'"Alleghany County,Maryland"',
+              dataend+ ",,,,",
             ],
           },
 
           set32: {
             url32:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat32: [
-              "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
-              dataend+ ",",
+              year,"Employment Status By Disability Status","Unemployed","Non Disabled",'"Alleghany County,Maryland"',
+              dataend+ ",,,,",
             ],
           },
 
