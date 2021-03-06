@@ -11696,69 +11696,72 @@ function getCensusApiData(url, year, i) {
 
           set674: {
             url674:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat674: [
               "Maryland",
               year + "Q1",
-              "Maryland Turnover Rate by Gender",
-              "2",
-              "Female" + ",",
-              "Job Change",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
+
           set675: {
             url675:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat675: [
               "Maryland",
               year + "Q2",
-              "Maryland Turnover Rate by Gender",
-              "2",
-              "Female" + ",",
-              "Job Change",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
+
           set676: {
             url676:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat676: [
               "Maryland",
               year + "Q3",
-              "Maryland Turnover Rate by Gender",
-              "2",
-              "Female" + ",",
-              "Job Change",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
+
           set677: {
             url677:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat677: [
               "Maryland",
               year + "Q4",
-              "Maryland Turnover Rate by Gender",
-              "2",
-              "Female" + ",",
-              "Job Change",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
@@ -24985,69 +24988,72 @@ for (var i = 1; i < 769; ++i) {
 
         set674: {
           url674:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat674: [
             "Maryland",
             year + "Q1",
-            "Maryland Turnover Rate by Gender",
-            "2",
-            "Female" + ",",
-            "Job Change",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
+
         set675: {
           url675:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat675: [
             "Maryland",
             year + "Q2",
-            "Maryland Turnover Rate by Gender",
-            "2",
-            "Female" + ",",
-            "Job Change",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
+
         set676: {
           url676:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat676: [
             "Maryland",
             year + "Q3",
-            "Maryland Turnover Rate by Gender",
-            "2",
-            "Female" + ",",
-            "Job Change",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
+
         set677: {
           url677:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat677: [
             "Maryland",
             year + "Q4",
-            "Maryland Turnover Rate by Gender",
-            "2",
-            "Female" + ",",
-            "Job Change",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
@@ -26590,77 +26596,7 @@ for (var i = 1; i < 769; ++i) {
           ],
         },
 
-        set766: {
-          url766:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q1" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat766: [
-            "Maryland",
-            year + "Q1",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
 
-        set767: {
-          url767:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q2" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat767: [
-            "Maryland",
-            year + "Q2",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set767: {
-          url767:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q3" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat767: [
-            "Maryland",
-            year + "Q3",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set768: {
-          url768:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat768: [
-            "Maryland",
-            year + "Q4",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
 
        },
         // beginning of the object for the county API data

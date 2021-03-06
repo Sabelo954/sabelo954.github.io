@@ -11154,69 +11154,69 @@ function getCensusApiData(url, year, i) {
 
           set674: {
             url674:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat674: [
-              "Job Change,Anne Arundel WIA",
+              "Earnings,Anne Arundel WIA",
 
-              "Maryland Turnover Rate by Gender",
-              +year+"Q1","2",
-              "Female",
+              "Maryland Average Monthly Earnings by Gender All",
+              +year+"Q1","0",
+              "All",
 
               dataend,
             ],
           },
+
           set675: {
             url675:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat675: [
-              "Job Change,Anne Arundel WIA",
+              "Earnings,Anne Arundel WIA",
 
-              "Maryland Turnover Rate by Gender",
-              +year+"Q2","2",
-              "Female",
+              "Maryland Average Monthly Earnings by Gender All",
+              +year+"Q2","0",
+              "All",
 
               dataend,
             ],
           },
+
           set676: {
             url676:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat676: [
-              "Job Change,Anne Arundel WIA",
-
-              "Maryland Turnover Rate by Gender",
-              +year+"Q3","2",
-              "Female",
-
+              "Earnings,Anne Arundel WIA",
+              "Maryland Average Monthly Earnings by Gender All",
+              +year+"Q3","0",
+              "All",
               dataend,
             ],
           },
+
           set677: {
             url677:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
-              "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat677: [
-              "Job Change,Anne Arundel WIA",
+              "Earnings,Anne Arundel WIA",
 
-              "Maryland Turnover Rate by Gender",
-              +year+"Q4","2",
-              "Female",
-
+              "Maryland Average Monthly Earnings by Gender All",
+              +year+"Q4","0",
+              "All",
               dataend,
             ],
           },
@@ -13144,75 +13144,6 @@ function getCensusApiData(url, year, i) {
                 arrayformat789: [
                   "Turnover,Anne Arundel WIA",
                   "Maryland Turnover Rate by Gender All",
-                  +year+"Q4","0",
-                  "All",
-                  dataend,
-                ],
-              },
-
-              set790: {
-                url790:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-                  year +
-                  "-" +
-                  "Q1" +
-                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat790: [
-                  "Earnings,Anne Arundel WIA",
-
-                  "Maryland Average Monthly Earnings by Gender All",
-                  +year+"Q1","0",
-                  "All",
-
-                  dataend,
-                ],
-              },
-
-              set791: {
-                url791:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-                  year +
-                  "-" +
-                  "Q2" +
-                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat791: [
-                  "Earnings,Anne Arundel WIA",
-
-                  "Maryland Average Monthly Earnings by Gender All",
-                  +year+"Q2","0",
-                  "All",
-
-                  dataend,
-                ],
-              },
-
-              set792: {
-                url792:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-                  year +
-                  "-" +
-                  "Q3" +
-                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat792: [
-                  "Earnings,Anne Arundel WIA",
-                  "Maryland Average Monthly Earnings by Gender All",
-                  +year+"Q3","0",
-                  "All",
-                  dataend,
-                ],
-              },
-
-              set793: {
-                url793:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-                  year +
-                  "-" +
-                  "Q4" +
-                  "&key=855666deab62d95596011f1944d9f1bd8c918853",
-                arrayformat793: [
-                  "Earnings,Anne Arundel WIA",
-
-                  "Maryland Average Monthly Earnings by Gender All",
                   +year+"Q4","0",
                   "All",
                   dataend,
@@ -24255,69 +24186,69 @@ for (var i = 33; i < 794; ++i) {
 
         set674: {
           url674:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat674: [
-            "Job Change,Anne Arundel WIA",
+            "Earnings,Anne Arundel WIA",
 
-            "Maryland Turnover Rate by Gender",
-            +year+"Q1","2",
-            "Female",
+            "Maryland Average Monthly Earnings by Gender All",
+            +year+"Q1","0",
+            "All",
 
             dataend,
           ],
         },
+
         set675: {
           url675:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat675: [
-            "Job Change,Anne Arundel WIA",
+            "Earnings,Anne Arundel WIA",
 
-            "Maryland Turnover Rate by Gender",
-            +year+"Q2","2",
-            "Female",
+            "Maryland Average Monthly Earnings by Gender All",
+            +year+"Q2","0",
+            "All",
 
             dataend,
           ],
         },
+
         set676: {
           url676:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat676: [
-            "Job Change,Anne Arundel WIA",
-
-            "Maryland Turnover Rate by Gender",
-            +year+"Q3","2",
-            "Female",
-
+            "Earnings,Anne Arundel WIA",
+            "Maryland Average Monthly Earnings by Gender All",
+            +year+"Q3","0",
+            "All",
             dataend,
           ],
         },
+
         set677: {
           url677:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
-            "&sex=2&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat677: [
-            "Job Change,Anne Arundel WIA",
+            "Earnings,Anne Arundel WIA",
 
-            "Maryland Turnover Rate by Gender",
-            +year+"Q4","2",
-            "Female",
-
+            "Maryland Average Monthly Earnings by Gender All",
+            +year+"Q4","0",
+            "All",
             dataend,
           ],
         },
@@ -26257,74 +26188,7 @@ set782: {
       ],
     },
 
-    set790: {
-      url790:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-        year +
-        "-" +
-        "Q1" +
-        "&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat790: [
-        "Earnings,Anne Arundel WIA",
 
-        "Maryland Average Monthly Earnings by Gender All",
-        +year+"Q1","0",
-        "All",
-
-        dataend,
-      ],
-    },
-
-    set791: {
-      url791:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-        year +
-        "-" +
-        "Q2" +
-        "&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat791: [
-        "Earnings,Anne Arundel WIA",
-
-        "Maryland Average Monthly Earnings by Gender All",
-        +year+"Q2","0",
-        "All",
-
-        dataend,
-      ],
-    },
-
-    set792: {
-      url792:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-        year +
-        "-" +
-        "Q3" +
-        "&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat792: [
-        "Earnings,Anne Arundel WIA",
-        "Maryland Average Monthly Earnings by Gender All",
-        +year+"Q3","0",
-        "All",
-        dataend,
-      ],
-    },
-
-    set793: {
-      url793:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
-        year +
-        "-" +
-        "Q4" +
-        "&key=855666deab62d95596011f1944d9f1bd8c918853",
-      arrayformat793: [
-        "Earnings,Anne Arundel WIA",
-
-        "Maryland Average Monthly Earnings by Gender All",
-        +year+"Q4","0",
-        "All",
-        dataend,
-      ],
-    },
 
        },
       // beginning of the object for the library
