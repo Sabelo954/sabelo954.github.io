@@ -2,47 +2,33 @@
 // The table or array that will be converted to the excel spreadsheet
 let results = [
   [
-    "Col1",
-    "Col2",
-    "Col3",
-    "Col4",
-    "Col5",
-    "Col6",
-    "Col7",
-    "Col8",
-    "Col9",
-    "Col10",
-    "Col11",
-    "Col12",
-    "Col13",
-    "Col14",
+    "Col1,",
+    "Col2,",
+    "Col3,",
+    "Col4,",
+    "Col5,",
+    "Col6,",
+    "Col7,",
+    "Col8,",
+    "Col9,",
+    "Col10,",
+    "Col11,",
+    "Col12,",
+    "Col13,",
+    "Col14,",
   ],
   [
-    "Location",
-    "Time",
-    "Indicator",
-    "Indicator_Status",
-    "Indicator_Value",
-    "Employment_Status",
-    "QWI-Status",
-    "Amount",
-    "Unemployment_Rate",
+    "Location,",
+    "Time,",
+    "Indicator,",
+    "Indicator_Status,",
+    "Indicator_Value,",
+    "Employment_Status,",
+    "QWI-Status,",
+    "Amount,",
+    "Unemployment_Rate,",
   ],
-  ["Maryland","2015Q3","TANF","Workers"+",,,,",5546,],
-  ["Maryland","2015Q4","TANF","Workers"+",,,,",5875,],
-  ["Maryland","2016Q1","TANF","Workers"+",,,,",4316,],
-  ["Maryland","2016Q2","TANF","Workers"+",,,,",4843,],
-  ["Maryland","2016Q3","TANF","Workers"+",,,,",5179,],
-  ["Maryland","2016Q4","TANF","Workers"+",,,,",5305,],
-  ["Maryland","2017Q1","TANF","Workers"+",,,,",4026,],
-  ["Maryland","2017Q2","TANF","Workers"+",,,,",4361,],
-  ["Maryland","2017Q3","TANF","Workers"+",,,,",4037,],
-  ["Maryland","2017Q4","TANF","Workers"+",,,,",4744,],
-  ["Maryland","2018Q1","TANF","Workers"+",,,,",3643,],
-  ["Maryland","2018Q2","TANF","Workers"+",,,,",3775,],
-  ["Maryland","2018Q3","TANF","Workers"+",,,,",3947,],
-  ["Maryland","2018Q4","TANF","Workers"+",,,,",4106,],
-  ["Maryland","2019Q1","TANF","Workers"+",,,,",2968,],
+["2007-2011,","Employment Status by Education,Employed,Bachelor's degree or higher,",'"\"Allegany County, Maryland\""',5324,",,,,,"],
   ["Maryland","2019Q2","TANF","Workers"+",,,,",3397,]
 ];
 
@@ -78,18 +64,15 @@ function getCensusApiData(url, year, i) {
         Maryland: {
 
           set1: {
-            url1:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat1: [
-              "Maryland",
-              year,
-              "Median Household Income",
-              ",,,",
-              dataend+",",
-            ],
-          },
+                    url1:
+                      "https://api.census.gov/data/" +
+                      year +
+                      "/acs/acs5?get=NAME,B23006_006E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    arrayformat1: [
+                      year,"Employment Status By Education","Employed","Less than Highschool",'"Allegany County, Maryland"',
+                      dataend+",",
+                    ],
+                  },
               set2: {
                 url2:
                   "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
@@ -182,10 +165,16 @@ for (var i = 1; i < 5; ++i) {
     var Objecturl = {
       // beginning of the object for the library
       Maryland: {
-        set1:{
-             url1:"https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S1901_C01_012E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-              arrayformat1:["Maryland",year,"Median Household Income",",,,",dataend],
-            },
+        set1: {
+                  url1:
+                    "https://api.census.gov/data/" +
+                    year +
+                    "/acs/acs5?get=NAME,B23006_006E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+                  arrayformat1: [
+                    year,"Employment Status By Education","Employed","Less than Highschool",'"Allegany County, Maryland"',
+                    dataend+",",
+                  ],
+                },
             set2: {
               url2:
                 "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
