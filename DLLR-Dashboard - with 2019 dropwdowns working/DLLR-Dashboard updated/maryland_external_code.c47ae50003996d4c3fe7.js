@@ -792,14 +792,14 @@
                     )),
                     (document.getElementById(
                       "table55"
-                    ).innerHTML = '\n\t<thead>\n\t  <tr> \n\t    <th class="HeadRow" colspan="2">New Apprenticeship Programs</th> \n\t  </tr>\n\t  <tr class="HeadRow" style="background-color: white;">\n\t    <th style=\'text-align:center;\'>Year</th>\n\t  <th style=\'text-align:center;\'>New Programs</th>\n\t  </tr>\n\t</thead>\n\t<tbody>\n\t  <tr>\n\t    <td>2016</td>\n\t    <td> '
+                    ).innerHTML = '\n\t<thead>\n\t  <tr> \n\t    <th class="HeadRow" colspan="2">New Apprenticeship Programs</th> \n\t  </tr>\n\t  <tr class="HeadRow" style="background-color: white;">\n\t    <th style=\'text-align:center;\'>Year</th>\n\t  <th style=\'text-align:center;\'>New Programs</th>\n\t  </tr>\n\t</thead>\n\t<tbody>\n\t  <tr>\n\t    <td>2017</td>\n\t    <td> '
                       .concat(
                         aprog3[0].Amount,
-                        "</td>\n\t  </tr>\n\t  <tr>\n\t    <td>2017</td>\n\t    <td> "
+                        "</td>\n\t  </tr>\n\t  <tr>\n\t    <td>2018</td>\n\t    <td> "
                       )
                       .concat(
                         aprog3[1].Amount,
-                        '</td>\n\t  </tr>\n\t  <tr class="FootRow">\n\t    <td>2018</td>\n\t    <td> '
+                        '</td>\n\t  </tr>\n\t  <tr class="FootRow">\n\t    <td>2019</td>\n\t    <td> '
                       )
                       .concat(
                         aprog3[2].Amount,
