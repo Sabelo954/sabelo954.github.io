@@ -84,7 +84,7 @@ var results = [
   ["Maryland"+",","2018Q4"+",","Percent of Workers in TANF (%)"+",,,,,",0.161040196+","],
   ["Maryland"+",","2019Q1"+",","Percent of Workers in TANF (%)"+",,,,,",0.118709886+","],
   ["Maryland"+",","2019Q2"+",","Percent of Workers in TANF (%)"+",,,,,",0.133430745+","],
-  ["Maryland"+",","2016"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",1+","],
+  //["Maryland"+",","2016"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",1+","],
   ["Maryland"+",","2017"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",128+","],
   ["Maryland"+",","2018"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",28+","],
   ["Maryland"+",","2019"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",19+","],
