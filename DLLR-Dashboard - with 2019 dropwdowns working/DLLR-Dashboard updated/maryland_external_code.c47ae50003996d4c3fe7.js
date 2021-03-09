@@ -836,34 +836,39 @@
                     (window.aNew1 = l.filterData(
                       l.filterData(a, "Indicator", "Maryland Apprentices"),
                       "Time",
-                      "2016"
+                      "2017"
                     )),
                     (window.aNew2 = l.filterData(
                       l.filterData(a, "Indicator", "Maryland Apprentices"),
                       "Time",
-                      "2017"
+                      "2018"
                     )),
                     (window.aNew3 = l.filterData(
                       a,
                       "Indicator",
                       "Maryland Apprentices"
                     )),
+                    (window.aNew4 = l.filterData(
+                      l.filterData(a, "Indicator", "Maryland Apprentices"),
+                      "Time",
+                      "2019"
+                    )),
                     (document.getElementById(
                       "table19"
-                    ).innerHTML = '\n\t<thead>\n\t  <tr>\n\t    <th class="HeadRow" colspan="3" >New and Active Apprentices</th>\n\t  </tr>\n\t  <tr class="HeadRow" style="background-color: white;">\n\t    <th>Year</th>\n\t    <th>New</th>\n\t    <th>Active</th>\n\t  </tr>\n\t</thead>\n\t<tbody>\n\t  <tr>\n\t    <td>2016</td>\n\t    <td> '
+                    ).innerHTML = '\n\t<thead>\n\t  <tr>\n\t    <th class="HeadRow" colspan="3" >New and Active Apprentices</th>\n\t  </tr>\n\t  <tr class="HeadRow" style="background-color: white;">\n\t    <th>Year</th>\n\t    <th>New</th>\n\t    <th>Active</th>\n\t  </tr>\n\t</thead>\n\t<tbody>\n\t  <tr>\n\t    <td>2017</td>\n\t    <td> '
                       .concat(aNew1[0].Amount, "</td>\n\t    <td> ")
                       .concat(
                         aNew1[1].Amount,
-                        "</td>\n\t  </tr>\n\t  <tr>\n\t    <td>2017</td>\n\t    <td> "
+                        "</td>\n\t  </tr>\n\t  <tr>\n\t    <td>2018</td>\n\t    <td> "
                       )
                       .concat(aNew2[0].Amount, "</td>\n\t    <td> ")
                       .concat(
                         aNew2[1].Amount,
-                        '</td>\n\t  </tr>\n\t  <tr class="FootRow">\n\t    <td>2018</td>\n\t    <td> '
+                        '</td>\n\t  </tr>\n\t  <tr class="FootRow">\n\t    <td>2019</td>\n\t    <td> '
                       )
-                      .concat(aNew3[0].Amount, "</td>\n\t    <td> ")
+                      .concat(aNew4[0].Amount, "</td>\n\t    <td> ")
                       .concat(
-                        aNew3[1].Amount,
+                        aNew4[1].Amount,
                         "</td>\n\t  </tr>\n\t</tbody>\n\t"
                       )),
                     (m = l.newSvg("#Chart19", "100%", 400)),
