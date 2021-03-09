@@ -132,7 +132,9 @@ var results = [
   ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329],
   ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397]
 
-
+  ["Maryland,","2019,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",156487],
+  ["Maryland,","2019,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",267343],
+  ["Maryland,","2019,","Employment Status By Poverty Status,","Below Poverty,,","Labor Force,,",1344898]
 
 
 
