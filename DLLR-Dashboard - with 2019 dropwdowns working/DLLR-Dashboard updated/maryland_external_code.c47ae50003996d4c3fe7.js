@@ -733,18 +733,19 @@
                     (window.mAppData = l.filterData(
                       l.filterData(a, "Indicator_Value", "Program Completers"),
                       "Time",
-                      ["FY15", "FY16", "FY17", "FY18"]
+                      ["FY17", "FY18", "FY19"]
                     )),
+                    console.log("mAppData", mAppData);
                     (document.getElementById(
                       "table11"
-                    ).innerHTML = '\n\t<tr class="HeadRow" style="background-color: white;">\n\t  <th>Apprenticeship Program Completers in Maryland</th>\n\t  <td></td>\n\t</tr>\n\t<tr>\n\t  <th>2015</th>\n\t  <td>'
+                    ).innerHTML = '\n\t<tr class="HeadRow" style="background-color: white;">\n\t  <th>Apprenticeship Program Completers in Maryland</th>\n\t  <td></td>\n\t</tr>\n\t<tr>\n\t  <th>2017</th>\n\t  <td>'
                       .concat(
                         mAppData[0].Amount,
-                        "</td>\n\t</tr>\n\t<tr>\n\t  <th>2016</th>\n\t  <td>"
+                        "</td>\n\t</tr>\n\t<tr>\n\t  <th>2018</th>\n\t  <td>"
                       )
                       .concat(
                         mAppData[1].Amount,
-                        "</td>\n\t</tr>\n\t<tr>\n\t  <th>2017</th>\n\t  <td>"
+                        "</td>\n\t</tr>\n\t<tr>\n\t  <th>2019</th>\n\t  <td>"
                       )
                       .concat(mAppData[2].Amount, "</td>\n\t</tr>\n\t")),
                     (n = l.newSvg("#Chart11", "100%", 400)),
@@ -752,14 +753,14 @@
                     (window.chart15 = new l.chart(n, mAppData)),
                     chart15.setBounds("11%", "21%", "80%", "65%"),
                     ((o = chart15.addCategoryAxis("x", "Time")).title = " "),
-                    o.addOrderRule(["FY15", "FY16"]),
+                    o.addOrderRule(["FY17", "FY18"]),
                     ((i = chart15.addMeasureAxis("y", "Amount")).title =
                       "Totals"),
                     (i.tickFormat = ",.0f"),
                     (window.pchart15 = new l.chart(e, mAppData)),
                     pchart15.setBounds("11%", "21%", "80%", 250),
                     ((s = pchart15.addCategoryAxis("x", "Time")).title = " "),
-                    s.addOrderRule(["FY15", "FY16"]),
+                    s.addOrderRule(["FY17", "FY18"]),
                     ((u = pchart15.addMeasureAxis("y", "Amount")).title =
                       "Totals"),
                     (u.tickFormat = ",.0f"),
