@@ -889,7 +889,7 @@
                       .addSeries("Indicator Value", l.plot.bar)
                       .addOrderRule(!0),
                     paNewChart.draw(),
-                    (g = l.filterData(a, "Time", ["2013", "2014", "2015"])),
+                    (g = l.filterData(a, "Time", ["2018", "2019", "2020"])),
                     (window.longTermLocation = l.filterData(
                       g,
                       "Indicator",
@@ -897,7 +897,7 @@
                     )),
                     (document.getElementById(
                       "table20"
-                    ).innerHTML = '\n\t<tr class="HeadRow" style="background-color: white;">\n\t  <th> </th>\n\t  <th>2013</th>\n\t  <th>2014</th>\n\t  <th>2015</th>\n\t</tr>\n\t<tr class="FootRow">\n\t  <th>Maryland</th>\n\t  <td> '
+                    ).innerHTML = '\n\t<tr class="HeadRow" style="background-color: white;">\n\t  <th> </th>\n\t  <th>2020</th>\n\t  <th>2019</th>\n\t  <th>2018</th>\n\t</tr>\n\t<tr class="FootRow">\n\t  <th>Maryland</th>\n\t  <td> '
                       .concat(longTermLocation[2].Amount, "</td>\n\t  <td> ")
                       .concat(longTermLocation[1].Amount, "</td>\n\t  <td> ")
                       .concat(
