@@ -88,11 +88,9 @@ var results = [
   ["Maryland"+",","2017"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",128+","],
   ["Maryland"+",","2018"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",28+","],
   ["Maryland"+",","2019"+",","New Maryland Apprenticeship Programs"+",,","New Maryland Apprenticeship Programs"+",,,",19+","],
-  ["Maryland"+",","FY15"+",","Apprenticeship"+",,","Program Completers"+",,,",545+","],
-  ["Maryland"+",","FY16"+",","Apprenticeship"+",,","Program Completers"+",,,",1118+","],
-  ["Maryland"+",","FY17"+",","Apprenticeship"+",,","Program Completers"+",,,",332+","],
-  ["Maryland"+",","FY18"+",","Apprenticeship"+",,","Program Completers"+",,,",1092+","],   
-  ["Maryland"+",","FY19"+",","Apprenticeship"+",,","Program Completers"+",,,",724+","],
+  ["Maryland"+",","FY15"+",","Apprenticeship"+",,","Program Completers"+",,,",1118+","],
+  ["Maryland"+",","FY16"+",","Apprenticeship"+",,","Program Completers"+",,,",332+","],
+  ["Maryland"+",","FY17"+",","Apprenticeship"+",,","Program Completers"+",,,",1092+","],
   ["Maryland"+",","2016"+",","SNAP Recipient Workers by Percentage"+",,,,,",0.0894+","],
   ["Maryland"+",","2017"+",","SNAP Recipient Workers by Percentage"+",,,,,",0.0886+","],
   ["Maryland"+",","2018"+",","SNAP Recipient Workers by Percentage"+",,,,,",0.0898+","],
@@ -132,7 +130,7 @@ var results = [
   ["Maryland,","2017,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",153211],
   ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2864507],
   ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329],
-  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397]
+  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397],
 
   ["Maryland,","2019,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",156487],
   ["Maryland,","2019,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",267343],
