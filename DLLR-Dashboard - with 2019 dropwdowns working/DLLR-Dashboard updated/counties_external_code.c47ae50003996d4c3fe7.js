@@ -1968,7 +1968,7 @@
                       },
                       {
                         chart: tanf_attainment_chart,
-                        bounds: [45, "12%", "15%", "5%"],
+                        bounds: ["9%", "12%", "15%", "65%"],
                         categoryAxis: ["x", "Time"],
                         xtitle: " ",
                         order: C,
@@ -2059,7 +2059,7 @@
                       },
                       {
                         chart: ptanf_attainment_chart,
-                        bounds: ["2%", "12%", "22%", "60%"],
+                        bounds: ["9%", "12%", "22%", "60%"],
                         categoryAxis: ["x", "Time"],
                         xtitle: " ",
                         order: C,
