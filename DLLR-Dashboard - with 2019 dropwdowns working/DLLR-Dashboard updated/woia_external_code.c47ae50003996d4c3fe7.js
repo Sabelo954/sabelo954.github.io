@@ -1730,16 +1730,11 @@
                       m,
                       w
                     ) {
+                      //console.log("gender", a)  female, male
+                      //console.log("t", t)
+                      //console.log("n", n)
                       return "\n\t    <tr> <td>"
                         .concat(a, "</td> \n\t    <td>")
-                        .concat(
-                          Object(s.cma)(Object(s.findGender)(t, w)),
-                          "</td> \n\t    <td>"
-                        )
-                        .concat(
-                          Object(s.cma)(Object(s.findGender)(e, w)),
-                          "</td> \n\t    <td>"
-                        )
                         .concat(
                           Object(s.cma)(Object(s.findGender)(n, w)),
                           "</td> \n\t    <td>"
@@ -1786,6 +1781,14 @@
                         )
                         .concat(
                           Object(s.cma)(Object(s.findGender)(b, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findGender)(g, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findGender)(m, w)),
                           "</td>  \n\t    </tr>\n  "
                         );
                     }),
@@ -1809,16 +1812,11 @@
                       m,
                       w
                     ) {
+                      //console.log("findEdu-w", w)
+                      //console.log("findEdu-a", a)
+                      //console.log("findEdu-m", m)
                       return "\n\t    <tr> <td>"
                         .concat(a, "</td> \n\t    <td>")
-                        .concat(
-                          Object(s.cma)(Object(s.findEdu)(t, w)),
-                          "</td> \n\t    <td>"
-                        )
-                        .concat(
-                          Object(s.cma)(Object(s.findEdu)(e, w)),
-                          "</td> \n\t    <td>"
-                        )
                         .concat(
                           Object(s.cma)(Object(s.findEdu)(n, w)),
                           "</td> \n\t    <td>"
@@ -1865,6 +1863,14 @@
                         )
                         .concat(
                           Object(s.cma)(Object(s.findEdu)(b, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findEdu)(g, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findEdu)(m, w)),
                           "</td>  \n\t    </tr>\n  "
                         );
                     }),
@@ -1890,14 +1896,6 @@
                     ) {
                       return "\n\t    <tr> <td>"
                         .concat(a, "</td> \n\t    <td>")
-                        .concat(
-                          Object(s.cma)(Object(s.findAge)(t, w)),
-                          "</td> \n\t    <td>"
-                        )
-                        .concat(
-                          Object(s.cma)(Object(s.findAge)(e, w)),
-                          "</td> \n\t    <td>"
-                        )
                         .concat(
                           Object(s.cma)(Object(s.findAge)(n, w)),
                           "</td> \n\t    <td>"
@@ -1944,10 +1942,18 @@
                         )
                         .concat(
                           Object(s.cma)(Object(s.findAge)(b, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findAge)(g, w)),
+                          "</td> \n\t    <td>"
+                        )
+                        .concat(
+                          Object(s.cma)(Object(s.findAge)(m, w)),
                           "</td>  \n\t    </tr>\n  "
                         );
                     }),
-                    (G = '\n       <thead>\n        <tr> <th class="HeadRow">Separations by Industry</th> \n          <th class="HeadRow">2016Q1</th>\n          <th class="HeadRow">2016Q2</th>\n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n        </tr>\n       </thead>\n       <tbody>\n          '
+                    (G = '\n       <thead>\n        <tr> <th class="HeadRow">Separations by Industry</th> \n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n <th class="HeadRow">2019Q3</th> \n  <th class="HeadRow">2019Q4</th> \n      </tr>\n       </thead>\n       <tbody>\n          '
                       .concat(
                         (N = function (
                           a,
@@ -1968,16 +1974,10 @@
                           g,
                           m
                         ) {
+                          //console.log("e", e,)
+                          //console.log("g", g,)
                           return "<tr>\n\t    <td>"
                             .concat(s.indsList[m], "</td>\n\t    <td>")
-                            .concat(
-                              Object(s.cma)(Object(s.findIndustry)(a, m)),
-                              "</td> \n\t    <td>"
-                            )
-                            .concat(
-                              Object(s.cma)(Object(s.findIndustry)(t, m)),
-                              "</td> \n\t    <td>"
-                            )
                             .concat(
                               Object(s.cma)(Object(s.findIndustry)(e, m)),
                               "</td> \n\t    <td>"
@@ -2024,6 +2024,14 @@
                             )
                             .concat(
                               Object(s.cma)(Object(s.findIndustry)(h, m)),
+                              "</td> \n\t    <td>"
+                            )
+                            .concat(
+                              Object(s.cma)(Object(s.findIndustry)(b, m)),
+                              "</td> \n\t    <td>"
+                            )
+                            .concat(
+                              Object(s.cma)(Object(s.findIndustry)(g, m)),
                               "</td>  \n      </tr>"
                             );
                         })(
@@ -2470,7 +2478,7 @@
                     ).innerHTML = "\n       "
                       .concat(
                         G,
-                        '\n       <thead>\n        <tr> <th class="HeadRow">Separations by Gender</th> \n          <th class="HeadRow">2016Q1</th>\n          <th class="HeadRow">2016Q2</th>\n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n        </tr>\n       </thead>\n       <tbody>\n          '
+                        '\n       <thead>\n        <tr> <th class="HeadRow">Separations by Gender</th> \n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n <th class="HeadRow">2019Q3</th> \n <th class="HeadRow">2019Q4</th> \n       </tr>\n       </thead>\n       <tbody>\n          '
                       )
                       .concat(
                         F(
@@ -2516,34 +2524,11 @@
                           gsepdata2019Q4,
                           1
                         ),
-                        '\n       </tbody>\n       <thead>\n        <tr> <th class="HeadRow">Separations by Education</th> \n          <th class="HeadRow">2016Q1</th>\n          <th class="HeadRow">2016Q2</th>\n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n        </tr>\n       </thead>\n       <tbody>\n          '
+                        '\n       </tbody>\n       <thead>\n        <tr> <th class="HeadRow">Separations by Education</th> \n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n <th class="HeadRow">2019Q3</th> \n <th class="HeadRow">2019Q4</th> \n      </tr>\n       </thead>\n       <tbody>\n          '
                       )
                       .concat(
                         L(
                           "Less than High school",
-                          esepdata2016Q1,
-                          esepdata2016Q2,
-                          esepdata2016Q3,
-                          esepdata2016Q4,
-                          esepdata2017Q1,
-                          esepdata2017Q2,
-                          esepdata2017Q3,
-                          esepdata2017Q4,
-                          esepdata2018Q1,
-                          esepdata2018Q2,
-                          esepdata2018Q3,
-                          esepdata2018Q4,
-                          esepdata2019Q1,
-                          esepdata2019Q2,
-                          esepdata2019Q3,
-                          esepdata2019Q4,
-                          0
-                        ),
-                        "\n          "
-                      )
-                      .concat(
-                        L(
-                          "High school",
                           esepdata2016Q1,
                           esepdata2016Q2,
                           esepdata2016Q3,
@@ -2566,7 +2551,7 @@
                       )
                       .concat(
                         L(
-                          "Some College",
+                          "High school",
                           esepdata2016Q1,
                           esepdata2016Q2,
                           esepdata2016Q3,
@@ -2589,7 +2574,7 @@
                       )
                       .concat(
                         L(
-                          "Bachelor's or Higher",
+                          "Some College",
                           esepdata2016Q1,
                           esepdata2016Q2,
                           esepdata2016Q3,
@@ -2612,7 +2597,7 @@
                       )
                       .concat(
                         L(
-                          "NR",
+                          "Bachelor's or Higher",
                           esepdata2016Q1,
                           esepdata2016Q2,
                           esepdata2016Q3,
@@ -2631,7 +2616,30 @@
                           esepdata2019Q4,
                           4
                         ),
-                        '\n       </tbody>\n       <thead>\n        <tr> <th class="HeadRow">Separations by Age</th> \n          <th class="HeadRow">2016Q1</th>\n          <th class="HeadRow">2016Q2</th>\n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n        </tr>\n       </thead>\n       <tbody>\n          '
+                        "\n          "
+                      )
+                      .concat(
+                        L(
+                          "NR",
+                          esepdata2016Q1,
+                          esepdata2016Q2,
+                          esepdata2016Q3,
+                          esepdata2016Q4,
+                          esepdata2017Q1,
+                          esepdata2017Q2,
+                          esepdata2017Q3,
+                          esepdata2017Q4,
+                          esepdata2018Q1,
+                          esepdata2018Q2,
+                          esepdata2018Q3,
+                          esepdata2018Q4,
+                          esepdata2019Q1,
+                          esepdata2019Q2,
+                          esepdata2019Q3,
+                          esepdata2019Q4,
+                          0
+                        ),
+                        '\n       </tbody>\n       <thead>\n        <tr> <th class="HeadRow">Separations by Age</th> \n          <th class="HeadRow">2016Q3</th>\n          <th class="HeadRow">2016Q4</th>\n          <th class="HeadRow">2017Q1</th>\n          <th class="HeadRow">2017Q2</th>\n          <th class="HeadRow">2017Q3</th>\n          <th class="HeadRow">2017Q4</th> \n          <th class="HeadRow">2018Q1</th>\n          <th class="HeadRow">2018Q2</th>\n          <th class="HeadRow">2018Q3</th>\n          <th class="HeadRow">2018Q4</th>\n          <th class="HeadRow">2019Q1</th>\n          <th class="HeadRow">2019Q2</th> \n   <th class="HeadRow">2019Q3</th> \n <th class="HeadRow">2019Q4</th>     </tr>\n       </thead>\n       <tbody>\n          '
                       )
                       .concat(
                         V(
