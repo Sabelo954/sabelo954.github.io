@@ -1911,7 +1911,7 @@
                       },
                       {
                         chart: emp_dis_chart,
-                        bounds: ["8%", "12%", "35%", "65%"],
+                        bounds: ["10%", "12%", "35%", "65%"],
                         categoryAxis: ["x", "Employment_Status"],
                         xtitle: "Employment Status",
                         order: !1,
@@ -1991,7 +1991,7 @@
                       },
                       {
                         chart: tanf_rate_chart,
-                        bounds: ["52%", "12%", "20%", "65%"],
+                        bounds: ["52%", "12%", "18%", "65%"],
                         categoryAxis: ["x", "Time"],
                         xtitle: " ",
                         order: C,
