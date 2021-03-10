@@ -91,7 +91,7 @@ var results = [
   ["Maryland"+",","FY15"+",","Apprenticeship"+",,","Program Completers"+",,,",545+","],
   ["Maryland"+",","FY16"+",","Apprenticeship"+",,","Program Completers"+",,,",1118+","],
   ["Maryland"+",","FY17"+",","Apprenticeship"+",,","Program Completers"+",,,",332+","],
-  ["Maryland"+",","FY18"+",","Apprenticeship"+",,","Program Completers"+",,,",1092+","],   
+  ["Maryland"+",","FY18"+",","Apprenticeship"+",,","Program Completers"+",,,",1092+","],
   ["Maryland"+",","FY19"+",","Apprenticeship"+",,","Program Completers"+",,,",724+","],
   ["Maryland"+",","2016"+",","SNAP Recipient Workers by Percentage"+",,,,,",0.0894+","],
   ["Maryland"+",","2017"+",","SNAP Recipient Workers by Percentage"+",,,,,",0.0886+","],
