@@ -1022,6 +1022,8 @@
                       ],
                       ["emp_dis_chart", disabl_pov_svg, disAttainment2018],
                     ]),
+                    //console.log("o", o);
+                    //console.log("c", c);
                     (window.countyLookup = [
                       {
                         tab: "pop",
@@ -1033,6 +1035,7 @@
                         pcharts: [ppop_chart, mhhi_chart_print],
                         svgName: "#pop_chart",
                         data: {
+                          data19: [o, c],
                           data18: [o, c],
                           data17: [o, c],
                           data16: [o, c],
