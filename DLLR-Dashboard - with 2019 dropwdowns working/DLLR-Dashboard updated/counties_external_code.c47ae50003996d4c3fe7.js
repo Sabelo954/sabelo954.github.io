@@ -1968,7 +1968,7 @@
                       },
                       {
                         chart: tanf_attainment_chart,
-                        bounds: [45, "12%", "15%", "65%"],
+                        bounds: [45, "12%", "15%", "5%"],
                         categoryAxis: ["x", "Time"],
                         xtitle: " ",
                         order: C,
