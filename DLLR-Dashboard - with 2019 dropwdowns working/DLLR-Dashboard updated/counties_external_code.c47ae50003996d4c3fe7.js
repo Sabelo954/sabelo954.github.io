@@ -1991,7 +1991,7 @@
                       },
                       {
                         chart: tanf_rate_chart,
-                        bounds: ["52%", "12%", "20%", "65%"],
+                        bounds: ["52%", "12%", "18%", "65%"],
                         categoryAxis: ["x", "Time"],
                         xtitle: " ",
                         order: C,
