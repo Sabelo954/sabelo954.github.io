@@ -129,9 +129,9 @@ Maryland,2019,Employment Status By Disability Status,Disabled,,Unemployed,,19618
 Maryland,2015,Employment Status By Disability Status,Non Disabled,,Unemployed,,195218,
 Maryland,2016,Employment Status By Disability Status,Non Disabled,,Unemployed,,176641,
 Maryland,2018,Employment Status By Disability Status,Non Disabled,,Unemployed,,145854,
+Maryland,2019,Employment Status By Disability Status,Non Disabled,,Unemployed,,130474,
 Maryland,2017,Employment Status By Disability Status,Non Disabled,,Unemployed,,161285,
 Maryland,2015,Unemployment By Gender,Female,,,,6.7,0.067
-Maryland,2019,Employment Status By Disability Status,Non Disabled,,Unemployed,,130474,
 Maryland,2016,Unemployment By Gender,Female,,,,6.1,0.061
 Maryland,2017,Unemployment By Gender,Female,,,,5.6,0.055999999999999994
 Maryland,2018,Unemployment By Gender,Female,,,,5.2,0.052000000000000005
@@ -234,11 +234,7 @@ Maryland,2017,Unemployment By Race,Black,,,,9.2,0.092
 Maryland,2016,Unemployment By Race,Black,,,,10.2,0.102
 Maryland,2018,Unemployment By Race,Black,,,,8.3,0.083
 Maryland,2019,Unemployment By Race,Black,,,,7.5,0.075
-Maryland,2019,Employment Status By Disability Status,Non Disabled ,,Employed,,2666332,
 Maryland,2015Q1,Maryland Average Earnings by Industry,72,Accommodation and Food Services,,Earnings,1652,
-Maryland,2019,Employment Status By Disability Status,Non Disabled ,,Employed,,2680547,
-Maryland,2019,Employment Status By Disability Status,Non Disabled ,,Employed,,2703222,
-Maryland,2019,Employment Status By Disability Status,Non Disabled ,,Employed,,2713237,
 Maryland,2016Q1,Maryland Average Earnings by Industry,72,Accommodation and Food Services,,Earnings,1713,
 Maryland,2019Q1,Maryland Average Earnings by Industry,72,Accommodation and Food Services,,Earnings,1993,
 Maryland,2017Q1,Maryland Average Earnings by Industry,72,Accommodation and Food Services,,Earnings,1897,
@@ -267,7 +263,6 @@ Maryland,2018Q1,Maryland Job Net Change by Industry,72,Accommodation and Food Se
 Maryland,2017Q1,Maryland Job Net Change by Industry,72,Accommodation and Food Services,,Job Change,4902,
 Maryland,2018,Employment Status By Disability Status,Non Disabled,,Unemployed,,20784,
 Maryland,2019Q1,Maryland Job Net Change by Industry,72,Accommodation and Food Services,,Job Change,2038,
-Maryland,2019,Employment Status By Disability Status,Non Disabled,,Unemployed,,19618,
 Maryland,2016Q2,Maryland Job Net Change by Industry,72,Accommodation and Food Services,,Job Change,19166,
 Maryland,2015Q2,Maryland Job Net Change by Industry,72,Accommodation and Food Services,,Job Change,20028,
 Maryland,2018Q2,Maryland Job Net Change by Industry,72,Accommodation and Food Services,,Job Change,18150,
@@ -380,11 +375,8 @@ Maryland,2015Q2,Maryland Average Earnings by Industry,62,Health Care and Social 
 Maryland,2019Q1,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4373,
 Maryland,2019,Employment Status By Disability Status,Disabled,,Employed,,136869,
 Maryland,2016Q2,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4125,
-Maryland,2015,Employment Status By Disability Status,Non Disabled ,,Employed,,2666332,
 Maryland,2017Q2,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4318,
-Maryland,2016,Employment Status By Disability Status,Non Disabled ,,Employed,,2680547,
 Maryland,2018Q2,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4425,
-Maryland,2017,Employment Status By Disability Status,Non Disabled ,,Employed,,2703222,
 Maryland,2019Q2,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4524,
 Maryland,2015Q3,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4207,
 Maryland,2017Q3,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4252,
@@ -394,7 +386,6 @@ Maryland,2019Q3,Maryland Average Earnings by Industry,62,Health Care and Social 
 Maryland,2015Q4,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4634,
 Maryland,2016Q4,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4528,
 Maryland,2017Q4,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4615,
-Maryland,2019,Employment Status By Disability Status,Non Disabled ,,Employed,,2713237,
 Maryland,2019Q4,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4843,
 Maryland,2018Q4,Maryland Average Earnings by Industry,62,Health Care and Social Assistance,,Earnings,4738,
 Maryland,2015Q1,Maryland Job Net Change by Industry,62,Health Care and Social Assistance,,Job Change,-334,

@@ -3165,7 +3165,7 @@
                         order: !1,
                         measureAxis: ["y", "Amount"],
                         ytitle: "Total by Industry",
-                        tickFormat: ",.1f",
+                        tickFormat: ",.0f",
                         series: "Indicator_Value",
                         lineMarkers: !1,
                         colors: J,
