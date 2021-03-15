@@ -122,16 +122,16 @@ var results = [
   ["Maryland,","2017,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3053027],
   ["Maryland,","2018,","Employment Status By Poverty Status,","Above Poverty,,","Labor Force,,",3070769],
   ["Maryland,","2015,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",147296],
-  ["Maryland,","2015,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",317964],
+  ["Maryland,","2015,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2861550],
   ["Maryland,","2016,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",150516],
-  ["Maryland,","2016,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",304320],
+  ["Maryland,","2016,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2857188],
   ["Maryland,","2017,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",153211],
-  ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",292934],
+  ["Maryland,","2017,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2864507],
   ["Maryland,","2018,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",155329],
-  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",280399],
+  ["Maryland,","2018,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2849397],
 
   ["Maryland,","2019,","Employment Status By Disability Status,","Disabled,,","Labor Force,,",156487],
-  ["Maryland,","2019,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",267343],
+  ["Maryland,","2019,","Employment Status By Disability Status,","Non Disabled,,","Labor Force,,",2843711],
 
 
 
@@ -149,7 +149,7 @@ function getCensusApiData(url, year, i) {
     .then((data) => {
       var databeg = data[1];
       console.log(data[1])
-      if (i<33){
+      if (i<30){
       var dataend = databeg.map(Number).slice(1, 2);}
       else{
             var dataend = databeg.map(Number).slice(0,1);};
@@ -254,9 +254,7 @@ function getCensusApiData(url, year, i) {
 
           set7: {
             url7:
-              "https://api.census.gov/data/" +
-              year +
-              "/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat7: [
               "Maryland",
               year,
@@ -269,13 +267,13 @@ function getCensusApiData(url, year, i) {
 
           set8: {
             url8:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat8: [
               "Maryland",
               year,
               "Employment Status By Disability Status",
-              "Non Disabled" + ",",
-              "Unemployed" + ",",
+              "Disabled" + ",",
+              "Employed" + ",",
               dataend+ ",",
             ],
           },
@@ -580,47 +578,63 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
+            //QWI data
+
           set30: {
             url30:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q4" +
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat30: [
               "Maryland",
-              "2019",
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
+              year + "Q4",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
 
           set31: {
             url31:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q2" +
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat31: [
               "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Disabled" + ",",
-              "Employed" + ",",
+              year + "Q2",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
+
+
 
           set32: {
             url32:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              year +
+              "-" +
+              "Q3" +
+              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat32: [
               "Maryland",
-              year,
-              "Employment Status By Disability Status",
-              "Non Disabled " + ",",
-              "Employed" + ",",
+              year + "Q3",
+              "Maryland Turnover Rate by Education",
+              "E5",
+              "Educational attainment not available (workers aged 24 or younger)" + ",",
+              "Turnover",
               dataend+ ",",
             ],
           },
-
-
-          //QWI data
 
           set33: {
             url33:
@@ -13347,59 +13361,6 @@ function getCensusApiData(url, year, i) {
                     ],
                   },
 
-                  set767: {
-                    url767:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q2" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat767: [
-                      "Maryland",
-                      year + "Q2",
-                      "Maryland Turnover Rate by Education",
-                      "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
-                      dataend+ ",",
-                    ],
-                  },
-
-                  set768: {
-                    url768:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q3" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat768: [
-                      "Maryland",
-                      year + "Q3",
-                      "Maryland Turnover Rate by Education",
-                      "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
-                      dataend+ ",",
-                    ],
-                  },
-
-                  set769: {
-                    url769:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-                      year +
-                      "-" +
-                      "Q4" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-                    arrayformat769: [
-                      "Maryland",
-                      year + "Q4",
-                      "Maryland Turnover Rate by Education",
-                      "E5",
-                      "Educational attainment not available (workers aged 24 or younger)" + ",",
-                      "Turnover",
-                      dataend+ ",",
-                    ],
-                  },
 
 
 
@@ -13439,7 +13400,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 1; i < 770; ++i) {
+for (var i = 1; i < 767; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -13528,7 +13489,7 @@ for (var i = 1; i < 770; ++i) {
             "Maryland",
             year,
             "Employment Status By Disability Status",
-            "Non Disabled " + ",",
+            "Non Disabled" + ",",
             "Unemployed" + ",",
             dataend+ ",",
           ],
@@ -13551,13 +13512,12 @@ for (var i = 1; i < 770; ++i) {
 
         set7: {
           url7:
-            "https://api.census.gov/data/" +
-            year +
-            "/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat7: [
             "Maryland",
             year,
             "Employment Status By Disability Status",
+            "Non Disabled" + ",",
             "Employed" + ",",
             dataend+ ",",
           ],
@@ -13565,11 +13525,12 @@ for (var i = 1; i < 770; ++i) {
 
         set8: {
           url8:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_007E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat8: [
             "Maryland",
             year,
             "Employment Status By Disability Status",
+            "Disabled" + ",",
             "Employed" + ",",
             dataend+ ",",
           ],
@@ -13875,47 +13836,62 @@ for (var i = 1; i < 770; ++i) {
           ],
         },
 
+  //QWI data
+
         set30: {
           url30:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+            year +
+            "-" +
+            "Q4" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat30: [
             "Maryland",
-            "2019",
-            "Employment Status By Disability Status",
-            "Non Disabled " + ",",
-            "Employed" + ",",
+            year + "Q4",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
 
         set31: {
           url31:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_004E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+            year +
+            "-" +
+            "Q2" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat31: [
             "Maryland",
-            year,
-            "Employment Status By Disability Status",
-            "Disabled" + ",",
-            "Employed" + ",",
+            year + "Q2",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
+
 
         set32: {
           url32:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat682: [
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+            year +
+            "-" +
+            "Q3" +
+            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+          arrayformat32: [
             "Maryland",
-            "2019",
-            "Employment Status By Disability Status",
-            "Non Disabled" + ",",
-            "Employed" + ",",
+            year + "Q3",
+            "Maryland Turnover Rate by Education",
+            "E5",
+            "Educational attainment not available (workers aged 24 or younger)" + ",",
+            "Turnover",
             dataend+ ",",
           ],
         },
-
-
-        //QWI data
 
         set33: {
           url33:
@@ -26613,60 +26589,6 @@ for (var i = 1; i < 770; ++i) {
           arrayformat766: [
             "Maryland",
             year + "Q1",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set767: {
-          url767:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q2" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat767: [
-            "Maryland",
-            year + "Q2",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set768: {
-          url768:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q3" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat768: [
-            "Maryland",
-            year + "Q3",
-            "Maryland Turnover Rate by Education",
-            "E5",
-            "Educational attainment not available (workers aged 24 or younger)" + ",",
-            "Turnover",
-            dataend+ ",",
-          ],
-        },
-
-        set769: {
-          url769:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
-            year +
-            "-" +
-            "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat769: [
-            "Maryland",
-            year + "Q4",
             "Maryland Turnover Rate by Education",
             "E5",
             "Educational attainment not available (workers aged 24 or younger)" + ",",
