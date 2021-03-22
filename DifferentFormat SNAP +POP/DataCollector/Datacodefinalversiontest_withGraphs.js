@@ -562,7 +562,7 @@ function getCensusApiData(url, year, i) {
 
           set29: {
             url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat29: [
               "Maryland",
               year,
@@ -13219,7 +13219,7 @@ for (var i = 1; i < 734; ++i) {
 
         set29: {
           url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat29: [
             "Maryland",
             year,

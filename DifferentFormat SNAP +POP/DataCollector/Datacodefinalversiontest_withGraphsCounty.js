@@ -114,11 +114,11 @@ var results = [
   ["2018,","Employment Status By Disability Status,","Labor Force,","Non Disabled,","\"Allegany County, Maryland\"",",",26986,",,,,"],
   ["2019,","Employment Status By Disability Status,","Labor Force,","Non Disabled,","\"Allegany County, Maryland\"",",",26044,",,,,"],
 
-["2019,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",4842,",,,,"],
-["2018,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",5237,",,,,"],
-["2017,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",5434,",,,,"],
-["2016,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",6053,",,,,"],
-["2015,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",6485,",,,,"],
+["2019,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",2849,",,,,"],
+["2018,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3113,",,,,"],
+["2017,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3254,",,,,"],
+["2016,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3597,",,,,"],
+["2015,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3827,",,,,"],
 
   ["2007-2011,","Employment Status by Education,Employed,Bachelor's degree or higher,","\"Allegany County, Maryland\"",",",,5324,",,,,,"],
   ["2007-2011,","Employment Status by Education,Employed,Bachelor's degree or higher,","\"Anne Arundel County, Maryland\"",",",,94044,",,,,,"],
@@ -1260,7 +1260,7 @@ function getCensusApiData(url, year, i) {
             url16:
               "https://api.census.gov/data/" +
               year +
-              "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat16: [
               year,"Employment Status By Poverty Status","Unemployed","Below Poverty",'"Allegany County, Maryland"',
               dataend+ ",",
@@ -1396,7 +1396,7 @@ function getCensusApiData(url, year, i) {
 
           set29: {
             url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat29: [
               year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
               dataend,
@@ -1650,7 +1650,7 @@ for (var i = 1; i < 31; ++i) {
           url16:
             "https://api.census.gov/data/" +
             year +
-            "/acs/acs5/subject?get=NAME,S1701_C02_027E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "/acs/acs5/subject?get=NAME,S1701_C02_031E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat16: [
             year,"Employment Status By Poverty Status","Unemployed","Below Poverty",'"Allegany County, Maryland"',
             dataend+ ",",
@@ -1786,7 +1786,7 @@ for (var i = 1; i < 31; ++i) {
 
         set29: {
           url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat29: [
             year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
             dataend,

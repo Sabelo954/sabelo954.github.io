@@ -156,7 +156,7 @@ function getCensusApiData(url, year, i) {
 
           set33: {
             url33:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -172,7 +172,7 @@ function getCensusApiData(url, year, i) {
 
           set34: {
             url34:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -187,7 +187,7 @@ function getCensusApiData(url, year, i) {
           },
           set35: {
             url35:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -202,7 +202,7 @@ function getCensusApiData(url, year, i) {
           },
           set36: {
             url36:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -218,7 +218,7 @@ function getCensusApiData(url, year, i) {
 
           set37: {
             url37:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -235,7 +235,7 @@ function getCensusApiData(url, year, i) {
 
           set38: {
             url38:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -251,7 +251,7 @@ function getCensusApiData(url, year, i) {
           },
           set39: {
             url39:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -267,7 +267,7 @@ function getCensusApiData(url, year, i) {
           },
           set40: {
             url40:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -284,7 +284,7 @@ function getCensusApiData(url, year, i) {
 
           set41: {
             url41:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -300,7 +300,7 @@ function getCensusApiData(url, year, i) {
           },
           set42: {
             url42:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -317,7 +317,7 @@ function getCensusApiData(url, year, i) {
           },
           set43: {
             url43:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -333,7 +333,7 @@ function getCensusApiData(url, year, i) {
           },
           set44: {
             url44:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -350,7 +350,7 @@ function getCensusApiData(url, year, i) {
 
           set45: {
             url45:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -367,7 +367,7 @@ function getCensusApiData(url, year, i) {
 
           set46: {
             url46:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -383,7 +383,7 @@ function getCensusApiData(url, year, i) {
           },
           set47: {
             url47:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -399,7 +399,7 @@ function getCensusApiData(url, year, i) {
           },
           set48: {
             url48:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -416,7 +416,7 @@ function getCensusApiData(url, year, i) {
 
           set49: {
             url49:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -432,7 +432,7 @@ function getCensusApiData(url, year, i) {
           },
           set50: {
             url50:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -448,7 +448,7 @@ function getCensusApiData(url, year, i) {
           },
           set51: {
             url51:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -464,7 +464,7 @@ function getCensusApiData(url, year, i) {
           },
           set52: {
             url52:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -481,7 +481,7 @@ function getCensusApiData(url, year, i) {
 
           set53: {
             url53:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -497,7 +497,7 @@ function getCensusApiData(url, year, i) {
           },
           set54: {
             url54:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -513,7 +513,7 @@ function getCensusApiData(url, year, i) {
           },
           set55: {
             url55:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -529,7 +529,7 @@ function getCensusApiData(url, year, i) {
           },
           set56: {
             url56:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -546,7 +546,7 @@ function getCensusApiData(url, year, i) {
 
           set57: {
             url57:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -562,7 +562,7 @@ function getCensusApiData(url, year, i) {
 
           set58: {
             url58:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -579,7 +579,7 @@ function getCensusApiData(url, year, i) {
           },
           set59: {
             url59:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -596,7 +596,7 @@ function getCensusApiData(url, year, i) {
           },
           set60: {
             url60:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -613,7 +613,7 @@ function getCensusApiData(url, year, i) {
 
           set61: {
             url61:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -630,7 +630,7 @@ function getCensusApiData(url, year, i) {
           },
           set62: {
             url62:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -647,7 +647,7 @@ function getCensusApiData(url, year, i) {
           },
           set63: {
             url63:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -664,7 +664,7 @@ function getCensusApiData(url, year, i) {
           },
           set64: {
             url64:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -682,7 +682,7 @@ function getCensusApiData(url, year, i) {
 
           set65: {
             url65:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -699,7 +699,7 @@ function getCensusApiData(url, year, i) {
           },
           set66: {
             url66:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -716,7 +716,7 @@ function getCensusApiData(url, year, i) {
           },
           set67: {
             url67:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -733,7 +733,7 @@ function getCensusApiData(url, year, i) {
           },
           set68: {
             url68:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -751,7 +751,7 @@ function getCensusApiData(url, year, i) {
 
           set69: {
             url69:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -768,7 +768,7 @@ function getCensusApiData(url, year, i) {
           },
           set70: {
             url70:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -786,7 +786,7 @@ function getCensusApiData(url, year, i) {
 
           set71: {
             url71:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -804,11 +804,11 @@ function getCensusApiData(url, year, i) {
 
           set72: {
             url72:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat72: [
               "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
               year + "Q4",
@@ -820,7 +820,7 @@ function getCensusApiData(url, year, i) {
           },
           set73: {
             url73:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -837,7 +837,7 @@ function getCensusApiData(url, year, i) {
           },
           set74: {
             url74:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -854,7 +854,7 @@ function getCensusApiData(url, year, i) {
           },
           set75: {
             url75:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -871,7 +871,7 @@ function getCensusApiData(url, year, i) {
           },
           set76: {
             url76:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -888,7 +888,7 @@ function getCensusApiData(url, year, i) {
           },
           set77: {
             url77:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -906,7 +906,7 @@ function getCensusApiData(url, year, i) {
 
           set78: {
             url78:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -923,7 +923,7 @@ function getCensusApiData(url, year, i) {
           },
           set79: {
             url79:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -940,7 +940,7 @@ function getCensusApiData(url, year, i) {
           },
           set80: {
             url80:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -957,7 +957,7 @@ function getCensusApiData(url, year, i) {
           },
           set81: {
             url81:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -975,7 +975,7 @@ function getCensusApiData(url, year, i) {
 
           set82: {
             url82:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -992,7 +992,7 @@ function getCensusApiData(url, year, i) {
           },
           set83: {
             url83:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1009,7 +1009,7 @@ function getCensusApiData(url, year, i) {
           },
           set84: {
             url84:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1026,7 +1026,7 @@ function getCensusApiData(url, year, i) {
           },
           set85: {
             url85:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1043,7 +1043,7 @@ function getCensusApiData(url, year, i) {
           },
           set86: {
             url86:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1060,7 +1060,7 @@ function getCensusApiData(url, year, i) {
           },
           set87: {
             url87:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1077,7 +1077,7 @@ function getCensusApiData(url, year, i) {
           },
           set88: {
             url88:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1094,7 +1094,7 @@ function getCensusApiData(url, year, i) {
           },
           set89: {
             url89:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1112,7 +1112,7 @@ function getCensusApiData(url, year, i) {
 
           set90: {
             url90:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1129,7 +1129,7 @@ function getCensusApiData(url, year, i) {
           },
           set91: {
             url91:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1146,7 +1146,7 @@ function getCensusApiData(url, year, i) {
           },
           set92: {
             url92:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1163,7 +1163,7 @@ function getCensusApiData(url, year, i) {
           },
           set93: {
             url93:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1181,7 +1181,7 @@ function getCensusApiData(url, year, i) {
 
           set94: {
             url94:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1198,7 +1198,7 @@ function getCensusApiData(url, year, i) {
           },
           set95: {
             url95:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1215,7 +1215,7 @@ function getCensusApiData(url, year, i) {
           },
           set96: {
             url96:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1232,7 +1232,7 @@ function getCensusApiData(url, year, i) {
           },
           set97: {
             url97:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1250,7 +1250,7 @@ function getCensusApiData(url, year, i) {
 
           set98: {
             url98:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1267,7 +1267,7 @@ function getCensusApiData(url, year, i) {
           },
           set99: {
             url99:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1284,7 +1284,7 @@ function getCensusApiData(url, year, i) {
           },
           set100: {
             url100:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1301,7 +1301,7 @@ function getCensusApiData(url, year, i) {
           },
           set101: {
             url101:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1318,7 +1318,7 @@ function getCensusApiData(url, year, i) {
           },
           set102: {
             url102:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1335,7 +1335,7 @@ function getCensusApiData(url, year, i) {
           },
           set103: {
             url103:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1352,7 +1352,7 @@ function getCensusApiData(url, year, i) {
           },
           set104: {
             url104:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1369,7 +1369,7 @@ function getCensusApiData(url, year, i) {
           },
           set105: {
             url105:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1385,7 +1385,7 @@ function getCensusApiData(url, year, i) {
           },
           set106: {
             url106:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1401,7 +1401,7 @@ function getCensusApiData(url, year, i) {
 
           set107: {
             url107:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1418,7 +1418,7 @@ function getCensusApiData(url, year, i) {
           },
           set108: {
             url108:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1435,7 +1435,7 @@ function getCensusApiData(url, year, i) {
           },
           set109: {
             url109:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1452,7 +1452,7 @@ function getCensusApiData(url, year, i) {
           },
           set110: {
             url110:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1469,7 +1469,7 @@ function getCensusApiData(url, year, i) {
           },
           set111: {
             url111:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1486,7 +1486,7 @@ function getCensusApiData(url, year, i) {
           },
           set112: {
             url112:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1503,7 +1503,7 @@ function getCensusApiData(url, year, i) {
           },
           set113: {
             url113:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1521,7 +1521,7 @@ function getCensusApiData(url, year, i) {
 
           set114: {
             url114:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1538,7 +1538,7 @@ function getCensusApiData(url, year, i) {
           },
           set115: {
             url115:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1555,7 +1555,7 @@ function getCensusApiData(url, year, i) {
           },
           set116: {
             url116:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1572,7 +1572,7 @@ function getCensusApiData(url, year, i) {
           },
           set117: {
             url117:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1590,7 +1590,7 @@ function getCensusApiData(url, year, i) {
 
           set118: {
             url118:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1607,7 +1607,7 @@ function getCensusApiData(url, year, i) {
             },
           set119: {
             url119:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1624,7 +1624,7 @@ function getCensusApiData(url, year, i) {
             },
           set120: {
             url120:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1641,7 +1641,7 @@ function getCensusApiData(url, year, i) {
             },
           set121: {
             url121:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1658,7 +1658,7 @@ function getCensusApiData(url, year, i) {
             },
           set122: {
             url122:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1675,7 +1675,7 @@ function getCensusApiData(url, year, i) {
           },
           set123: {
             url123:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1692,7 +1692,7 @@ function getCensusApiData(url, year, i) {
           },
           set124: {
             url124:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1709,7 +1709,7 @@ function getCensusApiData(url, year, i) {
           },
           set125: {
             url125:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1727,7 +1727,7 @@ function getCensusApiData(url, year, i) {
 
           set126: {
             url126:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1744,7 +1744,7 @@ function getCensusApiData(url, year, i) {
           },
           set127: {
             url127:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1761,7 +1761,7 @@ function getCensusApiData(url, year, i) {
           },
           set128: {
             url128:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1778,7 +1778,7 @@ function getCensusApiData(url, year, i) {
           },
           set129: {
             url129:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1796,7 +1796,7 @@ function getCensusApiData(url, year, i) {
 
           set130: {
             url130:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1813,7 +1813,7 @@ function getCensusApiData(url, year, i) {
           },
           set131: {
             url131:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1830,7 +1830,7 @@ function getCensusApiData(url, year, i) {
           },
           set132: {
             url132:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1847,7 +1847,7 @@ function getCensusApiData(url, year, i) {
           },
           set133: {
             url133:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1865,7 +1865,7 @@ function getCensusApiData(url, year, i) {
 
           set134: {
             url134:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1882,7 +1882,7 @@ function getCensusApiData(url, year, i) {
           },
           set135: {
             url135:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1899,7 +1899,7 @@ function getCensusApiData(url, year, i) {
           },
           set136: {
             url136:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1916,7 +1916,7 @@ function getCensusApiData(url, year, i) {
           },
           set137: {
             url137:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1934,7 +1934,7 @@ function getCensusApiData(url, year, i) {
 
           set138: {
             url138:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1951,7 +1951,7 @@ function getCensusApiData(url, year, i) {
           },
           set139: {
             url139:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1968,7 +1968,7 @@ function getCensusApiData(url, year, i) {
           },
           set140: {
             url140:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1985,7 +1985,7 @@ function getCensusApiData(url, year, i) {
           },
           set141: {
             url141:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2003,7 +2003,7 @@ function getCensusApiData(url, year, i) {
 
           set142: {
             url142:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2020,7 +2020,7 @@ function getCensusApiData(url, year, i) {
           },
           set143: {
             url143:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2037,7 +2037,7 @@ function getCensusApiData(url, year, i) {
           },
           set144: {
             url144:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2054,7 +2054,7 @@ function getCensusApiData(url, year, i) {
           },
           set145: {
             url145:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2072,7 +2072,7 @@ function getCensusApiData(url, year, i) {
 
           set146: {
             url146:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2089,7 +2089,7 @@ function getCensusApiData(url, year, i) {
           },
           set147: {
             url147:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2106,7 +2106,7 @@ function getCensusApiData(url, year, i) {
           },
           set148: {
             url148:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2123,7 +2123,7 @@ function getCensusApiData(url, year, i) {
           },
           set149: {
             url149:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2141,7 +2141,7 @@ function getCensusApiData(url, year, i) {
 
           set150: {
             url150:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2158,7 +2158,7 @@ function getCensusApiData(url, year, i) {
           },
           set151: {
             url151:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2175,7 +2175,7 @@ function getCensusApiData(url, year, i) {
           },
           set152: {
             url152:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2192,7 +2192,7 @@ function getCensusApiData(url, year, i) {
           },
           set153: {
             url153:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2210,7 +2210,7 @@ function getCensusApiData(url, year, i) {
 
           set154: {
             url154:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2225,7 +2225,7 @@ function getCensusApiData(url, year, i) {
           },
           set155: {
             url155:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2242,7 +2242,7 @@ function getCensusApiData(url, year, i) {
           },
           set156: {
             url156:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2259,7 +2259,7 @@ function getCensusApiData(url, year, i) {
           },
           set157: {
             url157:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2277,7 +2277,7 @@ function getCensusApiData(url, year, i) {
 
           set158: {
             url158:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2294,7 +2294,7 @@ function getCensusApiData(url, year, i) {
           },
           set159: {
             url159:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2311,7 +2311,7 @@ function getCensusApiData(url, year, i) {
           },
           set160: {
             url160:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2328,7 +2328,7 @@ function getCensusApiData(url, year, i) {
           },
           set161: {
             url161:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2346,7 +2346,7 @@ function getCensusApiData(url, year, i) {
 
           set162: {
             url162:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2363,7 +2363,7 @@ function getCensusApiData(url, year, i) {
           },
           set163: {
             url163:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2380,7 +2380,7 @@ function getCensusApiData(url, year, i) {
           },
           set164: {
             url164:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2397,7 +2397,7 @@ function getCensusApiData(url, year, i) {
           },
           set165: {
             url165:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2415,7 +2415,7 @@ function getCensusApiData(url, year, i) {
 
           set166: {
             url166:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2432,7 +2432,7 @@ function getCensusApiData(url, year, i) {
           },
           set167: {
             url167:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2449,7 +2449,7 @@ function getCensusApiData(url, year, i) {
           },
           set168: {
             url168:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2466,7 +2466,7 @@ function getCensusApiData(url, year, i) {
           },
           set169: {
             url169:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2484,7 +2484,7 @@ function getCensusApiData(url, year, i) {
 
           set170: {
             url170:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2501,7 +2501,7 @@ function getCensusApiData(url, year, i) {
           },
           set171: {
             url171:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2518,7 +2518,7 @@ function getCensusApiData(url, year, i) {
           },
           set172: {
             url172:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2535,7 +2535,7 @@ function getCensusApiData(url, year, i) {
           },
           set173: {
             url173:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2553,7 +2553,7 @@ function getCensusApiData(url, year, i) {
 
           set174: {
             url174:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2570,7 +2570,7 @@ function getCensusApiData(url, year, i) {
           },
           set175: {
             url175:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2587,7 +2587,7 @@ function getCensusApiData(url, year, i) {
           },
           set176: {
             url176:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2604,7 +2604,7 @@ function getCensusApiData(url, year, i) {
           },
           set177: {
             url177:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2622,7 +2622,7 @@ function getCensusApiData(url, year, i) {
 
           set178: {
             url178:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2638,7 +2638,7 @@ function getCensusApiData(url, year, i) {
           },
           set179: {
             url179:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2655,7 +2655,7 @@ function getCensusApiData(url, year, i) {
           },
           set180: {
             url180:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2672,7 +2672,7 @@ function getCensusApiData(url, year, i) {
           },
           set181: {
             url181:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2690,7 +2690,7 @@ function getCensusApiData(url, year, i) {
 
           set182: {
             url182:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2707,7 +2707,7 @@ function getCensusApiData(url, year, i) {
           },
           set183: {
             url183:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2724,7 +2724,7 @@ function getCensusApiData(url, year, i) {
           },
           set184: {
             url184:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2741,7 +2741,7 @@ function getCensusApiData(url, year, i) {
           },
           set185: {
             url185:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2759,7 +2759,7 @@ function getCensusApiData(url, year, i) {
 
           set186: {
             url186:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2776,7 +2776,7 @@ function getCensusApiData(url, year, i) {
           },
           set187: {
             url187:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2793,7 +2793,7 @@ function getCensusApiData(url, year, i) {
           },
           set188: {
             url188:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2810,7 +2810,7 @@ function getCensusApiData(url, year, i) {
           },
           set189: {
             url189:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2828,7 +2828,7 @@ function getCensusApiData(url, year, i) {
 
           set190: {
             url190:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2845,7 +2845,7 @@ function getCensusApiData(url, year, i) {
           },
           set191: {
             url191:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2862,7 +2862,7 @@ function getCensusApiData(url, year, i) {
           },
           set192: {
             url192:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2879,7 +2879,7 @@ function getCensusApiData(url, year, i) {
           },
           set193: {
             url193:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2897,7 +2897,7 @@ function getCensusApiData(url, year, i) {
 
           set194: {
             url194:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2914,7 +2914,7 @@ function getCensusApiData(url, year, i) {
           },
           set195: {
             url195:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2931,7 +2931,7 @@ function getCensusApiData(url, year, i) {
           },
           set196: {
             url196:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2948,7 +2948,7 @@ function getCensusApiData(url, year, i) {
           },
           set197: {
             url197:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2966,7 +2966,7 @@ function getCensusApiData(url, year, i) {
 
           set198: {
             url198:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2983,7 +2983,7 @@ function getCensusApiData(url, year, i) {
           },
           set199: {
             url199:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3000,7 +3000,7 @@ function getCensusApiData(url, year, i) {
           },
           set200: {
             url200:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3017,7 +3017,7 @@ function getCensusApiData(url, year, i) {
           },
           set201: {
             url201:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3035,7 +3035,7 @@ function getCensusApiData(url, year, i) {
 
           set202: {
             url202:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3052,7 +3052,7 @@ function getCensusApiData(url, year, i) {
           },
           set203: {
             url203:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3069,7 +3069,7 @@ function getCensusApiData(url, year, i) {
           },
           set204: {
             url204:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3086,7 +3086,7 @@ function getCensusApiData(url, year, i) {
           },
           set205: {
             url205:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3104,7 +3104,7 @@ function getCensusApiData(url, year, i) {
 
           set206: {
             url206:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3121,7 +3121,7 @@ function getCensusApiData(url, year, i) {
           },
           set207: {
             url207:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3138,7 +3138,7 @@ function getCensusApiData(url, year, i) {
           },
           set208: {
             url208:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3155,7 +3155,7 @@ function getCensusApiData(url, year, i) {
           },
           set209: {
             url209:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3173,7 +3173,7 @@ function getCensusApiData(url, year, i) {
 
           set210: {
             url210:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3190,7 +3190,7 @@ function getCensusApiData(url, year, i) {
           },
           set211: {
             url211:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3207,7 +3207,7 @@ function getCensusApiData(url, year, i) {
           },
           set212: {
             url212:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3224,7 +3224,7 @@ function getCensusApiData(url, year, i) {
           },
           set213: {
             url213:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3242,7 +3242,7 @@ function getCensusApiData(url, year, i) {
 
           set214: {
             url214:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3259,7 +3259,7 @@ function getCensusApiData(url, year, i) {
           },
           set215: {
             url215:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3276,7 +3276,7 @@ function getCensusApiData(url, year, i) {
           },
           set216: {
             url216:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3293,7 +3293,7 @@ function getCensusApiData(url, year, i) {
           },
           set217: {
             url217:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3311,7 +3311,7 @@ function getCensusApiData(url, year, i) {
 
           set218: {
             url218:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3328,7 +3328,7 @@ function getCensusApiData(url, year, i) {
           },
           set219: {
             url219:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3345,7 +3345,7 @@ function getCensusApiData(url, year, i) {
           },
           set220: {
             url220:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3362,7 +3362,7 @@ function getCensusApiData(url, year, i) {
           },
           set221: {
             url221:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3380,7 +3380,7 @@ function getCensusApiData(url, year, i) {
 
           set222: {
             url222:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3397,7 +3397,7 @@ function getCensusApiData(url, year, i) {
           },
           set223: {
             url223:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3414,7 +3414,7 @@ function getCensusApiData(url, year, i) {
           },
           set224: {
             url224:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3431,7 +3431,7 @@ function getCensusApiData(url, year, i) {
           },
           set225: {
             url225:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3449,7 +3449,7 @@ function getCensusApiData(url, year, i) {
 
           set226: {
             url226:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3464,7 +3464,7 @@ function getCensusApiData(url, year, i) {
           },
           set227: {
             url227:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3481,7 +3481,7 @@ function getCensusApiData(url, year, i) {
           },
           set228: {
             url228:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3498,7 +3498,7 @@ function getCensusApiData(url, year, i) {
           },
           set229: {
             url229:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3516,7 +3516,7 @@ function getCensusApiData(url, year, i) {
 
           set230: {
             url230:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3533,7 +3533,7 @@ function getCensusApiData(url, year, i) {
           },
           set231: {
             url231:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3550,7 +3550,7 @@ function getCensusApiData(url, year, i) {
           },
           set232: {
             url232:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3567,7 +3567,7 @@ function getCensusApiData(url, year, i) {
           },
           set233: {
             url233:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3585,7 +3585,7 @@ function getCensusApiData(url, year, i) {
 
           set234: {
             url234:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3603,7 +3603,7 @@ function getCensusApiData(url, year, i) {
 
           set235: {
             url235:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3620,7 +3620,7 @@ function getCensusApiData(url, year, i) {
           },
           set236: {
             url236:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3637,7 +3637,7 @@ function getCensusApiData(url, year, i) {
           },
           set237: {
             url237:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3655,7 +3655,7 @@ function getCensusApiData(url, year, i) {
 
           set238: {
             url238:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3672,7 +3672,7 @@ function getCensusApiData(url, year, i) {
           },
           set239: {
             url239:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3689,7 +3689,7 @@ function getCensusApiData(url, year, i) {
           },
           set240: {
             url240:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3706,7 +3706,7 @@ function getCensusApiData(url, year, i) {
           },
           set241: {
             url241:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3724,7 +3724,7 @@ function getCensusApiData(url, year, i) {
 
           set242: {
             url242:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3741,7 +3741,7 @@ function getCensusApiData(url, year, i) {
           },
           set243: {
             url243:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3758,7 +3758,7 @@ function getCensusApiData(url, year, i) {
           },
           set244: {
             url244:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3775,7 +3775,7 @@ function getCensusApiData(url, year, i) {
           },
           set245: {
             url245:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3793,7 +3793,7 @@ function getCensusApiData(url, year, i) {
 
           set246: {
             url246:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3810,7 +3810,7 @@ function getCensusApiData(url, year, i) {
           },
           set247: {
             url247:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3827,7 +3827,7 @@ function getCensusApiData(url, year, i) {
           },
           set248: {
             url248:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3844,7 +3844,7 @@ function getCensusApiData(url, year, i) {
           },
           set249: {
             url249:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3862,7 +3862,7 @@ function getCensusApiData(url, year, i) {
 
           set250: {
             url250:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3879,7 +3879,7 @@ function getCensusApiData(url, year, i) {
           },
           set251: {
             url251:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3896,7 +3896,7 @@ function getCensusApiData(url, year, i) {
           },
           set252: {
             url252:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3913,7 +3913,7 @@ function getCensusApiData(url, year, i) {
           },
           set253: {
             url253:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3931,7 +3931,7 @@ function getCensusApiData(url, year, i) {
 
           set254: {
             url254:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3948,7 +3948,7 @@ function getCensusApiData(url, year, i) {
           },
           set255: {
             url255:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3965,7 +3965,7 @@ function getCensusApiData(url, year, i) {
           },
           set256: {
             url256:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3982,7 +3982,7 @@ function getCensusApiData(url, year, i) {
           },
           set257: {
             url257:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4000,7 +4000,7 @@ function getCensusApiData(url, year, i) {
 
           set258: {
             url258:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4017,7 +4017,7 @@ function getCensusApiData(url, year, i) {
           },
           set259: {
             url259:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4034,7 +4034,7 @@ function getCensusApiData(url, year, i) {
           },
           set260: {
             url260:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4051,7 +4051,7 @@ function getCensusApiData(url, year, i) {
           },
           set261: {
             url261:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4069,7 +4069,7 @@ function getCensusApiData(url, year, i) {
 
           set262: {
             url262:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4086,7 +4086,7 @@ function getCensusApiData(url, year, i) {
           },
           set263: {
             url263:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4103,7 +4103,7 @@ function getCensusApiData(url, year, i) {
           },
           set264: {
             url264:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4120,7 +4120,7 @@ function getCensusApiData(url, year, i) {
           },
           set265: {
             url265:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4138,7 +4138,7 @@ function getCensusApiData(url, year, i) {
 
           set266: {
             url266:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4155,7 +4155,7 @@ function getCensusApiData(url, year, i) {
           },
           set267: {
             url267:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4172,7 +4172,7 @@ function getCensusApiData(url, year, i) {
           },
           set268: {
             url268:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4189,7 +4189,7 @@ function getCensusApiData(url, year, i) {
           },
           set269: {
             url269:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4207,7 +4207,7 @@ function getCensusApiData(url, year, i) {
 
           set270: {
             url270:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4224,7 +4224,7 @@ function getCensusApiData(url, year, i) {
           },
           set271: {
             url271:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4241,7 +4241,7 @@ function getCensusApiData(url, year, i) {
           },
           set272: {
             url272:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4258,7 +4258,7 @@ function getCensusApiData(url, year, i) {
           },
           set273: {
             url273:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4276,7 +4276,7 @@ function getCensusApiData(url, year, i) {
 
           set274: {
             url274:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4293,7 +4293,7 @@ function getCensusApiData(url, year, i) {
           },
           set275: {
             url275:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4310,7 +4310,7 @@ function getCensusApiData(url, year, i) {
           },
           set276: {
             url276:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4327,7 +4327,7 @@ function getCensusApiData(url, year, i) {
           },
           set277: {
             url277:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4345,7 +4345,7 @@ function getCensusApiData(url, year, i) {
 
           set278: {
             url278:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4362,7 +4362,7 @@ function getCensusApiData(url, year, i) {
           },
           set279: {
             url279:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4379,7 +4379,7 @@ function getCensusApiData(url, year, i) {
           },
           set280: {
             url280:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4396,7 +4396,7 @@ function getCensusApiData(url, year, i) {
           },
           set281: {
             url281:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4414,7 +4414,7 @@ function getCensusApiData(url, year, i) {
 
           set282: {
             url282:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4431,7 +4431,7 @@ function getCensusApiData(url, year, i) {
           },
           set283: {
             url283:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4448,7 +4448,7 @@ function getCensusApiData(url, year, i) {
           },
           set284: {
             url284:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4465,7 +4465,7 @@ function getCensusApiData(url, year, i) {
           },
           set285: {
             url285:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4483,7 +4483,7 @@ function getCensusApiData(url, year, i) {
 
           set286: {
             url286:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4500,7 +4500,7 @@ function getCensusApiData(url, year, i) {
           },
           set287: {
             url287:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4517,7 +4517,7 @@ function getCensusApiData(url, year, i) {
           },
           set288: {
             url288:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4534,7 +4534,7 @@ function getCensusApiData(url, year, i) {
           },
           set289: {
             url289:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4552,7 +4552,7 @@ function getCensusApiData(url, year, i) {
 
           set290: {
             url290:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4569,7 +4569,7 @@ function getCensusApiData(url, year, i) {
           },
           set291: {
             url291:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4586,7 +4586,7 @@ function getCensusApiData(url, year, i) {
           },
           set292: {
             url292:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4603,7 +4603,7 @@ function getCensusApiData(url, year, i) {
           },
           set293: {
             url293:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4621,7 +4621,7 @@ function getCensusApiData(url, year, i) {
 
           set294: {
             url294:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4638,7 +4638,7 @@ function getCensusApiData(url, year, i) {
           },
           set295: {
             url295:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4655,7 +4655,7 @@ function getCensusApiData(url, year, i) {
           },
           set296: {
             url296:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4672,7 +4672,7 @@ function getCensusApiData(url, year, i) {
           },
           set297: {
             url297:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4690,7 +4690,7 @@ function getCensusApiData(url, year, i) {
 
           set298: {
             url298:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4705,7 +4705,7 @@ function getCensusApiData(url, year, i) {
           },
           set299: {
             url299:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4722,7 +4722,7 @@ function getCensusApiData(url, year, i) {
           },
           set300: {
             url300:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4739,7 +4739,7 @@ function getCensusApiData(url, year, i) {
           },
           set301: {
             url301:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4757,7 +4757,7 @@ function getCensusApiData(url, year, i) {
 
           set302: {
             url302:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4774,7 +4774,7 @@ function getCensusApiData(url, year, i) {
           },
           set303: {
             url303:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4791,7 +4791,7 @@ function getCensusApiData(url, year, i) {
           },
           set304: {
             url304:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4808,7 +4808,7 @@ function getCensusApiData(url, year, i) {
           },
           set305: {
             url305:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4826,7 +4826,7 @@ function getCensusApiData(url, year, i) {
 
           set306: {
             url306:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4843,7 +4843,7 @@ function getCensusApiData(url, year, i) {
           },
           set307: {
             url307:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4860,7 +4860,7 @@ function getCensusApiData(url, year, i) {
           },
           set308: {
             url308:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4877,7 +4877,7 @@ function getCensusApiData(url, year, i) {
           },
           set309: {
             url309:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4895,7 +4895,7 @@ function getCensusApiData(url, year, i) {
 
           set310: {
             url310:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4912,7 +4912,7 @@ function getCensusApiData(url, year, i) {
           },
           set311: {
             url311:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4929,7 +4929,7 @@ function getCensusApiData(url, year, i) {
           },
           set312: {
             url312:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4946,7 +4946,7 @@ function getCensusApiData(url, year, i) {
           },
           set313: {
             url313:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4964,7 +4964,7 @@ function getCensusApiData(url, year, i) {
 
           set314: {
             url314:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4981,7 +4981,7 @@ function getCensusApiData(url, year, i) {
           },
           set315: {
             url315:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4998,7 +4998,7 @@ function getCensusApiData(url, year, i) {
           },
           set316: {
             url316:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5015,7 +5015,7 @@ function getCensusApiData(url, year, i) {
           },
           set317: {
             url317:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5033,7 +5033,7 @@ function getCensusApiData(url, year, i) {
 
           set318: {
             url318:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5050,7 +5050,7 @@ function getCensusApiData(url, year, i) {
           },
           set319: {
             url319:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5067,7 +5067,7 @@ function getCensusApiData(url, year, i) {
           },
           set320: {
             url320:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5084,7 +5084,7 @@ function getCensusApiData(url, year, i) {
           },
           set321: {
             url321:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5102,7 +5102,7 @@ function getCensusApiData(url, year, i) {
 
           set322: {
             url322:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5119,7 +5119,7 @@ function getCensusApiData(url, year, i) {
           },
           set323: {
             url323:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5136,7 +5136,7 @@ function getCensusApiData(url, year, i) {
           },
           set324: {
             url324:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5153,7 +5153,7 @@ function getCensusApiData(url, year, i) {
           },
           set325: {
             url325:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5171,7 +5171,7 @@ function getCensusApiData(url, year, i) {
 
           set326: {
             url326:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5188,7 +5188,7 @@ function getCensusApiData(url, year, i) {
           },
           set327: {
             url327:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5205,7 +5205,7 @@ function getCensusApiData(url, year, i) {
           },
           set328: {
             url328:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5222,7 +5222,7 @@ function getCensusApiData(url, year, i) {
           },
           set329: {
             url329:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5240,7 +5240,7 @@ function getCensusApiData(url, year, i) {
 
           set330: {
             url330:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5257,7 +5257,7 @@ function getCensusApiData(url, year, i) {
           },
           set331: {
             url331:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5274,7 +5274,7 @@ function getCensusApiData(url, year, i) {
           },
           set332: {
             url332:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5291,7 +5291,7 @@ function getCensusApiData(url, year, i) {
           },
           set333: {
             url333:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5309,7 +5309,7 @@ function getCensusApiData(url, year, i) {
 
           set334: {
             url334:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5326,7 +5326,7 @@ function getCensusApiData(url, year, i) {
           },
           set335: {
             url335:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5343,7 +5343,7 @@ function getCensusApiData(url, year, i) {
           },
           set336: {
             url336:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5360,7 +5360,7 @@ function getCensusApiData(url, year, i) {
           },
           set337: {
             url337:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5378,7 +5378,7 @@ function getCensusApiData(url, year, i) {
 
           set338: {
             url338:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5395,7 +5395,7 @@ function getCensusApiData(url, year, i) {
           },
           set339: {
             url339:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5412,7 +5412,7 @@ function getCensusApiData(url, year, i) {
           },
           set340: {
             url340:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5429,7 +5429,7 @@ function getCensusApiData(url, year, i) {
           },
           set341: {
             url341:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5447,7 +5447,7 @@ function getCensusApiData(url, year, i) {
 
           set342: {
             url342:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5464,7 +5464,7 @@ function getCensusApiData(url, year, i) {
           },
           set343: {
             url343:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5481,7 +5481,7 @@ function getCensusApiData(url, year, i) {
           },
           set344: {
             url344:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5498,7 +5498,7 @@ function getCensusApiData(url, year, i) {
           },
           set345: {
             url345:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5516,7 +5516,7 @@ function getCensusApiData(url, year, i) {
 
           set346: {
             url346:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5533,7 +5533,7 @@ function getCensusApiData(url, year, i) {
           },
           set347: {
             url347:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5550,7 +5550,7 @@ function getCensusApiData(url, year, i) {
           },
           set348: {
             url348:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5567,7 +5567,7 @@ function getCensusApiData(url, year, i) {
           },
           set349: {
             url349:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5585,7 +5585,7 @@ function getCensusApiData(url, year, i) {
 
           set350: {
             url350:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5602,7 +5602,7 @@ function getCensusApiData(url, year, i) {
           },
           set351: {
             url351:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5619,7 +5619,7 @@ function getCensusApiData(url, year, i) {
           },
           set352: {
             url352:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5636,7 +5636,7 @@ function getCensusApiData(url, year, i) {
           },
           set353: {
             url353:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5654,7 +5654,7 @@ function getCensusApiData(url, year, i) {
 
           set354: {
             url354:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5671,7 +5671,7 @@ function getCensusApiData(url, year, i) {
           },
           set355: {
             url355:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5688,7 +5688,7 @@ function getCensusApiData(url, year, i) {
           },
           set356: {
             url356:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5705,7 +5705,7 @@ function getCensusApiData(url, year, i) {
           },
           set357: {
             url357:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5723,7 +5723,7 @@ function getCensusApiData(url, year, i) {
 
           set358: {
             url358:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5740,7 +5740,7 @@ function getCensusApiData(url, year, i) {
           },
           set359: {
             url359:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5757,7 +5757,7 @@ function getCensusApiData(url, year, i) {
           },
           set360: {
             url360:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5774,7 +5774,7 @@ function getCensusApiData(url, year, i) {
           },
           set361: {
             url361:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5792,7 +5792,7 @@ function getCensusApiData(url, year, i) {
 
           set362: {
             url362:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5809,7 +5809,7 @@ function getCensusApiData(url, year, i) {
           },
           set363: {
             url363:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5826,7 +5826,7 @@ function getCensusApiData(url, year, i) {
           },
           set364: {
             url364:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5843,7 +5843,7 @@ function getCensusApiData(url, year, i) {
           },
           set365: {
             url365:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5860,7 +5860,7 @@ function getCensusApiData(url, year, i) {
           },
           set366: {
             url366:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5877,7 +5877,7 @@ function getCensusApiData(url, year, i) {
           },
           set367: {
             url367:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5894,7 +5894,7 @@ function getCensusApiData(url, year, i) {
           },
           set368: {
             url368:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5911,7 +5911,7 @@ function getCensusApiData(url, year, i) {
           },
           set369: {
             url369:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5929,7 +5929,7 @@ function getCensusApiData(url, year, i) {
 
           set370: {
             url370:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5946,7 +5946,7 @@ function getCensusApiData(url, year, i) {
           },
           set371: {
             url371:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5963,7 +5963,7 @@ function getCensusApiData(url, year, i) {
           },
           set372: {
             url372:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5980,7 +5980,7 @@ function getCensusApiData(url, year, i) {
           },
           set373: {
             url373:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5998,7 +5998,7 @@ function getCensusApiData(url, year, i) {
 
           set374: {
             url374:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6015,7 +6015,7 @@ function getCensusApiData(url, year, i) {
           },
           set375: {
             url375:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6032,7 +6032,7 @@ function getCensusApiData(url, year, i) {
           },
           set376: {
             url376:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6049,7 +6049,7 @@ function getCensusApiData(url, year, i) {
           },
           set377: {
             url377:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6067,7 +6067,7 @@ function getCensusApiData(url, year, i) {
 
           set378: {
             url378:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6084,7 +6084,7 @@ function getCensusApiData(url, year, i) {
           },
           set379: {
             url379:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6101,7 +6101,7 @@ function getCensusApiData(url, year, i) {
           },
           set380: {
             url380:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6118,7 +6118,7 @@ function getCensusApiData(url, year, i) {
           },
           set381: {
             url381:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6136,7 +6136,7 @@ function getCensusApiData(url, year, i) {
 
           set382: {
             url382:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6153,7 +6153,7 @@ function getCensusApiData(url, year, i) {
           },
           set383: {
             url383:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6170,7 +6170,7 @@ function getCensusApiData(url, year, i) {
           },
           set384: {
             url384:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6187,7 +6187,7 @@ function getCensusApiData(url, year, i) {
           },
           set385: {
             url385:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6205,7 +6205,7 @@ function getCensusApiData(url, year, i) {
 
           set386: {
             url386:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6222,7 +6222,7 @@ function getCensusApiData(url, year, i) {
           },
           set387: {
             url387:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6239,7 +6239,7 @@ function getCensusApiData(url, year, i) {
           },
           set388: {
             url388:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6256,7 +6256,7 @@ function getCensusApiData(url, year, i) {
           },
           set389: {
             url389:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6274,7 +6274,7 @@ function getCensusApiData(url, year, i) {
 
           set390: {
             url390:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6291,7 +6291,7 @@ function getCensusApiData(url, year, i) {
           },
           set391: {
             url391:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6308,7 +6308,7 @@ function getCensusApiData(url, year, i) {
           },
           set392: {
             url392:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6325,7 +6325,7 @@ function getCensusApiData(url, year, i) {
           },
           set393: {
             url393:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6343,7 +6343,7 @@ function getCensusApiData(url, year, i) {
 
           set394: {
             url394:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6360,7 +6360,7 @@ function getCensusApiData(url, year, i) {
           },
           set395: {
             url395:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6377,7 +6377,7 @@ function getCensusApiData(url, year, i) {
           },
           set396: {
             url396:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6394,7 +6394,7 @@ function getCensusApiData(url, year, i) {
           },
           set397: {
             url397:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6412,7 +6412,7 @@ function getCensusApiData(url, year, i) {
 
           set398: {
             url398:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6429,7 +6429,7 @@ function getCensusApiData(url, year, i) {
           },
           set399: {
             url399:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6446,7 +6446,7 @@ function getCensusApiData(url, year, i) {
           },
           set400: {
             url400:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6463,7 +6463,7 @@ function getCensusApiData(url, year, i) {
           },
           set401: {
             url401:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6481,7 +6481,7 @@ function getCensusApiData(url, year, i) {
 
           set402: {
             url402:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6498,7 +6498,7 @@ function getCensusApiData(url, year, i) {
           },
           set403: {
             url403:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6515,7 +6515,7 @@ function getCensusApiData(url, year, i) {
           },
           set404: {
             url404:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6532,7 +6532,7 @@ function getCensusApiData(url, year, i) {
           },
           set405: {
             url405:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6550,7 +6550,7 @@ function getCensusApiData(url, year, i) {
 
           set406: {
             url406:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6567,7 +6567,7 @@ function getCensusApiData(url, year, i) {
           },
           set407: {
             url407:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6584,7 +6584,7 @@ function getCensusApiData(url, year, i) {
           },
           set408: {
             url408:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6601,7 +6601,7 @@ function getCensusApiData(url, year, i) {
           },
           set409: {
             url409:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6619,7 +6619,7 @@ function getCensusApiData(url, year, i) {
 
           set410: {
             url410:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6636,7 +6636,7 @@ function getCensusApiData(url, year, i) {
           },
           set411: {
             url411:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6653,7 +6653,7 @@ function getCensusApiData(url, year, i) {
           },
           set412: {
             url412:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6670,7 +6670,7 @@ function getCensusApiData(url, year, i) {
           },
           set413: {
             url413:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6688,7 +6688,7 @@ function getCensusApiData(url, year, i) {
 
           set414: {
             url414:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6705,7 +6705,7 @@ function getCensusApiData(url, year, i) {
           },
           set415: {
             url415:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6722,7 +6722,7 @@ function getCensusApiData(url, year, i) {
           },
           set416: {
             url416:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6739,7 +6739,7 @@ function getCensusApiData(url, year, i) {
           },
           set417: {
             url417:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6757,7 +6757,7 @@ function getCensusApiData(url, year, i) {
 
           set418: {
             url418:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6774,7 +6774,7 @@ function getCensusApiData(url, year, i) {
           },
           set419: {
             url419:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6791,7 +6791,7 @@ function getCensusApiData(url, year, i) {
           },
           set420: {
             url420:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6808,7 +6808,7 @@ function getCensusApiData(url, year, i) {
           },
           set421: {
             url421:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6826,7 +6826,7 @@ function getCensusApiData(url, year, i) {
 
           set422: {
             url422:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6843,7 +6843,7 @@ function getCensusApiData(url, year, i) {
           },
           set423: {
             url423:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6860,7 +6860,7 @@ function getCensusApiData(url, year, i) {
           },
           set424: {
             url424:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6877,7 +6877,7 @@ function getCensusApiData(url, year, i) {
           },
           set425: {
             url425:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6895,7 +6895,7 @@ function getCensusApiData(url, year, i) {
 
           set426: {
             url426:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6912,7 +6912,7 @@ function getCensusApiData(url, year, i) {
           },
           set427: {
             url427:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6929,7 +6929,7 @@ function getCensusApiData(url, year, i) {
           },
           set428: {
             url428:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6946,7 +6946,7 @@ function getCensusApiData(url, year, i) {
           },
           set429: {
             url429:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6964,7 +6964,7 @@ function getCensusApiData(url, year, i) {
 
           set430: {
             url430:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6981,7 +6981,7 @@ function getCensusApiData(url, year, i) {
           },
           set431: {
             url431:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6998,7 +6998,7 @@ function getCensusApiData(url, year, i) {
           },
           set432: {
             url432:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7015,7 +7015,7 @@ function getCensusApiData(url, year, i) {
           },
           set433: {
             url433:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7033,7 +7033,7 @@ function getCensusApiData(url, year, i) {
 
           set434: {
             url434:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7050,7 +7050,7 @@ function getCensusApiData(url, year, i) {
           },
           set435: {
             url435:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7067,7 +7067,7 @@ function getCensusApiData(url, year, i) {
           },
           set436: {
             url436:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7084,7 +7084,7 @@ function getCensusApiData(url, year, i) {
           },
           set437: {
             url437:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7102,7 +7102,7 @@ function getCensusApiData(url, year, i) {
 
           set438: {
             url438:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7119,7 +7119,7 @@ function getCensusApiData(url, year, i) {
           },
           set439: {
             url439:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7136,7 +7136,7 @@ function getCensusApiData(url, year, i) {
           },
           set440: {
             url440:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7153,7 +7153,7 @@ function getCensusApiData(url, year, i) {
           },
           set441: {
             url441:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7171,7 +7171,7 @@ function getCensusApiData(url, year, i) {
 
           set442: {
             url442:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7188,7 +7188,7 @@ function getCensusApiData(url, year, i) {
           },
           set443: {
             url443:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7205,7 +7205,7 @@ function getCensusApiData(url, year, i) {
           },
           set444: {
             url444:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7222,7 +7222,7 @@ function getCensusApiData(url, year, i) {
           },
           set445: {
             url445:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7240,7 +7240,7 @@ function getCensusApiData(url, year, i) {
 
           set446: {
             url446:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7257,7 +7257,7 @@ function getCensusApiData(url, year, i) {
           },
           set447: {
             url447:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7274,7 +7274,7 @@ function getCensusApiData(url, year, i) {
           },
           set448: {
             url448:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7291,7 +7291,7 @@ function getCensusApiData(url, year, i) {
           },
           set449: {
             url449:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7309,7 +7309,7 @@ function getCensusApiData(url, year, i) {
 
           set450: {
             url450:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7326,7 +7326,7 @@ function getCensusApiData(url, year, i) {
           },
           set451: {
             url451:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7343,7 +7343,7 @@ function getCensusApiData(url, year, i) {
           },
           set452: {
             url452:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7360,7 +7360,7 @@ function getCensusApiData(url, year, i) {
           },
           set453: {
             url453:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7378,7 +7378,7 @@ function getCensusApiData(url, year, i) {
 
           set454: {
             url454:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7395,7 +7395,7 @@ function getCensusApiData(url, year, i) {
           },
           set455: {
             url455:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7412,7 +7412,7 @@ function getCensusApiData(url, year, i) {
           },
           set456: {
             url456:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7429,7 +7429,7 @@ function getCensusApiData(url, year, i) {
           },
           set457: {
             url457:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7447,7 +7447,7 @@ function getCensusApiData(url, year, i) {
 
           set458: {
             url458:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7464,7 +7464,7 @@ function getCensusApiData(url, year, i) {
           },
           set459: {
             url459:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7481,7 +7481,7 @@ function getCensusApiData(url, year, i) {
           },
           set460: {
             url460:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7498,7 +7498,7 @@ function getCensusApiData(url, year, i) {
           },
           set461: {
             url461:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7516,7 +7516,7 @@ function getCensusApiData(url, year, i) {
 
           set462: {
             url462:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7533,7 +7533,7 @@ function getCensusApiData(url, year, i) {
           },
           set463: {
             url463:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7550,7 +7550,7 @@ function getCensusApiData(url, year, i) {
           },
           set464: {
             url464:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7567,7 +7567,7 @@ function getCensusApiData(url, year, i) {
           },
           set465: {
             url465:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7585,7 +7585,7 @@ function getCensusApiData(url, year, i) {
 
           set466: {
             url466:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7600,7 +7600,7 @@ function getCensusApiData(url, year, i) {
           },
           set467: {
             url467:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7617,7 +7617,7 @@ function getCensusApiData(url, year, i) {
           },
           set468: {
             url468:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7634,7 +7634,7 @@ function getCensusApiData(url, year, i) {
           },
           set469: {
             url469:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7652,7 +7652,7 @@ function getCensusApiData(url, year, i) {
 
           set470: {
             url470:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7669,7 +7669,7 @@ function getCensusApiData(url, year, i) {
           },
           set471: {
             url471:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7686,7 +7686,7 @@ function getCensusApiData(url, year, i) {
           },
           set472: {
             url472:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7703,7 +7703,7 @@ function getCensusApiData(url, year, i) {
           },
           set473: {
             url473:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7721,7 +7721,7 @@ function getCensusApiData(url, year, i) {
 
           set474: {
             url474:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7738,7 +7738,7 @@ function getCensusApiData(url, year, i) {
           },
           set475: {
             url475:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7755,7 +7755,7 @@ function getCensusApiData(url, year, i) {
           },
           set476: {
             url476:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7772,7 +7772,7 @@ function getCensusApiData(url, year, i) {
           },
           set477: {
             url477:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7790,7 +7790,7 @@ function getCensusApiData(url, year, i) {
 
           set478: {
             url478:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7807,7 +7807,7 @@ function getCensusApiData(url, year, i) {
           },
           set479: {
             url479:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7824,7 +7824,7 @@ function getCensusApiData(url, year, i) {
           },
           set480: {
             url480:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7841,7 +7841,7 @@ function getCensusApiData(url, year, i) {
           },
           set481: {
             url481:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7859,7 +7859,7 @@ function getCensusApiData(url, year, i) {
 
           set482: {
             url482:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7876,7 +7876,7 @@ function getCensusApiData(url, year, i) {
           },
           set483: {
             url483:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7893,7 +7893,7 @@ function getCensusApiData(url, year, i) {
           },
           set484: {
             url484:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7910,7 +7910,7 @@ function getCensusApiData(url, year, i) {
           },
           set485: {
             url485:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7928,7 +7928,7 @@ function getCensusApiData(url, year, i) {
 
           set486: {
             url486:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7945,7 +7945,7 @@ function getCensusApiData(url, year, i) {
           },
           set487: {
             url487:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7962,7 +7962,7 @@ function getCensusApiData(url, year, i) {
           },
           set488: {
             url488:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7979,7 +7979,7 @@ function getCensusApiData(url, year, i) {
           },
           set489: {
             url489:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7997,7 +7997,7 @@ function getCensusApiData(url, year, i) {
 
           set490: {
             url490:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8014,7 +8014,7 @@ function getCensusApiData(url, year, i) {
           },
           set491: {
             url491:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8031,7 +8031,7 @@ function getCensusApiData(url, year, i) {
           },
           set492: {
             url492:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8048,7 +8048,7 @@ function getCensusApiData(url, year, i) {
           },
           set493: {
             url493:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8066,7 +8066,7 @@ function getCensusApiData(url, year, i) {
 
           set494: {
             url494:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8083,7 +8083,7 @@ function getCensusApiData(url, year, i) {
           },
           set495: {
             url495:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8100,7 +8100,7 @@ function getCensusApiData(url, year, i) {
           },
           set496: {
             url496:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8117,7 +8117,7 @@ function getCensusApiData(url, year, i) {
           },
           set497: {
             url497:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8135,7 +8135,7 @@ function getCensusApiData(url, year, i) {
 
           set498: {
             url498:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8152,7 +8152,7 @@ function getCensusApiData(url, year, i) {
           },
           set499: {
             url499:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8169,7 +8169,7 @@ function getCensusApiData(url, year, i) {
           },
           set500: {
             url500:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8186,7 +8186,7 @@ function getCensusApiData(url, year, i) {
           },
           set501: {
             url501:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8204,7 +8204,7 @@ function getCensusApiData(url, year, i) {
 
           set502: {
             url502:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8221,7 +8221,7 @@ function getCensusApiData(url, year, i) {
           },
           set503: {
             url503:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8238,7 +8238,7 @@ function getCensusApiData(url, year, i) {
           },
           set504: {
             url504:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8255,7 +8255,7 @@ function getCensusApiData(url, year, i) {
           },
           set505: {
             url505:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8273,7 +8273,7 @@ function getCensusApiData(url, year, i) {
 
           set506: {
             url506:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8290,7 +8290,7 @@ function getCensusApiData(url, year, i) {
           },
           set507: {
             url507:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8307,7 +8307,7 @@ function getCensusApiData(url, year, i) {
           },
           set508: {
             url508:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8324,7 +8324,7 @@ function getCensusApiData(url, year, i) {
           },
           set509: {
             url509:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8342,7 +8342,7 @@ function getCensusApiData(url, year, i) {
 
           set510: {
             url510:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8359,7 +8359,7 @@ function getCensusApiData(url, year, i) {
           },
           set511: {
             url511:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8376,7 +8376,7 @@ function getCensusApiData(url, year, i) {
           },
           set512: {
             url512:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8393,7 +8393,7 @@ function getCensusApiData(url, year, i) {
           },
           set513: {
             url513:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8411,7 +8411,7 @@ function getCensusApiData(url, year, i) {
 
           set514: {
             url514:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8427,7 +8427,7 @@ function getCensusApiData(url, year, i) {
           },
           set515: {
             url515:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8443,7 +8443,7 @@ function getCensusApiData(url, year, i) {
           },
           set516: {
             url516:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8458,7 +8458,7 @@ function getCensusApiData(url, year, i) {
           },
           set517: {
             url517:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8476,7 +8476,7 @@ function getCensusApiData(url, year, i) {
 
           set518: {
             url518:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8493,7 +8493,7 @@ function getCensusApiData(url, year, i) {
           },
           set519: {
             url519:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8510,7 +8510,7 @@ function getCensusApiData(url, year, i) {
           },
           set520: {
             url520:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8527,7 +8527,7 @@ function getCensusApiData(url, year, i) {
           },
           set521: {
             url521:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8545,7 +8545,7 @@ function getCensusApiData(url, year, i) {
 
           set522: {
             url522:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8562,7 +8562,7 @@ function getCensusApiData(url, year, i) {
           },
           set523: {
             url523:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8579,7 +8579,7 @@ function getCensusApiData(url, year, i) {
           },
           set524: {
             url524:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8596,7 +8596,7 @@ function getCensusApiData(url, year, i) {
           },
           set525: {
             url525:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8614,7 +8614,7 @@ function getCensusApiData(url, year, i) {
 
           set526: {
             url526:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8631,7 +8631,7 @@ function getCensusApiData(url, year, i) {
           },
           set527: {
             url527:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8648,7 +8648,7 @@ function getCensusApiData(url, year, i) {
           },
           set528: {
             url528:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8665,7 +8665,7 @@ function getCensusApiData(url, year, i) {
           },
           set529: {
             url529:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8683,7 +8683,7 @@ function getCensusApiData(url, year, i) {
 
           set530: {
             url530:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8700,7 +8700,7 @@ function getCensusApiData(url, year, i) {
           },
           set531: {
             url531:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8717,7 +8717,7 @@ function getCensusApiData(url, year, i) {
           },
           set532: {
             url532:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8734,7 +8734,7 @@ function getCensusApiData(url, year, i) {
           },
           set533: {
             url533:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8752,7 +8752,7 @@ function getCensusApiData(url, year, i) {
 
           set534: {
             url534:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8769,7 +8769,7 @@ function getCensusApiData(url, year, i) {
           },
           set535: {
             url535:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8786,7 +8786,7 @@ function getCensusApiData(url, year, i) {
           },
           set536: {
             url536:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8803,7 +8803,7 @@ function getCensusApiData(url, year, i) {
           },
           set537: {
             url537:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8821,7 +8821,7 @@ function getCensusApiData(url, year, i) {
 
           set538: {
             url538:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8838,7 +8838,7 @@ function getCensusApiData(url, year, i) {
           },
           set539: {
             url539:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8855,7 +8855,7 @@ function getCensusApiData(url, year, i) {
           },
           set540: {
             url540:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8872,7 +8872,7 @@ function getCensusApiData(url, year, i) {
           },
           set541: {
             url541:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8890,7 +8890,7 @@ function getCensusApiData(url, year, i) {
 
           set542: {
             url542:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8907,7 +8907,7 @@ function getCensusApiData(url, year, i) {
           },
           set543: {
             url543:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8924,7 +8924,7 @@ function getCensusApiData(url, year, i) {
           },
           set544: {
             url544:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8941,7 +8941,7 @@ function getCensusApiData(url, year, i) {
           },
           set545: {
             url545:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8959,7 +8959,7 @@ function getCensusApiData(url, year, i) {
 
           set546: {
             url546:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8976,7 +8976,7 @@ function getCensusApiData(url, year, i) {
           },
           set547: {
             url547:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8993,7 +8993,7 @@ function getCensusApiData(url, year, i) {
           },
           set548: {
             url548:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9010,7 +9010,7 @@ function getCensusApiData(url, year, i) {
           },
           set549: {
             url549:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9028,7 +9028,7 @@ function getCensusApiData(url, year, i) {
 
           set550: {
             url550:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9045,7 +9045,7 @@ function getCensusApiData(url, year, i) {
           },
           set551: {
             url551:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9062,7 +9062,7 @@ function getCensusApiData(url, year, i) {
           },
           set552: {
             url552:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9079,7 +9079,7 @@ function getCensusApiData(url, year, i) {
           },
           set553: {
             url553:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9097,7 +9097,7 @@ function getCensusApiData(url, year, i) {
 
           set554: {
             url554:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9114,7 +9114,7 @@ function getCensusApiData(url, year, i) {
           },
           set555: {
             url555:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9131,7 +9131,7 @@ function getCensusApiData(url, year, i) {
           },
           set556: {
             url556:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9148,7 +9148,7 @@ function getCensusApiData(url, year, i) {
           },
           set557: {
             url557:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9166,7 +9166,7 @@ function getCensusApiData(url, year, i) {
 
           set558: {
             url558:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9183,7 +9183,7 @@ function getCensusApiData(url, year, i) {
           },
           set559: {
             url559:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9200,7 +9200,7 @@ function getCensusApiData(url, year, i) {
           },
           set560: {
             url560:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9217,7 +9217,7 @@ function getCensusApiData(url, year, i) {
           },
           set561: {
             url561:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9235,7 +9235,7 @@ function getCensusApiData(url, year, i) {
 
           set562: {
             url562:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9252,7 +9252,7 @@ function getCensusApiData(url, year, i) {
           },
           set563: {
             url563:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9269,7 +9269,7 @@ function getCensusApiData(url, year, i) {
           },
           set564: {
             url564:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9286,7 +9286,7 @@ function getCensusApiData(url, year, i) {
           },
           set565: {
             url565:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9304,7 +9304,7 @@ function getCensusApiData(url, year, i) {
 
           set566: {
             url566:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9321,7 +9321,7 @@ function getCensusApiData(url, year, i) {
           },
           set567: {
             url567:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9338,7 +9338,7 @@ function getCensusApiData(url, year, i) {
           },
           set568: {
             url568:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9355,7 +9355,7 @@ function getCensusApiData(url, year, i) {
           },
           set569: {
             url569:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9373,7 +9373,7 @@ function getCensusApiData(url, year, i) {
 
           set570: {
             url570:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9389,7 +9389,7 @@ function getCensusApiData(url, year, i) {
           },
           set571: {
             url571:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9406,7 +9406,7 @@ function getCensusApiData(url, year, i) {
           },
           set572: {
             url572:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9423,7 +9423,7 @@ function getCensusApiData(url, year, i) {
           },
           set573: {
             url573:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9441,7 +9441,7 @@ function getCensusApiData(url, year, i) {
 
           set574: {
             url574:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9458,7 +9458,7 @@ function getCensusApiData(url, year, i) {
           },
           set575: {
             url575:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9475,7 +9475,7 @@ function getCensusApiData(url, year, i) {
           },
           set576: {
             url576:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9492,7 +9492,7 @@ function getCensusApiData(url, year, i) {
           },
           set577: {
             url577:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9510,7 +9510,7 @@ function getCensusApiData(url, year, i) {
 
           set578: {
             url578:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9527,7 +9527,7 @@ function getCensusApiData(url, year, i) {
           },
           set579: {
             url579:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9544,7 +9544,7 @@ function getCensusApiData(url, year, i) {
           },
           set580: {
             url580:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9561,7 +9561,7 @@ function getCensusApiData(url, year, i) {
           },
           set581: {
             url581:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9579,7 +9579,7 @@ function getCensusApiData(url, year, i) {
 
           set582: {
             url582:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9596,7 +9596,7 @@ function getCensusApiData(url, year, i) {
           },
           set583: {
             url583:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9613,7 +9613,7 @@ function getCensusApiData(url, year, i) {
           },
           set584: {
             url584:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9630,7 +9630,7 @@ function getCensusApiData(url, year, i) {
           },
           set585: {
             url585:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9648,7 +9648,7 @@ function getCensusApiData(url, year, i) {
 
           set586: {
             url586:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9665,7 +9665,7 @@ function getCensusApiData(url, year, i) {
           },
           set587: {
             url587:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9682,7 +9682,7 @@ function getCensusApiData(url, year, i) {
           },
           set588: {
             url588:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9699,7 +9699,7 @@ function getCensusApiData(url, year, i) {
           },
           set589: {
             url589:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9717,7 +9717,7 @@ function getCensusApiData(url, year, i) {
 
           set590: {
             url590:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9734,7 +9734,7 @@ function getCensusApiData(url, year, i) {
           },
           set591: {
             url591:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9751,7 +9751,7 @@ function getCensusApiData(url, year, i) {
           },
           set592: {
             url592:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9768,7 +9768,7 @@ function getCensusApiData(url, year, i) {
           },
           set593: {
             url593:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9786,7 +9786,7 @@ function getCensusApiData(url, year, i) {
 
           set594: {
             url594:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9803,7 +9803,7 @@ function getCensusApiData(url, year, i) {
           },
           set595: {
             url595:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9820,7 +9820,7 @@ function getCensusApiData(url, year, i) {
           },
           set596: {
             url596:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9837,7 +9837,7 @@ function getCensusApiData(url, year, i) {
           },
           set597: {
             url597:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9855,7 +9855,7 @@ function getCensusApiData(url, year, i) {
 
           set598: {
             url598:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9872,7 +9872,7 @@ function getCensusApiData(url, year, i) {
           },
           set599: {
             url599:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9889,7 +9889,7 @@ function getCensusApiData(url, year, i) {
           },
           set600: {
             url600:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9906,7 +9906,7 @@ function getCensusApiData(url, year, i) {
           },
           set601: {
             url601:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9924,7 +9924,7 @@ function getCensusApiData(url, year, i) {
 
           set602: {
             url602:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -9941,7 +9941,7 @@ function getCensusApiData(url, year, i) {
           },
           set603: {
             url603:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -9958,7 +9958,7 @@ function getCensusApiData(url, year, i) {
           },
           set604: {
             url604:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -9975,7 +9975,7 @@ function getCensusApiData(url, year, i) {
           },
           set605: {
             url605:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -9993,7 +9993,7 @@ function getCensusApiData(url, year, i) {
 
           set606: {
             url606:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10010,7 +10010,7 @@ function getCensusApiData(url, year, i) {
           },
           set607: {
             url607:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10027,7 +10027,7 @@ function getCensusApiData(url, year, i) {
           },
           set608: {
             url608:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10044,7 +10044,7 @@ function getCensusApiData(url, year, i) {
           },
           set609: {
             url609:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10062,7 +10062,7 @@ function getCensusApiData(url, year, i) {
 
           set610: {
             url610:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10080,7 +10080,7 @@ function getCensusApiData(url, year, i) {
 
           set611: {
             url611:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10097,7 +10097,7 @@ function getCensusApiData(url, year, i) {
           },
           set612: {
             url612:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10114,7 +10114,7 @@ function getCensusApiData(url, year, i) {
           },
           set613: {
             url613:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10132,7 +10132,7 @@ function getCensusApiData(url, year, i) {
 
           set614: {
             url614:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10149,7 +10149,7 @@ function getCensusApiData(url, year, i) {
           },
           set615: {
             url615:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10166,7 +10166,7 @@ function getCensusApiData(url, year, i) {
           },
           set616: {
             url616:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10183,7 +10183,7 @@ function getCensusApiData(url, year, i) {
           },
           set617: {
             url617:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10201,7 +10201,7 @@ function getCensusApiData(url, year, i) {
 
           set618: {
             url618:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10218,7 +10218,7 @@ function getCensusApiData(url, year, i) {
           },
           set619: {
             url619:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10235,7 +10235,7 @@ function getCensusApiData(url, year, i) {
           },
           set620: {
             url620:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10252,7 +10252,7 @@ function getCensusApiData(url, year, i) {
           },
           set621: {
             url621:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10270,7 +10270,7 @@ function getCensusApiData(url, year, i) {
 
           set622: {
             url622:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10286,7 +10286,7 @@ function getCensusApiData(url, year, i) {
           },
           set623: {
             url623:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10303,7 +10303,7 @@ function getCensusApiData(url, year, i) {
           },
           set624: {
             url624:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10320,7 +10320,7 @@ function getCensusApiData(url, year, i) {
           },
           set625: {
             url625:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10338,7 +10338,7 @@ function getCensusApiData(url, year, i) {
 
           set626: {
             url626:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10355,7 +10355,7 @@ function getCensusApiData(url, year, i) {
           },
           set627: {
             url627:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10372,7 +10372,7 @@ function getCensusApiData(url, year, i) {
           },
           set628: {
             url628:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10388,7 +10388,7 @@ function getCensusApiData(url, year, i) {
           },
           set629: {
             url629:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10405,7 +10405,7 @@ function getCensusApiData(url, year, i) {
 
           set630: {
             url630:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10421,7 +10421,7 @@ function getCensusApiData(url, year, i) {
           },
           set631: {
             url631:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10437,7 +10437,7 @@ function getCensusApiData(url, year, i) {
           },
           set632: {
             url632:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10453,7 +10453,7 @@ function getCensusApiData(url, year, i) {
           },
           set633: {
             url633:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10471,7 +10471,7 @@ function getCensusApiData(url, year, i) {
 
           set634: {
             url634:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10488,7 +10488,7 @@ function getCensusApiData(url, year, i) {
           },
           set635: {
             url635:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10505,7 +10505,7 @@ function getCensusApiData(url, year, i) {
           },
           set636: {
             url636:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10522,7 +10522,7 @@ function getCensusApiData(url, year, i) {
           },
           set637: {
             url637:
-              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10540,7 +10540,7 @@ function getCensusApiData(url, year, i) {
 
           set638: {
             url638:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10557,7 +10557,7 @@ function getCensusApiData(url, year, i) {
           },
           set639: {
             url639:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10574,7 +10574,7 @@ function getCensusApiData(url, year, i) {
           },
           set640: {
             url640:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10591,7 +10591,7 @@ function getCensusApiData(url, year, i) {
           },
           set641: {
             url641:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10609,7 +10609,7 @@ function getCensusApiData(url, year, i) {
 
           set642: {
             url642:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10626,7 +10626,7 @@ function getCensusApiData(url, year, i) {
           },
           set643: {
             url643:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10643,7 +10643,7 @@ function getCensusApiData(url, year, i) {
           },
           set644: {
             url644:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10660,7 +10660,7 @@ function getCensusApiData(url, year, i) {
           },
           set645: {
             url645:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10678,7 +10678,7 @@ function getCensusApiData(url, year, i) {
 
           set646: {
             url646:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10695,7 +10695,7 @@ function getCensusApiData(url, year, i) {
           },
           set647: {
             url647:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10712,7 +10712,7 @@ function getCensusApiData(url, year, i) {
           },
           set648: {
             url648:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10728,7 +10728,7 @@ function getCensusApiData(url, year, i) {
           },
           set649: {
             url649:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10745,7 +10745,7 @@ function getCensusApiData(url, year, i) {
 
           set650: {
             url650:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10762,7 +10762,7 @@ function getCensusApiData(url, year, i) {
           },
           set651: {
             url651:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10779,7 +10779,7 @@ function getCensusApiData(url, year, i) {
           },
           set652: {
             url652:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10796,7 +10796,7 @@ function getCensusApiData(url, year, i) {
           },
           set653: {
             url653:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10814,7 +10814,7 @@ function getCensusApiData(url, year, i) {
 
           set654: {
             url654:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10830,7 +10830,7 @@ function getCensusApiData(url, year, i) {
           },
           set655: {
             url655:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10846,7 +10846,7 @@ function getCensusApiData(url, year, i) {
           },
           set656: {
             url656:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10863,7 +10863,7 @@ function getCensusApiData(url, year, i) {
           },
           set657: {
             url657:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10881,7 +10881,7 @@ function getCensusApiData(url, year, i) {
 
           set658: {
             url658:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10898,7 +10898,7 @@ function getCensusApiData(url, year, i) {
           },
           set659: {
             url659:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10915,7 +10915,7 @@ function getCensusApiData(url, year, i) {
           },
           set660: {
             url660:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10932,7 +10932,7 @@ function getCensusApiData(url, year, i) {
           },
           set661: {
             url661:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -10950,7 +10950,7 @@ function getCensusApiData(url, year, i) {
 
           set662: {
             url662:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -10967,7 +10967,7 @@ function getCensusApiData(url, year, i) {
           },
           set663: {
             url663:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -10983,7 +10983,7 @@ function getCensusApiData(url, year, i) {
           },
           set664: {
             url664:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -10999,7 +10999,7 @@ function getCensusApiData(url, year, i) {
           },
           set665: {
             url665:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11016,7 +11016,7 @@ function getCensusApiData(url, year, i) {
 
           set666: {
             url666:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11033,7 +11033,7 @@ function getCensusApiData(url, year, i) {
           },
           set667: {
             url667:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11050,7 +11050,7 @@ function getCensusApiData(url, year, i) {
           },
           set668: {
             url668:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11067,7 +11067,7 @@ function getCensusApiData(url, year, i) {
           },
           set669: {
             url669:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11085,7 +11085,7 @@ function getCensusApiData(url, year, i) {
 
           set670: {
             url670:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11102,7 +11102,7 @@ function getCensusApiData(url, year, i) {
           },
           set671: {
             url671:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11119,7 +11119,7 @@ function getCensusApiData(url, year, i) {
           },
           set672: {
             url672:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11136,7 +11136,7 @@ function getCensusApiData(url, year, i) {
           },
           set673: {
             url673:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11154,7 +11154,7 @@ function getCensusApiData(url, year, i) {
 
           set674: {
             url674:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11172,7 +11172,7 @@ function getCensusApiData(url, year, i) {
 
           set675: {
             url675:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11190,7 +11190,7 @@ function getCensusApiData(url, year, i) {
 
           set676: {
             url676:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11206,7 +11206,7 @@ function getCensusApiData(url, year, i) {
 
           set677: {
             url677:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11223,7 +11223,7 @@ function getCensusApiData(url, year, i) {
 
           set678: {
             url678:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11240,7 +11240,7 @@ function getCensusApiData(url, year, i) {
           },
           set679: {
             url679:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11257,7 +11257,7 @@ function getCensusApiData(url, year, i) {
           },
           set680: {
             url680:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11274,7 +11274,7 @@ function getCensusApiData(url, year, i) {
           },
           set681: {
             url681:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11292,7 +11292,7 @@ function getCensusApiData(url, year, i) {
 
           set682: {
             url682:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11309,7 +11309,7 @@ function getCensusApiData(url, year, i) {
           },
           set683: {
             url683:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11326,7 +11326,7 @@ function getCensusApiData(url, year, i) {
           },
           set684: {
             url684:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11343,7 +11343,7 @@ function getCensusApiData(url, year, i) {
           },
           set685: {
             url685:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11361,7 +11361,7 @@ function getCensusApiData(url, year, i) {
 
           set686: {
             url686:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11379,7 +11379,7 @@ function getCensusApiData(url, year, i) {
 
           set687: {
             url687:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11397,7 +11397,7 @@ function getCensusApiData(url, year, i) {
 
           set688: {
             url688:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11415,7 +11415,7 @@ function getCensusApiData(url, year, i) {
 
           set689: {
             url689:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11433,7 +11433,7 @@ function getCensusApiData(url, year, i) {
 
           set690: {
             url690:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11451,7 +11451,7 @@ function getCensusApiData(url, year, i) {
 
           set691: {
             url691:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11469,7 +11469,7 @@ function getCensusApiData(url, year, i) {
 
           set692: {
             url692:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11487,7 +11487,7 @@ function getCensusApiData(url, year, i) {
 
           set693: {
             url693:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11504,7 +11504,7 @@ function getCensusApiData(url, year, i) {
           },
           set694: {
             url694:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11522,7 +11522,7 @@ function getCensusApiData(url, year, i) {
 
           set695: {
             url695:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11540,7 +11540,7 @@ function getCensusApiData(url, year, i) {
 
           set696: {
             url696:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11558,7 +11558,7 @@ function getCensusApiData(url, year, i) {
 
           set697: {
             url697:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11576,7 +11576,7 @@ function getCensusApiData(url, year, i) {
 
           set698: {
             url698:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11594,7 +11594,7 @@ function getCensusApiData(url, year, i) {
 
           set699: {
             url699:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11612,7 +11612,7 @@ function getCensusApiData(url, year, i) {
 
           set700: {
             url700:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11630,7 +11630,7 @@ function getCensusApiData(url, year, i) {
 
           set701: {
             url701:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11649,7 +11649,7 @@ function getCensusApiData(url, year, i) {
 
                   set702: {
                     url702:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -11665,7 +11665,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set703: {
                     url703:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -11682,7 +11682,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set704: {
                     url704:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -11699,7 +11699,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set705: {
                     url705:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -11717,7 +11717,7 @@ function getCensusApiData(url, year, i) {
 
                   set706: {
                     url706:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -11734,7 +11734,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set707: {
                     url707:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -11751,7 +11751,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set708: {
                     url708:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -11768,7 +11768,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set709: {
                     url709:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -11786,7 +11786,7 @@ function getCensusApiData(url, year, i) {
 
                   set710: {
                     url710:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -11803,7 +11803,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set711: {
                     url711:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -11820,7 +11820,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set712: {
                     url712:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -11837,7 +11837,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set713: {
                     url713:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -11855,7 +11855,7 @@ function getCensusApiData(url, year, i) {
 
                   set714: {
                     ur714:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -11872,7 +11872,7 @@ function getCensusApiData(url, year, i) {
 
                   set715: {
                     url715:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -11888,7 +11888,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set716: {
                     ur716:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -11906,7 +11906,7 @@ function getCensusApiData(url, year, i) {
 
                   set717: {
                     url717:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -11924,7 +11924,7 @@ function getCensusApiData(url, year, i) {
 
                   set718: {
                     url718:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -11941,7 +11941,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set719: {
                     url719:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -11958,7 +11958,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set720: {
                     url720:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -11975,7 +11975,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set721: {
                     url721:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -11993,7 +11993,7 @@ function getCensusApiData(url, year, i) {
 
                   set722: {
                     url722:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12011,7 +12011,7 @@ function getCensusApiData(url, year, i) {
 
                   set723: {
                     url723:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12029,7 +12029,7 @@ function getCensusApiData(url, year, i) {
 
                   set724: {
                     url724:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12047,7 +12047,7 @@ function getCensusApiData(url, year, i) {
 
                   set725: {
                     url725:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12065,7 +12065,7 @@ function getCensusApiData(url, year, i) {
 
                   set726: {
                     url726:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12083,7 +12083,7 @@ function getCensusApiData(url, year, i) {
 
                   set727: {
                     url727:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12101,7 +12101,7 @@ function getCensusApiData(url, year, i) {
 
                   set728: {
                     url728:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12119,7 +12119,7 @@ function getCensusApiData(url, year, i) {
 
                   set729: {
                     url729:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12137,7 +12137,7 @@ function getCensusApiData(url, year, i) {
 
                   set730: {
                     url730:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12154,7 +12154,7 @@ function getCensusApiData(url, year, i) {
 
                   set731: {
                     url731:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12171,7 +12171,7 @@ function getCensusApiData(url, year, i) {
 
                   set732: {
                     url732:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12188,7 +12188,7 @@ function getCensusApiData(url, year, i) {
 
                   set733: {
                     url733:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12204,7 +12204,7 @@ function getCensusApiData(url, year, i) {
 
                   set734: {
                     url734:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12219,7 +12219,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set735: {
                     url735:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12235,7 +12235,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set736: {
                     url736:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12251,7 +12251,7 @@ function getCensusApiData(url, year, i) {
                   },
                   set737: {
                     url737:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12268,7 +12268,7 @@ function getCensusApiData(url, year, i) {
 
                   set738: {
                     url738:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12285,7 +12285,7 @@ function getCensusApiData(url, year, i) {
 
                   set739: {
                     url739:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12302,7 +12302,7 @@ function getCensusApiData(url, year, i) {
 
                   set740: {
                     url740:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12319,7 +12319,7 @@ function getCensusApiData(url, year, i) {
 
                   set741: {
                     url741:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12336,7 +12336,7 @@ function getCensusApiData(url, year, i) {
 
                   set742: {
                     url742:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12353,7 +12353,7 @@ function getCensusApiData(url, year, i) {
 
                   set743: {
                     url743:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12370,7 +12370,7 @@ function getCensusApiData(url, year, i) {
 
                   set744: {
                     url744:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12387,7 +12387,7 @@ function getCensusApiData(url, year, i) {
 
                   set745: {
                     url745:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12404,7 +12404,7 @@ function getCensusApiData(url, year, i) {
 
                   set746: {
                     url746:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12421,7 +12421,7 @@ function getCensusApiData(url, year, i) {
 
                   set747: {
                     url747:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12438,7 +12438,7 @@ function getCensusApiData(url, year, i) {
 
                   set748: {
                     url748:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12455,7 +12455,7 @@ function getCensusApiData(url, year, i) {
 
                   set748: {
                     url748:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12472,7 +12472,7 @@ function getCensusApiData(url, year, i) {
 
                   set749: {
                     url749:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12489,7 +12489,7 @@ function getCensusApiData(url, year, i) {
 
                   set750: {
                     url750:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12506,7 +12506,7 @@ function getCensusApiData(url, year, i) {
 
                   set751: {
                     url751:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12523,7 +12523,7 @@ function getCensusApiData(url, year, i) {
 
                   set752: {
                     url752:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12540,7 +12540,7 @@ function getCensusApiData(url, year, i) {
 
                   set753: {
                     url753:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12557,7 +12557,7 @@ function getCensusApiData(url, year, i) {
 
                   set754: {
                     url754:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12574,7 +12574,7 @@ function getCensusApiData(url, year, i) {
 
                   set755: {
                     url755:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12591,7 +12591,7 @@ function getCensusApiData(url, year, i) {
 
                   set756: {
                     url756:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12608,7 +12608,7 @@ function getCensusApiData(url, year, i) {
 
                   set757: {
                     url757:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12625,7 +12625,7 @@ function getCensusApiData(url, year, i) {
 
                   set758: {
                     url758:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12642,7 +12642,7 @@ function getCensusApiData(url, year, i) {
 
                   set759: {
                     url759:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12659,7 +12659,7 @@ function getCensusApiData(url, year, i) {
 
                   set760: {
                     url760:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12676,7 +12676,7 @@ function getCensusApiData(url, year, i) {
 
                   set761: {
                     url761:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12693,7 +12693,7 @@ function getCensusApiData(url, year, i) {
 
                   set762: {
                     url762:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12711,7 +12711,7 @@ function getCensusApiData(url, year, i) {
 
                   set763: {
                     url763:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12729,7 +12729,7 @@ function getCensusApiData(url, year, i) {
 
                   set764: {
                     url764:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12747,7 +12747,7 @@ function getCensusApiData(url, year, i) {
 
                   set765: {
                     url765:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12765,11 +12765,11 @@ function getCensusApiData(url, year, i) {
 
                   set766: {
                     url766:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat766: [
                       "Turnover,Anne Arundel WIA",
                       "Maryland Turnover Rate by Education",
@@ -12782,11 +12782,11 @@ function getCensusApiData(url, year, i) {
 
                   set767: {
                     url767:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat767: [
                       "Turnover,Anne Arundel WIA",
                       "Maryland Turnover Rate by Education",
@@ -12800,11 +12800,11 @@ function getCensusApiData(url, year, i) {
 
                   set768: {
                     url768:
-                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat768: [
                       "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
                       year + "Q3",
@@ -12817,7 +12817,7 @@ function getCensusApiData(url, year, i) {
 
                   set769: {
                   url769:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -12833,7 +12833,7 @@ function getCensusApiData(url, year, i) {
 
                 set770: {
                 url770:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                   year +
                   "-" +
                   "Q2" +
@@ -12849,7 +12849,7 @@ function getCensusApiData(url, year, i) {
 
               set771: {
               url771:
-                "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                 year +
                 "-" +
                 "Q2" +
@@ -12865,7 +12865,7 @@ function getCensusApiData(url, year, i) {
 
               set772: {
               url772:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -12881,7 +12881,7 @@ function getCensusApiData(url, year, i) {
 
               set773: {
               url773:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -12897,7 +12897,7 @@ function getCensusApiData(url, year, i) {
 
               set774: {
               url774:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -12913,7 +12913,7 @@ function getCensusApiData(url, year, i) {
 
               set775: {
               url775:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -12929,7 +12929,7 @@ function getCensusApiData(url, year, i) {
 
               set776: {
               url776:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -12945,7 +12945,7 @@ function getCensusApiData(url, year, i) {
 
               set777: {
               url777:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -12960,7 +12960,7 @@ function getCensusApiData(url, year, i) {
               },
               set778: {
               url778:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -12976,7 +12976,7 @@ function getCensusApiData(url, year, i) {
 
               set779: {
               url779:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -12992,7 +12992,7 @@ function getCensusApiData(url, year, i) {
 
               set780: {
               url780:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -13008,7 +13008,7 @@ function getCensusApiData(url, year, i) {
 
               set781: {
               url781:
-              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -13024,7 +13024,7 @@ function getCensusApiData(url, year, i) {
 
               set782: {
               url782:
-               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+               "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                year +
                "-" +
                "Q1" +
@@ -13040,7 +13040,7 @@ function getCensusApiData(url, year, i) {
 
               set783: {
                 url783:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                   year +
                   "-" +
                   "Q2" +
@@ -13056,7 +13056,7 @@ function getCensusApiData(url, year, i) {
 
                 set784: {
                    url784:
-                     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                      year +
                      "-" +
                      "Q3" +
@@ -13072,7 +13072,7 @@ function getCensusApiData(url, year, i) {
 
                    set785: {
                       url785:
-                        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                         year +
                         "-" +
                         "Q4" +
@@ -13088,7 +13088,7 @@ function getCensusApiData(url, year, i) {
 
                       set786: {
                       url786:
-                        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                         year +
                         "-" +
                         "Q1" +
@@ -13104,7 +13104,7 @@ function getCensusApiData(url, year, i) {
 
                     set787: {
                     url787:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -13120,7 +13120,7 @@ function getCensusApiData(url, year, i) {
 
                   set788: {
                   url788:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -13136,7 +13136,7 @@ function getCensusApiData(url, year, i) {
 
                 set789: {
                 url789:
-                  "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+                  "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                   year +
                   "-" +
                   "Q4" +
@@ -13217,7 +13217,7 @@ for (var i = 33; i < 790; ++i) {
 
         set33: {
           url33:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13233,7 +13233,7 @@ for (var i = 33; i < 790; ++i) {
 
         set34: {
           url34:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13248,7 +13248,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set35: {
           url35:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13263,7 +13263,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set36: {
           url36:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13279,7 +13279,7 @@ for (var i = 33; i < 790; ++i) {
 
         set37: {
           url37:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13296,7 +13296,7 @@ for (var i = 33; i < 790; ++i) {
 
         set38: {
           url38:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13312,7 +13312,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set39: {
           url39:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13328,7 +13328,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set40: {
           url40:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13345,7 +13345,7 @@ for (var i = 33; i < 790; ++i) {
 
         set41: {
           url41:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13361,7 +13361,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set42: {
           url42:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13378,7 +13378,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set43: {
           url43:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13394,7 +13394,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set44: {
           url44:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13411,7 +13411,7 @@ for (var i = 33; i < 790; ++i) {
 
         set45: {
           url45:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13428,7 +13428,7 @@ for (var i = 33; i < 790; ++i) {
 
         set46: {
           url46:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13444,7 +13444,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set47: {
           url47:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13460,7 +13460,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set48: {
           url48:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13477,7 +13477,7 @@ for (var i = 33; i < 790; ++i) {
 
         set49: {
           url49:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13493,7 +13493,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set50: {
           url50:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13509,7 +13509,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set51: {
           url51:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13525,7 +13525,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set52: {
           url52:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13542,7 +13542,7 @@ for (var i = 33; i < 790; ++i) {
 
         set53: {
           url53:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13558,7 +13558,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set54: {
           url54:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13574,7 +13574,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set55: {
           url55:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13590,7 +13590,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set56: {
           url56:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13607,7 +13607,7 @@ for (var i = 33; i < 790; ++i) {
 
         set57: {
           url57:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13623,7 +13623,7 @@ for (var i = 33; i < 790; ++i) {
 
         set58: {
           url58:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13640,7 +13640,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set59: {
           url59:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13657,7 +13657,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set60: {
           url60:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13674,7 +13674,7 @@ for (var i = 33; i < 790; ++i) {
 
         set61: {
           url61:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13691,7 +13691,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set62: {
           url62:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13708,7 +13708,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set63: {
           url63:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13725,7 +13725,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set64: {
           url64:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13743,7 +13743,7 @@ for (var i = 33; i < 790; ++i) {
 
         set65: {
           url65:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13760,7 +13760,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set66: {
           url66:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13777,7 +13777,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set67: {
           url67:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13794,7 +13794,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set68: {
           url68:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13812,7 +13812,7 @@ for (var i = 33; i < 790; ++i) {
 
         set69: {
           url69:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13829,7 +13829,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set70: {
           url70:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13847,7 +13847,7 @@ for (var i = 33; i < 790; ++i) {
 
         set71: {
           url71:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13865,11 +13865,11 @@ for (var i = 33; i < 790; ++i) {
 
         set72: {
           url72:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat72: [
             "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
             year + "Q4",
@@ -13881,7 +13881,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set73: {
           url73:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13898,7 +13898,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set74: {
           url74:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13915,7 +13915,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set75: {
           url75:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13932,7 +13932,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set76: {
           url76:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13949,7 +13949,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set77: {
           url77:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13967,7 +13967,7 @@ for (var i = 33; i < 790; ++i) {
 
         set78: {
           url78:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13984,7 +13984,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set79: {
           url79:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14001,7 +14001,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set80: {
           url80:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14018,7 +14018,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set81: {
           url81:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14036,7 +14036,7 @@ for (var i = 33; i < 790; ++i) {
 
         set82: {
           url82:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14053,7 +14053,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set83: {
           url83:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14070,7 +14070,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set84: {
           url84:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14087,7 +14087,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set85: {
           url85:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14104,7 +14104,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set86: {
           url86:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14121,7 +14121,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set87: {
           url87:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14138,7 +14138,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set88: {
           url88:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14155,7 +14155,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set89: {
           url89:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14173,7 +14173,7 @@ for (var i = 33; i < 790; ++i) {
 
         set90: {
           url90:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14190,7 +14190,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set91: {
           url91:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14207,7 +14207,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set92: {
           url92:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14224,7 +14224,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set93: {
           url93:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14242,7 +14242,7 @@ for (var i = 33; i < 790; ++i) {
 
         set94: {
           url94:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14259,7 +14259,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set95: {
           url95:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14276,7 +14276,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set96: {
           url96:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14293,7 +14293,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set97: {
           url97:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14311,7 +14311,7 @@ for (var i = 33; i < 790; ++i) {
 
         set98: {
           url98:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14328,7 +14328,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set99: {
           url99:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14345,7 +14345,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set100: {
           url100:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14362,7 +14362,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set101: {
           url101:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14379,7 +14379,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set102: {
           url102:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14396,7 +14396,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set103: {
           url103:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14413,7 +14413,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set104: {
           url104:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14430,7 +14430,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set105: {
           url105:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14446,7 +14446,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set106: {
           url106:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14462,7 +14462,7 @@ for (var i = 33; i < 790; ++i) {
 
         set107: {
           url107:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14479,7 +14479,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set108: {
           url108:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14496,7 +14496,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set109: {
           url109:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14513,7 +14513,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set110: {
           url110:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14530,7 +14530,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set111: {
           url111:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14547,7 +14547,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set112: {
           url112:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14564,7 +14564,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set113: {
           url113:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14582,7 +14582,7 @@ for (var i = 33; i < 790; ++i) {
 
         set114: {
           url114:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14599,7 +14599,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set115: {
           url115:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14616,7 +14616,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set116: {
           url116:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14633,7 +14633,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set117: {
           url117:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14651,7 +14651,7 @@ for (var i = 33; i < 790; ++i) {
 
         set118: {
           url118:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14668,7 +14668,7 @@ for (var i = 33; i < 790; ++i) {
           },
         set119: {
           url119:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14685,7 +14685,7 @@ for (var i = 33; i < 790; ++i) {
           },
         set120: {
           url120:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14702,7 +14702,7 @@ for (var i = 33; i < 790; ++i) {
           },
         set121: {
           url121:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14719,7 +14719,7 @@ for (var i = 33; i < 790; ++i) {
           },
         set122: {
           url122:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14736,7 +14736,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set123: {
           url123:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14753,7 +14753,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set124: {
           url124:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14770,7 +14770,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set125: {
           url125:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14788,7 +14788,7 @@ for (var i = 33; i < 790; ++i) {
 
         set126: {
           url126:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14805,7 +14805,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set127: {
           url127:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14822,7 +14822,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set128: {
           url128:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14839,7 +14839,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set129: {
           url129:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14857,7 +14857,7 @@ for (var i = 33; i < 790; ++i) {
 
         set130: {
           url130:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14874,7 +14874,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set131: {
           url131:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14891,7 +14891,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set132: {
           url132:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14908,7 +14908,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set133: {
           url133:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14926,7 +14926,7 @@ for (var i = 33; i < 790; ++i) {
 
         set134: {
           url134:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14943,7 +14943,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set135: {
           url135:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14960,7 +14960,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set136: {
           url136:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14977,7 +14977,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set137: {
           url137:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14995,7 +14995,7 @@ for (var i = 33; i < 790; ++i) {
 
         set138: {
           url138:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15012,7 +15012,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set139: {
           url139:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15029,7 +15029,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set140: {
           url140:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15046,7 +15046,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set141: {
           url141:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15064,7 +15064,7 @@ for (var i = 33; i < 790; ++i) {
 
         set142: {
           url142:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15081,7 +15081,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set143: {
           url143:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15098,7 +15098,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set144: {
           url144:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15115,7 +15115,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set145: {
           url145:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15133,7 +15133,7 @@ for (var i = 33; i < 790; ++i) {
 
         set146: {
           url146:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15150,7 +15150,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set147: {
           url147:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15167,7 +15167,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set148: {
           url148:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15184,7 +15184,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set149: {
           url149:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15202,7 +15202,7 @@ for (var i = 33; i < 790; ++i) {
 
         set150: {
           url150:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15219,7 +15219,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set151: {
           url151:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15236,7 +15236,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set152: {
           url152:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15253,7 +15253,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set153: {
           url153:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15271,7 +15271,7 @@ for (var i = 33; i < 790; ++i) {
 
         set154: {
           url154:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15286,7 +15286,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set155: {
           url155:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15303,7 +15303,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set156: {
           url156:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15320,7 +15320,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set157: {
           url157:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15338,7 +15338,7 @@ for (var i = 33; i < 790; ++i) {
 
         set158: {
           url158:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15355,7 +15355,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set159: {
           url159:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15372,7 +15372,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set160: {
           url160:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15389,7 +15389,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set161: {
           url161:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15407,7 +15407,7 @@ for (var i = 33; i < 790; ++i) {
 
         set162: {
           url162:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15424,7 +15424,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set163: {
           url163:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15441,7 +15441,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set164: {
           url164:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15458,7 +15458,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set165: {
           url165:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15476,7 +15476,7 @@ for (var i = 33; i < 790; ++i) {
 
         set166: {
           url166:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15493,7 +15493,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set167: {
           url167:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15510,7 +15510,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set168: {
           url168:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15527,7 +15527,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set169: {
           url169:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15545,7 +15545,7 @@ for (var i = 33; i < 790; ++i) {
 
         set170: {
           url170:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15562,7 +15562,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set171: {
           url171:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15579,7 +15579,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set172: {
           url172:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15596,7 +15596,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set173: {
           url173:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15614,7 +15614,7 @@ for (var i = 33; i < 790; ++i) {
 
         set174: {
           url174:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15631,7 +15631,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set175: {
           url175:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15648,7 +15648,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set176: {
           url176:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15665,7 +15665,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set177: {
           url177:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15683,7 +15683,7 @@ for (var i = 33; i < 790; ++i) {
 
         set178: {
           url178:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15699,7 +15699,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set179: {
           url179:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15716,7 +15716,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set180: {
           url180:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15733,7 +15733,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set181: {
           url181:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15751,7 +15751,7 @@ for (var i = 33; i < 790; ++i) {
 
         set182: {
           url182:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15768,7 +15768,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set183: {
           url183:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15785,7 +15785,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set184: {
           url184:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15802,7 +15802,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set185: {
           url185:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15820,7 +15820,7 @@ for (var i = 33; i < 790; ++i) {
 
         set186: {
           url186:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15837,7 +15837,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set187: {
           url187:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15854,7 +15854,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set188: {
           url188:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15871,7 +15871,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set189: {
           url189:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15889,7 +15889,7 @@ for (var i = 33; i < 790; ++i) {
 
         set190: {
           url190:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15906,7 +15906,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set191: {
           url191:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15923,7 +15923,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set192: {
           url192:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15940,7 +15940,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set193: {
           url193:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15958,7 +15958,7 @@ for (var i = 33; i < 790; ++i) {
 
         set194: {
           url194:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15975,7 +15975,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set195: {
           url195:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15992,7 +15992,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set196: {
           url196:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16009,7 +16009,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set197: {
           url197:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16027,7 +16027,7 @@ for (var i = 33; i < 790; ++i) {
 
         set198: {
           url198:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16044,7 +16044,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set199: {
           url199:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16061,7 +16061,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set200: {
           url200:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16078,7 +16078,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set201: {
           url201:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16094,7 +16094,7 @@ for (var i = 33; i < 790; ++i) {
 
         set202: {
           url202:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16109,7 +16109,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set203: {
           url203:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16126,7 +16126,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set204: {
           url204:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16143,7 +16143,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set205: {
           url205:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16161,7 +16161,7 @@ for (var i = 33; i < 790; ++i) {
 
         set206: {
           url206:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16178,7 +16178,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set207: {
           url207:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16195,7 +16195,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set208: {
           url208:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16212,7 +16212,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set209: {
           url209:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16230,7 +16230,7 @@ for (var i = 33; i < 790; ++i) {
 
         set210: {
           url210:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16247,7 +16247,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set211: {
           url211:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16264,7 +16264,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set212: {
           url212:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16281,7 +16281,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set213: {
           url213:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16299,7 +16299,7 @@ for (var i = 33; i < 790; ++i) {
 
         set214: {
           url214:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16316,7 +16316,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set215: {
           url215:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16333,7 +16333,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set216: {
           url216:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16350,7 +16350,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set217: {
           url217:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16368,7 +16368,7 @@ for (var i = 33; i < 790; ++i) {
 
         set218: {
           url218:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16383,7 +16383,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set219: {
           url219:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16400,7 +16400,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set220: {
           url220:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16417,7 +16417,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set221: {
           url221:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16435,7 +16435,7 @@ for (var i = 33; i < 790; ++i) {
 
         set222: {
           url222:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16451,7 +16451,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set223: {
           url223:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16468,7 +16468,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set224: {
           url224:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16485,7 +16485,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set225: {
           url225:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16503,7 +16503,7 @@ for (var i = 33; i < 790; ++i) {
 
         set226: {
           url226:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16518,7 +16518,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set227: {
           url227:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16535,7 +16535,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set228: {
           url228:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16552,7 +16552,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set229: {
           url229:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16570,7 +16570,7 @@ for (var i = 33; i < 790; ++i) {
 
         set230: {
           url230:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16587,7 +16587,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set231: {
           url231:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16604,7 +16604,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set232: {
           url232:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16621,7 +16621,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set233: {
           url233:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16639,7 +16639,7 @@ for (var i = 33; i < 790; ++i) {
 
         set234: {
           url234:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16657,7 +16657,7 @@ for (var i = 33; i < 790; ++i) {
 
         set235: {
           url235:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16674,7 +16674,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set236: {
           url236:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16691,7 +16691,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set237: {
           url237:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16709,7 +16709,7 @@ for (var i = 33; i < 790; ++i) {
 
         set238: {
           url238:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16726,7 +16726,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set239: {
           url239:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16743,7 +16743,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set240: {
           url240:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16760,7 +16760,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set241: {
           url241:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16778,7 +16778,7 @@ for (var i = 33; i < 790; ++i) {
 
         set242: {
           url242:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16795,7 +16795,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set243: {
           url243:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16812,7 +16812,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set244: {
           url244:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16829,7 +16829,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set245: {
           url245:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16847,7 +16847,7 @@ for (var i = 33; i < 790; ++i) {
 
         set246: {
           url246:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16864,7 +16864,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set247: {
           url247:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16881,7 +16881,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set248: {
           url248:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16898,7 +16898,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set249: {
           url249:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16916,7 +16916,7 @@ for (var i = 33; i < 790; ++i) {
 
         set250: {
           url250:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16933,7 +16933,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set251: {
           url251:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16950,7 +16950,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set252: {
           url252:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16967,7 +16967,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set253: {
           url253:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16985,7 +16985,7 @@ for (var i = 33; i < 790; ++i) {
 
         set254: {
           url254:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17002,7 +17002,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set255: {
           url255:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17019,7 +17019,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set256: {
           url256:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17036,7 +17036,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set257: {
           url257:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17054,7 +17054,7 @@ for (var i = 33; i < 790; ++i) {
 
         set258: {
           url258:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17071,7 +17071,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set259: {
           url259:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17088,7 +17088,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set260: {
           url260:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17105,7 +17105,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set261: {
           url261:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17123,7 +17123,7 @@ for (var i = 33; i < 790; ++i) {
 
         set262: {
           url262:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17140,7 +17140,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set263: {
           url263:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17157,7 +17157,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set264: {
           url264:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17174,7 +17174,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set265: {
           url265:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17192,7 +17192,7 @@ for (var i = 33; i < 790; ++i) {
 
         set266: {
           url266:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17209,7 +17209,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set267: {
           url267:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17226,7 +17226,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set268: {
           url268:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17243,7 +17243,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set269: {
           url269:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17261,7 +17261,7 @@ for (var i = 33; i < 790; ++i) {
 
         set270: {
           url270:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17278,7 +17278,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set271: {
           url271:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17295,7 +17295,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set272: {
           url272:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17312,7 +17312,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set273: {
           url273:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17330,7 +17330,7 @@ for (var i = 33; i < 790; ++i) {
 
         set274: {
           url274:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17347,7 +17347,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set275: {
           url275:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17364,7 +17364,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set276: {
           url276:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17381,7 +17381,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set277: {
           url277:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17399,7 +17399,7 @@ for (var i = 33; i < 790; ++i) {
 
         set278: {
           url278:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17416,7 +17416,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set279: {
           url279:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17433,7 +17433,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set280: {
           url280:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17450,7 +17450,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set281: {
           url281:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17468,7 +17468,7 @@ for (var i = 33; i < 790; ++i) {
 
         set282: {
           url282:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17485,7 +17485,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set283: {
           url283:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17502,7 +17502,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set284: {
           url284:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17519,7 +17519,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set285: {
           url285:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17537,7 +17537,7 @@ for (var i = 33; i < 790; ++i) {
 
         set286: {
           url286:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17554,7 +17554,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set287: {
           url287:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17571,7 +17571,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set288: {
           url288:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17588,7 +17588,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set289: {
           url289:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17606,7 +17606,7 @@ for (var i = 33; i < 790; ++i) {
 
         set290: {
           url290:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17623,7 +17623,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set291: {
           url291:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17640,7 +17640,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set292: {
           url292:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17657,7 +17657,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set293: {
           url293:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17675,7 +17675,7 @@ for (var i = 33; i < 790; ++i) {
 
         set294: {
           url294:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17692,7 +17692,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set295: {
           url295:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17709,7 +17709,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set296: {
           url296:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17726,7 +17726,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set297: {
           url297:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17744,7 +17744,7 @@ for (var i = 33; i < 790; ++i) {
 
         set298: {
           url298:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17759,7 +17759,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set299: {
           url299:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17776,7 +17776,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set300: {
           url300:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17793,7 +17793,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set301: {
           url301:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17811,7 +17811,7 @@ for (var i = 33; i < 790; ++i) {
 
         set302: {
           url302:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17828,7 +17828,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set303: {
           url303:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17845,7 +17845,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set304: {
           url304:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17862,7 +17862,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set305: {
           url305:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17880,7 +17880,7 @@ for (var i = 33; i < 790; ++i) {
 
         set306: {
           url306:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17897,7 +17897,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set307: {
           url307:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17914,7 +17914,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set308: {
           url308:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17931,7 +17931,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set309: {
           url309:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17949,7 +17949,7 @@ for (var i = 33; i < 790; ++i) {
 
         set310: {
           url310:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17966,7 +17966,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set311: {
           url311:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17983,7 +17983,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set312: {
           url312:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18000,7 +18000,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set313: {
           url313:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18018,7 +18018,7 @@ for (var i = 33; i < 790; ++i) {
 
         set314: {
           url314:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18035,7 +18035,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set315: {
           url315:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18052,7 +18052,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set316: {
           url316:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18069,7 +18069,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set317: {
           url317:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18087,7 +18087,7 @@ for (var i = 33; i < 790; ++i) {
 
         set318: {
           url318:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18104,7 +18104,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set319: {
           url319:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18121,7 +18121,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set320: {
           url320:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18138,7 +18138,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set321: {
           url321:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18156,7 +18156,7 @@ for (var i = 33; i < 790; ++i) {
 
         set322: {
           url322:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18173,7 +18173,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set323: {
           url323:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18190,7 +18190,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set324: {
           url324:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18207,7 +18207,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set325: {
           url325:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18225,7 +18225,7 @@ for (var i = 33; i < 790; ++i) {
 
         set326: {
           url326:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18242,7 +18242,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set327: {
           url327:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18259,7 +18259,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set328: {
           url328:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18276,7 +18276,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set329: {
           url329:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18294,7 +18294,7 @@ for (var i = 33; i < 790; ++i) {
 
         set330: {
           url330:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18311,7 +18311,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set331: {
           url331:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18328,7 +18328,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set332: {
           url332:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18345,7 +18345,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set333: {
           url333:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18363,7 +18363,7 @@ for (var i = 33; i < 790; ++i) {
 
         set334: {
           url334:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18380,7 +18380,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set335: {
           url335:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18397,7 +18397,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set336: {
           url336:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18414,7 +18414,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set337: {
           url337:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18432,7 +18432,7 @@ for (var i = 33; i < 790; ++i) {
 
         set338: {
           url338:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18449,7 +18449,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set339: {
           url339:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18466,7 +18466,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set340: {
           url340:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18483,7 +18483,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set341: {
           url341:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18501,7 +18501,7 @@ for (var i = 33; i < 790; ++i) {
 
         set342: {
           url342:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18518,7 +18518,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set343: {
           url343:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18535,7 +18535,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set344: {
           url344:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18552,7 +18552,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set345: {
           url345:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18570,7 +18570,7 @@ for (var i = 33; i < 790; ++i) {
 
         set346: {
           url346:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18587,7 +18587,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set347: {
           url347:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18604,7 +18604,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set348: {
           url348:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18621,7 +18621,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set349: {
           url349:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18639,7 +18639,7 @@ for (var i = 33; i < 790; ++i) {
 
         set350: {
           url350:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18656,7 +18656,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set351: {
           url351:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18673,7 +18673,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set352: {
           url352:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18690,7 +18690,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set353: {
           url353:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18708,7 +18708,7 @@ for (var i = 33; i < 790; ++i) {
 
         set354: {
           url354:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18725,7 +18725,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set355: {
           url355:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18742,7 +18742,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set356: {
           url356:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18759,7 +18759,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set357: {
           url357:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18777,7 +18777,7 @@ for (var i = 33; i < 790; ++i) {
 
         set358: {
           url358:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18794,7 +18794,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set359: {
           url359:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18811,7 +18811,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set360: {
           url360:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18828,7 +18828,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set361: {
           url361:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18846,7 +18846,7 @@ for (var i = 33; i < 790; ++i) {
 
         set362: {
           url362:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18863,7 +18863,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set363: {
           url363:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18880,7 +18880,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set364: {
           url364:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18897,7 +18897,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set365: {
           url365:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18914,7 +18914,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set366: {
           url366:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18931,7 +18931,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set367: {
           url367:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18948,7 +18948,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set368: {
           url368:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18965,7 +18965,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set369: {
           url369:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18983,7 +18983,7 @@ for (var i = 33; i < 790; ++i) {
 
         set370: {
           url370:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19000,7 +19000,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set371: {
           url371:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19017,7 +19017,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set372: {
           url372:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19034,7 +19034,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set373: {
           url373:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19052,7 +19052,7 @@ for (var i = 33; i < 790; ++i) {
 
         set374: {
           url374:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19069,7 +19069,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set375: {
           url375:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19086,7 +19086,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set376: {
           url376:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19103,7 +19103,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set377: {
           url377:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19121,7 +19121,7 @@ for (var i = 33; i < 790; ++i) {
 
         set378: {
           url378:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19138,7 +19138,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set379: {
           url379:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19155,7 +19155,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set380: {
           url380:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19172,7 +19172,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set381: {
           url381:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19190,7 +19190,7 @@ for (var i = 33; i < 790; ++i) {
 
         set382: {
           url382:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19207,7 +19207,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set383: {
           url383:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19224,7 +19224,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set384: {
           url384:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19241,7 +19241,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set385: {
           url385:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19259,7 +19259,7 @@ for (var i = 33; i < 790; ++i) {
 
         set386: {
           url386:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19276,7 +19276,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set387: {
           url387:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19293,7 +19293,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set388: {
           url388:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19310,7 +19310,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set389: {
           url389:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19328,7 +19328,7 @@ for (var i = 33; i < 790; ++i) {
 
         set390: {
           url390:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19345,7 +19345,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set391: {
           url391:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19362,7 +19362,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set392: {
           url392:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19379,7 +19379,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set393: {
           url393:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19397,7 +19397,7 @@ for (var i = 33; i < 790; ++i) {
 
         set394: {
           url394:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19414,7 +19414,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set395: {
           url395:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19431,7 +19431,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set396: {
           url396:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19448,7 +19448,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set397: {
           url397:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19466,7 +19466,7 @@ for (var i = 33; i < 790; ++i) {
 
         set398: {
           url398:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19483,7 +19483,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set399: {
           url399:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19500,7 +19500,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set400: {
           url400:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19517,7 +19517,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set401: {
           url401:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19535,7 +19535,7 @@ for (var i = 33; i < 790; ++i) {
 
         set402: {
           url402:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19552,7 +19552,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set403: {
           url403:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19569,7 +19569,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set404: {
           url404:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19586,7 +19586,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set405: {
           url405:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19604,7 +19604,7 @@ for (var i = 33; i < 790; ++i) {
 
         set406: {
           url406:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19621,7 +19621,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set407: {
           url407:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19638,7 +19638,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set408: {
           url408:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19655,7 +19655,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set409: {
           url409:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19673,7 +19673,7 @@ for (var i = 33; i < 790; ++i) {
 
         set410: {
           url410:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19690,7 +19690,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set411: {
           url411:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19707,7 +19707,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set412: {
           url412:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19724,7 +19724,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set413: {
           url413:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19742,7 +19742,7 @@ for (var i = 33; i < 790; ++i) {
 
         set414: {
           url414:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19759,7 +19759,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set415: {
           url415:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19776,7 +19776,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set416: {
           url416:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19793,7 +19793,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set417: {
           url417:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19811,7 +19811,7 @@ for (var i = 33; i < 790; ++i) {
 
         set418: {
           url418:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19828,7 +19828,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set419: {
           url419:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19845,7 +19845,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set420: {
           url420:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19862,7 +19862,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set421: {
           url421:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19880,7 +19880,7 @@ for (var i = 33; i < 790; ++i) {
 
         set422: {
           url422:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19897,7 +19897,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set423: {
           url423:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19914,7 +19914,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set424: {
           url424:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19931,7 +19931,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set425: {
           url425:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19949,7 +19949,7 @@ for (var i = 33; i < 790; ++i) {
 
         set426: {
           url426:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19966,7 +19966,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set427: {
           url427:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19983,7 +19983,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set428: {
           url428:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20000,7 +20000,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set429: {
           url429:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20018,7 +20018,7 @@ for (var i = 33; i < 790; ++i) {
 
         set430: {
           url430:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20035,7 +20035,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set431: {
           url431:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20052,7 +20052,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set432: {
           url432:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20069,7 +20069,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set433: {
           url433:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20087,7 +20087,7 @@ for (var i = 33; i < 790; ++i) {
 
         set434: {
           url434:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20104,7 +20104,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set435: {
           url435:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20121,7 +20121,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set436: {
           url436:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20138,7 +20138,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set437: {
           url437:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20156,7 +20156,7 @@ for (var i = 33; i < 790; ++i) {
 
         set438: {
           url438:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20173,7 +20173,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set439: {
           url439:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20190,7 +20190,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set440: {
           url440:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20207,7 +20207,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set441: {
           url441:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20225,7 +20225,7 @@ for (var i = 33; i < 790; ++i) {
 
         set442: {
           url442:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20242,7 +20242,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set443: {
           url443:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20259,7 +20259,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set444: {
           url444:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20276,7 +20276,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set445: {
           url445:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20294,7 +20294,7 @@ for (var i = 33; i < 790; ++i) {
 
         set446: {
           url446:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20311,7 +20311,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set447: {
           url447:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20328,7 +20328,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set448: {
           url448:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20345,7 +20345,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set449: {
           url449:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20363,7 +20363,7 @@ for (var i = 33; i < 790; ++i) {
 
         set450: {
           url450:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20380,7 +20380,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set451: {
           url451:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20397,7 +20397,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set452: {
           url452:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20414,7 +20414,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set453: {
           url453:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20432,7 +20432,7 @@ for (var i = 33; i < 790; ++i) {
 
         set454: {
           url454:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20449,7 +20449,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set455: {
           url455:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20466,7 +20466,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set456: {
           url456:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20483,7 +20483,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set457: {
           url457:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20501,7 +20501,7 @@ for (var i = 33; i < 790; ++i) {
 
         set458: {
           url458:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20518,7 +20518,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set459: {
           url459:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20535,7 +20535,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set460: {
           url460:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20552,7 +20552,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set461: {
           url461:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20570,7 +20570,7 @@ for (var i = 33; i < 790; ++i) {
 
         set462: {
           url462:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20587,7 +20587,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set463: {
           url463:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20604,7 +20604,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set464: {
           url464:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20621,7 +20621,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set465: {
           url465:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20639,7 +20639,7 @@ for (var i = 33; i < 790; ++i) {
 
         set466: {
           url466:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20654,7 +20654,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set467: {
           url467:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20671,7 +20671,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set468: {
           url468:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20688,7 +20688,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set469: {
           url469:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20706,7 +20706,7 @@ for (var i = 33; i < 790; ++i) {
 
         set470: {
           url470:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20723,7 +20723,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set471: {
           url471:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20740,7 +20740,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set472: {
           url472:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20757,7 +20757,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set473: {
           url473:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20775,7 +20775,7 @@ for (var i = 33; i < 790; ++i) {
 
         set474: {
           url474:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20792,7 +20792,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set475: {
           url475:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20809,7 +20809,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set476: {
           url476:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20826,7 +20826,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set477: {
           url477:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20844,7 +20844,7 @@ for (var i = 33; i < 790; ++i) {
 
         set478: {
           url478:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20861,7 +20861,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set479: {
           url479:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20878,7 +20878,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set480: {
           url480:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20895,7 +20895,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set481: {
           url481:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20913,7 +20913,7 @@ for (var i = 33; i < 790; ++i) {
 
         set482: {
           url482:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20930,7 +20930,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set483: {
           url483:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20947,7 +20947,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set484: {
           url484:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20964,7 +20964,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set485: {
           url485:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20982,7 +20982,7 @@ for (var i = 33; i < 790; ++i) {
 
         set486: {
           url486:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20999,7 +20999,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set487: {
           url487:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21016,7 +21016,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set488: {
           url488:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21033,7 +21033,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set489: {
           url489:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21051,7 +21051,7 @@ for (var i = 33; i < 790; ++i) {
 
         set490: {
           url490:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21068,7 +21068,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set491: {
           url491:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21085,7 +21085,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set492: {
           url492:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21102,7 +21102,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set493: {
           url493:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21120,7 +21120,7 @@ for (var i = 33; i < 790; ++i) {
 
         set494: {
           url494:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21137,7 +21137,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set495: {
           url495:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21154,7 +21154,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set496: {
           url496:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21171,7 +21171,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set497: {
           url497:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21189,7 +21189,7 @@ for (var i = 33; i < 790; ++i) {
 
         set498: {
           url498:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21206,7 +21206,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set499: {
           url499:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21223,7 +21223,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set500: {
           url500:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21240,7 +21240,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set501: {
           url501:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21258,7 +21258,7 @@ for (var i = 33; i < 790; ++i) {
 
         set502: {
           url502:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21275,7 +21275,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set503: {
           url503:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21292,7 +21292,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set504: {
           url504:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21309,7 +21309,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set505: {
           url505:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21327,7 +21327,7 @@ for (var i = 33; i < 790; ++i) {
 
         set506: {
           url506:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21344,7 +21344,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set507: {
           url507:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21361,7 +21361,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set508: {
           url508:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21378,7 +21378,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set509: {
           url509:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21396,7 +21396,7 @@ for (var i = 33; i < 790; ++i) {
 
         set510: {
           url510:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21413,7 +21413,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set511: {
           url511:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21430,7 +21430,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set512: {
           url512:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21447,7 +21447,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set513: {
           url513:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21465,7 +21465,7 @@ for (var i = 33; i < 790; ++i) {
 
         set514: {
           url514:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21481,7 +21481,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set515: {
           url515:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21497,7 +21497,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set516: {
           url516:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21513,7 +21513,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set517: {
           url517:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21530,7 +21530,7 @@ for (var i = 33; i < 790; ++i) {
 
         set518: {
           url518:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21546,7 +21546,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set519: {
           url519:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21562,7 +21562,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set520: {
           url520:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21578,7 +21578,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set521: {
           url521:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21595,7 +21595,7 @@ for (var i = 33; i < 790; ++i) {
 
         set522: {
           url522:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21611,7 +21611,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set523: {
           url523:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21627,7 +21627,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set524: {
           url524:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21643,7 +21643,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set525: {
           url525:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21660,7 +21660,7 @@ for (var i = 33; i < 790; ++i) {
 
         set526: {
           url526:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21676,7 +21676,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set527: {
           url527:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21693,7 +21693,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set528: {
           url528:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21709,7 +21709,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set529: {
           url529:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21726,7 +21726,7 @@ for (var i = 33; i < 790; ++i) {
 
         set530: {
           url530:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21742,7 +21742,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set531: {
           url531:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21758,7 +21758,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set532: {
           url532:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21774,7 +21774,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set533: {
           url533:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21791,7 +21791,7 @@ for (var i = 33; i < 790; ++i) {
 
         set534: {
           url534:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21807,7 +21807,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set535: {
           url535:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21823,7 +21823,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set536: {
           url536:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21839,7 +21839,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set537: {
           url537:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21857,7 +21857,7 @@ for (var i = 33; i < 790; ++i) {
 
         set538: {
           url538:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21874,7 +21874,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set539: {
           url539:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21891,7 +21891,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set540: {
           url540:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21908,7 +21908,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set541: {
           url541:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21926,7 +21926,7 @@ for (var i = 33; i < 790; ++i) {
 
         set542: {
           url542:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21943,7 +21943,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set543: {
           url543:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21960,7 +21960,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set544: {
           url544:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21977,7 +21977,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set545: {
           url545:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21995,7 +21995,7 @@ for (var i = 33; i < 790; ++i) {
 
         set546: {
           url546:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22012,7 +22012,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set547: {
           url547:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22029,7 +22029,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set548: {
           url548:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22046,7 +22046,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set549: {
           url549:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22064,7 +22064,7 @@ for (var i = 33; i < 790; ++i) {
 
         set550: {
           url550:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22081,7 +22081,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set551: {
           url551:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22098,7 +22098,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set552: {
           url552:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22115,7 +22115,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set553: {
           url553:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22133,7 +22133,7 @@ for (var i = 33; i < 790; ++i) {
 
         set554: {
           url554:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22150,7 +22150,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set555: {
           url555:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22167,7 +22167,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set556: {
           url556:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22184,7 +22184,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set557: {
           url557:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22202,7 +22202,7 @@ for (var i = 33; i < 790; ++i) {
 
         set558: {
           url558:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22219,7 +22219,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set559: {
           url559:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22236,7 +22236,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set560: {
           url560:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22253,7 +22253,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set561: {
           url561:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22271,7 +22271,7 @@ for (var i = 33; i < 790; ++i) {
 
         set562: {
           url562:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22288,7 +22288,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set563: {
           url563:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22305,7 +22305,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set564: {
           url564:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22322,7 +22322,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set565: {
           url565:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22340,7 +22340,7 @@ for (var i = 33; i < 790; ++i) {
 
         set566: {
           url566:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22357,7 +22357,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set567: {
           url567:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22374,7 +22374,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set568: {
           url568:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22391,7 +22391,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set569: {
           url569:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22409,7 +22409,7 @@ for (var i = 33; i < 790; ++i) {
 
         set570: {
           url570:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22426,7 +22426,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set571: {
           url571:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22443,7 +22443,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set572: {
           url572:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22460,7 +22460,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set573: {
           url573:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22478,7 +22478,7 @@ for (var i = 33; i < 790; ++i) {
 
         set574: {
           url574:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22495,7 +22495,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set575: {
           url575:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22512,7 +22512,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set576: {
           url576:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22529,7 +22529,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set577: {
           url577:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22547,7 +22547,7 @@ for (var i = 33; i < 790; ++i) {
 
         set578: {
           url578:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22564,7 +22564,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set579: {
           url579:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22581,7 +22581,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set580: {
           url580:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22598,7 +22598,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set581: {
           url581:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22616,7 +22616,7 @@ for (var i = 33; i < 790; ++i) {
 
         set582: {
           url582:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22633,7 +22633,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set583: {
           url583:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22650,7 +22650,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set584: {
           url584:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22667,7 +22667,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set585: {
           url585:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22685,7 +22685,7 @@ for (var i = 33; i < 790; ++i) {
 
         set586: {
           url586:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22702,7 +22702,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set587: {
           url587:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22719,7 +22719,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set588: {
           url588:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22736,7 +22736,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set589: {
           url589:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22754,7 +22754,7 @@ for (var i = 33; i < 790; ++i) {
 
         set590: {
           url590:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22771,7 +22771,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set591: {
           url591:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22788,7 +22788,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set592: {
           url592:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22805,7 +22805,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set593: {
           url593:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22823,7 +22823,7 @@ for (var i = 33; i < 790; ++i) {
 
         set594: {
           url594:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22840,7 +22840,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set595: {
           url595:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22857,7 +22857,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set596: {
           url596:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22874,7 +22874,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set597: {
           url597:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22892,7 +22892,7 @@ for (var i = 33; i < 790; ++i) {
 
         set598: {
           url598:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22908,7 +22908,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set599: {
           url599:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22924,7 +22924,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set600: {
           url600:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -22941,7 +22941,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set601: {
           url601:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -22958,7 +22958,7 @@ for (var i = 33; i < 790; ++i) {
 
         set602: {
           url602:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -22975,7 +22975,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set603: {
           url603:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -22992,7 +22992,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set604: {
           url604:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23009,7 +23009,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set605: {
           url605:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23027,7 +23027,7 @@ for (var i = 33; i < 790; ++i) {
 
         set606: {
           url606:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23044,7 +23044,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set607: {
           url607:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23061,7 +23061,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set608: {
           url608:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23078,7 +23078,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set609: {
           url609:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23096,7 +23096,7 @@ for (var i = 33; i < 790; ++i) {
 
         set610: {
           url610:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23114,7 +23114,7 @@ for (var i = 33; i < 790; ++i) {
 
         set611: {
           url611:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23131,7 +23131,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set612: {
           url612:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23148,7 +23148,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set613: {
           url613:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23166,7 +23166,7 @@ for (var i = 33; i < 790; ++i) {
 
         set614: {
           url614:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23181,7 +23181,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set615: {
           url615:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23198,7 +23198,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set616: {
           url616:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23215,7 +23215,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set617: {
           url617:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23233,7 +23233,7 @@ for (var i = 33; i < 790; ++i) {
 
         set618: {
           url618:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23250,7 +23250,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set619: {
           url619:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23267,7 +23267,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set620: {
           url620:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23284,7 +23284,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set621: {
           url621:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23302,7 +23302,7 @@ for (var i = 33; i < 790; ++i) {
 
         set622: {
           url622:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23318,7 +23318,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set623: {
           url623:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23335,7 +23335,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set624: {
           url624:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23352,7 +23352,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set625: {
           url625:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23370,7 +23370,7 @@ for (var i = 33; i < 790; ++i) {
 
         set626: {
           url626:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23387,7 +23387,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set627: {
           url627:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23404,7 +23404,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set628: {
           url628:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23420,7 +23420,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set629: {
           url629:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23437,7 +23437,7 @@ for (var i = 33; i < 790; ++i) {
 
         set630: {
           url630:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23453,7 +23453,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set631: {
           url631:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23469,7 +23469,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set632: {
           url632:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23485,7 +23485,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set633: {
           url633:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23503,7 +23503,7 @@ for (var i = 33; i < 790; ++i) {
 
         set634: {
           url634:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23520,7 +23520,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set635: {
           url635:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23537,7 +23537,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set636: {
           url636:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23554,7 +23554,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set637: {
           url637:
-            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23572,7 +23572,7 @@ for (var i = 33; i < 790; ++i) {
 
         set638: {
           url638:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23589,7 +23589,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set639: {
           url639:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23606,7 +23606,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set640: {
           url640:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23623,7 +23623,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set641: {
           url641:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23641,7 +23641,7 @@ for (var i = 33; i < 790; ++i) {
 
         set642: {
           url642:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23658,7 +23658,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set643: {
           url643:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23675,7 +23675,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set644: {
           url644:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23692,7 +23692,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set645: {
           url645:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23710,7 +23710,7 @@ for (var i = 33; i < 790; ++i) {
 
         set646: {
           url646:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23727,7 +23727,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set647: {
           url647:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23744,7 +23744,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set648: {
           url648:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23760,7 +23760,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set649: {
           url649:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23777,7 +23777,7 @@ for (var i = 33; i < 790; ++i) {
 
         set650: {
           url650:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23794,7 +23794,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set651: {
           url651:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23811,7 +23811,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set652: {
           url652:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23828,7 +23828,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set653: {
           url653:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23846,7 +23846,7 @@ for (var i = 33; i < 790; ++i) {
 
         set654: {
           url654:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23861,7 +23861,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set655: {
           url655:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23878,7 +23878,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set656: {
           url656:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23895,7 +23895,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set657: {
           url657:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23913,7 +23913,7 @@ for (var i = 33; i < 790; ++i) {
 
         set658: {
           url658:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23930,7 +23930,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set659: {
           url659:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23947,7 +23947,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set660: {
           url660:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23964,7 +23964,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set661: {
           url661:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23982,7 +23982,7 @@ for (var i = 33; i < 790; ++i) {
 
         set662: {
           url662:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23999,7 +23999,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set663: {
           url663:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24015,7 +24015,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set664: {
           url664:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24031,7 +24031,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set665: {
           url665:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24048,7 +24048,7 @@ for (var i = 33; i < 790; ++i) {
 
         set666: {
           url666:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24065,7 +24065,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set667: {
           url667:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24082,7 +24082,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set668: {
           url668:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24099,7 +24099,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set669: {
           url669:
-            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24117,7 +24117,7 @@ for (var i = 33; i < 790; ++i) {
 
         set670: {
           url670:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24134,7 +24134,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set671: {
           url671:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24151,7 +24151,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set672: {
           url672:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24168,7 +24168,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set673: {
           url673:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24186,7 +24186,7 @@ for (var i = 33; i < 790; ++i) {
 
         set674: {
           url674:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24202,7 +24202,7 @@ for (var i = 33; i < 790; ++i) {
 
         set675: {
           url675:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24220,7 +24220,7 @@ for (var i = 33; i < 790; ++i) {
 
         set676: {
           url676:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24236,7 +24236,7 @@ for (var i = 33; i < 790; ++i) {
 
         set677: {
           url677:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24253,7 +24253,7 @@ for (var i = 33; i < 790; ++i) {
 
         set678: {
           url678:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24270,7 +24270,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set679: {
           url679:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24287,7 +24287,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set680: {
           url680:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24304,7 +24304,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set681: {
           url681:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24322,7 +24322,7 @@ for (var i = 33; i < 790; ++i) {
 
         set682: {
           url682:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24339,7 +24339,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set683: {
           url683:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24356,7 +24356,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set684: {
           url684:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24373,7 +24373,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set685: {
           url685:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24391,7 +24391,7 @@ for (var i = 33; i < 790; ++i) {
 
         set686: {
           url686:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24409,7 +24409,7 @@ for (var i = 33; i < 790; ++i) {
 
         set687: {
           url687:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24427,7 +24427,7 @@ for (var i = 33; i < 790; ++i) {
 
         set688: {
           url688:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24445,7 +24445,7 @@ for (var i = 33; i < 790; ++i) {
 
         set689: {
           url689:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24463,7 +24463,7 @@ for (var i = 33; i < 790; ++i) {
 
         set690: {
           url690:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24481,7 +24481,7 @@ for (var i = 33; i < 790; ++i) {
 
         set691: {
           url691:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24499,7 +24499,7 @@ for (var i = 33; i < 790; ++i) {
 
         set692: {
           url692:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24517,7 +24517,7 @@ for (var i = 33; i < 790; ++i) {
 
         set693: {
           url693:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24534,7 +24534,7 @@ for (var i = 33; i < 790; ++i) {
         },
         set694: {
           url694:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24552,7 +24552,7 @@ for (var i = 33; i < 790; ++i) {
 
         set695: {
           url695:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24570,7 +24570,7 @@ for (var i = 33; i < 790; ++i) {
 
         set696: {
           url696:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24588,7 +24588,7 @@ for (var i = 33; i < 790; ++i) {
 
         set697: {
           url697:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24606,7 +24606,7 @@ for (var i = 33; i < 790; ++i) {
 
         set698: {
           url698:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24624,7 +24624,7 @@ for (var i = 33; i < 790; ++i) {
 
         set699: {
           url699:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24642,7 +24642,7 @@ for (var i = 33; i < 790; ++i) {
 
         set700: {
           url700:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24660,7 +24660,7 @@ for (var i = 33; i < 790; ++i) {
 
         set701: {
           url701:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24679,7 +24679,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set702: {
                   url702:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -24694,7 +24694,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set703: {
                   url703:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -24711,7 +24711,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set704: {
                   url704:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -24728,7 +24728,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set705: {
                   url705:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -24746,7 +24746,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set706: {
                   url706:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -24763,7 +24763,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set707: {
                   url707:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -24780,7 +24780,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set708: {
                   url708:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -24797,7 +24797,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set709: {
                   url709:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -24815,7 +24815,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set710: {
                   url710:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -24832,7 +24832,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set711: {
                   url711:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -24849,7 +24849,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set712: {
                   url712:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -24866,7 +24866,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set713: {
                   url713:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -24884,7 +24884,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set714: {
                   url714:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -24902,7 +24902,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set715: {
                   url715:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -24920,7 +24920,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set716: {
                   url716:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -24938,7 +24938,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set717: {
                   url717:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -24955,7 +24955,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set718: {
                   url718:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -24972,7 +24972,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set719: {
                   url719:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -24989,7 +24989,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set720: {
                   url720:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25006,7 +25006,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set721: {
                   url721:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25024,7 +25024,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set722: {
                   url722:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25042,7 +25042,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set723: {
                   url723:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25060,7 +25060,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set724: {
                   url724:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25078,7 +25078,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set725: {
                   url725:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25096,7 +25096,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set726: {
                   url726:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25114,7 +25114,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set727: {
                   url727:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25132,7 +25132,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set728: {
                   url728:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25150,7 +25150,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set729: {
                   url729:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25168,7 +25168,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set730: {
                   url730:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25186,7 +25186,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set731: {
                   url731:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25204,7 +25204,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set732: {
                   url732:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25222,7 +25222,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set733: {
                   url733:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25239,7 +25239,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set734: {
                   url734:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25255,7 +25255,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set735: {
                   url735:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25271,7 +25271,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set736: {
                   url736:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25287,7 +25287,7 @@ for (var i = 33; i < 790; ++i) {
                 },
                 set737: {
                   url737:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25304,7 +25304,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set738: {
                   url738:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25321,7 +25321,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set739: {
                   url739:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25338,7 +25338,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set740: {
                   url740:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25355,7 +25355,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set741: {
                   url741:
-                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25372,7 +25372,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set742: {
                   url742:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25389,7 +25389,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set743: {
                   url743:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25406,7 +25406,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set744: {
                   url744:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25423,7 +25423,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set745: {
                   url745:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25440,7 +25440,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set746: {
                   url746:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25457,7 +25457,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set747: {
                   url747:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25474,7 +25474,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set748: {
                   url748:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25491,7 +25491,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set748: {
                   url748:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25508,7 +25508,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set749: {
                   url749:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25525,7 +25525,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set750: {
                   url750:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25542,7 +25542,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set751: {
                   url751:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25559,7 +25559,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set752: {
                   url752:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25576,7 +25576,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set753: {
                   url753:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25593,7 +25593,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set754: {
                   url754:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25610,7 +25610,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set755: {
                   url755:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25627,7 +25627,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set756: {
                   url756:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25644,7 +25644,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set757: {
                   url757:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25661,7 +25661,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set758: {
                   url758:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25678,7 +25678,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set759: {
                   url759:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25695,7 +25695,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set760: {
                   url760:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25712,7 +25712,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set761: {
                   url761:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25729,7 +25729,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set762: {
                   url762:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
@@ -25747,7 +25747,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set763: {
                   url763:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
@@ -25765,7 +25765,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set764: {
                   url764:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
@@ -25783,7 +25783,7 @@ for (var i = 33; i < 790; ++i) {
 
                 set765: {
                   url765:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001004&in=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=FrmJbC&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q4" +
@@ -25801,11 +25801,11 @@ for (var i = 33; i < 790; ++i) {
 
                 set766: {
                   url766:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q1" +
-                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat766: [
                     "Turnover,Anne Arundel WIA","Maryland Turnover Rate by Education",
                     year + "Q1",
@@ -25818,11 +25818,11 @@ for (var i = 33; i < 790; ++i) {
 
                 set767: {
                   url767:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q2" +
-                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat767: [
                     "Maryland",
                     year + "Q2",
@@ -25836,11 +25836,11 @@ for (var i = 33; i < 790; ++i) {
 
                 set768: {
                   url768:
-                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+                    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
                     year +
                     "-" +
                     "Q3" +
-                    "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                    "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                   arrayformat768: [
                     "Maryland",
                     year + "Q3",
@@ -25853,7 +25853,7 @@ for (var i = 33; i < 790; ++i) {
                 },
         set769: {
         url769:
-          "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+          "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
           year +
           "-" +
           "Q1" +
@@ -25869,7 +25869,7 @@ for (var i = 33; i < 790; ++i) {
 
       set770: {
       url770:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -25885,7 +25885,7 @@ for (var i = 33; i < 790; ++i) {
 
     set771: {
     url771:
-      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+      "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
       year +
       "-" +
       "Q2" +
@@ -25901,7 +25901,7 @@ for (var i = 33; i < 790; ++i) {
 
   set772: {
   url772:
-    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q3" +
@@ -25917,7 +25917,7 @@ for (var i = 33; i < 790; ++i) {
 
 set773: {
 url773:
-  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001004&in=state:24&time=" +
+  "https://api.census.gov/data/timeseries/qwi/sa?get=EarnS&for=workforce+investment+area:001001&in=state:24&time=" +
   year +
   "-" +
   "Q4" +
@@ -25933,7 +25933,7 @@ arrayformat773: [
 
 set774: {
   url774:
-    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q1" +
@@ -25949,7 +25949,7 @@ set774: {
 
 set775: {
   url775:
-    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q2" +
@@ -25965,7 +25965,7 @@ set775: {
 
 set776: {
   url776:
-    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q3" +
@@ -25981,7 +25981,7 @@ set776: {
 
 set777: {
   url777:
-    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q4" +
@@ -25996,7 +25996,7 @@ set777: {
 },
 set778: {
   url778:
-    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q1" +
@@ -26012,7 +26012,7 @@ set778: {
 
 set779: {
   url779:
-    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q2" +
@@ -26028,7 +26028,7 @@ set779: {
 
 set780: {
   url780:
-    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q3" +
@@ -26044,7 +26044,7 @@ set780: {
 
 set781: {
   url781:
-    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=state:24&time=" +
+    "https://api.census.gov/data/timeseries/qwi/se?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
     year +
     "-" +
     "Q4" +
@@ -26060,7 +26060,7 @@ set781: {
 
 set782: {
    url782:
-     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+     "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
      year +
      "-" +
      "Q1" +
@@ -26076,7 +26076,7 @@ set782: {
 
    set783: {
       url783:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
         year +
         "-" +
         "Q2" +
@@ -26092,7 +26092,7 @@ set782: {
 
       set784: {
          url784:
-           "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+           "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
            year +
            "-" +
            "Q3" +
@@ -26108,7 +26108,7 @@ set782: {
 
          set785: {
             url785:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=Sep&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -26124,7 +26124,7 @@ set782: {
 
             set786: {
             url786:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -26140,7 +26140,7 @@ set782: {
 
           set787: {
           url787:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -26156,7 +26156,7 @@ set782: {
 
         set788: {
         url788:
-          "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+          "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
           year +
           "-" +
           "Q3" +
@@ -26172,7 +26172,7 @@ set782: {
 
       set789: {
       url789:
-        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001004&in=state:24&time=" +
+        "https://api.census.gov/data/timeseries/qwi/sa?get=TurnOvrS&for=workforce+investment+area:001001&in=state:24&time=" +
         year +
         "-" +
         "Q4" +

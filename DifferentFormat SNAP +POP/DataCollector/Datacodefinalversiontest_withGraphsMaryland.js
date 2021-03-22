@@ -567,7 +567,7 @@ function getCensusApiData(url, year, i) {
 
           set29: {
             url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat29: [
               "Maryland",
               year,
@@ -586,7 +586,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q4" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat30: [
               "Maryland",
               year + "Q4",
@@ -604,7 +604,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q2" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat31: [
               "Maryland",
               year + "Q2",
@@ -624,7 +624,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q3" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat32: [
               "Maryland",
               year + "Q3",
@@ -11721,7 +11721,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q1" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat674: [
               "Maryland",
               year + "Q1",
@@ -11739,7 +11739,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q2" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat675: [
               "Maryland",
               year + "Q2",
@@ -11757,7 +11757,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q3" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat676: [
               "Maryland",
               year + "Q3",
@@ -11775,7 +11775,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q4" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat677: [
               "Maryland",
               year + "Q4",
@@ -12003,7 +12003,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q1" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat690: [
               "Maryland",
               year + "Q1",
@@ -12021,7 +12021,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q2" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat691: [
               "Maryland",
               year + "Q2",
@@ -12039,7 +12039,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q3" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat692: [
               "Maryland",
               year + "Q3",
@@ -12057,7 +12057,7 @@ function getCensusApiData(url, year, i) {
               year +
               "-" +
               "Q4" +
-              "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat693: [
               "Maryland",
               year + "Q4",
@@ -12421,7 +12421,7 @@ function getCensusApiData(url, year, i) {
                   },
 
                   set714: {
-                    ur714:
+                    url714:
                       "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
                       year +
                       "-" +
@@ -12457,7 +12457,7 @@ function getCensusApiData(url, year, i) {
                   },
 
                   set716: {
-                    ur716:
+                    url716:
                       "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
                       year +
                       "-" +
@@ -13349,7 +13349,7 @@ function getCensusApiData(url, year, i) {
                       year +
                       "-" +
                       "Q1" +
-                      "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+                      "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
                     arrayformat766: [
                       "Maryland",
                       year + "Q1",
@@ -13825,7 +13825,7 @@ for (var i = 1; i < 767; ++i) {
 
         set29: {
           url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_013E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat29: [
             "Maryland",
             year,
@@ -13844,7 +13844,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat30: [
             "Maryland",
             year + "Q4",
@@ -13862,7 +13862,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q2" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat31: [
             "Maryland",
             year + "Q2",
@@ -13881,7 +13881,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q3" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat32: [
             "Maryland",
             year + "Q3",
@@ -23629,7 +23629,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q3" +
-            "&agegrp=A08&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&agegrp=A07&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat596: [
             "Maryland",
             year + "Q3",
@@ -24975,7 +24975,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q1" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat674: [
             "Maryland",
             year + "Q1",
@@ -24993,7 +24993,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q2" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat675: [
             "Maryland",
             year + "Q2",
@@ -25011,7 +25011,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q3" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat676: [
             "Maryland",
             year + "Q3",
@@ -25029,7 +25029,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat677: [
             "Maryland",
             year + "Q4",
@@ -25257,7 +25257,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q1" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat690: [
             "Maryland",
             year + "Q1",
@@ -25275,7 +25275,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q2" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat691: [
             "Maryland",
             year + "Q2",
@@ -25293,7 +25293,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q3" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat692: [
             "Maryland",
             year + "Q3",
@@ -25311,7 +25311,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q4" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat693: [
             "Maryland",
             year + "Q4",
@@ -25674,7 +25674,7 @@ for (var i = 1; i < 767; ++i) {
         },
 
         set714: {
-          ur714:
+          url714:
             "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
             year +
             "-" +
@@ -25710,7 +25710,7 @@ for (var i = 1; i < 767; ++i) {
         },
 
         set716: {
-          ur716:
+          url716:
             "https://api.census.gov/data/timeseries/qwi/sa?get=Emp&for=state:24&time=" +
             year +
             "-" +
@@ -26585,7 +26585,7 @@ for (var i = 1; i < 767; ++i) {
             year +
             "-" +
             "Q1" +
-            "&education=E1&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "&education=E5&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat766: [
             "Maryland",
             year + "Q1",

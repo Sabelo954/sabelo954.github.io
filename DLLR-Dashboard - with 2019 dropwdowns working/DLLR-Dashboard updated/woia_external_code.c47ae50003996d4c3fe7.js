@@ -697,7 +697,7 @@
                     ).innerHTML = '\n\t\t <tr class="HeadRow" style="background-color: white;">\n\t\t  <th style="border-right-style: solid;">'
                       .concat(
                         CountyName.replace("L W D A", "LWDA"),
-                        '</th>\n\t\t  <th>Less than high school</th>\n\t\t  <th>High school or equivalent, no college</th>\n\t\t  <th>Some college or Associate degree</th>\n\t\t  <th>Bachelor\'s degree or advanced degree</th>\n\t\t  <th>Educational attainment not reported (workers aged 24 or younger)</th>\n\t\t  <th rowspan="100" style="border-style: solid; border-color: #5281B7;">Gender Data</th>\n\t\t  <th>Female</th>\n\t\t  <th>Male</th>\n\t   </tr>\n\t   '
+                        '</th>\n\t\t  <th>Less than high school</th>\n\t\t  <th>High school or equivalent, no college</th>\n\t\t  <th>Some college or Associate degree</th>\n\t\t  <th>Bachelor\'s degree or advanced degree</th>\n\t\t  <th>Educational attainment not reported (workers aged 24 or younger)</th>\n\t\t  <th rowspan="100" style="border-style: solid; border-color: #5281B7;">Gender Data</th>\n\t\t  <th>Male</th>\n\t\t  <th>Female</th>\n\t   </tr>\n\t   '
                       )
                       .concat(
                         T(
@@ -915,7 +915,7 @@
                     ).innerHTML = '\n\t\t  <tr class="HeadRow" style="background-color: white;">\n\t\t\t <th style="border-right-style: solid;">'
                       .concat(
                         CountyName.replace("L W D A", "LWDA"),
-                        '</th>\n\t\t\t <th>Less than high school</th>\n\t\t\t <th>High school or equivalent, no college</th>\n\t\t\t <th>Some college or Associate degree</th>\n\t\t\t <th>Bachelor\'s degree or advanced degree</th>\n\t\t\t <th>Educational attainment not reported (workers aged 24 or younger)</th>\n\t\t\t <th rowspan="100" style="border-style: solid; border-color: #5281B7;">Gender Data</th>\n\t\t\t <th>Female</th>\n\t\t\t <th>Male</th>\n\t\t  </tr>\n\t   '
+                        '</th>\n\t\t\t <th>Less than high school</th>\n\t\t\t <th>High school or equivalent, no college</th>\n\t\t\t <th>Some college or Associate degree</th>\n\t\t\t <th>Bachelor\'s degree or advanced degree</th>\n\t\t\t <th>Educational attainment not reported (workers aged 24 or younger)</th>\n\t\t\t <th rowspan="100" style="border-style: solid; border-color: #5281B7;">Gender Data</th>\n\t\t\t <th>Male</th>\n\t\t\t <th>Female</th>\n\t\t  </tr>\n\t   '
                       )
                       .concat(
                         x("2016Q1", turnOverData2016Q1, turnOverDatg2016Q1),
