@@ -755,7 +755,7 @@ function getCensusApiData(url, year, i) {
 
           set41: {
             url41:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -772,7 +772,7 @@ function getCensusApiData(url, year, i) {
           },
           set42: {
             url42:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -789,7 +789,7 @@ function getCensusApiData(url, year, i) {
           },
           set43: {
             url43:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -806,7 +806,7 @@ function getCensusApiData(url, year, i) {
           },
           set44: {
             url44:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1169,7 +1169,7 @@ function getCensusApiData(url, year, i) {
 
           set65: {
             url65:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1186,7 +1186,7 @@ function getCensusApiData(url, year, i) {
           },
           set66: {
             url66:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1203,7 +1203,7 @@ function getCensusApiData(url, year, i) {
           },
           set67: {
             url67:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1220,7 +1220,7 @@ function getCensusApiData(url, year, i) {
           },
           set68: {
             url68:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -1608,7 +1608,7 @@ function getCensusApiData(url, year, i) {
 
           set90: {
             url90:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -1626,7 +1626,7 @@ function getCensusApiData(url, year, i) {
           },
           set91: {
             url91:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -1644,7 +1644,7 @@ function getCensusApiData(url, year, i) {
           },
           set92: {
             url92:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -1662,7 +1662,7 @@ function getCensusApiData(url, year, i) {
           },
           set93: {
             url93:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2036,7 +2036,7 @@ function getCensusApiData(url, year, i) {
 
           set114: {
             url114:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2053,7 +2053,7 @@ function getCensusApiData(url, year, i) {
           },
           set115: {
             url115:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2070,7 +2070,7 @@ function getCensusApiData(url, year, i) {
           },
           set116: {
             url116:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2087,7 +2087,7 @@ function getCensusApiData(url, year, i) {
           },
           set117: {
             url117:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2449,7 +2449,7 @@ function getCensusApiData(url, year, i) {
 
           set138: {
             url138:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2466,7 +2466,7 @@ function getCensusApiData(url, year, i) {
           },
           set139: {
             url139:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2483,7 +2483,7 @@ function getCensusApiData(url, year, i) {
           },
           set140: {
             url140:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2500,7 +2500,7 @@ function getCensusApiData(url, year, i) {
           },
           set141: {
             url141:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -2863,7 +2863,7 @@ function getCensusApiData(url, year, i) {
 
           set162: {
             url162:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -2880,7 +2880,7 @@ function getCensusApiData(url, year, i) {
           },
           set163: {
             url163:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -2897,7 +2897,7 @@ function getCensusApiData(url, year, i) {
           },
           set164: {
             url164:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -2914,7 +2914,7 @@ function getCensusApiData(url, year, i) {
           },
           set165: {
             url165:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3277,7 +3277,7 @@ function getCensusApiData(url, year, i) {
 
           set186: {
             url186:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3294,7 +3294,7 @@ function getCensusApiData(url, year, i) {
           },
           set187: {
             url187:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3311,7 +3311,7 @@ function getCensusApiData(url, year, i) {
           },
           set188: {
             url188:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3328,7 +3328,7 @@ function getCensusApiData(url, year, i) {
           },
           set189: {
             url189:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -3691,7 +3691,7 @@ function getCensusApiData(url, year, i) {
 
           set210: {
             url210:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -3708,7 +3708,7 @@ function getCensusApiData(url, year, i) {
           },
           set211: {
             url211:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -3725,7 +3725,7 @@ function getCensusApiData(url, year, i) {
           },
           set212: {
             url212:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -3742,7 +3742,7 @@ function getCensusApiData(url, year, i) {
           },
           set213: {
             url213:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4105,7 +4105,7 @@ function getCensusApiData(url, year, i) {
 
           set234: {
             url234:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4123,7 +4123,7 @@ function getCensusApiData(url, year, i) {
 
           set235: {
             url235:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4140,7 +4140,7 @@ function getCensusApiData(url, year, i) {
           },
           set236: {
             url236:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4157,7 +4157,7 @@ function getCensusApiData(url, year, i) {
           },
           set237: {
             url237:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4520,7 +4520,7 @@ function getCensusApiData(url, year, i) {
 
           set258: {
             url258:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4537,7 +4537,7 @@ function getCensusApiData(url, year, i) {
           },
           set259: {
             url259:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4554,7 +4554,7 @@ function getCensusApiData(url, year, i) {
           },
           set260: {
             url260:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4571,7 +4571,7 @@ function getCensusApiData(url, year, i) {
           },
           set261: {
             url261:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -4934,7 +4934,7 @@ function getCensusApiData(url, year, i) {
 
           set282: {
             url282:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -4951,7 +4951,7 @@ function getCensusApiData(url, year, i) {
           },
           set283: {
             url283:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -4968,7 +4968,7 @@ function getCensusApiData(url, year, i) {
           },
           set284: {
             url284:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -4985,7 +4985,7 @@ function getCensusApiData(url, year, i) {
           },
           set285: {
             url285:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5348,7 +5348,7 @@ function getCensusApiData(url, year, i) {
 
           set306: {
             url306:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5365,7 +5365,7 @@ function getCensusApiData(url, year, i) {
           },
           set307: {
             url307:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5382,7 +5382,7 @@ function getCensusApiData(url, year, i) {
           },
           set308: {
             url308:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5399,7 +5399,7 @@ function getCensusApiData(url, year, i) {
           },
           set309: {
             url309:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -5762,7 +5762,7 @@ function getCensusApiData(url, year, i) {
 
           set330: {
             url330:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -5779,7 +5779,7 @@ function getCensusApiData(url, year, i) {
           },
           set331: {
             url331:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -5796,7 +5796,7 @@ function getCensusApiData(url, year, i) {
           },
           set332: {
             url332:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -5813,7 +5813,7 @@ function getCensusApiData(url, year, i) {
           },
           set333: {
             url333:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6176,7 +6176,7 @@ function getCensusApiData(url, year, i) {
 
           set354: {
             url354:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6193,7 +6193,7 @@ function getCensusApiData(url, year, i) {
           },
           set355: {
             url355:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6210,7 +6210,7 @@ function getCensusApiData(url, year, i) {
           },
           set356: {
             url356:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6227,7 +6227,7 @@ function getCensusApiData(url, year, i) {
           },
           set357: {
             url357:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -6589,7 +6589,7 @@ function getCensusApiData(url, year, i) {
 
           set378: {
             url378:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -6606,7 +6606,7 @@ function getCensusApiData(url, year, i) {
           },
           set379: {
             url379:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -6623,7 +6623,7 @@ function getCensusApiData(url, year, i) {
           },
           set380: {
             url380:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -6640,7 +6640,7 @@ function getCensusApiData(url, year, i) {
           },
           set381: {
             url381:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7003,7 +7003,7 @@ function getCensusApiData(url, year, i) {
 
           set402: {
             url402:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7020,7 +7020,7 @@ function getCensusApiData(url, year, i) {
           },
           set403: {
             url403:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7037,7 +7037,7 @@ function getCensusApiData(url, year, i) {
           },
           set404: {
             url404:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7054,7 +7054,7 @@ function getCensusApiData(url, year, i) {
           },
           set405: {
             url405:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7417,7 +7417,7 @@ function getCensusApiData(url, year, i) {
 
           set426: {
             url426:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7434,7 +7434,7 @@ function getCensusApiData(url, year, i) {
           },
           set427: {
             url427:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7451,7 +7451,7 @@ function getCensusApiData(url, year, i) {
           },
           set428: {
             url428:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7468,7 +7468,7 @@ function getCensusApiData(url, year, i) {
           },
           set429: {
             url429:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -7831,7 +7831,7 @@ function getCensusApiData(url, year, i) {
 
           set450: {
             url450:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -7848,7 +7848,7 @@ function getCensusApiData(url, year, i) {
           },
           set451: {
             url451:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -7865,7 +7865,7 @@ function getCensusApiData(url, year, i) {
           },
           set452: {
             url452:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -7882,7 +7882,7 @@ function getCensusApiData(url, year, i) {
           },
           set453: {
             url453:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8245,7 +8245,7 @@ function getCensusApiData(url, year, i) {
 
           set474: {
             url474:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8262,7 +8262,7 @@ function getCensusApiData(url, year, i) {
           },
           set475: {
             url475:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8279,7 +8279,7 @@ function getCensusApiData(url, year, i) {
           },
           set476: {
             url476:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8296,7 +8296,7 @@ function getCensusApiData(url, year, i) {
           },
           set477: {
             url477:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -8659,7 +8659,7 @@ function getCensusApiData(url, year, i) {
 
           set498: {
             url498:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -8676,7 +8676,7 @@ function getCensusApiData(url, year, i) {
           },
           set499: {
             url499:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -8693,7 +8693,7 @@ function getCensusApiData(url, year, i) {
           },
           set500: {
             url500:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -8710,7 +8710,7 @@ function getCensusApiData(url, year, i) {
           },
           set501: {
             url501:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11075,7 +11075,7 @@ function getCensusApiData(url, year, i) {
 
           set638: {
             url638:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11092,7 +11092,7 @@ function getCensusApiData(url, year, i) {
           },
           set639: {
             url639:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11109,7 +11109,7 @@ function getCensusApiData(url, year, i) {
           },
           set640: {
             url640:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11126,7 +11126,7 @@ function getCensusApiData(url, year, i) {
           },
           set641: {
             url641:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11144,7 +11144,7 @@ function getCensusApiData(url, year, i) {
 
           set642: {
             url642:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11161,7 +11161,7 @@ function getCensusApiData(url, year, i) {
           },
           set643: {
             url643:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11178,7 +11178,7 @@ function getCensusApiData(url, year, i) {
           },
           set644: {
             url644:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11195,7 +11195,7 @@ function getCensusApiData(url, year, i) {
           },
           set645: {
             url645:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11213,7 +11213,7 @@ function getCensusApiData(url, year, i) {
 
           set646: {
             url646:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11230,7 +11230,7 @@ function getCensusApiData(url, year, i) {
           },
           set647: {
             url647:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11247,7 +11247,7 @@ function getCensusApiData(url, year, i) {
           },
           set648: {
             url648:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11264,7 +11264,7 @@ function getCensusApiData(url, year, i) {
           },
           set649: {
             url649:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11282,7 +11282,7 @@ function getCensusApiData(url, year, i) {
 
           set650: {
             url650:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11299,7 +11299,7 @@ function getCensusApiData(url, year, i) {
           },
           set651: {
             url651:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11316,7 +11316,7 @@ function getCensusApiData(url, year, i) {
           },
           set652: {
             url652:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11333,7 +11333,7 @@ function getCensusApiData(url, year, i) {
           },
           set653: {
             url653:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11903,7 +11903,7 @@ function getCensusApiData(url, year, i) {
 
           set686: {
             url686:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11921,7 +11921,7 @@ function getCensusApiData(url, year, i) {
 
           set687: {
             url687:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -11939,7 +11939,7 @@ function getCensusApiData(url, year, i) {
 
           set688: {
             url688:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -11957,7 +11957,7 @@ function getCensusApiData(url, year, i) {
 
           set689: {
             url689:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -11975,7 +11975,7 @@ function getCensusApiData(url, year, i) {
 
           set690: {
             url690:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -11993,7 +11993,7 @@ function getCensusApiData(url, year, i) {
 
           set691: {
             url691:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -12011,7 +12011,7 @@ function getCensusApiData(url, year, i) {
 
           set692: {
             url692:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -12029,7 +12029,7 @@ function getCensusApiData(url, year, i) {
 
           set693: {
             url693:
-              "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -12046,7 +12046,7 @@ function getCensusApiData(url, year, i) {
           },
           set694: {
             url694:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q1" +
@@ -12064,7 +12064,7 @@ function getCensusApiData(url, year, i) {
 
           set695: {
             url695:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q2" +
@@ -12082,7 +12082,7 @@ function getCensusApiData(url, year, i) {
 
           set696: {
             url696:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q3" +
@@ -12100,7 +12100,7 @@ function getCensusApiData(url, year, i) {
 
           set697: {
             url697:
-              "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+              "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
               year +
               "-" +
               "Q4" +
@@ -12539,7 +12539,7 @@ function getCensusApiData(url, year, i) {
 
                   set722: {
                     url722:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12557,7 +12557,7 @@ function getCensusApiData(url, year, i) {
 
                   set723: {
                     url723:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12575,7 +12575,7 @@ function getCensusApiData(url, year, i) {
 
                   set724: {
                     url724:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12593,7 +12593,7 @@ function getCensusApiData(url, year, i) {
 
                   set725: {
                     url725:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -12611,7 +12611,7 @@ function getCensusApiData(url, year, i) {
 
                   set726: {
                     url726:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q1" +
@@ -12629,7 +12629,7 @@ function getCensusApiData(url, year, i) {
 
                   set727: {
                     url727:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q2" +
@@ -12647,7 +12647,7 @@ function getCensusApiData(url, year, i) {
 
                   set728: {
                     url728:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q3" +
@@ -12665,7 +12665,7 @@ function getCensusApiData(url, year, i) {
 
                   set729: {
                     url729:
-                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+                      "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
                       year +
                       "-" +
                       "Q4" +
@@ -13412,7 +13412,7 @@ for (var i = 1; i < 734; ++i) {
 
         set41: {
           url41:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13429,7 +13429,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set42: {
           url42:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13446,7 +13446,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set43: {
           url43:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13463,7 +13463,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set44: {
           url44:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -13826,7 +13826,7 @@ for (var i = 1; i < 734; ++i) {
 
         set65: {
           url65:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -13843,7 +13843,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set66: {
           url66:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -13860,7 +13860,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set67: {
           url67:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -13877,7 +13877,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set68: {
           url68:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14264,7 +14264,7 @@ for (var i = 1; i < 734; ++i) {
 
         set90: {
           url90:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14282,7 +14282,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set91: {
           url91:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14300,7 +14300,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set92: {
           url92:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14318,7 +14318,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set93: {
           url93:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -14691,7 +14691,7 @@ for (var i = 1; i < 734; ++i) {
 
         set114: {
           url114:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -14708,7 +14708,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set115: {
           url115:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -14725,7 +14725,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set116: {
           url116:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -14742,7 +14742,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set117: {
           url117:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15104,7 +15104,7 @@ for (var i = 1; i < 734; ++i) {
 
         set138: {
           url138:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15121,7 +15121,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set139: {
           url139:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15138,7 +15138,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set140: {
           url140:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15155,7 +15155,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set141: {
           url141:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15518,7 +15518,7 @@ for (var i = 1; i < 734; ++i) {
 
         set162: {
           url162:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15535,7 +15535,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set163: {
           url163:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15552,7 +15552,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set164: {
           url164:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15569,7 +15569,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set165: {
           url165:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -15932,7 +15932,7 @@ for (var i = 1; i < 734; ++i) {
 
         set186: {
           url186:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -15949,7 +15949,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set187: {
           url187:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -15966,7 +15966,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set188: {
           url188:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -15983,7 +15983,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set189: {
           url189:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16346,7 +16346,7 @@ for (var i = 1; i < 734; ++i) {
 
         set210: {
           url210:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16363,7 +16363,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set211: {
           url211:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16380,7 +16380,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set212: {
           url212:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16397,7 +16397,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set213: {
           url213:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -16760,7 +16760,7 @@ for (var i = 1; i < 734; ++i) {
 
         set234: {
           url234:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -16778,7 +16778,7 @@ for (var i = 1; i < 734; ++i) {
 
         set235: {
           url235:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -16795,7 +16795,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set236: {
           url236:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -16812,7 +16812,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set237: {
           url237:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17175,7 +17175,7 @@ for (var i = 1; i < 734; ++i) {
 
         set258: {
           url258:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17192,7 +17192,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set259: {
           url259:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17209,7 +17209,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set260: {
           url260:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17226,7 +17226,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set261: {
           url261:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -17589,7 +17589,7 @@ for (var i = 1; i < 734; ++i) {
 
         set282: {
           url282:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -17606,7 +17606,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set283: {
           url283:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -17623,7 +17623,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set284: {
           url284:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -17640,7 +17640,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set285: {
           url285:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18003,7 +18003,7 @@ for (var i = 1; i < 734; ++i) {
 
         set306: {
           url306:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18020,7 +18020,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set307: {
           url307:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18037,7 +18037,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set308: {
           url308:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18054,7 +18054,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set309: {
           url309:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18417,7 +18417,7 @@ for (var i = 1; i < 734; ++i) {
 
         set330: {
           url330:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18434,7 +18434,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set331: {
           url331:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18451,7 +18451,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set332: {
           url332:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18468,7 +18468,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set333: {
           url333:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -18831,7 +18831,7 @@ for (var i = 1; i < 734; ++i) {
 
         set354: {
           url354:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -18848,7 +18848,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set355: {
           url355:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -18865,7 +18865,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set356: {
           url356:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -18882,7 +18882,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set357: {
           url357:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19244,7 +19244,7 @@ for (var i = 1; i < 734; ++i) {
 
         set378: {
           url378:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19261,7 +19261,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set379: {
           url379:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19278,7 +19278,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set380: {
           url380:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19295,7 +19295,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set381: {
           url381:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -19658,7 +19658,7 @@ for (var i = 1; i < 734; ++i) {
 
         set402: {
           url402:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -19675,7 +19675,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set403: {
           url403:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -19692,7 +19692,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set404: {
           url404:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -19709,7 +19709,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set405: {
           url405:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20072,7 +20072,7 @@ for (var i = 1; i < 734; ++i) {
 
         set426: {
           url426:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20089,7 +20089,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set427: {
           url427:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20106,7 +20106,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set428: {
           url428:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20123,7 +20123,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set429: {
           url429:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20486,7 +20486,7 @@ for (var i = 1; i < 734; ++i) {
 
         set450: {
           url450:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20503,7 +20503,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set451: {
           url451:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20520,7 +20520,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set452: {
           url452:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20537,7 +20537,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set453: {
           url453:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -20900,7 +20900,7 @@ for (var i = 1; i < 734; ++i) {
 
         set474: {
           url474:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -20917,7 +20917,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set475: {
           url475:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -20934,7 +20934,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set476: {
           url476:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -20951,7 +20951,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set477: {
           url477:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -21314,7 +21314,7 @@ for (var i = 1; i < 734; ++i) {
 
         set498: {
           url498:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -21331,7 +21331,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set499: {
           url499:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -21348,7 +21348,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set500: {
           url500:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -21365,7 +21365,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set501: {
           url501:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23729,7 +23729,7 @@ for (var i = 1; i < 734; ++i) {
 
         set638: {
           url638:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23746,7 +23746,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set639: {
           url639:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23763,7 +23763,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set640: {
           url640:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23780,7 +23780,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set641: {
           url641:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23798,7 +23798,7 @@ for (var i = 1; i < 734; ++i) {
 
         set642: {
           url642:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23815,7 +23815,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set643: {
           url643:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23832,7 +23832,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set644: {
           url644:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23849,7 +23849,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set645: {
           url645:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23867,7 +23867,7 @@ for (var i = 1; i < 734; ++i) {
 
         set646: {
           url646:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23884,7 +23884,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set647: {
           url647:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23901,7 +23901,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set648: {
           url648:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23918,7 +23918,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set649: {
           url649:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -23936,7 +23936,7 @@ for (var i = 1; i < 734; ++i) {
 
         set650: {
           url650:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -23953,7 +23953,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set651: {
           url651:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -23970,7 +23970,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set652: {
           url652:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -23987,7 +23987,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set653: {
           url653:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24557,7 +24557,7 @@ for (var i = 1; i < 734; ++i) {
 
         set686: {
           url686:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24575,7 +24575,7 @@ for (var i = 1; i < 734; ++i) {
 
         set687: {
           url687:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24593,7 +24593,7 @@ for (var i = 1; i < 734; ++i) {
 
         set688: {
           url688:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24610,7 +24610,7 @@ for (var i = 1; i < 734; ++i) {
         },
         set689: {
           url689:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24628,7 +24628,7 @@ for (var i = 1; i < 734; ++i) {
 
         set690: {
           url690:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24646,7 +24646,7 @@ for (var i = 1; i < 734; ++i) {
 
         set691: {
           url691:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24664,7 +24664,7 @@ for (var i = 1; i < 734; ++i) {
 
         set692: {
           url692:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24682,7 +24682,7 @@ for (var i = 1; i < 734; ++i) {
 
         set693: {
           url693:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -24700,7 +24700,7 @@ for (var i = 1; i < 734; ++i) {
 
         set694: {
           url694:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -24718,7 +24718,7 @@ for (var i = 1; i < 734; ++i) {
 
         set695: {
           url695:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -24736,7 +24736,7 @@ for (var i = 1; i < 734; ++i) {
 
         set696: {
           url696:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -24754,7 +24754,7 @@ for (var i = 1; i < 734; ++i) {
 
         set697: {
           url697:
-            "https://api.census.gov/data/timeseries/qwi/se?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/se?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -25192,7 +25192,7 @@ for (var i = 1; i < 734; ++i) {
 
         set722: {
           url722:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -25210,7 +25210,7 @@ for (var i = 1; i < 734; ++i) {
 
         set723: {
           url723:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -25228,7 +25228,7 @@ for (var i = 1; i < 734; ++i) {
 
         set724: {
           url724:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -25246,7 +25246,7 @@ for (var i = 1; i < 734; ++i) {
 
         set725: {
           url725:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
@@ -25264,7 +25264,7 @@ for (var i = 1; i < 734; ++i) {
 
         set726: {
           url726:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q1" +
@@ -25282,7 +25282,7 @@ for (var i = 1; i < 734; ++i) {
 
         set727: {
           url727:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q2" +
@@ -25300,7 +25300,7 @@ for (var i = 1; i < 734; ++i) {
 
         set728: {
           url728:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q3" +
@@ -25318,7 +25318,7 @@ for (var i = 1; i < 734; ++i) {
 
         set729: {
           url729:
-            "https://api.census.gov/data/timeseries/qwi/sa?get=HirA&for=state:24&time=" +
+            "https://api.census.gov/data/timeseries/qwi/sa?get=HirN&for=state:24&time=" +
             year +
             "-" +
             "Q4" +
