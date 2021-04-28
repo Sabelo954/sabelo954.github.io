@@ -926,7 +926,7 @@ function getCensusApiData(url, year, i) {
               "72",
               "Accommodation and Food Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set50: {
@@ -943,7 +943,7 @@ function getCensusApiData(url, year, i) {
               "72",
               "Accommodation and Food Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set51: {
@@ -960,7 +960,7 @@ function getCensusApiData(url, year, i) {
               "72",
               "Accommodation and Food Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set52: {
@@ -977,7 +977,7 @@ function getCensusApiData(url, year, i) {
               "72",
               "Accommodation and Food Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -1358,7 +1358,7 @@ function getCensusApiData(url, year, i) {
               "62",
               "Health Care and Social Assistance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set75: {
@@ -1375,7 +1375,7 @@ function getCensusApiData(url, year, i) {
               "62",
               "Health Care and Social Assistance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set76: {
@@ -1392,7 +1392,7 @@ function getCensusApiData(url, year, i) {
               "62",
               "Health Care and Social Assistance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set77: {
@@ -1409,7 +1409,7 @@ function getCensusApiData(url, year, i) {
               "62",
               "Health Care and Social Assistance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -1788,7 +1788,7 @@ function getCensusApiData(url, year, i) {
               "Administrative and Support and Waste Management and Remediation Services" +
                 ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set99: {
@@ -1806,7 +1806,7 @@ function getCensusApiData(url, year, i) {
               "Administrative and Support and Waste Management and Remediation Services" +
                 ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set100: {
@@ -1824,7 +1824,7 @@ function getCensusApiData(url, year, i) {
               "Administrative and Support and Waste Management and Remediation Services" +
                 ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set101: {
@@ -1842,7 +1842,7 @@ function getCensusApiData(url, year, i) {
               "Administrative and Support and Waste Management and Remediation Services" +
                 ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set102: {
@@ -2206,7 +2206,7 @@ function getCensusApiData(url, year, i) {
               "11",
               '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set123: {
@@ -2223,7 +2223,7 @@ function getCensusApiData(url, year, i) {
               "11",
               '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set124: {
@@ -2240,7 +2240,7 @@ function getCensusApiData(url, year, i) {
               "11",
               '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set125: {
@@ -2257,7 +2257,7 @@ function getCensusApiData(url, year, i) {
               "11",
               '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -2620,7 +2620,7 @@ function getCensusApiData(url, year, i) {
               "71",
               '"Arts, Entertainment, and Recreation"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set147: {
@@ -2637,7 +2637,7 @@ function getCensusApiData(url, year, i) {
               "71",
               '"Arts, Entertainment, and Recreation"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set148: {
@@ -2654,7 +2654,7 @@ function getCensusApiData(url, year, i) {
               "71",
               '"Arts, Entertainment, and Recreation"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set149: {
@@ -2671,7 +2671,7 @@ function getCensusApiData(url, year, i) {
               "71",
               '"Arts, Entertainment, and Recreation"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -3034,7 +3034,7 @@ function getCensusApiData(url, year, i) {
               "23",
               "Construction" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set171: {
@@ -3051,7 +3051,7 @@ function getCensusApiData(url, year, i) {
               "23",
               "Construction" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set172: {
@@ -3068,7 +3068,7 @@ function getCensusApiData(url, year, i) {
               "23",
               "Construction" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set173: {
@@ -3085,7 +3085,7 @@ function getCensusApiData(url, year, i) {
               "23",
               "Construction" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -3448,7 +3448,7 @@ function getCensusApiData(url, year, i) {
               "61",
               "Educational Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set195: {
@@ -3465,7 +3465,7 @@ function getCensusApiData(url, year, i) {
               "61",
               "Educational Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set196: {
@@ -3482,7 +3482,7 @@ function getCensusApiData(url, year, i) {
               "61",
               "Educational Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set197: {
@@ -3499,7 +3499,7 @@ function getCensusApiData(url, year, i) {
               "61",
               "Educational Services" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -3862,7 +3862,7 @@ function getCensusApiData(url, year, i) {
               "52",
               "Finance and Insurance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set219: {
@@ -3879,7 +3879,7 @@ function getCensusApiData(url, year, i) {
               "52",
               "Finance and Insurance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set220: {
@@ -3896,7 +3896,7 @@ function getCensusApiData(url, year, i) {
               "52",
               "Finance and Insurance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set221: {
@@ -3913,7 +3913,7 @@ function getCensusApiData(url, year, i) {
               "52",
               "Finance and Insurance" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -4277,7 +4277,7 @@ function getCensusApiData(url, year, i) {
               "51",
               "Information" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set243: {
@@ -4294,7 +4294,7 @@ function getCensusApiData(url, year, i) {
               "51",
               "Information" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set244: {
@@ -4311,7 +4311,7 @@ function getCensusApiData(url, year, i) {
               "51",
               "Information" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set245: {
@@ -4328,7 +4328,7 @@ function getCensusApiData(url, year, i) {
               "51",
               "Information" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -4691,7 +4691,7 @@ function getCensusApiData(url, year, i) {
               "55",
               "Management of Companies and Enterprises" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set267: {
@@ -4708,7 +4708,7 @@ function getCensusApiData(url, year, i) {
               "55",
               "Management of Companies and Enterprises" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set268: {
@@ -4725,7 +4725,7 @@ function getCensusApiData(url, year, i) {
               "55",
               "Management of Companies and Enterprises" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set269: {
@@ -4742,7 +4742,7 @@ function getCensusApiData(url, year, i) {
               "55",
               "Management of Companies and Enterprises" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -5105,7 +5105,7 @@ function getCensusApiData(url, year, i) {
               "31-33",
               "Manufacturing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set291: {
@@ -5122,7 +5122,7 @@ function getCensusApiData(url, year, i) {
               "31-33",
               "Manufacturing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set292: {
@@ -5139,7 +5139,7 @@ function getCensusApiData(url, year, i) {
               "31-33",
               "Manufacturing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set293: {
@@ -5156,7 +5156,7 @@ function getCensusApiData(url, year, i) {
               "31-33",
               "Manufacturing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -5519,7 +5519,7 @@ function getCensusApiData(url, year, i) {
               "21",
               '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set315: {
@@ -5536,7 +5536,7 @@ function getCensusApiData(url, year, i) {
               "21",
               '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set316: {
@@ -5553,7 +5553,7 @@ function getCensusApiData(url, year, i) {
               "21",
               '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set317: {
@@ -5570,7 +5570,7 @@ function getCensusApiData(url, year, i) {
               "21",
               '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -5933,7 +5933,7 @@ function getCensusApiData(url, year, i) {
               "81",
               "Other Services (except Public Administration)" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set339: {
@@ -5950,7 +5950,7 @@ function getCensusApiData(url, year, i) {
               "81",
               "Other Services (except Public Administration)" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set340: {
@@ -5967,7 +5967,7 @@ function getCensusApiData(url, year, i) {
               "81",
               "Other Services (except Public Administration)" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set341: {
@@ -5984,7 +5984,7 @@ function getCensusApiData(url, year, i) {
               "81",
               "Other Services (except Public Administration)" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -6347,7 +6347,7 @@ function getCensusApiData(url, year, i) {
               "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set363: {
@@ -6364,7 +6364,7 @@ function getCensusApiData(url, year, i) {
               "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set364: {
@@ -6381,7 +6381,7 @@ function getCensusApiData(url, year, i) {
               "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set365: {
@@ -6398,7 +6398,7 @@ function getCensusApiData(url, year, i) {
               "54",
               '"Professional, Scientific, and Technical Services"'+ ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set366: {
@@ -6760,7 +6760,7 @@ function getCensusApiData(url, year, i) {
               "92",
               "Public Administration" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set387: {
@@ -6777,7 +6777,7 @@ function getCensusApiData(url, year, i) {
               "92",
               "Public Administration" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set388: {
@@ -6794,7 +6794,7 @@ function getCensusApiData(url, year, i) {
               "92",
               "Public Administration" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set389: {
@@ -6811,7 +6811,7 @@ function getCensusApiData(url, year, i) {
               "92",
               "Public Administration" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -7174,7 +7174,7 @@ function getCensusApiData(url, year, i) {
               "53",
               "Real Estate and Rental and Leasing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set411: {
@@ -7191,7 +7191,7 @@ function getCensusApiData(url, year, i) {
               "53",
               "Real Estate and Rental and Leasing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set412: {
@@ -7208,7 +7208,7 @@ function getCensusApiData(url, year, i) {
               "53",
               "Real Estate and Rental and Leasing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set413: {
@@ -7225,7 +7225,7 @@ function getCensusApiData(url, year, i) {
               "53",
               "Real Estate and Rental and Leasing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -7588,7 +7588,7 @@ function getCensusApiData(url, year, i) {
               "44-45",
               "Retail Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set435: {
@@ -7605,7 +7605,7 @@ function getCensusApiData(url, year, i) {
               "44-45",
               "Retail Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set436: {
@@ -7622,7 +7622,7 @@ function getCensusApiData(url, year, i) {
               "44-45",
               "Retail Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set437: {
@@ -7639,7 +7639,7 @@ function getCensusApiData(url, year, i) {
               "44-45",
               "Retail Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -8002,7 +8002,7 @@ function getCensusApiData(url, year, i) {
               "48-49",
               "Transportation and Warehousing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set459: {
@@ -8019,7 +8019,7 @@ function getCensusApiData(url, year, i) {
               "48-49",
               "Transportation and Warehousing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set460: {
@@ -8036,7 +8036,7 @@ function getCensusApiData(url, year, i) {
               "48-49",
               "Transportation and Warehousing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set461: {
@@ -8053,7 +8053,7 @@ function getCensusApiData(url, year, i) {
               "48-49",
               "Transportation and Warehousing" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -8416,7 +8416,7 @@ function getCensusApiData(url, year, i) {
               "22",
               "Utilities" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set483: {
@@ -8433,7 +8433,7 @@ function getCensusApiData(url, year, i) {
               "22",
               "Utilities" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set484: {
@@ -8450,7 +8450,7 @@ function getCensusApiData(url, year, i) {
               "22",
               "Utilities" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set485: {
@@ -8467,7 +8467,7 @@ function getCensusApiData(url, year, i) {
               "22",
               "Utilities" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -8830,7 +8830,7 @@ function getCensusApiData(url, year, i) {
               "42",
               "Wholesale Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set507: {
@@ -8847,7 +8847,7 @@ function getCensusApiData(url, year, i) {
               "42",
               "Wholesale Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set508: {
@@ -8864,7 +8864,7 @@ function getCensusApiData(url, year, i) {
               "42",
               "Wholesale Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
           set509: {
@@ -8881,7 +8881,7 @@ function getCensusApiData(url, year, i) {
               "42",
               "Wholesale Trade" + ",",
               "Turnover Rate",
-              dataend+ ",",
+              dataend*100
             ],
           },
 
@@ -14038,7 +14038,7 @@ for (var i = 1; i < 759; ++i) {
             "72",
             "Accommodation and Food Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set50: {
@@ -14055,7 +14055,7 @@ for (var i = 1; i < 759; ++i) {
             "72",
             "Accommodation and Food Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set51: {
@@ -14072,7 +14072,7 @@ for (var i = 1; i < 759; ++i) {
             "72",
             "Accommodation and Food Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set52: {
@@ -14089,7 +14089,7 @@ for (var i = 1; i < 759; ++i) {
             "72",
             "Accommodation and Food Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -14469,7 +14469,7 @@ for (var i = 1; i < 759; ++i) {
             "62",
             "Health Care and Social Assistance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set75: {
@@ -14486,7 +14486,7 @@ for (var i = 1; i < 759; ++i) {
             "62",
             "Health Care and Social Assistance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set76: {
@@ -14503,7 +14503,7 @@ for (var i = 1; i < 759; ++i) {
             "62",
             "Health Care and Social Assistance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set77: {
@@ -14520,7 +14520,7 @@ for (var i = 1; i < 759; ++i) {
             "62",
             "Health Care and Social Assistance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -14899,7 +14899,7 @@ for (var i = 1; i < 759; ++i) {
             "Administrative and Support and Waste Management and Remediation Services" +
               ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set99: {
@@ -14917,7 +14917,7 @@ for (var i = 1; i < 759; ++i) {
             "Administrative and Support and Waste Management and Remediation Services" +
               ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set100: {
@@ -14935,7 +14935,7 @@ for (var i = 1; i < 759; ++i) {
             "Administrative and Support and Waste Management and Remediation Services" +
               ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set101: {
@@ -14953,7 +14953,7 @@ for (var i = 1; i < 759; ++i) {
             "Administrative and Support and Waste Management and Remediation Services" +
               ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set102: {
@@ -15316,7 +15316,7 @@ for (var i = 1; i < 759; ++i) {
             "11",
             '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set123: {
@@ -15333,7 +15333,7 @@ for (var i = 1; i < 759; ++i) {
             "11",
             '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set124: {
@@ -15350,7 +15350,7 @@ for (var i = 1; i < 759; ++i) {
             "11",
             '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
             "Turnover Rate"+ ",",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set125: {
@@ -15367,7 +15367,7 @@ for (var i = 1; i < 759; ++i) {
             "11",
             '"Agriculture, Forestry, Fishing and Hunting"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -15730,7 +15730,7 @@ for (var i = 1; i < 759; ++i) {
             "71",
             '"Arts, Entertainment, and Recreation"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set147: {
@@ -15747,7 +15747,7 @@ for (var i = 1; i < 759; ++i) {
             "71",
             '"Arts, Entertainment, and Recreation"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set148: {
@@ -15764,7 +15764,7 @@ for (var i = 1; i < 759; ++i) {
             "71",
             '"Arts, Entertainment, and Recreation"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set149: {
@@ -15781,7 +15781,7 @@ for (var i = 1; i < 759; ++i) {
             "71",
             '"Arts, Entertainment, and Recreation"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -16144,7 +16144,7 @@ for (var i = 1; i < 759; ++i) {
             "23",
             "Construction" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set171: {
@@ -16161,7 +16161,7 @@ for (var i = 1; i < 759; ++i) {
             "23",
             "Construction" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set172: {
@@ -16178,7 +16178,7 @@ for (var i = 1; i < 759; ++i) {
             "23",
             "Construction" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set173: {
@@ -16195,7 +16195,7 @@ for (var i = 1; i < 759; ++i) {
             "23",
             "Construction" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -16558,7 +16558,7 @@ for (var i = 1; i < 759; ++i) {
             "61",
             "Educational Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set195: {
@@ -16575,7 +16575,7 @@ for (var i = 1; i < 759; ++i) {
             "61",
             "Educational Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set196: {
@@ -16592,7 +16592,7 @@ for (var i = 1; i < 759; ++i) {
             "61",
             "Educational Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set197: {
@@ -16609,7 +16609,7 @@ for (var i = 1; i < 759; ++i) {
             "61",
             "Educational Services" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -16972,7 +16972,7 @@ for (var i = 1; i < 759; ++i) {
             "52",
             "Finance and Insurance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set219: {
@@ -16989,7 +16989,7 @@ for (var i = 1; i < 759; ++i) {
             "52",
             "Finance and Insurance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set220: {
@@ -17006,7 +17006,7 @@ for (var i = 1; i < 759; ++i) {
             "52",
             "Finance and Insurance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set221: {
@@ -17023,7 +17023,7 @@ for (var i = 1; i < 759; ++i) {
             "52",
             "Finance and Insurance" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -17387,7 +17387,7 @@ for (var i = 1; i < 759; ++i) {
             "51",
             "Information" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set243: {
@@ -17404,7 +17404,7 @@ for (var i = 1; i < 759; ++i) {
             "51",
             "Information" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set244: {
@@ -17421,7 +17421,7 @@ for (var i = 1; i < 759; ++i) {
             "51",
             "Information" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set245: {
@@ -17438,7 +17438,7 @@ for (var i = 1; i < 759; ++i) {
             "51",
             "Information" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -17801,7 +17801,7 @@ for (var i = 1; i < 759; ++i) {
             "55",
             "Management of Companies and Enterprises" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set267: {
@@ -17818,7 +17818,7 @@ for (var i = 1; i < 759; ++i) {
             "55",
             "Management of Companies and Enterprises" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set268: {
@@ -17835,7 +17835,7 @@ for (var i = 1; i < 759; ++i) {
             "55",
             "Management of Companies and Enterprises" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set269: {
@@ -17852,7 +17852,7 @@ for (var i = 1; i < 759; ++i) {
             "55",
             "Management of Companies and Enterprises" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -18215,7 +18215,7 @@ for (var i = 1; i < 759; ++i) {
             "31-33",
             "Manufacturing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set291: {
@@ -18232,7 +18232,7 @@ for (var i = 1; i < 759; ++i) {
             "31-33",
             "Manufacturing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set292: {
@@ -18249,7 +18249,7 @@ for (var i = 1; i < 759; ++i) {
             "31-33",
             "Manufacturing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set293: {
@@ -18266,7 +18266,7 @@ for (var i = 1; i < 759; ++i) {
             "31-33",
             "Manufacturing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -18629,7 +18629,7 @@ for (var i = 1; i < 759; ++i) {
             "21",
             '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set315: {
@@ -18646,7 +18646,7 @@ for (var i = 1; i < 759; ++i) {
             "21",
             '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set316: {
@@ -18663,7 +18663,7 @@ for (var i = 1; i < 759; ++i) {
             "21",
             '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set317: {
@@ -18680,7 +18680,7 @@ for (var i = 1; i < 759; ++i) {
             "21",
             '"Mining, Quarrying, and Oil and Gas Extraction"' + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -19043,7 +19043,7 @@ for (var i = 1; i < 759; ++i) {
             "81",
             "Other Services (except Public Administration)" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set339: {
@@ -19060,7 +19060,7 @@ for (var i = 1; i < 759; ++i) {
             "81",
             "Other Services (except Public Administration)" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set340: {
@@ -19077,7 +19077,7 @@ for (var i = 1; i < 759; ++i) {
             "81",
             "Other Services (except Public Administration)" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set341: {
@@ -19094,7 +19094,7 @@ for (var i = 1; i < 759; ++i) {
             "81",
             "Other Services (except Public Administration)" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -19457,7 +19457,7 @@ for (var i = 1; i < 759; ++i) {
             "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set363: {
@@ -19474,7 +19474,7 @@ for (var i = 1; i < 759; ++i) {
             "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set364: {
@@ -19491,7 +19491,7 @@ for (var i = 1; i < 759; ++i) {
             "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set365: {
@@ -19508,7 +19508,7 @@ for (var i = 1; i < 759; ++i) {
             "54",
             '"Professional, Scientific, and Technical Services"'+ ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set366: {
@@ -19870,7 +19870,7 @@ for (var i = 1; i < 759; ++i) {
             "92",
             "Public Administration" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set387: {
@@ -19887,7 +19887,7 @@ for (var i = 1; i < 759; ++i) {
             "92",
             "Public Administration" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set388: {
@@ -19904,7 +19904,7 @@ for (var i = 1; i < 759; ++i) {
             "92",
             "Public Administration" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set389: {
@@ -19921,7 +19921,7 @@ for (var i = 1; i < 759; ++i) {
             "92",
             "Public Administration" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -20284,7 +20284,7 @@ for (var i = 1; i < 759; ++i) {
             "53",
             "Real Estate and Rental and Leasing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set411: {
@@ -20301,7 +20301,7 @@ for (var i = 1; i < 759; ++i) {
             "53",
             "Real Estate and Rental and Leasing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set412: {
@@ -20318,7 +20318,7 @@ for (var i = 1; i < 759; ++i) {
             "53",
             "Real Estate and Rental and Leasing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set413: {
@@ -20335,7 +20335,7 @@ for (var i = 1; i < 759; ++i) {
             "53",
             "Real Estate and Rental and Leasing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -20698,7 +20698,7 @@ for (var i = 1; i < 759; ++i) {
             "44-45",
             "Retail Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set435: {
@@ -20715,7 +20715,7 @@ for (var i = 1; i < 759; ++i) {
             "44-45",
             "Retail Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set436: {
@@ -20732,7 +20732,7 @@ for (var i = 1; i < 759; ++i) {
             "44-45",
             "Retail Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set437: {
@@ -20749,7 +20749,7 @@ for (var i = 1; i < 759; ++i) {
             "44-45",
             "Retail Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -21112,7 +21112,7 @@ for (var i = 1; i < 759; ++i) {
             "48-49",
             "Transportation and Warehousing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set459: {
@@ -21129,7 +21129,7 @@ for (var i = 1; i < 759; ++i) {
             "48-49",
             "Transportation and Warehousing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set460: {
@@ -21146,7 +21146,7 @@ for (var i = 1; i < 759; ++i) {
             "48-49",
             "Transportation and Warehousing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
         set461: {
@@ -21163,7 +21163,7 @@ for (var i = 1; i < 759; ++i) {
             "48-49",
             "Transportation and Warehousing" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend*100
           ],
         },
 
@@ -21526,7 +21526,7 @@ for (var i = 1; i < 759; ++i) {
             "22",
             "Utilities" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set483: {
@@ -21543,7 +21543,7 @@ for (var i = 1; i < 759; ++i) {
             "22",
             "Utilities" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set484: {
@@ -21560,7 +21560,7 @@ for (var i = 1; i < 759; ++i) {
             "22",
             "Utilities" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set485: {
@@ -21577,7 +21577,7 @@ for (var i = 1; i < 759; ++i) {
             "22",
             "Utilities" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 
@@ -21940,7 +21940,7 @@ for (var i = 1; i < 759; ++i) {
             "42",
             "Wholesale Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set507: {
@@ -21957,7 +21957,7 @@ for (var i = 1; i < 759; ++i) {
             "42",
             "Wholesale Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set508: {
@@ -21974,7 +21974,7 @@ for (var i = 1; i < 759; ++i) {
             "42",
             "Wholesale Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
         set509: {
@@ -21991,7 +21991,7 @@ for (var i = 1; i < 759; ++i) {
             "42",
             "Wholesale Trade" + ",",
             "Turnover Rate",
-            dataend+ ",",
+            dataend, dataend*100
           ],
         },
 

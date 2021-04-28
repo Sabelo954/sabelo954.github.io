@@ -18,7 +18,7 @@ var results = [
     "Col14"
   ],
   [
-    "Measure,","Location,","Indicator,","Time,","Indicator_Status,","Indicator_Value,","Amount"
+    "Measure,","Location,","Indicator,","Time,","Indicator_Status,","Indicator_Value,","Amount,","Unemployment_Rate"
   ],
   // ["Maryland"+",","2015Q3"+",","TANF Workers"+",,,,,",5546+","],
   // ["Maryland"+",","2015Q4"+",","TANF Workers"+",,,,,",5875+","],
@@ -427,7 +427,7 @@ function getCensusApiData(url, year, i) {
               + year + "Q1","72",
               "Accommodation and Food Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set50: {
@@ -443,7 +443,7 @@ function getCensusApiData(url, year, i) {
               + year + "Q2","72",
               "Accommodation and Food Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set51: {
@@ -459,7 +459,7 @@ function getCensusApiData(url, year, i) {
               + year + "Q3","72",
               "Accommodation and Food Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set52: {
@@ -475,7 +475,7 @@ function getCensusApiData(url, year, i) {
               + year + "Q4","72",
               "Accommodation and Food Services",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -849,7 +849,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","62",
               "Health Care and Social Assistance",
 
-              dataend,
+              dataend*100
             ],
           },
           set75: {
@@ -866,7 +866,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","62",
               "Health Care and Social Assistance",
 
-              dataend,
+              dataend*100
             ],
           },
           set76: {
@@ -883,7 +883,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","62",
               "Health Care and Social Assistance",
 
-              dataend,
+              dataend*100
             ],
           },
           set77: {
@@ -900,7 +900,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","62",
               "Health Care and Social Assistance",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -1262,7 +1262,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","56",
               "Administrative and Support and Waste Management and Remediation Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set99: {
@@ -1279,7 +1279,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","56",
               "Administrative and Support and Waste Management and Remediation Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set100: {
@@ -1296,7 +1296,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","56",
               "Administrative and Support and Waste Management and Remediation Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set101: {
@@ -1313,7 +1313,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","56",
               "Administrative and Support and Waste Management and Remediation Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set102: {
@@ -1670,7 +1670,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","11",
               "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-              dataend,
+              dataend*100
             ],
           },
           set123: {
@@ -1687,7 +1687,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","11",
               "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-              dataend,
+              dataend*100
             ],
           },
           set124: {
@@ -1704,7 +1704,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","11",
               "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-              dataend,
+              dataend*100
             ],
           },
           set125: {
@@ -1721,7 +1721,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","11",
               "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -2084,7 +2084,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","71",
               '"Arts, Entertainment, and Recreation"',
 
-              dataend,
+              dataend*100
             ],
           },
           set147: {
@@ -2101,7 +2101,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","71",
               '"Arts, Entertainment, and Recreation"',
 
-              dataend,
+              dataend*100
             ],
           },
           set148: {
@@ -2118,7 +2118,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","71",
               '"Arts, Entertainment, and Recreation"',
 
-              dataend,
+              dataend*100
             ],
           },
           set149: {
@@ -2135,7 +2135,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","71",
               '"Arts, Entertainment, and Recreation"',
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -2496,7 +2496,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","23",
               "Construction",
 
-              dataend,
+              dataend*100
             ],
           },
           set171: {
@@ -2513,7 +2513,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","23",
               "Construction",
 
-              dataend,
+              dataend*100
             ],
           },
           set172: {
@@ -2530,7 +2530,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","23",
               "Construction",
 
-              dataend,
+              dataend*100
             ],
           },
           set173: {
@@ -2547,7 +2547,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","23",
               "Construction",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -2909,7 +2909,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","61",
               "Educational Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set195: {
@@ -2926,7 +2926,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","61",
               "Educational Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set196: {
@@ -2943,7 +2943,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","61",
               "Educational Services",
 
-              dataend,
+              dataend*100
             ],
           },
           set197: {
@@ -2960,7 +2960,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","61",
               "Educational Services",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -3323,7 +3323,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","52",
               "Finance and Insurance",
 
-              dataend,
+              dataend*100
             ],
           },
           set219: {
@@ -3340,7 +3340,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","52",
               "Finance and Insurance",
 
-              dataend,
+              dataend*100
             ],
           },
           set220: {
@@ -3357,7 +3357,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","52",
               "Finance and Insurance",
 
-              dataend,
+              dataend*100
             ],
           },
           set221: {
@@ -3374,7 +3374,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","52",
               "Finance and Insurance",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -3736,7 +3736,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","51",
               "Information",
 
-              dataend,
+              dataend*100
             ],
           },
           set243: {
@@ -3753,7 +3753,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","51",
               "Information",
 
-              dataend,
+              dataend*100
             ],
           },
           set244: {
@@ -3770,7 +3770,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","51",
               "Information",
 
-              dataend,
+              dataend*100
             ],
           },
           set245: {
@@ -3787,7 +3787,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","51",
               "Information",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -4150,7 +4150,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","55",
               "Management of Companies and Enterprises",
 
-              dataend,
+              dataend*100
             ],
           },
           set267: {
@@ -4167,7 +4167,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","55",
               "Management of Companies and Enterprises",
 
-              dataend,
+              dataend*100
             ],
           },
           set268: {
@@ -4184,7 +4184,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","55",
               "Management of Companies and Enterprises",
 
-              dataend,
+              dataend*100
             ],
           },
           set269: {
@@ -4201,7 +4201,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","55",
               "Management of Companies and Enterprises",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -4564,7 +4564,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","31-33",
               "Manufacturing",
 
-              dataend,
+              dataend*100
             ],
           },
           set291: {
@@ -4581,7 +4581,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","31-33",
               "Manufacturing",
 
-              dataend,
+              dataend*100
             ],
           },
           set292: {
@@ -4598,7 +4598,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","31-33",
               "Manufacturing",
 
-              dataend,
+              dataend*100
             ],
           },
           set293: {
@@ -4615,7 +4615,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","31-33",
               "Manufacturing",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -4976,7 +4976,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-              dataend,
+              dataend*100
             ],
           },
           set315: {
@@ -4993,7 +4993,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-              dataend,
+              dataend*100
             ],
           },
           set316: {
@@ -5010,7 +5010,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-              dataend,
+              dataend*100
             ],
           },
           set317: {
@@ -5027,7 +5027,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","21",
               '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -5390,7 +5390,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","81",
               "Other Services (except Public Administration)",
 
-              dataend,
+              dataend*100
             ],
           },
           set339: {
@@ -5407,7 +5407,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","81",
               "Other Services (except Public Administration)",
 
-              dataend,
+              dataend*100
             ],
           },
           set340: {
@@ -5424,7 +5424,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","81",
               "Other Services (except Public Administration)",
 
-              dataend,
+              dataend*100
             ],
           },
           set341: {
@@ -5441,7 +5441,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","81",
               "Other Services (except Public Administration)",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -5804,7 +5804,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","54",
               '"Professional, Scientific, and Technical Services"',
 
-              dataend,
+              dataend*100
             ],
           },
           set363: {
@@ -5821,7 +5821,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","54",
               '"Professional, Scientific, and Technical Services"',
 
-              dataend,
+              dataend*100
             ],
           },
           set364: {
@@ -5838,7 +5838,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","54",
               '"Professional, Scientific, and Technical Services"',
 
-              dataend,
+              dataend*100
             ],
           },
           set365: {
@@ -5855,7 +5855,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","54",
               '"Professional, Scientific, and Technical Services"',
 
-              dataend,
+              dataend*100
             ],
           },
           set366: {
@@ -6217,7 +6217,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","92",
               "Public Administration",
 
-              dataend,
+              dataend*100
             ],
           },
           set387: {
@@ -6234,7 +6234,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","92",
               "Public Administration",
 
-              dataend,
+              dataend*100
             ],
           },
           set388: {
@@ -6251,7 +6251,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","92",
               "Public Administration",
 
-              dataend,
+              dataend*100
             ],
           },
           set389: {
@@ -6268,7 +6268,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","92",
               "Public Administration",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -6631,7 +6631,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","53",
               "Real Estate and Rental and Leasing",
 
-              dataend,
+              dataend*100
             ],
           },
           set411: {
@@ -6648,7 +6648,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","53",
               "Real Estate and Rental and Leasing",
 
-              dataend,
+              dataend*100
             ],
           },
           set412: {
@@ -6665,7 +6665,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","53",
               "Real Estate and Rental and Leasing",
 
-              dataend,
+              dataend*100
             ],
           },
           set413: {
@@ -6682,7 +6682,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","53",
               "Real Estate and Rental and Leasing",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -7045,7 +7045,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","44-45",
               "Retail Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set435: {
@@ -7062,7 +7062,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","44-45",
               "Retail Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set436: {
@@ -7079,7 +7079,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","44-45",
               "Retail Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set437: {
@@ -7096,7 +7096,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","44-45",
               "Retail Trade",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -7459,7 +7459,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","48-49",
               "Transportation and Warehousing",
 
-              dataend,
+              dataend*100
             ],
           },
           set459: {
@@ -7476,7 +7476,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","48-49",
               "Transportation and Warehousing",
 
-              dataend,
+              dataend*100
             ],
           },
           set460: {
@@ -7493,7 +7493,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","48-49",
               "Transportation and Warehousing",
 
-              dataend,
+              dataend*100
             ],
           },
           set461: {
@@ -7510,7 +7510,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","48-49",
               "Transportation and Warehousing",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -7871,7 +7871,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","22",
               "Utilities",
 
-              dataend,
+              dataend*100
             ],
           },
           set483: {
@@ -7888,7 +7888,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","22",
               "Utilities",
 
-              dataend,
+              dataend*100
             ],
           },
           set484: {
@@ -7905,7 +7905,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","22",
               "Utilities",
 
-              dataend,
+              dataend*100
             ],
           },
           set485: {
@@ -7922,7 +7922,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","22",
               "Utilities",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -8285,7 +8285,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q1","42",
               "Wholesale Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set507: {
@@ -8302,7 +8302,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q2","42",
               "Wholesale Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set508: {
@@ -8319,7 +8319,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q3","42",
               "Wholesale Trade",
 
-              dataend,
+              dataend*100
             ],
           },
           set509: {
@@ -8336,7 +8336,7 @@ function getCensusApiData(url, year, i) {
               +year+"Q4","42",
               "Wholesale Trade",
 
-              dataend,
+              dataend*100
             ],
           },
 
@@ -13488,7 +13488,7 @@ for (var i = 33; i < 790; ++i) {
             + year + "Q1","72",
             "Accommodation and Food Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set50: {
@@ -13504,7 +13504,7 @@ for (var i = 33; i < 790; ++i) {
             + year + "Q2","72",
             "Accommodation and Food Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set51: {
@@ -13520,7 +13520,7 @@ for (var i = 33; i < 790; ++i) {
             + year + "Q3","72",
             "Accommodation and Food Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set52: {
@@ -13536,7 +13536,7 @@ for (var i = 33; i < 790; ++i) {
             + year + "Q4","72",
             "Accommodation and Food Services",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -13910,7 +13910,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","62",
             "Health Care and Social Assistance",
 
-            dataend,
+            dataend*100
           ],
         },
         set75: {
@@ -13927,7 +13927,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","62",
             "Health Care and Social Assistance",
 
-            dataend,
+            dataend*100
           ],
         },
         set76: {
@@ -13944,7 +13944,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","62",
             "Health Care and Social Assistance",
 
-            dataend,
+            dataend*100
           ],
         },
         set77: {
@@ -13961,7 +13961,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","62",
             "Health Care and Social Assistance",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -14323,7 +14323,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","56",
             "Administrative and Support and Waste Management and Remediation Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set99: {
@@ -14340,7 +14340,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","56",
             "Administrative and Support and Waste Management and Remediation Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set100: {
@@ -14357,7 +14357,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","56",
             "Administrative and Support and Waste Management and Remediation Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set101: {
@@ -14374,7 +14374,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","56",
             "Administrative and Support and Waste Management and Remediation Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set102: {
@@ -14731,7 +14731,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","11",
             "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-            dataend,
+            dataend*100
           ],
         },
         set123: {
@@ -14748,7 +14748,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","11",
             "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-            dataend,
+            dataend*100
           ],
         },
         set124: {
@@ -14765,7 +14765,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","11",
             "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-            dataend,
+            dataend*100
           ],
         },
         set125: {
@@ -14782,7 +14782,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","11",
             "\"Agriculture, Forestry, Fishing and Hunting\"",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -15145,7 +15145,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","71",
             '"Arts, Entertainment, and Recreation"',
 
-            dataend,
+            dataend*100
           ],
         },
         set147: {
@@ -15162,7 +15162,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","71",
             '"Arts, Entertainment, and Recreation"',
 
-            dataend,
+            dataend*100
           ],
         },
         set148: {
@@ -15179,7 +15179,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","71",
             '"Arts, Entertainment, and Recreation"',
 
-            dataend,
+            dataend*100
           ],
         },
         set149: {
@@ -15196,7 +15196,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","71",
             '"Arts, Entertainment, and Recreation"',
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -15557,7 +15557,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","23",
             "Construction",
 
-            dataend,
+            dataend*100
           ],
         },
         set171: {
@@ -15574,7 +15574,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","23",
             "Construction",
 
-            dataend,
+            dataend*100
           ],
         },
         set172: {
@@ -15591,7 +15591,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","23",
             "Construction",
 
-            dataend,
+            dataend*100
           ],
         },
         set173: {
@@ -15608,7 +15608,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","23",
             "Construction",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -15970,7 +15970,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","61",
             "Educational Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set195: {
@@ -15987,7 +15987,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","61",
             "Educational Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set196: {
@@ -16004,7 +16004,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","61",
             "Educational Services",
 
-            dataend,
+            dataend*100
           ],
         },
         set197: {
@@ -16021,7 +16021,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","61",
             "Educational Services",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -16378,7 +16378,7 @@ for (var i = 33; i < 790; ++i) {
             "Maryland Turnover Rate by Industry",
             +year+"Q1","52",
             "Finance and Insurance",
-            dataend,
+            dataend*100
           ],
         },
         set219: {
@@ -16395,7 +16395,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","52",
             "Finance and Insurance",
 
-            dataend,
+            dataend*100
           ],
         },
         set220: {
@@ -16412,7 +16412,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","52",
             "Finance and Insurance",
 
-            dataend,
+            dataend*100
           ],
         },
         set221: {
@@ -16429,7 +16429,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","52",
             "Finance and Insurance",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -16790,7 +16790,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","51",
             "Information",
 
-            dataend,
+            dataend*100
           ],
         },
         set243: {
@@ -16807,7 +16807,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","51",
             "Information",
 
-            dataend,
+            dataend*100
           ],
         },
         set244: {
@@ -16824,7 +16824,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","51",
             "Information",
 
-            dataend,
+            dataend*100
           ],
         },
         set245: {
@@ -16841,7 +16841,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","51",
             "Information",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -17204,7 +17204,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","55",
             "Management of Companies and Enterprises",
 
-            dataend,
+            dataend*100
           ],
         },
         set267: {
@@ -17221,7 +17221,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","55",
             "Management of Companies and Enterprises",
 
-            dataend,
+            dataend*100
           ],
         },
         set268: {
@@ -17238,7 +17238,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","55",
             "Management of Companies and Enterprises",
 
-            dataend,
+            dataend*100
           ],
         },
         set269: {
@@ -17255,7 +17255,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","55",
             "Management of Companies and Enterprises",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -17618,7 +17618,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","31-33",
             "Manufacturing",
 
-            dataend,
+            dataend*100
           ],
         },
         set291: {
@@ -17635,7 +17635,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","31-33",
             "Manufacturing",
 
-            dataend,
+            dataend*100
           ],
         },
         set292: {
@@ -17652,7 +17652,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","31-33",
             "Manufacturing",
 
-            dataend,
+            dataend*100
           ],
         },
         set293: {
@@ -17669,7 +17669,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","31-33",
             "Manufacturing",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -18030,7 +18030,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-            dataend,
+            dataend*100
           ],
         },
         set315: {
@@ -18047,7 +18047,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-            dataend,
+            dataend*100
           ],
         },
         set316: {
@@ -18064,7 +18064,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-            dataend,
+            dataend*100
           ],
         },
         set317: {
@@ -18081,7 +18081,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","21",
             '"Mining, Quarrying, and Oil and Gas Extraction"',
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -18444,7 +18444,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","81",
             "Other Services (except Public Administration)",
 
-            dataend,
+            dataend*100
           ],
         },
         set339: {
@@ -18461,7 +18461,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","81",
             "Other Services (except Public Administration)",
 
-            dataend,
+            dataend*100
           ],
         },
         set340: {
@@ -18478,7 +18478,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","81",
             "Other Services (except Public Administration)",
 
-            dataend,
+            dataend*100
           ],
         },
         set341: {
@@ -18495,7 +18495,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","81",
             "Other Services (except Public Administration)",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -18858,7 +18858,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","54",
             '"Professional, Scientific, and Technical Services"',
 
-            dataend,
+            dataend*100
           ],
         },
         set363: {
@@ -18875,7 +18875,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","54",
             '"Professional, Scientific, and Technical Services"',
 
-            dataend,
+            dataend*100
           ],
         },
         set364: {
@@ -18892,7 +18892,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","54",
             '"Professional, Scientific, and Technical Services"',
 
-            dataend,
+            dataend*100
           ],
         },
         set365: {
@@ -18909,7 +18909,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","54",
             '"Professional, Scientific, and Technical Services"',
 
-            dataend,
+            dataend*100
           ],
         },
         set366: {
@@ -19271,7 +19271,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","92",
             "Public Administration",
 
-            dataend,
+            dataend*100
           ],
         },
         set387: {
@@ -19288,7 +19288,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","92",
             "Public Administration",
 
-            dataend,
+            dataend*100
           ],
         },
         set388: {
@@ -19305,7 +19305,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","92",
             "Public Administration",
 
-            dataend,
+            dataend*100
           ],
         },
         set389: {
@@ -19322,7 +19322,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","92",
             "Public Administration",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -19685,7 +19685,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","53",
             "Real Estate and Rental and Leasing",
 
-            dataend,
+            dataend*100
           ],
         },
         set411: {
@@ -19702,7 +19702,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","53",
             "Real Estate and Rental and Leasing",
 
-            dataend,
+            dataend*100
           ],
         },
         set412: {
@@ -19719,7 +19719,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","53",
             "Real Estate and Rental and Leasing",
 
-            dataend,
+            dataend*100
           ],
         },
         set413: {
@@ -19736,7 +19736,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","53",
             "Real Estate and Rental and Leasing",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -20099,7 +20099,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","44-45",
             "Retail Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set435: {
@@ -20116,7 +20116,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","44-45",
             "Retail Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set436: {
@@ -20133,7 +20133,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","44-45",
             "Retail Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set437: {
@@ -20150,7 +20150,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","44-45",
             "Retail Trade",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -20513,7 +20513,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","48-49",
             "Transportation and Warehousing",
 
-            dataend,
+            dataend*100
           ],
         },
         set459: {
@@ -20530,7 +20530,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","48-49",
             "Transportation and Warehousing",
 
-            dataend,
+            dataend*100
           ],
         },
         set460: {
@@ -20547,7 +20547,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","48-49",
             "Transportation and Warehousing",
 
-            dataend,
+            dataend*100
           ],
         },
         set461: {
@@ -20564,7 +20564,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","48-49",
             "Transportation and Warehousing",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -20925,7 +20925,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","22",
             "Utilities",
 
-            dataend,
+            dataend*100
           ],
         },
         set483: {
@@ -20942,7 +20942,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","22",
             "Utilities",
 
-            dataend,
+            dataend*100
           ],
         },
         set484: {
@@ -20959,7 +20959,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","22",
             "Utilities",
 
-            dataend,
+            dataend*100
           ],
         },
         set485: {
@@ -20976,7 +20976,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","22",
             "Utilities",
 
-            dataend,
+            dataend*100
           ],
         },
 
@@ -21339,7 +21339,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q1","42",
             "Wholesale Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set507: {
@@ -21356,7 +21356,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q2","42",
             "Wholesale Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set508: {
@@ -21373,7 +21373,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q3","42",
             "Wholesale Trade",
 
-            dataend,
+            dataend*100
           ],
         },
         set509: {
@@ -21390,7 +21390,7 @@ for (var i = 33; i < 790; ++i) {
             +year+"Q4","42",
             "Wholesale Trade",
 
-            dataend,
+            dataend*100
           ],
         },
 
