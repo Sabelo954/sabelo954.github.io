@@ -1137,13 +1137,13 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
-
           set5: {
             url5:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat5: [
-              year,"Employment Status by Disability Status","Unemployed","Non Disabled",'"Allegany County, Maryland"',
-              dataend+ ",",
+              year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
+              dataend,
+              dataend / 100,
             ],
           },
 
@@ -1170,9 +1170,9 @@ function getCensusApiData(url, year, i) {
 
           set8: {
             url8:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
             arrayformat8: [
-              year,"Employment Status By Disability Status","Unemployed","Non Disabled",'"Allegany County, Maryland"',
+              year,"Employment Status By Disability Status","Employed","Non Disabled",'"Allegany County, Maryland"',
               dataend+ ",",
             ],
           },
@@ -1392,24 +1392,8 @@ function getCensusApiData(url, year, i) {
             ],
           },
 
-          set29: {
-            url29:
-              "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat29: [
-              year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
-              dataend,
-              dataend / 100,
-            ],
-          },
 
-          set30: {
-            url30:
-              "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-            arrayformat30: [
-              year,"Employment Status By Disability Status","Employed","Non Disabled",'"Allegany County, Maryland"',
-              dataend+ ",",
-            ],
-          },
+
 
 
 
@@ -1453,7 +1437,7 @@ function pushresultstoarray(year,obj,i){
 // console.log("Data end after function:", dataend);
 
 //Initial for loop which links to each data set
-for (var i = 1; i < 31; ++i) {
+for (var i = 1; i < 29; ++i) {
   // console.log("Checking for i!!!!", i);
 
   //While loop to collect the Census bureau data for each iteration of year until it is undefined.
@@ -1527,14 +1511,15 @@ for (var i = 1; i < 31; ++i) {
         },
 //adjusted to remove the extra data points for non disabled unemplyoment rate
 
-        set5: {
-          url5:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat5: [
-            year,"Employment Status by Disability Status","Unemployed","Non Disabled",'"Allegany County, Maryland"',
-            dataend+ ",",
-          ],
-        },
+set5: {
+  url5:
+    "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+  arrayformat5: [
+    year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
+    dataend,
+    dataend / 100,
+  ],
+},
 
         set6: {
           url6:
@@ -1560,9 +1545,9 @@ for (var i = 1; i < 31; ++i) {
 
         set8: {
           url8:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_008E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
+            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
           arrayformat8: [
-            year,"Employment Status By Disability Status","Unemployed","Non Disabled",'"Allegany County, Maryland"',
+            year,"Employment Status By Disability Status","Employed","Non Disabled",'"Allegany County, Maryland"',
             dataend+ ",",
           ],
         },
@@ -1782,24 +1767,9 @@ for (var i = 1; i < 31; ++i) {
           ],
         },
 
-        set29: {
-          url29:
-            "https://api.census.gov/data/"+year+"/acs/acs5/subject?get=NAME,S2301_C04_019E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat29: [
-            year,"Unemployment By Race,","Hispanic",'"Allegany County, Maryland"',
-            dataend,
-            dataend / 100,
-          ],
-        },
 
-        set30: {
-          url30:
-            "https://api.census.gov/data/"+year+"/acs/acs5?get=NAME,C18120_005E&for=county:001&in=state:24&key=855666deab62d95596011f1944d9f1bd8c918853",
-          arrayformat30: [
-            year,"Employment Status By Disability Status","Employed","Non Disabled",'"Allegany County, Maryland"',
-            dataend+ ",",
-          ],
-        },
+
+
 
 
 
