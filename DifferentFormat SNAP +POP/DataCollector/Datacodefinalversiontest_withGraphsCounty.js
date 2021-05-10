@@ -1525,7 +1525,7 @@ for (var i = 1; i < 31; ++i) {
             dataend+ ",,,,",
           ],
         },
-
+//adjusted to remove the extra data points for non disabled unemplyoment rate
 
         set5: {
           url5:
