@@ -81,15 +81,14 @@ var results = [
 
 
 
-  ["2016,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,5093,",,,,,"],
-  ["2017,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,5017,",,,,,"],
-  ["2018,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,5006,",,,,,"],
+  ["2017,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,5011,",,,,,"],
+  ["2018,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,4969,",,,,,"],
+  ["2019,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,4990,",,,,,"],
 
 
-  ["2015,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0185,",",1.85,",,,,"],
-  ["2016,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0185,",",1.85,",,,,"],
-  ["2017,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0185,",",1.85,",,,,"],
-  ["2018,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0185,",",1.85,",,,,"],
+  ["2017,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0197,",",1.97,",,,,"],
+  ["2018,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0193,",",1.93,",,,,"],
+  ["2019,","SNAP Recipient Workers by Percentage"+",,,"+"\"Allegany County, Maryland\"",",",,0.0190,",",1.90,",,,,"],
 
 
   ["2015,","Employment Status By Disability Status,","Labor Force,","Disabled,","\"Allegany County, Maryland\"",",",2597,",,,,"],
