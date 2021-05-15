@@ -1324,7 +1324,7 @@ function getCensusApiData(url, year, i) {
             arrayformat72: [
               "Maryland",
               year + "Q3",
-              "Maryland Separations by Industry",
+              "Maryland Separations by Industry_duplicate",
               "62",
               "Health Care and Social Assistance" + ",",
               "Seperation",
@@ -14366,7 +14366,7 @@ for (var i = 1; i < 755; ++i) {
           arrayformat72: [
             "Maryland",
             year + "Q3",
-            "Maryland Separations by Industry",
+            "Maryland Separations by Industry_duplicate",
             "62",
             "Health Care and Social Assistance" + ",",
             "Seperation",
