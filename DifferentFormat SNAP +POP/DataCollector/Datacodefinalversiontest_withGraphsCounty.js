@@ -2,22 +2,6 @@
 // The table or array that will be converted to the excel spreadsheet
 var results = [
   [
-    "Col1"+",",
-    "Col2"+",",
-    "Col3"+",",
-    "Col4"+",",
-    "Col5"+",",
-    "Col6"+",",
-    "Col7"+",",
-    "Col8"+",",
-    "Col9"+",",
-    "Col10"+",",
-    "Col11"+",",
-    "Col12"+",",
-    "Col13"+",",
-    "Col14"
-  ],
-  [
   "Time,","Indicator,","Employment_Status,","Indicator_Status,","Location,","Amount,","Unemployment_Rate,,,,"
   ],
 
@@ -34,52 +18,54 @@ var results = [
   ["2016Q2,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,60,",,,,,"],
   ["2016Q3,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,62,",,,,,"],
   ["2016Q4,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,69,",,,,,"],
-  ["2016Q3,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
   ["2016Q1,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.258630383447655,",",0.258630383447655/100,",,,,,"],
   ["2016Q2,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.217155266015201,",",0.217155266015201/100,",,,,,"],
   ["2016Q3,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.22893434753711,",",0.22893434753711/100,",,,,,"],
   ["2016Q4,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.245438053569523,",",0.245438053569523/100,",,,,,"],
-  ["2016Q3,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.917431193,",",0.917431193/100,",",,",",",,,,"],
-
+  
   ["2017Q1,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,35,",,,,,"],
   ["2017Q2,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,44,",,,,,"],
   ["2017Q3,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,47,",,,,,"],
   ["2017Q4,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,44,",,,,,"],
-  ["2017Q1,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,4,",,,,,"],
-  ["2017Q2,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
-  ["2017Q3,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,1,",,,,,"],
-  ["2017Q4,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
   ["2017Q1,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.13134193935755,",",0.13134193935755/100,",,,,,"],
   ["2017Q2,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.160666033739867,",",0.160666033739867/100,",,,,,"],
   ["2017Q3,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.176247797,",",0.176247797/100,",,,,,"],
   ["2017Q4,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.158006248,",",0.158006248/100,",,,,,"],
-  ["2017Q1,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",1.47601476,",",1.47601476/100,",",,",",",,,,"],
-  ["2017Q2,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.711743772,",",0.711743772/100,",",,",",",,,,"],
-  ["2017Q3,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.46728972,",",0.46728972/100,",",,",",",,,,"],
-  ["2017Q4,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",1.290322581,",",1.290322581/100,",",,",",",,,,"],
-
+  
   ["2018Q1,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,45,",,,,,"],
   ["2018Q2,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,52,",,,,,"],
   ["2018Q3,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,58,",,,,,"],
-  ["2018Q4,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,47,",,,,,"],
-  ["2018Q1,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
-  ["2018Q2,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,1,",,,,,"],
-  ["2018Q4,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,3,",,,,,"],
+  ["2018Q4,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,47,",,,,,"],  
   ["2018Q1,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.168312388,",",0.168312388/100,",,,,,"],
   ["2018Q2,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.190002923,",",0.190002923/100,",,,,,"],
   ["2018Q3,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.213243134,",",0.213243134/100,",,,,,"],
   ["2018Q4,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.167372957,",",0.167372957/100,",,,,,"],
-  ["2018Q1,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.909090909,",",0.909090909/100,",",,",",",,,,"],
-  ["2018Q2,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.64516129,",",0.64516129/100,",",,",",",,,,"],
-  ["2018Q4,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",2.222222222,",",2.222222222/100,",",,",",",,,,"],
-
+  
   ["2019Q1,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,42,",,,,,"],
   ["2019Q2,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,63,",,,,,"],
   ["2019Q1,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.15326789,",",0.15326789/100,",,,,,"],
   ["2019Q2,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.225588141,",",0.225588141/100,",,,,,"],
 
-
-
+   
+  ["2016Q3,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
+  ["2016Q3,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.917431193,",",0.917431193/100,",",,",",",,,,"],
+  
+  ["2017Q1,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,4,",,,,,"],
+  ["2017Q2,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
+  ["2017Q3,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,1,",,,,,"],
+  ["2017Q4,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
+  ["2017Q1,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",1.47601476,",",1.47601476/100,",",,",",",,,,"],
+  ["2017Q2,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.711743772,",",0.711743772/100,",",,",",",,,,"],
+  ["2017Q3,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.46728972,",",0.46728972/100,",",,",",",,,,"],
+  ["2017Q4,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",1.290322581,",",1.290322581/100,",",,",",",,,,"],
+  
+  ["2018Q1,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,2,",,,,,"],
+  ["2018Q2,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,1,",,,,,"],
+  ["2018Q4,","TANF Participants in Workforce Service "+",,,"+"\"Allegany County, Maryland\"",",",,3,",,,,,"],
+  
+  ["2018Q1,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.909090909,",",0.909090909/100,",",,",",",,,,"],
+  ["2018Q2,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.64516129,",",0.64516129/100,",",,",",",,,,"],
+  ["2018Q4,","Percent of Workforce Service participants in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",2.222222222,",",2.222222222/100,",",,",",",,,,"],
 
   ["2017,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,5011,",,,,,"],
   ["2018,","SNAP Recipient Workers"+",,,"+"\"Allegany County, Maryland\"",",",,4880,",,,,,"],
@@ -103,13 +89,11 @@ var results = [
   ["2018,","Employment Status By Disability Status,","Labor Force,","Non Disabled,","\"Allegany County, Maryland\"",",",26986,",,,,"],
   ["2019,","Employment Status By Disability Status,","Labor Force,","Non Disabled,","\"Allegany County, Maryland\"",",",26044,",,,,"],
 
-["2019,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",2849,",,,,"],
-["2018,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3113,",,,,"],
-["2017,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3254,",,,,"],
-["2016,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3597,",,,,"],
 ["2015,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3827,",,,,"],
-
-
+["2016,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3597,",,,,"],
+["2017,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3254,",,,,"],
+["2018,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",3113,",,,,"],
+["2019,","Employment Status By Poverty Status,","Labor Force,","Below Poverty,","\"Allegany County, Maryland\"",",",2849,",,,,"],
 
 ];
 
