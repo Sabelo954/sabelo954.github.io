@@ -5,12 +5,8 @@ var results = [
   "Time,","Indicator,","Employment_Status,","Indicator_Status,","Location,","Amount,","Unemployment_Rate,,,,"
   ],
 
-  ["2015Q1,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,45,",,,,,"],
-  ["2015Q2,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,52,",,,,,"],
   ["2015Q3,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,90,",,,,,"],
   ["2015Q4,","TANF Workers"+",,,"+"\"Allegany County, Maryland\"",",",,79,",,,,,"],
-  ["2015Q1,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.329597891,",",0.329597891/100,",,,,,"],
-  ["2015Q2,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.284951666,",",0.284951666/100,",,,,,"],
   ["2015Q3,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.3295978905735,",",0.3295978905735/100,",,,,,"],
   ["2015Q4,","Percent of Workers in TANF (%)"+",,,"+"\"Allegany County, Maryland\"",",",0.284951666,",",0.284951666/100,",,,,,"],
 
